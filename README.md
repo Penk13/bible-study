@@ -2,6 +2,8 @@
 
 A visual, concise review companion for the *Life-Study of the Bible* by Witness Lee (source: [bibleread.online](https://bibleread.online/life-study-of-the-bible/)).
 
+**Live site:** https://bible-study.penk13.workers.dev
+
 ## 🔗 Canonical Naming Standard
 
 All book folders and message HTML file names strictly follow the structure from:
@@ -25,6 +27,8 @@ All book folders and message HTML file names strictly follow the structure from:
 BibleStudy/
 ├── TEMPLATE.md                       # Master authoring guide & HTML boilerplate
 ├── README.md
+├── build_index.py                    # Static dist packager for Cloudflare deployment
+├── wrangler.jsonc                    # Cloudflare Worker static assets configuration
 ├── index.html                        # Main library portal (lists all available Life-Study books)
 ├── shared/                           # Universal shared assets (no code repetition)
 │   ├── styles.css                    # Universal design system & typography
@@ -44,3 +48,21 @@ BibleStudy/
 │   └── 002-The-Gospel-of-God.html   # Matches 002-The-Gospel-of-God.epub
 └── life-study-of-exodus/ (upcoming)
 ```
+
+## Site & Deployment
+
+Static site deployed as a Cloudflare Worker with static assets.
+
+- `build_index.py` builds the site into `dist/` (gitignored), packaging all book guides and shared styles while excluding markdown authoring notes (`TEMPLATE.md`, `README.md`) and internal repository files. Run locally or as the Cloudflare build command:
+
+  ```sh
+  python build_index.py
+  ```
+
+- `wrangler.jsonc` configures the Cloudflare Worker to serve `./dist`.
+- Deploy from the CLI:
+
+  ```sh
+  python build_index.py
+  npx wrangler deploy
+  ```

@@ -7,4 +7,6 @@ desktop.ini
 .vscode/
 .idea/
 *.sublime-project
-*.sublime-workspace
+# Build output & tooling
+dist/
+.wrangler/
