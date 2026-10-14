@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life-Study of Hebrews — Study Guide</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+
+  <nav class="top-nav" aria-label="Main Navigation">
+    <a href="../index.html"><strong>🏠 All Life-Study Books</strong></a>
+    <span class="series-badge" style="margin-bottom:0">Hebrews Directory</span>
+  </nav>
+
+  <main class="study-shell" style="padding-top:2rem;">
+    <header class="index-header">
+      <div class="series-badge">Life-Study of the Bible</div>
+      <h1>Life-Study of Hebrews</h1>
+      <p class="summary-dek">Review notes and visual outlines for the Life-Study of Hebrews.</p>
+    </header>
+
+    <div class="search-bar">
+      <input type="text" id="filter-input" class="search-input" placeholder="🔍 Search messages by title or number (e.g. 'Foreword', '002')...">
+    </div>
+
+    <div class="message-list" id="message-list">
+      <a href="001-A-Foreword.html" class="msg-card">
+        <div class="msg-title-group">
+          <span class="msg-num">001</span>
+          <span class="msg-title">A Foreword</span>
+        </div>
+        <span class="msg-arrow">→</span>
+      </a>
+
+      <a href="002-God-Has-Spoken.html" class="msg-card">
+        <div class="msg-title-group">
+          <span class="msg-num">002</span>
+          <span class="msg-title">God Has Spoken</span>
+        </div>
+        <span class="msg-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="no-results" id="no-results">
+      No messages match your search.
+    </div>
+  </main>
+
+  <script>
+    const filterInput = document.getElementById('filter-input');
+    const msgCards = document.querySelectorAll('.msg-card');
+    const noResults = document.getElementById('no-results');
+
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      msgCards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (text.includes(q)) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    });
+  </script>
+</body>
+</html>
