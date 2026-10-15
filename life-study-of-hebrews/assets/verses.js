@@ -512,5 +512,111 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "having become so much better than the angels, as He has by inheritance obtained a more excellent name than they. For to which of the angels did He ever say: \"You are My Son, Today I have begotten You\"?... But to which of the angels has He ever said: \"Sit at My right hand, Till I make Your enemies Your footstool\"? Are they not all ministering spirits sent forth to minister for those who will inherit salvation?",
     tb2: "jauh lebih tinggi daripada malaikat-malaikat, sama seperti nama yang dikaruniakan kepada-Nya jauh lebih istimewa daripada nama mereka.  Karena kepada siapakah di antara malaikat-malaikat itu pernah Ia katakan, \"Engkaulah Anak-Ku! Engkau telah menjadi Anak-Ku pada hari ini\"? dan \"Aku akan menjadi Bapa-Nya, dan Ia akan menjadi Anak-Ku\"?  Lagi pula, ketika Ia membawa Anak-Nya yang sulung ke dunia, Ia berkata, \"Semua malaikat Allah harus menyembah Dia.\"  Tentang malaikat-malaikat Ia berkata, \"Yang membuat malaikat-malaikat-Nya menjadi badai dan pelayan-pelayan-Nya menjadi nyala api.\"  Tetapi tentang Anak Ia berkata, \"Takhta-Mu, ya Allah, tetap untuk seterusnya dan selamanya, dan tongkat kerajaan-Mu adalah tongkat kebenaran.  Engkau mencintai keadilan dan membenci kefasikan; sebab itu Allah, Allah-Mu telah mengurapi Engkau dengan minyak sebagai tanda kesukaan, melebihi teman-teman sekutu-Mu.\"  Dan, \"Pada mulanya, ya Tuhan, Engkau telah meletakkan dasar bumi, dan langit adalah buatan tangan-Mu.  Semuanya itu akan binasa, tetapi Engkau tetap ada, dan semuanya itu akan menjadi usang seperti pakaian;  seperti jubah Engkau akan menggulung mereka, dan seperti pakaian mereka akan diubah, tetapi Engkau tetap sama, dan tahun-tahun-Mu tidak berkesudahan.\"  Kepada siapakah di antara malaikat itu pernah Ia berkata, \"Duduklah di sebelah kanan-Ku, sampai Kubuat musuh-musuh-Mu menjadi tumpuan kaki-Mu\"?  Bukankah mereka semua adalah roh-roh yang melayani, yang diutus untuk melayani mereka yang akan mewarisi keselamatan?"
+  },
+  // --- Message 5 Verses: Heirs of Salvation ---
+  "Romans 8:17": {
+    ref: "Romans 8:17",
+    refTB2: "Roma 8:17",
+    version: "NKJV",
+    text: "and if children, then heirs—heirs of God and joint heirs with Christ, if indeed we suffer with Him, that we may also be glorified together.",
+    tb2: "Dan jika kita adalah anak, maka kita juga adalah ahli waris, yaitu ahli waris Allah dan ahli waris bersama-sama dengan Kristus, jika kita menderita bersama-sama dengan Dia, supaya kita juga dipermuliakan bersama-sama dengan Dia."
+  },
+  "Hebrews 2:10": {
+    ref: "Hebrews 2:10",
+    refTB2: "Ibrani 2:10",
+    version: "NKJV",
+    text: "For it was fitting for Him, for whom are all things and by whom are all things, in bringing many sons to glory, to make the captain of their salvation perfect through sufferings.",
+    tb2: "Sebab memang sesuai dengan keadaan Allah — yang bagi-Nya dan oleh-Nya segala sesuatu ada — yaitu untuk membawa banyak anak kepada kemuliaan, jika Ia menyempurnakan Pemimpin keselamatan mereka melalui penderitaan."
+  },
+  "Hebrews 3:6": {
+    ref: "Hebrews 3:6",
+    refTB2: "Ibrani 3:6",
+    version: "NKJV",
+    text: "but Christ as a Son over His own house, whose house we are if we hold fast the confidence and the rejoicing of the hope firm to the end.",
+    tb2: "tetapi Kristus setia sebagai Anak yang mengepalai rumah-Nya; dan rumah-Nya ialah kita, jika kita sampai pada akhirnya teguh berpegang pada kepercayaan dan kemegahan pengharapan kita."
+  },
+  "John 1:51": {
+    ref: "John 1:51",
+    refTB2: "Yohanes 1:51",
+    version: "NKJV",
+    text: "And He said to him, \"Most assuredly, I say to you, hereafter you shall see heaven open, and the angels of God ascending and descending upon the Son of Man.\"",
+    tb2: "Lalu kata Yesus kepadanya, \"Sesungguhnya Aku berkata kepadamu, engkau akan melihat langit terbuka dan malaikat-malaikat Allah naik dan turun kepada Anak Manusia.\""
+  },
+  "Genesis 28:12": {
+    ref: "Genesis 28:12",
+    refTB2: "Kejadian 28:12",
+    version: "NKJV",
+    text: "Then he dreamed, and behold, a ladder was set up on the earth, and its top reached to heaven; and there the angels of God were ascending and descending on it.",
+    tb2: "Lalu bermimpilah ia: Tampak sebuah tangga didirikan di bumi, ujungnya menyentuh langit, dan tampak malaikat-malaikat Allah naik dan turun di tangga itu."
+  },
+  "Genesis 28:16-17": {
+    ref: "Genesis 28:16–17",
+    refTB2: "Kejadian 28:16–17",
+    version: "NKJV",
+    text: "Then Jacob awoke from his sleep and said, \"Surely the LORD is in this place, and I did not know it.\" And he was afraid and said, \"How awesome is this place! This is none other than the house of God, and this is the gate of heaven!\"",
+    tb2: "Ketika Yakub bangun dari tidurnya, berkatalah ia, \"Sesungguhnya TUHAN ada di tempat ini, dan aku tidak mengetahuinya.\" Ia merasa takut dan berkata, \"Alangkah dahsyatnya tempat ini! Ini tidak lain dari rumah Allah, dan inilah pintu gerbang surga.\""
+  },
+  "Genesis 28:17": {
+    ref: "Genesis 28:17",
+    refTB2: "Kejadian 28:17",
+    version: "NKJV",
+    text: "And he was afraid and said, \"How awesome is this place! This is none other than the house of God, and this is the gate of heaven!\"",
+    tb2: "Ia merasa takut dan berkata, \"Alangkah dahsyatnya tempat ini! Ini tidak lain dari rumah Allah, dan inilah pintu gerbang surga.\""
+  },
+  "Genesis 28:18-19": {
+    ref: "Genesis 28:18–19",
+    refTB2: "Kejadian 28:18–19",
+    version: "NKJV",
+    text: "Then Jacob rose early in the morning, and took the stone that he had put at his head, set it up as a pillar, and poured oil on top of it. And he called the name of that place Bethel; but the name of that city had been Luz previously.",
+    tb2: "Keesokan harinya pagi-pagi Yakub mengambil batu yang dipakainya sebagai alas kepala, lalu mendirikannya menjadi tugu dan menuangkan minyak ke atasnya. Ia menamai tempat itu Betel; dahulu nama kota itu Lus."
+  },
+  "1 Peter 1:3-4": {
+    ref: "1 Peter 1:3–4",
+    refTB2: "1 Petrus 1:3–4",
+    version: "NKJV",
+    text: "Blessed be the God and Father of our Lord Jesus Christ, who according to His abundant mercy has begotten us again to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance incorruptible and undefiled and that does not fade away, reserved in heaven for you,",
+    tb2: "Terpujilah Allah dan Bapa Tuhan kita Yesus Kristus, yang karena rahmat-Nya yang besar telah melahirkan kita kembali oleh kebangkitan Yesus Kristus dari antara orang mati, kepada suatu hidup yang penuh pengharapan, untuk memperoleh suatu warisan yang tidak dapat binasa, yang tidak dapat cemar dan yang tidak dapat layu, yang tersimpan di surga bagi kamu."
+  },
+  "1 Peter 2:5": {
+    ref: "1 Peter 2:5",
+    refTB2: "1 Petrus 2:5",
+    version: "NKJV",
+    text: "you also, as living stones, are being built up a spiritual house, a holy priesthood, to offer up spiritual sacrifices acceptable to God through Jesus Christ.",
+    tb2: "dan biarlah kamu juga dipergunakan sebagai batu hidup untuk pembangunan suatu rumah rohani, bagi suatu imamat kudus, untuk mempersembahkan persembahan rohani yang karena Yesus Kristus berkenan kepada Allah."
+  },
+  "Luke 12:32": {
+    ref: "Luke 12:32",
+    refTB2: "Lukas 12:32",
+    version: "NKJV",
+    text: "\"Do not fear, little flock, for it is your Father's good pleasure to give you the kingdom.\"",
+    tb2: "\"Janganlah takut, hai kawanan kecil! Karena Bapamu telah berkenan memberikan Kerajaan itu kepadamu.\""
+  },
+  "Ephesians 1:22-23": {
+    ref: "Ephesians 1:22–23",
+    refTB2: "Efesus 1:22–23",
+    version: "NKJV",
+    text: "And He put all things under His feet, and gave Him to be head over all things to the church, which is His body, the fullness of Him who fills all in all.",
+    tb2: "Dan segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
+  },
+  "Colossians 1:12": {
+    ref: "Colossians 1:12",
+    refTB2: "Kolose 1:12",
+    version: "NKJV",
+    text: "giving thanks to the Father who has qualified us to be partakers of the inheritance of the saints in the light.",
+    tb2: "dan mengucap syukur dengan sukacita kepada Bapa, yang melayakkan kamu untuk mendapat bagian dalam warisan orang-orang kudus dalam terang."
+  },
+  "Hebrews 3:3-4": {
+    ref: "Hebrews 3:3–4",
+    refTB2: "Ibrani 3:3–4",
+    version: "NKJV",
+    text: "For this One has been counted worthy of more glory than Moses, inasmuch as He who built the house has more honor than the house. For every house is built by someone, but He who built all things is God.",
+    tb2: "Sebab Ia dipandang layak mendapat kemuliaan lebih besar daripada Musa, sama seperti pembangun rumah mendapat kehormatan lebih besar daripada rumah itu. Sebab setiap rumah dibangun oleh seseorang, tetapi pembangun segala sesuatu adalah Allah."
+  },
+  "Hebrews 7:25": {
+    ref: "Hebrews 7:25",
+    refTB2: "Ibrani 7:25",
+    version: "NKJV",
+    text: "Therefore He is also able to save to the uttermost those who come to God through Him, since He always lives to make intercession for them.",
+    tb2: "Karena itu, Ia sanggup juga menyelamatkan dengan sempurna semua orang yang melalui Dia datang kepada Allah. Sebab Ia senantiasa hidup untuk menjadi Pengantara bagi mereka."
   }
 };
