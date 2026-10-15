@@ -4,19 +4,26 @@ This specification defines the universal architecture, visual standards, and aut
 
 ---
 
-## 🎯 Universal Design Philosophy
+## 🎯 Universal Design Philosophy (Mobile-First)
 
-1. **Review-Centric (Not a Transcript):** 
+1. **Mobile-First Reading Experience (Primary Core Principle):**
+   * Engineered primarily for one-handed mobile reading on smartphones (`360px–430px` viewports) where the user accesses the site.
+   * Viewport with safe-area insets (`viewport-fit=cover`) for notches, dynamic islands, and home indicator bars.
+   * Native-feeling **bottom-sheet Scripture drawer** with touch swipe-to-dismiss gesture and thumb-accessible controls.
+   * Minimum `44px` touch targets for all interactive controls (buttons, links, disclosures).
+   * Fixed top reading progress indicator bar showing real-time position.
+   * Desktop layout is supported seamlessly as a clean progressive enhancement (`@media (min-width: 768px)`).
+2. **Review-Centric (Not a Transcript):** 
    * Designed for rapid review *after* reading the actual Life-Study message.
    * Focuses on distilled spiritual reality, mental anchors, and vital lines of truth.
-2. **Visual Over Long Text:** 
-   * Replace long walls of text with diagrams, pipelines, balanced grids, and comparison matrices.
-3. **No Form Fields / Textboxes:** 
-   * Deep reflection questions are open-ended for mental meditation, paired with an expandable `<details>` model breakdown. No form typing is required.
-4. **Verbatim NKJV Clickable Scripture Popups:** 
-   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant modal displaying the exact **New King James Version (NKJV)** text (100% offline-ready).
-5. **Strict 5-Color Unified Palette:**
-   * Avoid color clutter and avoid multiple shades of blue. The entire site uses strictly 5 colors:
+3. **Visual Over Long Walls of Text:** 
+   * Replace long walls of text with vertical journey flowcards, pipelines, balanced grids, and comparison matrices that fit phone screens cleanly.
+4. **Active Recall via Thumb-Friendly Disclosures (No Textboxes):** 
+   * Deep reflection questions are open-ended for mental meditation, paired with a full-width tactile `<details>` toggle button revealing model insights.
+5. **Verbatim NKJV Clickable Scripture Bottom-Sheet:** 
+   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (100% offline-ready) with one-tap copy.
+6. **Strict 5-Color Unified Palette:**
+   * Avoid color clutter and avoid multiple shades of blue. OLED-friendly true dark palette:
      1. **Base Dark Canvas & Cards:** `#111113` / `#18181b` (True neutral zinc/charcoal, zero blue tint).
      2. **Neutral Gray Text & Borders:** `#d4d4d8` (body) / `#a1a1aa` (muted) / `#27272a` (borders).
      3. **White Contrast:** `#fafafa` / `#ffffff` (Headings, titles, high contrast).
@@ -296,23 +303,26 @@ Copy and adapt this code for any book:
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111113">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Message {{MSG_NUM}}: {{MSG_TITLE}} — Life-Study of {{BOOK_NAME}}</title>
   <link rel="stylesheet" href="../shared/styles.css">
 </head>
 <body>
 
-  <!-- Top Navigation -->
+  <!-- Top Navigation (Mobile-First Compact Header) -->
   <nav class="top-nav" aria-label="Main Navigation">
     <div class="nav-links">
-      <a href="../index.html"><strong>🏠 All Books</strong></a>
-      <span style="color:var(--line-strong)">|</span>
-      <a href="index.html"><strong>◂ {{BOOK_NAME}} Index</strong></a>
+      <a href="../index.html" title="All Books">🏠</a>
+      <a href="index.html"><strong>{{BOOK_NAME}}</strong></a>
+      <span class="nav-divider">/</span>
+      <span class="series-badge" style="margin-bottom:0">{{MSG_NUM}}</span>
     </div>
     <div class="nav-links">
-      <a href="{{PREV_HTML}}">◂ Prev Message</a>
-      <span class="series-badge" style="margin-bottom:0">Message {{MSG_NUM}}</span>
-      <a href="{{NEXT_HTML}}">Next Message ▸</a>
+      <a href="{{PREV_HTML}}">← Prev</a>
+      <a href="{{NEXT_HTML}}">Next →</a>
     </div>
   </nav>
 

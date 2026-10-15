@@ -204,5 +204,169 @@ window.BIBLE_VERSES_NKJV = {
     ref: "1 Corinthians 12:2",
     version: "NKJV",
     text: "You know that you were Gentiles, carried away to these dumb idols, however you were led."
+  },
+
+  // --- Message 3 Verses ---
+  "Hebrews 1:8": {
+    ref: "Hebrews 1:8",
+    version: "NKJV",
+    text: "But to the Son He says: \"Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.\""
+  },
+  "Hebrews 1:10": {
+    ref: "Hebrews 1:10",
+    version: "NKJV",
+    text: "And: \"You, LORD, in the beginning laid the foundation of the earth, And the heavens are the work of Your hands.\""
+  },
+  "Hebrews 1:13": {
+    ref: "Hebrews 1:13",
+    version: "NKJV",
+    text: "But to which of the angels has He ever said: \"Sit at My right hand, Till I make Your enemies Your footstool\"?"
+  },
+  "Hebrews 10:11-12": {
+    ref: "Hebrews 10:11–12",
+    version: "NKJV",
+    text: "And every priest stands ministering daily and offering repeatedly the same sacrifices, which can never take away sins. But this Man, after He had offered one sacrifice for sins forever, sat down at the right hand of God,"
+  },
+  "Colossians 1:16-17": {
+    ref: "Colossians 1:16–17",
+    version: "NKJV",
+    text: "For by Him all things were created that are in heaven and that are on earth, visible and invisible, whether thrones or dominions or principalities or powers. All things were created through Him and for Him. And He is before all things, and in Him all things consist."
+  },
+  "John 1:1": {
+    ref: "John 1:1",
+    version: "NKJV",
+    text: "In the beginning was the Word, and the Word was with God, and the Word was God."
+  },
+  "John 1:14": {
+    ref: "John 1:14",
+    version: "NKJV",
+    text: "And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth."
+  },
+  "John 1:18": {
+    ref: "John 1:18",
+    version: "NKJV",
+    text: "No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, He has declared Him."
+  },
+  "Psalm 110:1": {
+    ref: "Psalm 110:1",
+    version: "NKJV",
+    text: "The LORD said to my Lord, \"Sit at My right hand, Till I make Your enemies Your footstool.\""
+  },
+
+  // --- Message 4 Verses ---
+  "Hebrews 1:4": {
+    ref: "Hebrews 1:4",
+    version: "NKJV",
+    text: "having become so much better than the angels, as He has by inheritance obtained a more excellent name than they."
+  },
+  "Hebrews 1:5": {
+    ref: "Hebrews 1:5",
+    version: "NKJV",
+    text: "For to which of the angels did He ever say: \"You are My Son, Today I have begotten You\"? And again: \"I will be to Him a Father, And He shall be to Me a Son\"?"
+  },
+  "Hebrews 1:6": {
+    ref: "Hebrews 1:6",
+    version: "NKJV",
+    text: "But when He again brings the firstborn into the world, He says: \"Let all the angels of God worship Him.\""
+  },
+  "Hebrews 1:7": {
+    ref: "Hebrews 1:7",
+    version: "NKJV",
+    text: "And of the angels He says: \"Who makes His angels spirits And His ministers a flame of fire.\""
+  },
+  "Hebrews 1:8-9": {
+    ref: "Hebrews 1:8–9",
+    version: "NKJV",
+    text: "But to the Son He says: \"Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom. You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness more than Your companions.\""
+  },
+  "Hebrews 1:9": {
+    ref: "Hebrews 1:9",
+    version: "NKJV",
+    text: "You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness more than Your companions."
+  },
+  "Hebrews 1:10-12": {
+    ref: "Hebrews 1:10–12",
+    version: "NKJV",
+    text: "And: \"You, LORD, in the beginning laid the foundation of the earth, And the heavens are the work of Your hands. They will perish, but You remain; And they will all grow old like a garment; Like a cloak You will fold them up, And they will be changed. But You are the same, And Your years will not fail.\""
+  },
+  "Hebrews 1:11-12": {
+    ref: "Hebrews 1:11–12",
+    version: "NKJV",
+    text: "They will perish, but You remain; And they will all grow old like a garment; Like a cloak You will fold them up, And they will be changed. But You are the same, And Your years will not fail."
+  },
+  "Hebrews 1:14": {
+    ref: "Hebrews 1:14",
+    version: "NKJV",
+    text: "Are they not all ministering spirits sent forth to minister for those who will inherit salvation?"
+  },
+  "Acts 13:33": {
+    ref: "Acts 13:33",
+    version: "NKJV",
+    text: "God has fulfilled this for us their children, in that He has raised up Jesus. As it is also written in the second Psalm: \"You are My Son, Today I have begotten You.\""
+  },
+  "Romans 1:4": {
+    ref: "Romans 1:4",
+    version: "NKJV",
+    text: "and declared to be the Son of God with power according to the Spirit of holiness, by the resurrection from the dead."
+  },
+  "Romans 8:29": {
+    ref: "Romans 8:29",
+    version: "NKJV",
+    text: "For whom He foreknew, He also predestined to be conformed to the image of His Son, that He might be the firstborn among many brethren."
+  },
+  "Isaiah 9:6": {
+    ref: "Isaiah 9:6",
+    version: "NKJV",
+    text: "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace."
+  },
+  "John 3:16": {
+    ref: "John 3:16",
+    version: "NKJV",
+    text: "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life."
+  },
+  "Psalm 2:7": {
+    ref: "Psalm 2:7",
+    version: "NKJV",
+    text: "I will declare the decree: The LORD has said to Me, \"You are My Son, Today I have begotten You.\""
+  },
+  "2 Samuel 7:14": {
+    ref: "2 Samuel 7:14",
+    version: "NKJV",
+    text: "I will be his Father, and he shall be My son. If he commits iniquity, I will chasten him with the rod of men and with the blows of the sons of men."
+  },
+  "Acts 7:53": {
+    ref: "Acts 7:53",
+    version: "NKJV",
+    text: "who have received the law by the direction of angels and have not kept it."
+  },
+  "Galatians 3:19": {
+    ref: "Galatians 3:19",
+    version: "NKJV",
+    text: "What purpose then does the law serve? It was added because of transgressions, till the Seed should come to whom the promise was made; and it was appointed through angels by the hand of a mediator."
+  },
+  "Genesis 18:1-2": {
+    ref: "Genesis 18:1–2",
+    version: "NKJV",
+    text: "Then the LORD appeared to him by the terebinth trees of Mamre, as he was sitting in the tent door in the heat of the day. So he lifted his eyes and looked, and behold, three men were standing by him; and when he saw them, he ran from the tent door to meet them, and bowed himself to the ground,"
+  },
+  "Romans 2:17": {
+    ref: "Romans 2:17",
+    version: "NKJV",
+    text: "Indeed you are called a Jew, and rest on the law, and make your boast in God,"
+  },
+  "Hebrews 3:2": {
+    ref: "Hebrews 3:2",
+    version: "NKJV",
+    text: "who was faithful to Him who appointed Him, as Moses also was faithful in all His house."
+  },
+  "Hebrews 5:1": {
+    ref: "Hebrews 5:1",
+    version: "NKJV",
+    text: "For every high priest taken from among men is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins."
+  },
+  "Hebrews 1:4-14": {
+    ref: "Hebrews 1:4–14",
+    version: "NKJV",
+    text: "having become so much better than the angels, as He has by inheritance obtained a more excellent name than they. For to which of the angels did He ever say: \"You are My Son, Today I have begotten You\"?... But to which of the angels has He ever said: \"Sit at My right hand, Till I make Your enemies Your footstool\"? Are they not all ministering spirits sent forth to minister for those who will inherit salvation?"
   }
 };
