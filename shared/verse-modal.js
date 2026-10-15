@@ -25,6 +25,109 @@
     updateProgress();
   }
 
+  // Indonesian Book Names Map for reference conversion
+  const ID_BOOK_MAP = {
+    "Genesis": "Kejadian", "Exodus": "Keluaran", "Leviticus": "Imamat", "Numbers": "Bilangan", "Deuteronomy": "Ulangan",
+    "Joshua": "Yosua", "Judges": "Hakim-hakim", "Ruth": "Rut", "1 Samuel": "1 Samuel", "2 Samuel": "2 Samuel",
+    "1 Kings": "1 Raja-raja", "2 Kings": "2 Raja-raja", "1 Chronicles": "1 Tawarikh", "2 Chronicles": "2 Tawarikh",
+    "Ezra": "Ezra", "Nehemiah": "Nehemia", "Esther": "Ester", "Job": "Ayub", "Psalm": "Mazmur", "Psalms": "Mazmur",
+    "Proverbs": "Amsal", "Ecclesiastes": "Pengkhotbah", "Song of Songs": "Kidung Agung", "Isaiah": "Yesaya",
+    "Jeremiah": "Yeremia", "Lamentations": "Ratapan", "Ezekiel": "Yehezkiel", "Daniel": "Daniel", "Hosea": "Hosea",
+    "Joel": "Yoel", "Amos": "Amos", "Obadiah": "Obaja", "Jonah": "Yunus", "Micah": "Mikha", "Nahum": "Nahum",
+    "Habakkuk": "Habakuk", "Zephaniah": "Zefanya", "Haggai": "Hagai", "Zechariah": "Zakharia", "Malachi": "Maleakhi",
+    "Matthew": "Matius", "Mark": "Markus", "Luke": "Lukas", "John": "Yohanes", "Acts": "Kisah Para Rasul",
+    "Romans": "Roma", "1 Corinthians": "1 Korintus", "2 Corinthians": "2 Korintus", "Galatians": "Galatia",
+    "Ephesians": "Efesus", "Philippians": "Filipi", "Colossians": "Kolose", "1 Thessalonians": "1 Tesalonika",
+    "2 Thessalonians": "2 Tesalonika", "1 Timothy": "1 Timotius", "2 Timothy": "2 Timotius", "Titus": "Titus",
+    "Philemon": "Filemon", "Hebrews": "Ibrani", "James": "Yakobus", "1 Peter": "1 Petrus", "2 Peter": "2 Petrus",
+    "1 John": "1 Yohanes", "2 John": "2 Yohanes", "3 John": "3 Yohanes", "Jude": "Yudas", "Revelation": "Wahyu"
+  };
+
+  function convertToIndonesianRef(refStr) {
+    if (!refStr) return "";
+    for (const [enBook, idBook] of Object.entries(ID_BOOK_MAP)) {
+      if (refStr.startsWith(enBook + " ")) {
+        return refStr.replace(enBook + " ", idBook + " ");
+      }
+    }
+    return refStr;
+  }
+
+  let currentRefKey = null;
+  let currentLang = "nkjv"; // 'nkjv' | 'tb2'
+
+  // Render modal content based on active language
+  function renderModalContent(refKey, lang) {
+    const modal = document.getElementById("bible-verse-modal");
+    if (!modal) return;
+
+    const refElem = modal.querySelector("#verse-modal-ref");
+    const tagElem = modal.querySelector("#verse-version-tag");
+    const bodyElem = modal.querySelector("#verse-modal-body");
+    const transBtn = modal.querySelector("#verse-modal-trans-btn");
+
+    const data = (window.BIBLE_VERSES_NKJV && window.BIBLE_VERSES_NKJV[refKey]);
+
+    if (lang === "tb2") {
+      tagElem.textContent = "TB2";
+      tagElem.setAttribute("title", "Terjemahan Baru Edisi 2");
+      transBtn.innerHTML = "🇺🇸 English (NKJV)";
+      transBtn.setAttribute("aria-label", "Lihat versi bahasa Inggris (NKJV)");
+
+      if (data && data.tb2) {
+        refElem.textContent = data.refTB2 || convertToIndonesianRef(data.ref || refKey);
+        bodyElem.innerHTML = `<blockquote class="verse-quote">“${data.tb2}”</blockquote>`;
+      } else if (data) {
+        refElem.textContent = convertToIndonesianRef(data.ref || refKey);
+        bodyElem.innerHTML = `
+          <blockquote class="verse-quote">“${data.text}”</blockquote>
+          <p style="font-size:0.8rem; color:var(--muted); margin-top:0.5rem;">Terjemahan TB2 belum tersedia secara offline.</p>
+        `;
+      } else {
+        refElem.textContent = convertToIndonesianRef(refKey);
+        bodyElem.innerHTML = `
+          <blockquote class="verse-quote">
+            <em>Memuat firman untuk <strong>${convertToIndonesianRef(refKey)}</strong> (TB2)...</em>
+          </blockquote>
+        `;
+      }
+    } else {
+      // NKJV mode
+      tagElem.textContent = "NKJV";
+      tagElem.setAttribute("title", "New King James Version");
+      transBtn.innerHTML = "🇮🇩 Terjemahan TB2";
+      transBtn.setAttribute("aria-label", "Lihat Terjemahan Baru Edisi 2 (Indonesia)");
+
+      if (data) {
+        refElem.textContent = data.ref || refKey;
+        bodyElem.innerHTML = `<blockquote class="verse-quote">“${data.text}”</blockquote>`;
+      } else {
+        refElem.textContent = refKey;
+        bodyElem.innerHTML = `
+          <blockquote class="verse-quote">
+            <em>Loading scripture for <strong>${refKey}</strong> (NKJV)...</em>
+          </blockquote>
+        `;
+        // Quick fallback fetch
+        fetch(`https://bible-api.com/${encodeURIComponent(refKey)}?translation=web`)
+          .then(res => res.json())
+          .then(apiData => {
+            if (apiData.text) {
+              bodyElem.innerHTML = `
+                <blockquote class="verse-quote">“${apiData.text.trim()}”</blockquote>
+                <p style="font-size:0.8rem; color:var(--muted); margin-top:0.5rem;">Translation: ${apiData.translation_name} (Fallback)</p>
+              `;
+            } else {
+              bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong> not found.</p>`;
+            }
+          })
+          .catch(() => {
+            bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong>. (Offline mode)</p>`;
+          });
+      }
+    }
+  }
+
   // 2. Create Modal / Bottom-Sheet DOM once
   function ensureModal() {
     let modal = document.getElementById("bible-verse-modal");
@@ -41,7 +144,7 @@
           <header class="verse-modal-header">
             <div class="verse-modal-title-group">
               <span class="verse-modal-book" id="verse-modal-ref">Scripture Reference</span>
-              <span class="verse-version-tag">NKJV</span>
+              <span class="verse-version-tag" id="verse-version-tag">NKJV</span>
             </div>
             <button type="button" class="verse-modal-close" id="verse-modal-close-btn" aria-label="Close popup">✕</button>
           </header>
@@ -49,7 +152,7 @@
             <!-- Verse Text injected here -->
           </div>
           <footer class="verse-modal-footer">
-            <button type="button" class="verse-modal-btn" id="verse-modal-copy-btn">📋 Copy</button>
+            <button type="button" class="verse-modal-btn" id="verse-modal-trans-btn" aria-label="Lihat Terjemahan Baru Edisi 2">🇮🇩 Terjemahan TB2</button>
             <button type="button" class="verse-modal-btn primary" id="verse-modal-ok-btn">Done</button>
           </footer>
         </div>
@@ -115,15 +218,12 @@
         touchDeltaY = 0;
       }, { passive: true });
 
-      const copyBtn = modal.querySelector("#verse-modal-copy-btn");
-      copyBtn.addEventListener("click", () => {
-        const ref = modal.querySelector("#verse-modal-ref").textContent;
-        const text = modal.querySelector("#verse-modal-body").textContent.trim();
-        const full = `"${text}" — ${ref} (NKJV)`;
-        navigator.clipboard.writeText(full).then(() => {
-          copyBtn.textContent = "Copied! ✓";
-          setTimeout(() => { copyBtn.textContent = "📋 Copy"; }, 1500);
-        });
+      // Translation toggle button handler
+      const transBtn = modal.querySelector("#verse-modal-trans-btn");
+      transBtn.addEventListener("click", () => {
+        if (!currentRefKey) return;
+        currentLang = (currentLang === "nkjv" ? "tb2" : "nkjv");
+        renderModalContent(currentRefKey, currentLang);
       });
     }
     return modal;
@@ -131,41 +231,12 @@
 
   // Show Verse Popup / Bottom-Sheet
   function showVerse(refKey) {
-    const modal = ensureModal();
-    const refElem = modal.querySelector("#verse-modal-ref");
-    const bodyElem = modal.querySelector("#verse-modal-body");
+    ensureModal();
+    currentRefKey = refKey;
+    currentLang = "nkjv"; // default to NKJV, allowing 1-tap toggle to TB2
+    renderModalContent(currentRefKey, currentLang);
 
-    const data = (window.BIBLE_VERSES_NKJV && window.BIBLE_VERSES_NKJV[refKey]);
-
-    if (data) {
-      refElem.textContent = data.ref || refKey;
-      bodyElem.innerHTML = `<blockquote class="verse-quote">“${data.text}”</blockquote>`;
-    } else {
-      // Fallback
-      refElem.textContent = refKey;
-      bodyElem.innerHTML = `
-        <blockquote class="verse-quote">
-          <em>Loading scripture for <strong>${refKey}</strong> (NKJV)...</em>
-        </blockquote>
-      `;
-      // Attempt quick fetch from API if connected
-      fetch(`https://bible-api.com/${encodeURIComponent(refKey)}?translation=web`)
-        .then(res => res.json())
-        .then(apiData => {
-          if (apiData.text) {
-            bodyElem.innerHTML = `
-              <blockquote class="verse-quote">“${apiData.text.trim()}”</blockquote>
-              <p style="font-size:0.8rem; color:var(--muted); margin-top:0.5rem;">Translation: ${apiData.translation_name} (Fallback)</p>
-            `;
-          } else {
-            bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong> not found.</p>`;
-          }
-        })
-        .catch(() => {
-          bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong>. (Offline mode)</p>`;
-        });
-    }
-
+    const modal = document.getElementById("bible-verse-modal");
     modal.classList.add("is-active");
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";

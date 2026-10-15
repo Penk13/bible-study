@@ -20,8 +20,8 @@ This specification defines the universal architecture, visual standards, and aut
    * Replace long walls of text with vertical journey flowcards, pipelines, balanced grids, and comparison matrices that fit phone screens cleanly.
 4. **Active Recall via Thumb-Friendly Disclosures (No Textboxes):** 
    * Deep reflection questions are open-ended for mental meditation, paired with a full-width tactile `<details>` toggle button revealing model insights.
-5. **Verbatim NKJV Clickable Scripture Bottom-Sheet:** 
-   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (100% offline-ready) with one-tap copy.
+5. **Verbatim Clickable Scripture Bottom-Sheet with Indonesian TB2 Translation:** 
+   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (100% offline-ready) with a one-tap toggle to show the Indonesian **Terjemahan Baru Edisi 2 (TB2)** translation.
 6. **Strict 5-Color Unified Palette:**
    * Avoid color clutter and avoid multiple shades of blue. OLED-friendly true dark palette:
      1. **Base Dark Canvas & Cards:** `#111113` / `#18181b` (True neutral zinc/charcoal, zero blue tint).
@@ -446,21 +446,25 @@ Copy and adapt this code for any book:
 
 ---
 
-## 🗄️ Managing the NKJV Scripture Dictionary (`assets/verses.js`)
+## 🗄️ Managing the Scripture Dictionary (`assets/verses.js`)
 
-Each book has an `assets/verses.js` file defining the verbatim **NKJV** text for all verses referenced in that book.
+Each book has an `assets/verses.js` file defining the verbatim **NKJV** and Indonesian **Terjemahan Baru Edisi 2 (TB2)** text for all verses referenced in that book.
 
 ```javascript
 window.BIBLE_VERSES_NKJV = {
   "Romans 8:2": {
     ref: "Romans 8:2",
+    refTB2: "Roma 8:2",
     version: "NKJV",
-    text: "For the law of the Spirit of life in Christ Jesus has made me free from the law of sin and death."
+    text: "For the law of the Spirit of life in Christ Jesus has made me free from the law of sin and death.",
+    tb2: "Sebab hukum Roh yang memberi hidup telah membebaskan engkau dalam Kristus Yesus dari hukum dosa dan kematian."
   },
   "Galatians 2:20": {
     ref: "Galatians 2:20",
+    refTB2: "Galatia 2:20",
     version: "NKJV",
-    text: "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me."
+    text: "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.",
+    tb2: "Aku telah disalibkan dengan Kristus; tetapi bukan lagi aku yang hidup, melainkan Kristus yang hidup di dalam aku. Dan hidup yang sekarang aku hidupi dalam daging, adalah hidup oleh iman kepada Anak Allah yang telah mengasihi aku dan menyerahkan diri-Nya untuk aku."
   }
 };
 ```
