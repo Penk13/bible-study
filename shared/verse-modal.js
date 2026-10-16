@@ -16,7 +16,7 @@
       const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       if (scrollHeight > 0) {
         const percent = Math.min(100, Math.max(0, (scrollTop / scrollHeight) * 100));
-        progressBar.style.width = percent + "%";
+        progressBar.style.transform = `scaleX(${percent / 100})`;
       }
     };
 
@@ -91,11 +91,6 @@
     }
   }
 
-  function setVersionTag(tagElem, label, title) {
-    tagElem.textContent = label;
-    tagElem.setAttribute("title", title);
-  }
-
   // Render modal content based on active language
   function renderModalContent(refKey, lang) {
     const modal = document.getElementById("bible-verse-modal");
@@ -104,24 +99,20 @@
     cancelPendingFetch();
 
     const refElem = modal.querySelector("#verse-modal-ref");
-    const tagElem = modal.querySelector("#verse-version-tag");
     const bodyElem = modal.querySelector("#verse-modal-body");
-    const transBtn = modal.querySelector("#verse-modal-trans-btn");
+    modal.querySelectorAll(".verse-tab").forEach(tab => {
+      tab.setAttribute("aria-pressed", String(tab.dataset.lang === lang));
+    });
 
     const data = window.BIBLE_VERSES_NKJV && window.BIBLE_VERSES_NKJV[refKey];
 
     if (lang === "tb2") {
-      setVersionTag(tagElem, "TB2", "Terjemahan Baru Edisi 2");
-      transBtn.textContent = "🇺🇸 English (NKJV)";
-      transBtn.setAttribute("aria-label", "Lihat versi bahasa Inggris (NKJV)");
-
       if (data && data.tb2) {
         refElem.textContent = data.refTB2 || convertToIndonesianRef(data.ref || refKey);
         bodyElem.replaceChildren(quote(data.tb2));
       } else if (data) {
-        setVersionTag(tagElem, "NKJV", "New King James Version");
         refElem.textContent = convertToIndonesianRef(data.ref || refKey);
-        bodyElem.replaceChildren(quote(data.text), note("Terjemahan TB2 belum tersedia secara offline."));
+        bodyElem.replaceChildren(quote(data.text), note("Terjemahan TB2 belum tersedia — menampilkan NKJV."));
       } else {
         refElem.textContent = convertToIndonesianRef(refKey);
         bodyElem.replaceChildren(note(`Terjemahan TB2 untuk ${convertToIndonesianRef(refKey)} belum tersedia.`));
@@ -130,10 +121,6 @@
     }
 
     // NKJV mode
-    setVersionTag(tagElem, "NKJV", "New King James Version");
-    transBtn.textContent = "🇮🇩 Terjemahan TB2";
-    transBtn.setAttribute("aria-label", "Lihat Terjemahan Baru Edisi 2 (Indonesia)");
-
     if (data) {
       refElem.textContent = data.ref || refKey;
       bodyElem.replaceChildren(quote(data.text));
@@ -142,7 +129,6 @@
 
     // Not in the offline dictionary: fall back to bible-api.com (World English Bible)
     refElem.textContent = refKey;
-    setVersionTag(tagElem, "WEB", "World English Bible (online fallback)");
     bodyElem.replaceChildren(message("Loading scripture for ", refKey, "..."));
 
     const controller = new AbortController();
@@ -188,19 +174,14 @@
       <div class="verse-modal-card" id="verse-modal-card">
         <div class="verse-modal-handle" aria-hidden="true"></div>
         <header class="verse-modal-header">
-          <div class="verse-modal-title-group">
-            <span class="verse-modal-book" id="verse-modal-ref">Scripture Reference</span>
-            <span class="verse-version-tag" id="verse-version-tag">NKJV</span>
-          </div>
-          <button type="button" class="verse-modal-close" id="verse-modal-close-btn" aria-label="Close popup">✕</button>
+          <span class="verse-modal-book" id="verse-modal-ref">Scripture</span>
+          <span class="verse-tabs" role="group" aria-label="Translation">
+            <button type="button" class="verse-tab" data-lang="nkjv" aria-pressed="true" title="New King James Version">NKJV</button>
+            <button type="button" class="verse-tab" data-lang="tb2" aria-pressed="false" title="Terjemahan Baru Edisi 2">TB2</button>
+          </span>
+          <button type="button" class="verse-modal-close" id="verse-modal-close-btn" aria-label="Close">✕</button>
         </header>
-        <div class="verse-modal-body" id="verse-modal-body" aria-live="polite">
-          <!-- Verse Text injected here -->
-        </div>
-        <footer class="verse-modal-footer">
-          <button type="button" class="verse-modal-btn" id="verse-modal-trans-btn" aria-label="Lihat Terjemahan Baru Edisi 2">🇮🇩 Terjemahan TB2</button>
-          <button type="button" class="verse-modal-btn primary" id="verse-modal-ok-btn">Done</button>
-        </footer>
+        <div class="verse-modal-body" id="verse-modal-body" aria-live="polite"></div>
       </div>
     `;
     document.body.appendChild(modal);
@@ -220,7 +201,6 @@
     };
 
     modal.querySelector("#verse-modal-close-btn").addEventListener("click", close);
-    modal.querySelector("#verse-modal-ok-btn").addEventListener("click", close);
     modal.addEventListener("click", (e) => {
       if (e.target === modal) close();
     });
@@ -274,11 +254,13 @@
       touchDeltaY = 0;
     }, { passive: true });
 
-    // Translation toggle button handler
-    modal.querySelector("#verse-modal-trans-btn").addEventListener("click", () => {
-      if (!currentRefKey) return;
-      currentLang = (currentLang === "nkjv" ? "tb2" : "nkjv");
-      renderModalContent(currentRefKey, currentLang);
+    // Translation tabs (choice is remembered while the page is open)
+    modal.querySelectorAll(".verse-tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        if (!currentRefKey || tab.dataset.lang === currentLang) return;
+        currentLang = tab.dataset.lang;
+        renderModalContent(currentRefKey, currentLang);
+      });
     });
 
     return modal;
@@ -289,7 +271,6 @@
     const modal = ensureModal();
     lastTrigger = trigger || null;
     currentRefKey = refKey;
-    currentLang = "nkjv"; // default to NKJV, allowing 1-tap toggle to TB2
     renderModalContent(currentRefKey, currentLang);
 
     modal.classList.add("is-active");

@@ -3,47 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#111113">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <title>Life-Study of the Bible — Study Guides</title>
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131313" media="(prefers-color-scheme: dark)">
+  <title>Life-Study Review Guides</title>
   <link rel="stylesheet" href="shared/styles.css">
 </head>
 <body>
 
-  <main class="study-shell">
-    <header class="index-header">
-      <div class="series-badge">Life-Study of the Bible</div>
-      <h1>Life-Study Review Guides</h1>
-      <p class="summary-dek">Mobile-first visual outlines and review companions for the Life-Study of the Bible by Witness Lee.</p>
+  <main class="page">
+    <header class="page-head">
+      <p class="eyebrow">Life-Study of the Bible</p>
+      <h1>Review Guides</h1>
+      <p class="dek">Short visual review notes for the Life-Study of the Bible by Witness Lee. Tap any verse to read it in NKJV or TB2.</p>
     </header>
 
-    <div class="search-bar">
-      <input type="search" id="filter-input" class="search-input" placeholder="🔍 Search books (e.g. 'Romans', 'Hebrews')..." autocomplete="off">
-    </div>
+    <input type="search" id="filter-input" class="search" placeholder="Search books" aria-label="Search books" autocomplete="off">
 
-    <div class="message-list" id="message-list">
-      <a href="life-study-of-romans/index.html" class="msg-card">
-        <div class="msg-title-group">
-          <span class="msg-num">ROM</span>
-          <span class="msg-title">Life-Study of Romans</span>
-        </div>
-        <span class="msg-arrow">›</span>
-      </a>
+    <ol class="toc" id="filter-list">
+      <li><a href="life-study-of-romans/index.html"><span class="toc-title">Romans</span><span class="toc-meta">2 messages</span></a></li>
+      <li><a href="life-study-of-hebrews/index.html"><span class="toc-title">Hebrews</span><span class="toc-meta">6 messages</span></a></li>
+    </ol>
 
-      <a href="life-study-of-hebrews/index.html" class="msg-card">
-        <div class="msg-title-group">
-          <span class="msg-num">HEB</span>
-          <span class="msg-title">Life-Study of Hebrews</span>
-        </div>
-        <span class="msg-arrow">›</span>
-      </a>
-    </div>
-
-    <div class="no-results" id="no-results">
-      No books match your search.
-    </div>
+    <p class="empty" id="no-results">No books match your search.</p>
   </main>
 
   <script src="shared/index-filter.js"></script>

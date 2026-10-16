@@ -12,15 +12,13 @@ All book folders and message HTML file names strictly follow the structure from:
 - **Book Folder:** Matches the folder name under `results/` (e.g. `life-study-of-hebrews`, `life-study-of-romans`, `life-study-of-exodus`).
 - **HTML Message Name:** Matches the `.epub` filename, replacing `.epub` with `.html` (e.g. `001-A-Foreword.epub` → `001-A-Foreword.html`).
 
-## Design Philosophy (Mobile-First)
+## Design
 
-- **Mobile-First Reading Experience:** Engineered primarily for one-handed phone reading (`360px–430px` viewports) with notch & home-indicator safe-area insets (`viewport-fit=cover`), instant touch feedback, minimum 44px touch targets, a reading progress bar, and a sleek bottom-sheet Scripture drawer. Desktop is a clean progressive enhancement.
-- **Review-Centric:** Designed for high-yield, rapid review right after reading the actual Life-Study message.
-- **Visual over Walls of Text:** Mobile-optimized vertical flow cards, pipelines, and high-contrast dual cards to anchor mental models quickly without endless scrolling.
-- **Active Recall:** 3–5 open-ended reflection questions with thumb-friendly tap disclosures for key insights (no form textboxes).
-- **Verbatim NKJV Scripture Bottom-Sheet:** Instant drawer for any Bible verse cited (text bundled in each book's `verses.js`), with touch swipe-to-dismiss and a one-tap toggle to the Indonesian TB2 translation.
-- **Strict 5-Color Unified Palette:** OLED-friendly deep dark canvas (`#111113`), crisp surfaces (`#18181b`), white headings (`#fafafa`), readable zinc body text (`#d4d4d8`), and strictly ONE luminous sky blue (`#38bdf8`) for zero visual fatigue.
-- **Simple, Standalone Architecture:** Clean, pure HTML & CSS with zero runtime dependencies or heavy frameworks.
+- **Reading first, mobile first:** one centered column, serif body text, light and dark themes that follow the device, safe-area insets and 44px touch targets.
+- **Review, not transcript:** a rapid-recall summary, 2–4 short sections, then 3–5 reflection questions that open to model answers.
+- **Small component set:** cards (with a `pair` variant for type → reality), a numbered flow, tables, callouts and questions. See `TEMPLATE.md`.
+- **Tappable Scripture:** every cited verse opens a bottom sheet with NKJV and Indonesian TB2 text from the book's `verses.js`.
+- **Plain HTML & CSS:** no frameworks, no build-time templating, no runtime dependencies.
 
 ## Structure
 
@@ -33,9 +31,9 @@ BibleStudy/
 ├── _headers                          # Security headers (CSP) served by Cloudflare
 ├── index.html                        # Main library portal (lists all available Life-Study books)
 ├── shared/                           # Universal shared assets (no code repetition)
-│   ├── styles.css                    # Universal design system & typography
-│   ├── verse-modal.js                # Instant modal popup engine
-│   └── index-filter.js               # Live search filter for index pages
+│   ├── styles.css                    # Design system (all components)
+│   ├── verse-modal.js                # Verse bottom sheet + reading progress
+│   └── index-filter.js               # Live search for index pages
 ├── life-study-of-hebrews/            # Matches Penk13/WebToEpub results/life-study-of-hebrews
 │   ├── assets/
 │   │   └── verses.js                 # Book-specific NKJV Scripture dictionary

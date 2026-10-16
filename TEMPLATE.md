@@ -1,302 +1,34 @@
-# Life-Study Review Page Template & Universal Authoring Guide
+# Message Page Template & Authoring Guide
 
-This specification defines the universal architecture, visual standards, and authoring rules for creating concise, high-retention review pages for **any book** in the *Life-Study of the Bible* (Genesis, Exodus, Romans, Hebrews, Revelation, etc.).
+How to write a review page for any book of the *Life-Study of the Bible*. Pages are plain HTML using a small set of components from `shared/styles.css`. No inline styles, no inline scripts (the CSP blocks them).
 
----
+## Principles
 
-## 🎯 Universal Design Philosophy (Mobile-First)
+- **Review, not transcript.** Written for after reading the real message: the vital lines, not every point.
+- **Short.** A recap bullet is one or two sentences. A section is a heading, a short paragraph, and at most one or two components.
+- **One component per idea.** Pick the component that matches the shape of the idea (see below); plain paragraphs are fine too.
+- **Every verse is tappable.** Cite Scripture with a `.verse-ref` button; the text comes from the book's `assets/verses.js` (NKJV + Indonesian TB2).
+- **Mobile first.** Everything is designed for a phone; desktop just gets more room. Light and dark themes follow the device.
 
-1. **Mobile-First Reading Experience (Primary Core Principle):**
-   * Engineered primarily for one-handed mobile reading on smartphones (`360px–430px` viewports) where the user accesses the site.
-   * Viewport with safe-area insets (`viewport-fit=cover`) for notches, dynamic islands, and home indicator bars.
-   * Native-feeling **bottom-sheet Scripture drawer** with touch swipe-to-dismiss gesture and thumb-accessible controls.
-   * Minimum `44px` touch targets for all interactive controls (buttons, links, disclosures).
-   * Fixed top reading progress indicator bar showing real-time position.
-   * Desktop layout is supported seamlessly as a clean progressive enhancement (`@media (min-width: 768px)`).
-2. **Review-Centric (Not a Transcript):** 
-   * Designed for rapid review *after* reading the actual Life-Study message.
-   * Focuses on distilled spiritual reality, mental anchors, and vital lines of truth.
-3. **Visual Over Long Walls of Text:** 
-   * Replace long walls of text with vertical journey flowcards, pipelines, balanced grids, and comparison matrices that fit phone screens cleanly.
-4. **Active Recall via Thumb-Friendly Disclosures (No Textboxes):** 
-   * Deep reflection questions are open-ended for mental meditation, paired with a full-width tactile `<details>` toggle button revealing model insights.
-5. **Verbatim Clickable Scripture Bottom-Sheet with Indonesian TB2 Translation:** 
-   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (bundled in the book's `assets/verses.js`, no network fetch needed) with a one-tap toggle to show the Indonesian **Terjemahan Baru Edisi 2 (TB2)** translation.
-6. **Strict 5-Color Unified Palette:**
-   * Avoid color clutter and avoid multiple shades of blue. OLED-friendly true dark palette:
-     1. **Base Dark Canvas & Cards:** `#111113` / `#18181b` (True neutral zinc/charcoal, zero blue tint).
-     2. **Neutral Gray Text & Borders:** `#d4d4d8` (body) / `#a1a1aa` (muted) / `#27272a` (borders).
-     3. **White Contrast:** `#fafafa` / `#ffffff` (Headings, titles, high contrast).
-     4. **The Single Accent Light Blue:** `#38bdf8` (Luminous sky-400 for high contrast against dark background on ALL links, badges, arrows).
-     5. **Subtle Light Blue Wash:** `rgba(56, 189, 248, 0.08)` (Subtle 8% background tint for highlighted elements).
+## Naming
 
----
+Folder and file names match [Penk13/WebToEpub `results/`](https://github.com/Penk13/WebToEpub/tree/main/results):
 
-## 🔗 Canonical Naming Standard: Penk13/WebToEpub
+- Book folder = the folder under `results/` (`life-study-of-hebrews`).
+- Message file = the `.epub` name with `.html` (`003-The-Son.epub` → `003-The-Son.html`).
 
-All book folder names and message HTML file names **must strictly match** the canonical structure in the GitHub repository:
-👉 [https://github.com/Penk13/WebToEpub/tree/main/results](https://github.com/Penk13/WebToEpub/tree/main/results)
-
-### 📌 Strict Naming Rules:
-1. **Book Folder Name:**
-   Must be **identical** to the book directory under `results/` in the repository.
-   * *Examples:* `life-study-of-hebrews`, `life-study-of-romans`, `life-study-of-exodus`.
-2. **Message HTML File Name:**
-   Must be **identical** to the `.epub` filename in that folder, replacing the `.epub` extension with `.html`.
-   * *GitHub:* `results/life-study-of-hebrews/001-A-Foreword.epub`
-     → *Local HTML:* `life-study-of-hebrews/001-A-Foreword.html`
-   * *GitHub:* `results/life-study-of-hebrews/002-God-Has-Spoken.epub`
-     → *Local HTML:* `life-study-of-hebrews/002-God-Has-Spoken.html`
-   * *GitHub:* `results/life-study-of-hebrews/003-The-Son.epub`
-     → *Local HTML:* `life-study-of-hebrews/003-The-Son.html`
-   * *GitHub:* `results/life-study-of-romans/001-A-Foreword.epub`
-     → *Local HTML:* `life-study-of-romans/001-A-Foreword.html`
-
----
-
-## 📁 Multi-Book Directory Structure
-
-Each book is self-contained in its own folder under `BibleStudy/`:
-
-```text
-BibleStudy/
-├── TEMPLATE.md                       # Master authoring guide (this file)
-├── README.md
-├── index.html                        # Main library portal (lists all Life-Study books)
-├── shared/                           # Universal shared assets across all books
-│   ├── styles.css                    # Master design system & typography
-│   └── verse-modal.js                # Instant modal popup engine
-├── life-study-of-hebrews/            # Matches Penk13/WebToEpub results/life-study-of-hebrews
-│   ├── assets/
-│   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
-│   ├── index.html                    # Searchable message directory for Hebrews
-│   ├── 001-A-Foreword.html           # Matches 001-A-Foreword.epub
-│   ├── 002-God-Has-Spoken.html       # Matches 002-God-Has-Spoken.epub
-│   └── ...
-├── life-study-of-romans/             # Matches results/life-study-of-romans
-│   ├── assets/
-│   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
-│   ├── index.html                    # Searchable message directory for Romans
-│   ├── 001-A-Foreword.html           # Matches 001-A-Foreword.epub
-│   ├── 002-The-Gospel-of-God.html   # Matches 002-The-Gospel-of-God.epub
-│   └── ...
-└── life-study-of-exodus/ (upcoming)
-    ├── assets/ (verses.js)
-    ├── index.html
-    └── ...
-```
-
----
-
-## 📐 Page Architecture: The 3 Mandatory Sections
-
-Every message page follows this exact 3-section flow:
+## Page structure
 
 ```
-[ Top Navigation Bar (Index Link · Message Badge · Next/Prev Links) ]
-[ Header (Series Badge · Message Title · Summary Dek · Verse Tags) ]
-├── 1. ⚡ Rapid Recall (60-Second high-yield summary bullets)
-├── 2. 🌊 Main Content: Visual Diagrams & Mental Models
-│     ├── Archetype 1: Progression & Process Pipeline (.step-flow / .step-item)
-│     ├── Archetype 2: Dual-Aspect Contrast Grid (.contrast-grid / .contrast-card)
-│     ├── Archetype 3: Multi-Item Feature Grid (.tri-cards / .dual-cards)
-│     ├── Archetype 4: Typology / Metamorphosis Analogy (.analogy-comparison)
-│     └── Archetype 5: Tabular Scripture & Revelation Matrix (.table-wrap)
-├── 3. 🧠 Active Recall: Deep Reflection (3–5 Open-Ended Questions)
-│     └── Prompt Card + Guiding Hint + Expandable Model Review (<details>)
-└── [ Bottom Navigation (Prev Message · All Messages · Next Message) ]
+bar           Life-Study / Book                         006
+page-head     eyebrow · h1 · dek · key verses
+recap         Rapid recall — 3–5 bullets
+section × 2–4 h2 · p · one component
+reflect       3–5 questions, each opens to an answer
+pager         ← Previous      Next →
 ```
 
----
-
-## 🎨 The 5 Universal Visual Archetypes
-
-Every Life-Study message conveys spiritual truth through specific patterns. Match each topic to one of these 5 visual archetypes:
-
-### Archetype 1: Progression & Process Pipeline (`.step-flow`)
-**Best for:** Journeys, historical stages, dispensations, and organic growth processes.
-* *Examples:* 
-  * **Hebrews:** Line of river crossers (Noah → Abraham → Israel → John → Overcomers).
-  * **Exodus:** Egypt → Red Sea → Wilderness → Sinai → Tabernacle.
-  * **Romans:** Sinner → Justification → Sanctification → Conformation → Glorification → Body Life.
-  * **Genesis:** 8 great persons from Adam to Joseph.
-
-```html
-<div class="diagram-container">
-  <div class="diagram-title">The Divine Progression</div>
-  <div class="step-flow">
-    
-    <div class="step-item">
-      <span class="step-badge">1. Starting Point <button type="button" class="verse-ref" data-ref="Gen. 1:1">Gen. 1:1</button></span>
-      <div class="step-from">Old Condition / Realm</div>
-      <div class="step-transition">
-        <span class="step-label">The Transition</span>
-        <div class="step-arrow"></div>
-        <span class="step-sub">Spiritual Process / Scripture</span>
-      </div>
-      <div class="step-to">New Reality / Goal</div>
-    </div>
-
-    <div class="step-item">
-      <span class="step-badge">2. Next Stage</span>
-      <div class="step-from">Wilderness Wandering</div>
-      <div class="step-transition">
-        <span class="step-label">Jordan River</span>
-        <div class="step-arrow"></div>
-        <span class="step-sub">Crossing into the Good Land</span>
-      </div>
-      <div class="step-to">Good Land (Christ)</div>
-    </div>
-
-  </div>
-</div>
-```
-
----
-
-### Archetype 2: Dual-Aspect Contrast Grid (`.contrast-grid`)
-**Best for:** Two opposing or complementary realities, warnings vs. promises, or earthly vs. heavenly perspectives.
-* *Examples:*
-  * **Galatians / Romans:** Law vs. Grace; The Flesh vs. The Spirit; Letter vs. Spirit.
-  * **Genesis:** Tree of Knowledge (Death) vs. Tree of Life (Life).
-  * **Hebrews:** Outside the Camp (Forsaking religion) vs. Within the Veil (Touching the heavenly Christ).
-  * **Revelation:** Babylon the Great (Apostasy) vs. New Jerusalem (The Bride).
-
-```html
-<div class="contrast-grid">
-  <div class="contrast-card aspect-a">
-    <div>
-      <span class="contrast-pill">Aspect A / Warning / Type</span>
-      <div class="contrast-title">“The Old / Religious / Flesh”</div>
-      <p class="contrast-body">Description of the negative, worldly, or preliminary realm to be forsaken.</p>
-    </div>
-  </div>
-
-  <div class="contrast-card aspect-b">
-    <div>
-      <span class="contrast-pill">Aspect B / Promise / Reality</span>
-      <div class="contrast-title">“The New / Spiritual / Christ”</div>
-      <p class="contrast-body">Description of the positive, heavenly, living realm in spirit to be enjoyed.</p>
-    </div>
-  </div>
-</div>
-```
-
----
-
-### Archetype 3: Multi-Item Feature Grid (`.tri-cards` & `.dual-cards`)
-**Best for:** 3-part or 2-part divine attributes, items of furniture, offerings, or spiritual virtues.
-* *Examples:*
-  * **Hebrews:** Light (Shining) $\cdot$ Life (Enlivening) $\cdot$ Power (Growing).
-  * **1 Thessalonians:** Spirit $\cdot$ Soul $\cdot$ Body.
-  * **Tabernacle:** Outer Court $\cdot$ Holy Place $\cdot$ Holy of Holies.
-  * **Offerings:** Burnt Offering $\cdot$ Meal Offering $\cdot$ Peace Offering.
-
-```html
-<div class="tri-cards">
-  <div class="feature-card">
-    <div class="feature-icon">💡</div>
-    <h4>1. Light (Shining)</h4>
-    <p>Dispels inward darkness and reveals God’s economy.</p>
-  </div>
-
-  <div class="feature-card">
-    <div class="feature-icon">🌱</div>
-    <h4>2. Life (Enlivening)</h4>
-    <p>Organically supplies all divine virtues and attributes.</p>
-  </div>
-
-  <div class="feature-card highlight">
-    <div class="feature-icon">⚡</div>
-    <h4>3. Power (Growing)</h4>
-    <p>The quiet, enduring, reproductive power of the divine seed.</p>
-  </div>
-</div>
-```
-
----
-
-### Archetype 4: Typology / Metamorphosis Analogy (`.analogy-comparison`)
-**Best for:** Old Testament types fulfilling in New Testament realities, natural illustrations, or seed-to-fruit transformations.
-* *Examples:*
-  * **Egg → Chicken:** The eggshell of religion vs. the living hatched Christ in heaven.
-  * **Passover Lamb → Christ:** The slain lamb protecting the house vs. Christ our true Passover.
-  * **Manna → Living Bread:** Physical food in the desert vs. Christ eaten daily in the Word.
-  * **Rock Smitten → Spirit Flowing:** The physical rock at Horeb vs. the Spirit gushing from Christ's pierced side.
-
-```html
-<div class="analogy-comparison">
-  <div class="analogy-box">
-    <div class="analogy-icon">🐑</div>
-    <h4>The Old Testament Type</h4>
-    <p>A physical lamb without blemish, slain and roasted with fire in Egypt.</p>
-  </div>
-
-  <div class="analogy-divider">➔</div>
-
-  <div class="analogy-box highlight">
-    <div class="analogy-icon">✝️</div>
-    <h4>The New Testament Reality</h4>
-    <p>Christ, the Lamb of God (<button type="button" class="verse-ref" data-ref="John 1:29">John 1:29</button>), slain for our eternal redemption and eaten as our feast!</p>
-  </div>
-</div>
-```
-
----
-
-### Archetype 5: Tabular Revelation Matrix (`.table-wrap`)
-**Best for:** Cross-referencing scriptures, comparing dispensations, contrasting covenants, or surveying books.
-
-```html
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Dispensation / Section</th>
-        <th>Key Characteristic</th>
-        <th>The Reality in Christ</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Old Covenant</strong></td>
-        <td>External letters inscribed on stone; mortal priests.</td>
-        <td>A shadow pointing forward.</td>
-      </tr>
-      <tr class="highlight-row">
-        <td><strong>New Covenant</strong></td>
-        <td><strong>Law of life inscribed on the heart; Christ an eternal High Priest.</strong></td>
-        <td><strong>Direct organic reality enjoyed in spirit!</strong></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-```
-
----
-
-## 🧠 Universal 4-Question Reflection Archetype
-
-Every message should include **3 to 5 open-ended reflection questions**. Structure them around these 4 proven angles:
-
-1. **The Inward Definition Question:**
-   * *Purpose:* Strip away superficial or religious cliches to define what this truth really is.
-   * *Formula:* *"What does [Key Term/Truth] mean according to its intrinsic spiritual reality, beyond mere religious tradition?"*
-2. **The Typology or Scriptural Contrast Question:**
-   * *Purpose:* Contrast the shadow with the reality or the Old with the New.
-   * *Formula:* *"How does the contrast between [Old Type/Prophet/Law] and [Christ/Son/Spirit] expose the inadequacy of external religion?"*
-3. **The Subtle Deviation / Trap Question:**
-   * *Purpose:* Identify how Christians fall into empty shells or religious routines.
-   * *Formula:* *"How can good, scriptural practices (like Bible study, meetings, or service) degenerate into an empty shell without Christ?"*
-4. **The Daily Experiential & Church Life Question:**
-   * *Purpose:* Bring the high peak truth into moment-by-moment living.
-   * *Formula:* *"In your daily walk today, what does it mean practically to turn to your spirit and touch Christ as your [Specific Revelation, e.g. High Priest / Life / Bread]?"*
-
----
-
-## 📜 Complete HTML Template (`TEMPLATE.html`)
-
-Copy and adapt this code for any book:
+## Full page
 
 ```html
 <!doctype html>
@@ -304,152 +36,184 @@ Copy and adapt this code for any book:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#111113">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <title>Message {{MSG_NUM}}: {{MSG_TITLE}} — Life-Study of {{BOOK_NAME}}</title>
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131313" media="(prefers-color-scheme: dark)">
+  <title>Message {{NNN}}: {{TITLE}} — Life-Study of {{BOOK}}</title>
   <link rel="stylesheet" href="../shared/styles.css">
 </head>
 <body>
 
-  <!-- Top Navigation (Mobile-First Compact Header) -->
-  <nav class="top-nav" aria-label="Main Navigation">
-    <div class="nav-links">
-      <a href="../index.html" title="All Books">🏠</a>
-      <a href="index.html"><strong>{{BOOK_NAME}}</strong></a>
-      <span class="nav-divider">/</span>
-      <span class="series-badge" style="margin-bottom:0">{{MSG_NUM}}</span>
-    </div>
-    <div class="nav-links">
-      <a href="{{PREV_HTML}}">← Prev</a>
-      <a href="{{NEXT_HTML}}">Next →</a>
-    </div>
-  </nav>
+  <header class="bar">
+    <a href="../index.html">Life-Study</a>
+    <span class="sep">/</span>
+    <a href="index.html">{{BOOK}}</a>
+    <span class="here">{{NNN}}</span>
+  </header>
 
-  <main class="study-shell">
-    <!-- Header -->
-    <header class="study-header">
-      <div class="series-badge">Life-Study of {{BOOK_NAME}} · Message {{MSG_NUM_INT}}</div>
-      <h1>{{MSG_TITLE}}</h1>
-      <p class="summary-dek">{{1-2 SENTENCE HIGH-LEVEL REVELATION SUMMARY}}</p>
-      <div class="meta-tags">
-        <span class="tag">⏱ 8–10 min review</span>
-        <span class="tag">📖 Verses: <button type="button" class="verse-ref" data-ref="{{KEY_VERSE_REF}}">{{KEY_VERSE_LABEL}}</button></span>
-        <span class="tag">🎯 {{TAG_1}} · {{TAG_2}} · {{TAG_3}}</span>
-      </div>
+  <main class="page">
+    <header class="page-head">
+      <p class="eyebrow">{{BOOK}} · Message {{N}}</p>
+      <h1>{{TITLE}}</h1>
+      <p class="dek">{{ONE OR TWO SENTENCES: THE CENTRAL REVELATION}}</p>
+      <p class="keyverses"><span>Key verses</span>
+        <button type="button" class="verse-ref" data-ref="Hebrews 2:3">Heb. 2:3</button>
+        <button type="button" class="verse-ref" data-ref="Hebrews 2:10">Heb. 2:10</button>
+      </p>
     </header>
 
-    <!-- 1. Rapid Recall Section -->
-    <div class="fast-review">
-      <h3>⚡ Rapid Recall (Read this in 60 seconds)</h3>
+    <section class="recap" aria-label="Rapid recall">
+      <h2>Rapid recall</h2>
       <ul>
-        <li><strong>{{CORE_TRUTH_1}}:</strong> {{EXPLANATION_1}}</li>
-        <li><strong>{{CORE_TRUTH_2}}:</strong> {{EXPLANATION_2}}</li>
-        <li><strong>{{PRACTICAL_EXPERIENCE}}:</strong> {{EXPLANATION_3}}</li>
+        <li><strong>{{POINT}}:</strong> {{ONE OR TWO SENTENCES}}</li>
+        <li><strong>{{POINT}}:</strong> {{ONE OR TWO SENTENCES}}</li>
+        <li><strong>{{POINT}}:</strong> {{ONE OR TWO SENTENCES}}</li>
       </ul>
-    </div>
-
-    <!-- 2. Main Content Section (Visual Diagrams & Models) -->
-    <section>
-      <div class="section-label">Core Revelation 01</div>
-      <h2>{{SECTION_1_TITLE}}</h2>
-      <p>{{PARAGRAPH_EXPLAINING_THE_POINT}}</p>
-
-      <!-- Choose suitable visual archetype: .tri-cards / .contrast-grid / .step-flow / .analogy-comparison -->
     </section>
 
     <section>
-      <div class="section-label">Core Revelation 02</div>
-      <h2>{{SECTION_2_TITLE}}</h2>
-      <p>{{PARAGRAPH_EXPLAINING_THE_POINT}}</p>
-
-      <!-- Choose suitable visual archetype -->
+      <h2>{{SECTION TITLE}}</h2>
+      <p>{{SHORT PARAGRAPH}}</p>
+      <!-- one component -->
     </section>
 
-    <!-- 3. Active Recall & Deep Reflection (No Textboxes) -->
-    <section>
-      <div class="section-label">Review & Reflection</div>
-      <h2>Active Recall: Deep Reflection Questions</h2>
-      <p style="color:var(--muted); margin-bottom:1.5rem;">Ponder these open-ended questions to test your grasp and personal application of the message, then open each section to review the key insights.</p>
+    <section class="reflect">
+      <h2>Reflect</h2>
+      <p class="dek">Think each question through first, then open it to compare.</p>
 
-      <div class="recall-container">
-
-        <!-- Reflection 1 -->
-        <div class="recall-card">
-          <div class="recall-badge-row">
-            <span class="recall-num-badge">Reflection 01</span>
+      <div class="questions">
+        <details class="q">
+          <summary><span class="q-text">{{QUESTION}}</span><span class="q-hint">{{HINT}}</span></summary>
+          <div class="answer">
+            <p><strong>{{LABEL}}:</strong> {{INSIGHT}}</p>
+            <p><strong>{{LABEL}}:</strong> {{INSIGHT}}</p>
           </div>
-          <h3 class="recall-prompt">{{QUESTION_1_PROMPT}}</h3>
-          <p class="recall-hint">{{QUESTION_1_HINT}}</p>
-          
-          <details class="model-review">
-            <summary>🔍 Reveal Key Insights & Meditation</summary>
-            <div class="model-review-content">
-              <p><strong>Core Biblical Truth:</strong> {{KEY_TRUTH_1}}</p>
-              <p><strong>Spiritual Reality:</strong> {{KEY_TRUTH_2}}</p>
-              <p><strong>Daily Application:</strong> {{PRACTICAL_APPLICATION}}</p>
-            </div>
-          </details>
-        </div>
-
-        <!-- Reflection 2 -->
-        <div class="recall-card">
-          <div class="recall-badge-row">
-            <span class="recall-num-badge">Reflection 02</span>
-          </div>
-          <h3 class="recall-prompt">{{QUESTION_2_PROMPT}}</h3>
-          <p class="recall-hint">{{QUESTION_2_HINT}}</p>
-          
-          <details class="model-review">
-            <summary>🔍 Reveal Key Insights & Meditation</summary>
-            <div class="model-review-content">
-              <p><strong>Core Biblical Truth:</strong> {{KEY_TRUTH_1}}</p>
-              <p><strong>Spiritual Reality:</strong> {{KEY_TRUTH_2}}</p>
-            </div>
-          </details>
-        </div>
-
-        <!-- Reflection 3 -->
-        <div class="recall-card">
-          <div class="recall-badge-row">
-            <span class="recall-num-badge">Reflection 03</span>
-          </div>
-          <h3 class="recall-prompt">{{QUESTION_3_PROMPT}}</h3>
-          <p class="recall-hint">{{QUESTION_3_HINT}}</p>
-          
-          <details class="model-review">
-            <summary>🔍 Reveal Key Insights & Meditation</summary>
-            <div class="model-review-content">
-              <p><strong>Core Biblical Truth:</strong> {{KEY_TRUTH_1}}</p>
-              <p><strong>Personal Experience:</strong> {{KEY_TRUTH_2}}</p>
-            </div>
-          </details>
-        </div>
-
+        </details>
       </div>
     </section>
 
-    <!-- Navigation -->
-    <nav class="lesson-nav">
-      <a href="{{PREV_HTML}}" class="btn-nav">⇤ Previous: {{PREV_TITLE}}</a>
-      <a href="index.html" class="btn-nav">📂 All Messages</a>
-      <a href="{{NEXT_HTML}}" class="btn-nav">Next: {{NEXT_TITLE}} ⇥</a>
+    <nav class="pager" aria-label="Messages">
+      <a class="prev" href="{{PREV}}.html"><small>← Previous</small>{{PREV_NNN}} · {{PREV_TITLE}}</a>
+      <a class="next" href="{{NEXT}}.html"><small>Next →</small>{{NEXT_NNN}} · {{NEXT_TITLE}}</a>
     </nav>
   </main>
 
-  <!-- Verbatim Scripture Popup Scripts -->
   <script src="assets/verses.js"></script>
   <script src="../shared/verse-modal.js"></script>
 </body>
 </html>
 ```
 
----
+Omit `.prev` on the first message and `.next` on the latest one. When adding a message, also add a `.next` link to the previous page.
 
-## 🗄️ Managing the Scripture Dictionary (`assets/verses.js`)
+## Components
 
-Each book has an `assets/verses.js` file defining the verbatim **NKJV** and Indonesian **Terjemahan Baru Edisi 2 (TB2)** text for all verses referenced in that book.
+### Cards — contrasts, sets of 2–4 items
+
+Use for law vs. grace, three aspects, items of furniture. Add `key` to the card that is the point (usually the positive or New Testament side). Label, icon and list are optional.
+
+```html
+<div class="cards">
+  <div class="card">
+    <span class="card-label">Old Covenant</span>
+    <h4>Standing Daily</h4>
+    <p>The priests never sat down; the work was never finished.</p>
+  </div>
+  <div class="card key">
+    <span class="card-label">New Covenant</span>
+    <h4>Sat Down Forever</h4>
+    <p>One sacrifice, finished (<button type="button" class="verse-ref" data-ref="Hebrews 10:12">Heb. 10:12</button>).</p>
+  </div>
+</div>
+```
+
+```html
+<div class="card">
+  <span class="card-icon" aria-hidden="true">💡</span>
+  <h4>Light</h4>
+  <p>Dispels inward darkness.</p>
+</div>
+```
+
+### Pair — type → reality, before → after
+
+Same as cards, plus `pair`: exactly two cards joined by an arrow (↓ on phones, → on wider screens).
+
+```html
+<div class="cards pair">
+  <div class="card">
+    <span class="card-icon" aria-hidden="true">🐑</span>
+    <h4>The Passover Lamb</h4>
+    <p>Slain and eaten in Egypt.</p>
+  </div>
+  <div class="card key">
+    <span class="card-icon" aria-hidden="true">✝️</span>
+    <h4>Christ Our Passover</h4>
+    <p>The Lamb of God (<button type="button" class="verse-ref" data-ref="John 1:29">John 1:29</button>).</p>
+  </div>
+</div>
+```
+
+### Flow — journeys, stages, progressions
+
+A numbered timeline inside a figure. Each step: a title, an optional `shift` (from → to), and an optional `via` line (what causes the move). Don't number the titles; the dots do it.
+
+```html
+<figure class="figure">
+  <figcaption>The Three Stages of Salvation</figcaption>
+  <ol class="flow">
+    <li>
+      <h4>Out of Egypt <button type="button" class="verse-ref" data-ref="Hebrews 1:3">Heb. 1:3</button></h4>
+      <p class="shift"><span>Slavery in Egypt</span><span class="arrow" aria-hidden="true">→</span><span>Initial Salvation</span></p>
+      <p class="via"><strong>Passover &amp; Red Sea</strong> — Purification of sins</p>
+    </li>
+  </ol>
+  <p class="callout">Optional one-line motto.</p>
+</figure>
+```
+
+A figure can also hold a plain `<ol>`/`<ul>` (e.g. the outline of a book).
+
+### Table — cross-references and surveys
+
+Use when there are 3+ attributes per row. Wrap for horizontal scroll on phones; mark the key row with `class="key"`.
+
+```html
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>Covenant</th><th>Characteristic</th><th>Reality</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Old</strong></td><td>Letters on stone</td><td>A shadow</td></tr>
+      <tr class="key"><td><strong>New</strong></td><td>Law of life in the heart</td><td>Christ Himself</td></tr>
+    </tbody>
+  </table>
+</div>
+```
+
+### Callout — a note or summary
+
+```html
+<aside class="callout">
+  <h3>The Extract of Romans</h3>
+  <p>“The just shall have life and live by faith.”</p>
+</aside>
+```
+
+## Reflection questions
+
+3–5 per message, open-ended (no text boxes). Good angles:
+
+1. **Definition** — what is this truth intrinsically, beyond religious tradition?
+2. **Contrast** — how does the type/law/prophet compare with Christ/the Son/the Spirit?
+3. **Deviation** — how can good practices become an empty shell without Christ?
+4. **Experience** — what does it mean today to turn to the spirit and touch Christ as ___?
+
+Answers: 2–3 short paragraphs, each led by a bold label.
+
+## Scripture (`assets/verses.js`)
+
+Every `data-ref` must exist in the book's `verses.js` (the build fails otherwise). Use full book names in `data-ref` (`Hebrews 2:3`), abbreviations in the visible label (`Heb. 2:3`). Only add verses a page actually cites.
 
 ```javascript
 window.BIBLE_VERSES_NKJV = {
@@ -459,26 +223,26 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For the law of the Spirit of life in Christ Jesus has made me free from the law of sin and death.",
     tb2: "Sebab hukum Roh yang memberi hidup telah membebaskan engkau dalam Kristus Yesus dari hukum dosa dan kematian."
-  },
-  "Galatians 2:20": {
-    ref: "Galatians 2:20",
-    refTB2: "Galatia 2:20",
-    version: "NKJV",
-    text: "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.",
-    tb2: "Aku telah disalibkan dengan Kristus; tetapi bukan lagi aku yang hidup, melainkan Kristus yang hidup di dalam aku. Dan hidup yang sekarang aku hidupi dalam daging, adalah hidup oleh iman kepada Anak Allah yang telah mengasihi aku dan menyerahkan diri-Nya untuk aku."
   }
 };
 ```
 
----
+## Book index (`index.html`)
 
-## 🔍 Index Page Specification (`index.html`)
+Each book folder lists its messages in `#filter-list` (searchable via `shared/index-filter.js`). Every message file must be listed (the build checks).
 
-Every book folder must feature an `index.html` with:
-1. Header identifying the Life-Study book.
-2. A client-side search bar (`<input type="search" id="filter-input">`) that filters messages in real time, powered by `<script src="../shared/index-filter.js"></script>` (no inline scripts: the CSP blocks them).
-3. A clean list of only **available** messages (`.msg-card`) linking directly to the message HTML file.
-4. No part dividers or status tags—strictly the clean cards and search bar.
-5. Every message HTML in the folder must be listed here; `build_index.py` fails the build otherwise.
+```html
+<li><a href="006-So-Great-a-Salvation.html"><span class="toc-num">006</span><span class="toc-title">So Great a Salvation</span></a></li>
+```
 
-**Authoring rules:** write HTML, not Markdown, inside pages (italic transliterations like Greek words use `<em>metochoi</em>`, never `*metochoi*`). Only add `verses.js` entries for verses a page actually cites.
+A new book also needs an entry in the root `index.html`:
+
+```html
+<li><a href="life-study-of-romans/index.html"><span class="toc-title">Romans</span><span class="toc-meta">2 messages</span></a></li>
+```
+
+## Writing rules
+
+- HTML, not Markdown: `<em>metochoi</em>`, never `*metochoi*`.
+- Escape `&` as `&amp;` in text.
+- No `style="…"` attributes and no new classes; if a page needs something new, add it to `shared/styles.css` and document it here.
