@@ -11,13 +11,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "And the LORD God caused a deep sleep to fall on Adam, and he slept; and He took one of his ribs, and closed up the flesh in its place. Then the rib which the LORD God had taken from man He made into a woman, and He brought her to the man. And Adam said: 'This is now bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of Man.' Therefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh. And they were both naked, the man and his wife, and were not ashamed.",
     tb2: "Lalu TUHAN Allah membuat manusia itu tidur nyenyak; dan ketika ia tidur, TUHAN Allah mengambil salah satu rusuknya, lalu menutup tempat itu dengan daging. Dari rusuk yang diambil TUHAN Allah dari manusia itu, dibangun-Nyalah seorang perempuan, lalu dibawa-Nya kepada manusia itu. Berkatalah manusia itu, \"Inilah dia, tulang dari tulangku dan daging dari dagingku. Ia akan dinamai perempuan, sebab ia diambil dari laki-laki.\" Sebab itu seorang laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya menjadi satu daging. Mereka keduanya telanjang, manusia dan istrinya itu, tetapi mereka tidak merasa malu."
   },
-  "Genesis 2:24": {
-    ref: "Genesis 2:24",
-    refTB2: "Kejadian 2:24",
-    version: "NKJV",
-    text: "Therefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh.",
-    tb2: "Sebab itu seorang laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya menjadi satu daging."
-  },
   "Isaiah 54:5": {
     ref: "Isaiah 54:5",
     refTB2: "Yesaya 54:5",
@@ -38,13 +31,6 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "\"Return, O backsliding children,\" says the LORD; \"for I am married to you. I will take you, one from a city and two from a family, and I will bring you to Zion.\"",
     tb2: "\"Kembalilah, hai anak-anak yang murtad,\" demikianlah firman TUHAN, \"sebab Akulah suamimu! Aku akan mengambil kamu, seorang dari setiap kota dan dua orang dari setiap kaum, dan membawa kamu ke Sion.\""
-  },
-  "Jeremiah 31:32": {
-    ref: "Jeremiah 31:32",
-    refTB2: "Yeremia 31:32",
-    version: "NKJV",
-    text: "not according to the covenant that I made with their fathers in the day that I took them by the hand to lead them out of the land of Egypt, My covenant which they broke, though I was a husband to them, says the LORD.",
-    tb2: "\"Bukan seperti perjanjian yang telah Kuikat dengan nenek moyang mereka pada waktu Aku memegang tangan mereka untuk membawa mereka keluar dari tanah Mesir; perjanjian-Ku itu telah mereka ingkari, meskipun Aku adalah suami bagi mereka, demikianlah firman TUHAN.\""
   },
   "Ezekiel 16:8": {
     ref: "Ezekiel 16:8",
@@ -95,33 +81,12 @@ window.BIBLE_VERSES_NKJV = {
     text: "Of the wood of Lebanon King Solomon made himself a palanquin:",
     tb2: "Raja Salomo membuat bagi dirinya tandu dari kayu Libanon."
   },
-  "Song of Songs 4:12": {
-    ref: "Song of Songs 4:12",
-    refTB2: "Kidung Agung 4:12",
-    version: "NKJV",
-    text: "A garden enclosed Is my sister, my spouse, A spring shut up, A fountain sealed.",
-    tb2: "—Adinda, pengantinku, adalah kebun tertutup, sebuah mata air yang terkunci, sebuah pancuran yang termeterai."
-  },
   "Song of Songs 6:4": {
     ref: "Song of Songs 6:4",
     refTB2: "Kidung Agung 6:4",
     version: "NKJV",
     text: "O my love, you are as beautiful as Tirzah, Lovely as Jerusalem, Awesome as an army with banners!",
     tb2: "—Cantik engkau, manisku, seperti Tirza, elok seperti Yerusalem, dahsyat seperti bala tentara dengan panji-panjinya."
-  },
-  "Song of Songs 6:13": {
-    ref: "Song of Songs 6:13",
-    refTB2: "Kidung Agung 6:13",
-    version: "NKJV",
-    text: "Return, return, O Shulamite; Return, return, that we may look upon you! What would you see in the Shulamite— As it were, the dance of the two camps?",
-    tb2: "Kembalilah, kembalilah, hai gadis Sulam! Kembalilah, kembalilah, supaya kami dapat memandangmu! Mengapa kamu memandang gadis Sulam itu seperti melihat tari Mahanaim?"
-  },
-  "Matthew 9:15": {
-    ref: "Matthew 9:15",
-    refTB2: "Matius 9:15",
-    version: "NKJV",
-    text: "And Jesus said to them, \"Can the friends of the bridegroom mourn as long as the bridegroom is with them? But the days will come when the bridegroom will be taken away from them, and then they will fast.\"",
-    tb2: "Jawab Yesus kepada mereka, \"Dapatkah sahabat-sahabat mempelai laki-laki berdukacita selama mempelai itu bersama mereka? Tetapi waktunya akan datang mempelai itu diambil dari mereka dan pada waktu itulah mereka akan berpuasa."
   },
   "John 3:29-30": {
     ref: "John 3:29–30",
@@ -179,13 +144,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then I, John, saw the holy city, New Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband.",
     tb2: "Aku juga melihat kota yang kudus, Yerusalem yang baru, turun dari surga, dari Allah, yang berhias bagaikan pengantin perempuan yang berdandan untuk suaminya."
   },
-  "Revelation 21:9": {
-    ref: "Revelation 21:9",
-    refTB2: "Wahyu 21:9",
-    version: "NKJV",
-    text: "Then one of the seven angels who had the seven bowls filled with the seven last plagues came to me and talked with me, saying, \"Come, I will show you the bride, the Lamb’s wife.\"",
-    tb2: "Kemudian datanglah seorang dari ketujuh malaikat yang memegang ketujuh cawan, yang penuh dengan ketujuh malapetaka terakhir itu, lalu ia berkata kepadaku, \"Marilah ke sini, aku akan menunjukkan kepadamu pengantin perempuan, mempelai Anak Domba.\""
-  },
   "Romans 5:11": {
     ref: "Romans 5:11",
     refTB2: "Roma 5:11",
@@ -230,20 +188,6 @@ window.BIBLE_VERSES_NKJV = {
   },
 
   // --- Message 2 Verses: The Gospel of God ---
-  "Romans 1:1": {
-    ref: "Romans 1:1",
-    refTB2: "Roma 1:1",
-    version: "NKJV",
-    text: "Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God",
-    tb2: "Dari Paulus, hamba Kristus Yesus, yang dipanggil menjadi rasul dan dikhususkan untuk memberitakan Injil Allah."
-  },
-  "Romans 1:1-2": {
-    ref: "Romans 1:1–2",
-    refTB2: "Roma 1:1–2",
-    version: "NKJV",
-    text: "Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God which He promised before through His prophets in the Holy Scriptures,",
-    tb2: "Dari Paulus, hamba Kristus Yesus, yang dipanggil menjadi rasul dan dikhususkan untuk memberitakan Injil Allah. Injil itu telah dijanjikan-Nya sebelumnya dengan perantaraan nabi-nabi-Nya dalam kitab-kitab suci,"
-  },
   "Romans 1:1-4": {
     ref: "Romans 1:1–4",
     refTB2: "Roma 1:1–4",
@@ -321,13 +265,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "For in it the righteousness of God is revealed from faith to faith; as it is written, \"The just shall live by faith.\"",
     tb2: "Sebab di dalamnya dinyatakan pembenaran oleh Allah, yang bertolak dari iman dan memimpin kepada iman, seperti ada tertulis: \"Orang yang dibenarkan karena imannya, akan hidup.\""
   },
-  "Romans 5:18": {
-    ref: "Romans 5:18",
-    refTB2: "Roma 5:18",
-    version: "NKJV",
-    text: "Therefore, as through one man’s offense judgment came to all men, resulting in condemnation, even so through one Man’s righteous act the free gift came to all men, resulting in justification of life.",
-    tb2: "Jadi, sama seperti melalui satu pelanggaran banyak orang beroleh penghukuman, demikian pula melalui satu perbuatan kebenaran, banyak orang beroleh pembenaran untuk hidup."
-  },
   "Romans 7:6": {
     ref: "Romans 7:6",
     refTB2: "Roma 7:6",
@@ -341,13 +278,6 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For the law of the Spirit of life in Christ Jesus has made me free from the law of sin and death.",
     tb2: "Sebab hukum Roh yang memberi hidup telah memerdekakan engkau dalam Kristus Yesus dari hukum dosa dan hukum maut."
-  },
-  "Romans 8:3": {
-    ref: "Romans 8:3",
-    refTB2: "Roma 8:3",
-    version: "NKJV",
-    text: "For what the law could not do in that it was weak through the flesh, God did by sending His own Son in the likeness of sinful flesh, on account of sin: He condemned sin in the flesh,",
-    tb2: "Sebab apa yang tidak mungkin dilakukan hukum Taurat karena tidak berdaya oleh daging, telah dilakukan oleh Allah. Dengan mengutus Anak-Nya sendiri sama seperti manusia yang berdosa dan untuk menghapuskan dosa, Ia telah menjatuhkan hukuman atas dosa di dalam daging,"
   },
   "Romans 8:9-10": {
     ref: "Romans 8:9–10",
@@ -377,13 +307,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "The next day John saw Jesus coming toward him, and said, \"Behold! The Lamb of God who takes away the sin of the world!\"",
     tb2: "Keesokan harinya Yohanes melihat Yesus datang kepadanya dan ia berkata, \"Lihatlah Anak Domba Allah, yang menghapus dosa dunia."
   },
-  "John 1:32-33": {
-    ref: "John 1:32–33",
-    refTB2: "Yohanes 1:32–33",
-    version: "NKJV",
-    text: "And John bore witness, saying, \"I saw the Spirit descending from heaven like a dove, and He remained upon Him. I did not know Him, but He who sent me to baptize with water said to me, 'Upon whom you see the Spirit descending, and remaining on Him, this is He who baptizes with the Holy Spirit.'\"",
-    tb2: "Selanjutnya Yohanes bersaksi, katanya, \"Aku telah melihat Roh turun dari langit seperti merpati, dan Ia tinggal di atas-Nya. Dan aku pun dulu tidak mengenal-Nya, tetapi Dia, yang mengutus aku untuk membaptis dengan air, telah berfirman kepadaku: Jikalau engkau melihat Roh itu turun ke atas seseorang dan tinggal di atas-Nya, Dialah yang akan membaptis dengan Roh Kudus."
-  },
   "John 3:16": {
     ref: "John 3:16",
     refTB2: "Yohanes 3:16",
@@ -391,33 +314,12 @@ window.BIBLE_VERSES_NKJV = {
     text: "\"For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.\"",
     tb2: "Karena Allah begitu mengasihi dunia ini, sehingga Ia telah mengaruniakan Anak-Nya yang tunggal, supaya setiap orang yang percaya kepada-Nya tidak binasa, melainkan beroleh hidup yang kekal."
   },
-  "John 3:18": {
-    ref: "John 3:18",
-    refTB2: "Yohanes 3:18",
-    version: "NKJV",
-    text: "\"He who believes in Him is not condemned; but he who does not believe is condemned already, because he has not believed in the name of the only begotten Son of God.\"",
-    tb2: "Siapa saja yang percaya kepada-Nya, ia tidak akan dihukum; siapa saja yang tidak percaya, ia telah berada di bawah hukuman, sebab ia tidak percaya dalam nama Anak Tunggal Allah."
-  },
-  "John 16:8-9": {
-    ref: "John 16:8–9",
-    refTB2: "Yohanes 16:8–9",
-    version: "NKJV",
-    text: "\"And when He has come, He will convict the world of sin, and of righteousness, and of judgment: of sin, because they do not believe in Me;\"",
-    tb2: "Kalau Ia datang, Ia akan menginsafkan dunia akan dosa, kebenaran dan penghakiman; akan dosa, karena mereka tetap tidak percaya kepada-Ku;"
-  },
   "Acts 13:33": {
     ref: "Acts 13:33",
     refTB2: "Kisah Para Rasul 13:33",
     version: "NKJV",
     text: "God has fulfilled this for us their children, in that He has raised up Jesus. As it is also written in the second Psalm: 'You are My Son, Today I have begotten You.'",
     tb2: "telah digenapi Allah kepada kita, keturunan mereka, dengan membangkitkan Yesus, seperti yang tertulis dalam mazmur kedua: Engkaulah Anak-Ku! Aku telah menjadi Bapa-Mu pada hari ini."
-  },
-  "Galatians 3:11": {
-    ref: "Galatians 3:11",
-    refTB2: "Galatia 3:11",
-    version: "NKJV",
-    text: "But that no one is justified by the law in the sight of God is evident, for \"the just shall live by faith.\"",
-    tb2: "Lagi pula, jelaslah, tidak ada orang yang dibenarkan di hadapan Allah karena melakukan hukum Taurat, karena: \"Orang yang benar akan hidup oleh iman.\""
   },
   "Galatians 4:6": {
     ref: "Galatians 4:6",
@@ -433,13 +335,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
     tb2: "Sebab karena anugerah kamu diselamatkan oleh iman; itu bukan hasil usahamu, tetapi pemberian Allah,"
   },
-  "Hebrews 1:5": {
-    ref: "Hebrews 1:5",
-    refTB2: "Ibrani 1:5",
-    version: "NKJV",
-    text: "For to which of the angels did He ever say: \"You are My Son, Today I have begotten You\"? And again: \"I will be to Him a Father, And He shall be to Me a Son\"?",
-    tb2: "Karena kepada siapakah di antara malaikat-malaikat itu pernah Ia katakan, \"Engkaulah Anak-Ku! Engkau telah menjadi Anak-Ku pada hari ini\"? dan \"Aku akan menjadi Bapa-Nya, dan Ia akan menjadi Anak-Ku\"?"
-  },
   "Hebrews 9:22": {
     ref: "Hebrews 9:22",
     refTB2: "Ibrani 9:22",
@@ -447,26 +342,12 @@ window.BIBLE_VERSES_NKJV = {
     text: "And according to the law almost all things are purified with blood, and without shedding of blood there is no remission.",
     tb2: "Dan hampir segala sesuatu disucikan menurut hukum Taurat dengan darah, dan tanpa penumpahan darah tidak ada pengampunan."
   },
-  "Hebrews 10:38": {
-    ref: "Hebrews 10:38",
-    refTB2: "Ibrani 10:38",
-    version: "NKJV",
-    text: "\"Now the just shall live by faith; But if anyone draws back, My soul has no pleasure in him.\"",
-    tb2: "Tetapi orang-Ku yang benar akan hidup oleh iman, dan apabila ia mengundurkan diri, maka Aku tidak berkenan kepadanya.\""
-  },
   "1 John 1:9": {
     ref: "1 John 1:9",
     refTB2: "1 Yohanes 1:9",
     version: "NKJV",
     text: "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
     tb2: "Jika kita mengaku dosa kita, maka Ia setia dan adil, sehingga Ia akan mengampuni segala dosa kita dan menyucikan kita dari segala kejahatan."
-  },
-  "1 John 5:12": {
-    ref: "1 John 5:12",
-    refTB2: "1 Yohanes 5:12",
-    version: "NKJV",
-    text: "He who has the Son has life; he who does not have the Son of God does not have life.",
-    tb2: "Siapa yang memiliki Anak, ia memiliki hidup; siapa yang tidak memiliki Anak, ia tidak memiliki hidup."
   },
   "Habakkuk 2:4": {
     ref: "Habakkuk 2:4",

@@ -31,7 +31,8 @@
     "Joshua": "Yosua", "Judges": "Hakim-hakim", "Ruth": "Rut", "1 Samuel": "1 Samuel", "2 Samuel": "2 Samuel",
     "1 Kings": "1 Raja-raja", "2 Kings": "2 Raja-raja", "1 Chronicles": "1 Tawarikh", "2 Chronicles": "2 Tawarikh",
     "Ezra": "Ezra", "Nehemiah": "Nehemia", "Esther": "Ester", "Job": "Ayub", "Psalm": "Mazmur", "Psalms": "Mazmur",
-    "Proverbs": "Amsal", "Ecclesiastes": "Pengkhotbah", "Song of Songs": "Kidung Agung", "Isaiah": "Yesaya",
+    "Proverbs": "Amsal", "Ecclesiastes": "Pengkhotbah", "Song of Songs": "Kidung Agung", "Song of Solomon": "Kidung Agung",
+    "Isaiah": "Yesaya",
     "Jeremiah": "Yeremia", "Lamentations": "Ratapan", "Ezekiel": "Yehezkiel", "Daniel": "Daniel", "Hosea": "Hosea",
     "Joel": "Yoel", "Amos": "Amos", "Obadiah": "Obaja", "Jonah": "Yunus", "Micah": "Mikha", "Nahum": "Nahum",
     "Habakkuk": "Habakuk", "Zephaniah": "Zefanya", "Haggai": "Hagai", "Zechariah": "Zakharia", "Malachi": "Maleakhi",
@@ -43,203 +44,258 @@
     "1 John": "1 Yohanes", "2 John": "2 Yohanes", "3 John": "3 Yohanes", "Jude": "Yudas", "Revelation": "Wahyu"
   };
 
+  // Longest names first so "Song of Solomon" / "Psalms" win over shorter prefixes
+  const ID_BOOK_ENTRIES = Object.entries(ID_BOOK_MAP).sort((a, b) => b[0].length - a[0].length);
+
   function convertToIndonesianRef(refStr) {
     if (!refStr) return "";
-    for (const [enBook, idBook] of Object.entries(ID_BOOK_MAP)) {
+    for (const [enBook, idBook] of ID_BOOK_ENTRIES) {
       if (refStr.startsWith(enBook + " ")) {
-        return refStr.replace(enBook + " ", idBook + " ");
+        return idBook + refStr.slice(enBook.length);
       }
     }
     return refStr;
   }
 
+  // Safe DOM builders: verse and API text is always set as text, never parsed as HTML
+  function el(tag, props, children) {
+    const node = document.createElement(tag);
+    if (props) Object.assign(node, props);
+    for (const child of children || []) {
+      node.append(child);
+    }
+    return node;
+  }
+
+  function quote(text) {
+    return el("blockquote", { className: "verse-quote", textContent: `“${text}”` });
+  }
+
+  function note(text) {
+    return el("p", { className: "verse-modal-note", textContent: text });
+  }
+
+  function message(prefix, ref, suffix) {
+    return el("p", {}, [prefix, el("strong", { textContent: ref }), suffix]);
+  }
+
   let currentRefKey = null;
   let currentLang = "nkjv"; // 'nkjv' | 'tb2'
+  let pendingFetch = null;
+  let lastTrigger = null;
+
+  function cancelPendingFetch() {
+    if (pendingFetch) {
+      pendingFetch.abort();
+      pendingFetch = null;
+    }
+  }
+
+  function setVersionTag(tagElem, label, title) {
+    tagElem.textContent = label;
+    tagElem.setAttribute("title", title);
+  }
 
   // Render modal content based on active language
   function renderModalContent(refKey, lang) {
     const modal = document.getElementById("bible-verse-modal");
     if (!modal) return;
 
+    cancelPendingFetch();
+
     const refElem = modal.querySelector("#verse-modal-ref");
     const tagElem = modal.querySelector("#verse-version-tag");
     const bodyElem = modal.querySelector("#verse-modal-body");
     const transBtn = modal.querySelector("#verse-modal-trans-btn");
 
-    const data = (window.BIBLE_VERSES_NKJV && window.BIBLE_VERSES_NKJV[refKey]);
+    const data = window.BIBLE_VERSES_NKJV && window.BIBLE_VERSES_NKJV[refKey];
 
     if (lang === "tb2") {
-      tagElem.textContent = "TB2";
-      tagElem.setAttribute("title", "Terjemahan Baru Edisi 2");
-      transBtn.innerHTML = "🇺🇸 English (NKJV)";
+      setVersionTag(tagElem, "TB2", "Terjemahan Baru Edisi 2");
+      transBtn.textContent = "🇺🇸 English (NKJV)";
       transBtn.setAttribute("aria-label", "Lihat versi bahasa Inggris (NKJV)");
 
       if (data && data.tb2) {
         refElem.textContent = data.refTB2 || convertToIndonesianRef(data.ref || refKey);
-        bodyElem.innerHTML = `<blockquote class="verse-quote">“${data.tb2}”</blockquote>`;
+        bodyElem.replaceChildren(quote(data.tb2));
       } else if (data) {
+        setVersionTag(tagElem, "NKJV", "New King James Version");
         refElem.textContent = convertToIndonesianRef(data.ref || refKey);
-        bodyElem.innerHTML = `
-          <blockquote class="verse-quote">“${data.text}”</blockquote>
-          <p style="font-size:0.8rem; color:var(--muted); margin-top:0.5rem;">Terjemahan TB2 belum tersedia secara offline.</p>
-        `;
+        bodyElem.replaceChildren(quote(data.text), note("Terjemahan TB2 belum tersedia secara offline."));
       } else {
         refElem.textContent = convertToIndonesianRef(refKey);
-        bodyElem.innerHTML = `
-          <blockquote class="verse-quote">
-            <em>Memuat firman untuk <strong>${convertToIndonesianRef(refKey)}</strong> (TB2)...</em>
-          </blockquote>
-        `;
+        bodyElem.replaceChildren(note(`Terjemahan TB2 untuk ${convertToIndonesianRef(refKey)} belum tersedia.`));
       }
-    } else {
-      // NKJV mode
-      tagElem.textContent = "NKJV";
-      tagElem.setAttribute("title", "New King James Version");
-      transBtn.innerHTML = "🇮🇩 Terjemahan TB2";
-      transBtn.setAttribute("aria-label", "Lihat Terjemahan Baru Edisi 2 (Indonesia)");
-
-      if (data) {
-        refElem.textContent = data.ref || refKey;
-        bodyElem.innerHTML = `<blockquote class="verse-quote">“${data.text}”</blockquote>`;
-      } else {
-        refElem.textContent = refKey;
-        bodyElem.innerHTML = `
-          <blockquote class="verse-quote">
-            <em>Loading scripture for <strong>${refKey}</strong> (NKJV)...</em>
-          </blockquote>
-        `;
-        // Quick fallback fetch
-        fetch(`https://bible-api.com/${encodeURIComponent(refKey)}?translation=web`)
-          .then(res => res.json())
-          .then(apiData => {
-            if (apiData.text) {
-              bodyElem.innerHTML = `
-                <blockquote class="verse-quote">“${apiData.text.trim()}”</blockquote>
-                <p style="font-size:0.8rem; color:var(--muted); margin-top:0.5rem;">Translation: ${apiData.translation_name} (Fallback)</p>
-              `;
-            } else {
-              bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong> not found.</p>`;
-            }
-          })
-          .catch(() => {
-            bodyElem.innerHTML = `<p>Verse text for <strong>${refKey}</strong>. (Offline mode)</p>`;
-          });
-      }
+      return;
     }
+
+    // NKJV mode
+    setVersionTag(tagElem, "NKJV", "New King James Version");
+    transBtn.textContent = "🇮🇩 Terjemahan TB2";
+    transBtn.setAttribute("aria-label", "Lihat Terjemahan Baru Edisi 2 (Indonesia)");
+
+    if (data) {
+      refElem.textContent = data.ref || refKey;
+      bodyElem.replaceChildren(quote(data.text));
+      return;
+    }
+
+    // Not in the offline dictionary: fall back to bible-api.com (World English Bible)
+    refElem.textContent = refKey;
+    setVersionTag(tagElem, "WEB", "World English Bible (online fallback)");
+    bodyElem.replaceChildren(message("Loading scripture for ", refKey, "..."));
+
+    const controller = new AbortController();
+    pendingFetch = controller;
+    fetch(`https://bible-api.com/${encodeURIComponent(refKey)}?translation=web`, { signal: controller.signal })
+      .then(res => res.json())
+      .then(apiData => {
+        if (controller.signal.aborted) return;
+        if (apiData && typeof apiData.text === "string" && apiData.text.trim()) {
+          const name = typeof apiData.translation_name === "string" ? apiData.translation_name : "World English Bible";
+          bodyElem.replaceChildren(quote(apiData.text.trim()), note(`Translation: ${name} (Fallback)`));
+        } else {
+          bodyElem.replaceChildren(message("Verse text for ", refKey, " not found."));
+        }
+      })
+      .catch(err => {
+        if (controller.signal.aborted || (err && err.name === "AbortError")) return;
+        bodyElem.replaceChildren(message("Verse text for ", refKey, " is unavailable offline."));
+      })
+      .finally(() => {
+        if (pendingFetch === controller) pendingFetch = null;
+      });
+  }
+
+  function focusableIn(container) {
+    return Array.from(container.querySelectorAll("button, [href], [tabindex]:not([tabindex='-1'])"))
+      .filter(node => !node.disabled);
   }
 
   // 2. Create Modal / Bottom-Sheet DOM once
   function ensureModal() {
     let modal = document.getElementById("bible-verse-modal");
-    if (!modal) {
-      modal = document.createElement("div");
-      modal.id = "bible-verse-modal";
-      modal.className = "verse-modal-overlay";
-      modal.setAttribute("role", "dialog");
-      modal.setAttribute("aria-modal", "true");
-      modal.setAttribute("aria-hidden", "true");
-      modal.innerHTML = `
-        <div class="verse-modal-card" id="verse-modal-card">
-          <div class="verse-modal-handle" aria-hidden="true"></div>
-          <header class="verse-modal-header">
-            <div class="verse-modal-title-group">
-              <span class="verse-modal-book" id="verse-modal-ref">Scripture Reference</span>
-              <span class="verse-version-tag" id="verse-version-tag">NKJV</span>
-            </div>
-            <button type="button" class="verse-modal-close" id="verse-modal-close-btn" aria-label="Close popup">✕</button>
-          </header>
-          <div class="verse-modal-body" id="verse-modal-body">
-            <!-- Verse Text injected here -->
+    if (modal) return modal;
+
+    modal = document.createElement("div");
+    modal.id = "bible-verse-modal";
+    modal.className = "verse-modal-overlay";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-hidden", "true");
+    modal.setAttribute("aria-labelledby", "verse-modal-ref");
+    modal.innerHTML = `
+      <div class="verse-modal-card" id="verse-modal-card">
+        <div class="verse-modal-handle" aria-hidden="true"></div>
+        <header class="verse-modal-header">
+          <div class="verse-modal-title-group">
+            <span class="verse-modal-book" id="verse-modal-ref">Scripture Reference</span>
+            <span class="verse-version-tag" id="verse-version-tag">NKJV</span>
           </div>
-          <footer class="verse-modal-footer">
-            <button type="button" class="verse-modal-btn" id="verse-modal-trans-btn" aria-label="Lihat Terjemahan Baru Edisi 2">🇮🇩 Terjemahan TB2</button>
-            <button type="button" class="verse-modal-btn primary" id="verse-modal-ok-btn">Done</button>
-          </footer>
+          <button type="button" class="verse-modal-close" id="verse-modal-close-btn" aria-label="Close popup">✕</button>
+        </header>
+        <div class="verse-modal-body" id="verse-modal-body" aria-live="polite">
+          <!-- Verse Text injected here -->
         </div>
-      `;
-      document.body.appendChild(modal);
+        <footer class="verse-modal-footer">
+          <button type="button" class="verse-modal-btn" id="verse-modal-trans-btn" aria-label="Lihat Terjemahan Baru Edisi 2">🇮🇩 Terjemahan TB2</button>
+          <button type="button" class="verse-modal-btn primary" id="verse-modal-ok-btn">Done</button>
+        </footer>
+      </div>
+    `;
+    document.body.appendChild(modal);
 
-      const card = modal.querySelector("#verse-modal-card");
+    const card = modal.querySelector("#verse-modal-card");
 
-      // Event handlers
-      const close = () => {
-        modal.classList.remove("is-active");
-        modal.setAttribute("aria-hidden", "true");
-        document.body.style.overflow = "";
-      };
+    // Event handlers
+    const close = () => {
+      if (!modal.classList.contains("is-active")) return;
+      cancelPendingFetch();
+      modal.classList.remove("is-active");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+      // Return focus to the verse button that opened the sheet
+      if (lastTrigger && document.contains(lastTrigger)) lastTrigger.focus({ preventScroll: true });
+      lastTrigger = null;
+    };
 
-      modal.querySelector("#verse-modal-close-btn").addEventListener("click", close);
-      modal.querySelector("#verse-modal-ok-btn").addEventListener("click", close);
-      modal.addEventListener("click", (e) => {
-        if (e.target === modal) close();
-      });
+    modal.querySelector("#verse-modal-close-btn").addEventListener("click", close);
+    modal.querySelector("#verse-modal-ok-btn").addEventListener("click", close);
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) close();
+    });
 
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && modal.classList.contains("is-active")) {
-          close();
+    document.addEventListener("keydown", (e) => {
+      if (!modal.classList.contains("is-active")) return;
+      if (e.key === "Escape") {
+        close();
+      } else if (e.key === "Tab") {
+        // Keep keyboard focus inside the dialog
+        const items = focusableIn(card);
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        const outside = !card.contains(document.activeElement);
+        if (e.shiftKey && (outside || document.activeElement === first)) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && (outside || document.activeElement === last)) {
+          e.preventDefault();
+          first.focus();
         }
-      });
+      }
+    });
 
-      // Mobile Touch Swipe-Down to Dismiss
-      let touchStartY = 0;
-      let touchDeltaY = 0;
+    // Mobile Touch Swipe-Down to Dismiss
+    let touchStartY = null;
+    let touchDeltaY = 0;
 
-      card.addEventListener("touchstart", (e) => {
-        // Only trigger swipe-down if scrolled to the top of the card
-        if (card.scrollTop <= 0) {
-          touchStartY = e.touches[0].clientY;
-          touchDeltaY = 0;
-        } else {
-          touchStartY = 0;
+    card.addEventListener("touchstart", (e) => {
+      // Only trigger swipe-down if scrolled to the top of the card
+      touchStartY = card.scrollTop <= 0 ? e.touches[0].clientY : null;
+      touchDeltaY = 0;
+    }, { passive: true });
+
+    card.addEventListener("touchmove", (e) => {
+      if (touchStartY !== null) {
+        touchDeltaY = e.touches[0].clientY - touchStartY;
+        if (touchDeltaY > 0) {
+          // Dragging down: move card smoothly with thumb
+          card.style.transform = `translateY(${touchDeltaY}px)`;
         }
-      }, { passive: true });
+      }
+    }, { passive: true });
 
-      card.addEventListener("touchmove", (e) => {
-        if (touchStartY > 0) {
-          const currentY = e.touches[0].clientY;
-          touchDeltaY = currentY - touchStartY;
-          if (touchDeltaY > 0) {
-            // Dragging down: move card smoothly with thumb
-            card.style.transform = `translateY(${touchDeltaY}px)`;
-          }
-        }
-      }, { passive: true });
+    card.addEventListener("touchend", () => {
+      // Snap back, or dismiss when swiped down more than 80px
+      card.style.transform = "";
+      if (touchStartY !== null && touchDeltaY > 80) close();
+      touchStartY = null;
+      touchDeltaY = 0;
+    }, { passive: true });
 
-      card.addEventListener("touchend", () => {
-        if (touchStartY > 0 && touchDeltaY > 80) {
-          // Swiped down more than 80px: dismiss bottom sheet
-          card.style.transform = "";
-          close();
-        } else {
-          // Snap back
-          card.style.transform = "";
-        }
-        touchStartY = 0;
-        touchDeltaY = 0;
-      }, { passive: true });
+    // Translation toggle button handler
+    modal.querySelector("#verse-modal-trans-btn").addEventListener("click", () => {
+      if (!currentRefKey) return;
+      currentLang = (currentLang === "nkjv" ? "tb2" : "nkjv");
+      renderModalContent(currentRefKey, currentLang);
+    });
 
-      // Translation toggle button handler
-      const transBtn = modal.querySelector("#verse-modal-trans-btn");
-      transBtn.addEventListener("click", () => {
-        if (!currentRefKey) return;
-        currentLang = (currentLang === "nkjv" ? "tb2" : "nkjv");
-        renderModalContent(currentRefKey, currentLang);
-      });
-    }
     return modal;
   }
 
   // Show Verse Popup / Bottom-Sheet
-  function showVerse(refKey) {
-    ensureModal();
+  function showVerse(refKey, trigger) {
+    const modal = ensureModal();
+    lastTrigger = trigger || null;
     currentRefKey = refKey;
     currentLang = "nkjv"; // default to NKJV, allowing 1-tap toggle to TB2
     renderModalContent(currentRefKey, currentLang);
 
-    const modal = document.getElementById("bible-verse-modal");
     modal.classList.add("is-active");
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+    modal.querySelector("#verse-modal-close-btn").focus({ preventScroll: true });
   }
 
   // Delegate click for any .verse-ref
@@ -248,7 +304,7 @@
     if (target) {
       e.preventDefault();
       const ref = target.getAttribute("data-ref") || target.textContent.trim();
-      showVerse(ref);
+      showVerse(ref, target);
     }
   });
 

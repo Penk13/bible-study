@@ -18,7 +18,7 @@ All book folders and message HTML file names strictly follow the structure from:
 - **Review-Centric:** Designed for high-yield, rapid review right after reading the actual Life-Study message.
 - **Visual over Walls of Text:** Mobile-optimized vertical flow cards, pipelines, and high-contrast dual cards to anchor mental models quickly without endless scrolling.
 - **Active Recall:** 3–5 open-ended reflection questions with thumb-friendly tap disclosures for key insights (no form textboxes).
-- **Verbatim NKJV Scripture Bottom-Sheet:** Instant offline drawer for any Bible verse cited, with touch swipe-to-dismiss and one-tap copy.
+- **Verbatim NKJV Scripture Bottom-Sheet:** Instant offline drawer for any Bible verse cited, with touch swipe-to-dismiss and a one-tap toggle to the Indonesian TB2 translation.
 - **Strict 5-Color Unified Palette:** OLED-friendly deep dark canvas (`#111113`), crisp surfaces (`#18181b`), white headings (`#fafafa`), readable zinc body text (`#d4d4d8`), and strictly ONE luminous sky blue (`#38bdf8`) for zero visual fatigue.
 - **Simple, Standalone Architecture:** Clean, pure HTML & CSS with zero runtime dependencies or heavy frameworks.
 
@@ -30,17 +30,19 @@ BibleStudy/
 ├── README.md
 ├── build_index.py                    # Static dist packager for Cloudflare deployment
 ├── wrangler.jsonc                    # Cloudflare Worker static assets configuration
+├── _headers                          # Security headers (CSP) served by Cloudflare
 ├── index.html                        # Main library portal (lists all available Life-Study books)
 ├── shared/                           # Universal shared assets (no code repetition)
 │   ├── styles.css                    # Universal design system & typography
-│   └── verse-modal.js                # Instant modal popup engine
+│   ├── verse-modal.js                # Instant modal popup engine
+│   └── index-filter.js               # Live search filter for index pages
 ├── life-study-of-hebrews/            # Matches Penk13/WebToEpub results/life-study-of-hebrews
 │   ├── assets/
 │   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
 │   ├── index.html                    # Searchable message directory for Hebrews
 │   ├── 001-A-Foreword.html           # Matches 001-A-Foreword.epub
 │   ├── 002-God-Has-Spoken.html       # Matches 002-God-Has-Spoken.epub
-│   └── ... (003 to 069)
+│   └── ... (003 onward, added as messages are written)
 ├── life-study-of-romans/             # Matches Penk13/WebToEpub results/life-study-of-romans
 │   ├── assets/
 │   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
@@ -60,6 +62,8 @@ Static site deployed as a Cloudflare Worker with static assets.
   python build_index.py
   ```
 
+- Before building, `build_index.py` validates the site and aborts if a message page is missing from its book index, a book is missing from the root index, a relative link is broken, or a `data-ref` verse is missing from `verses.js`.
+- `_headers` sets the Content-Security-Policy and other security headers. Scripts load only from the site itself; `connect-src` allows only `https://bible-api.com` (online fallback for verses missing from `verses.js`).
 - `wrangler.jsonc` configures the Cloudflare Worker to serve `./dist`.
 - Deploy from the CLI:
 

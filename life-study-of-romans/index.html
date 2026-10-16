@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#111113">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Life-Study of Romans — Study Guide</title>
@@ -50,27 +51,6 @@
     </div>
   </main>
 
-  <script>
-    const filterInput = document.getElementById('filter-input');
-    const msgCards = document.querySelectorAll('.msg-card');
-    const noResults = document.getElementById('no-results');
-
-    filterInput.addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      let visibleCount = 0;
-
-      msgCards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        if (text.includes(q)) {
-          card.style.display = 'flex';
-          visibleCount++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-
-      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
-    });
-  </script>
+  <script src="../shared/index-filter.js"></script>
 </body>
 </html>

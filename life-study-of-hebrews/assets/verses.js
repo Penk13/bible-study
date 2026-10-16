@@ -38,13 +38,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "Seeing then that we have a great High Priest who has passed through the heavens, Jesus the Son of God, let us hold fast our confession. For we do not have a High Priest who cannot sympathize with our weaknesses, but was in all points tempted as we are, yet without sin.",
     tb2: "Jadi, karena kita sekarang mempunyai Imam Besar Agung, yang telah melintasi semua langit, yaitu Yesus, Anak Allah, baiklah kita berpegang teguh pada pengakuan iman kita. Sebab Imam Besar yang kita punya, bukanlah imam besar yang tidak dapat turut merasakan kelemahan-kelemahan kita. Sebaliknya sama seperti kita, Ia telah dicobai, hanya saja Ia tidak berbuat dosa."
   },
-  "Hebrews 6:4": {
-    ref: "Hebrews 6:4",
-    refTB2: "Ibrani 6:4",
-    version: "NKJV",
-    text: "For it is impossible for those who were once enlightened, and have tasted the heavenly gift, and have become partakers of the Holy Spirit,",
-    tb2: "Sebab mereka yang pernah diterangi hatinya, yang pernah mengecap karunia surgawi dan pernah mendapat bagian dalam Roh Kudus,"
-  },
   "Hebrews 6:19-20": {
     ref: "Hebrews 6:19–20",
     refTB2: "Ibrani 6:19–20",
@@ -65,20 +58,6 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Now this is the main point of the things we are saying: We have such a High Priest, who is seated at the right hand of the throne of the Majesty in the heavens, a Minister of the sanctuary and of the true tabernacle which the Lord erected, and not man.",
     tb2: "Inti semua yang kita bicarakan itu ialah: Kita mempunyai Imam Besar yang demikian, yang duduk di sebelah kanan takhta Yang Mahabesar di surga, dan melayani ibadah di tempat kudus, yaitu di dalam kemah sejati yang didirikan oleh Tuhan dan bukan oleh manusia."
-  },
-  "Hebrews 8:5": {
-    ref: "Hebrews 8:5",
-    refTB2: "Ibrani 8:5",
-    version: "NKJV",
-    text: "who serve the copy and shadow of the heavenly things, as Moses was divinely instructed when he was about to make the tabernacle. For He said, \"See that you make all things according to the pattern shown you on the mountain.\"",
-    tb2: "Mereka melayani dalam kemah yang menjadi gambaran dan bayangan dari apa yang ada di surga, sama seperti yang diberitahukan kepada Musa, ketika ia hendak mendirikan kemah, \"Perhatikanlah,\" demikian firman-Nya, \"bahwa engkau harus membuat semuanya itu menurut contoh yang telah ditunjukkan kepadamu di atas gunung itu.\""
-  },
-  "Hebrews 9:23-24": {
-    ref: "Hebrews 9:23–24",
-    refTB2: "Ibrani 9:23–24",
-    version: "NKJV",
-    text: "Therefore it was necessary that the copies of the things in the heavens should be purified with these, but the heavenly things themselves with better sacrifices than these. For Christ has not entered the holy places made with hands, which are copies of the true, but into heaven itself, now to appear in the presence of God for us;",
-    tb2: "Jadi, segala sesuatu yang melambangkan apa yang ada di surga haruslah disucikan secara demikian, tetapi benda-benda surgawi sendiri harus disucikan dengan persembahan-persembahan yang lebih baik daripada itu. Sebab Kristus bukan masuk ke dalam tempat kudus buatan tangan manusia yang hanya merupakan gambaran saja dari yang sebenarnya, tetapi ke dalam surga sendiri untuk menghadap hadirat Allah bagi kepentingan kita."
   },
   "Hebrews 10:12": {
     ref: "Hebrews 10:12",
@@ -115,26 +94,12 @@ window.BIBLE_VERSES_NKJV = {
     text: "But now they desire a better, that is, a heavenly country. Therefore God is not ashamed to be called their God, for He has prepared a city for them.",
     tb2: "Tetapi sekarang mereka merindukan tanah air yang lebih baik, yaitu tanah air surgawi. Sebab itu, Allah tidak malu disebut Allah mereka, karena Ia telah mempersiapkan sebuah kota bagi mereka."
   },
-  "Hebrews 12:22-23": {
-    ref: "Hebrews 12:22–23",
-    refTB2: "Ibrani 12:22–23",
-    version: "NKJV",
-    text: "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, to an innumerable company of angels, to the general assembly and church of the firstborn who are registered in heaven, to God the Judge of all, to the spirits of just men made perfect,",
-    tb2: "Tetapi kamu sudah datang ke Bukit Sion, ke kota Allah yang hidup, Yerusalem surgawi dan kepada beribu-ribu malaikat, suatu kumpulan yang meriah, dan kepada jemaat anak-anak sulung, yang namanya terdaftar di surga, dan kepada Allah, yang menghakimi semua orang, dan kepada roh-roh orang-orang benar yang telah disempurnakan,"
-  },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
     refTB2: "Ibrani 13:13",
     version: "NKJV",
     text: "Therefore let us go forth to Him, outside the camp, bearing His reproach.",
     tb2: "Karena itu, marilah kita pergi kepada-Nya di luar perkemahan dan menanggung kehinaan-Nya."
-  },
-  "Genesis 10:21": {
-    ref: "Genesis 10:21",
-    refTB2: "Kejadian 10:21",
-    version: "NKJV",
-    text: "And children were also born to Shem, the father of all the children of Eber, the brother of Japheth the elder.",
-    tb2: "Lahir jugalah anak-anak bagi Sem, leluhur semua anak Eber dan abang Yafet."
   },
   "Genesis 14:13": {
     ref: "Genesis 14:13",
@@ -150,13 +115,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then he dreamed, and behold, a ladder was set up on the earth, and its top reached to heaven; and there the angels of God were ascending and descending on it... And Jacob called the name of that place Bethel.",
     tb2: "Lalu bermimpilah ia: Tampak sebuah tangga didirikan di bumi, ujungnya menyentuh langit, dan tampak malaikat-malaikat Allah naik dan turun di tangga itu. Berdirilah TUHAN di sampingnya dan berfirman, \"Akulah TUHAN, Allah Abraham, kakekmu, dan Allah Ishak. Tanah tempat engkau berbaring ini akan Kuberikan kepadamu dan kepada keturunanmu. Keturunanmu akan menjadi seperti debu tanah banyaknya, dan engkau akan mengembang ke sebelah barat, timur, utara, dan selatan, dan olehmu serta keturunanmu semua kaum di muka bumi akan mendapat berkat. Sesungguhnya Aku menyertai engkau dan Aku akan melindungi engkau ke mana pun engkau pergi, dan Aku akan membawa engkau kembali ke negeri ini, sebab Aku tidak akan meninggalkan engkau, sebelum Aku melakukan apa yang telah Kujanjikan kepadamu.\" Ketika Yakub bangun dari tidurnya, berkatalah ia, \"Sesungguhnya TUHAN ada di tempat ini, dan aku tidak mengetahuinya.\" Ia merasa takut dan berkata, \"Alangkah dahsyatnya tempat ini! Ini tidak lain dari rumah Allah, dan inilah pintu gerbang surga.\" Keesokan harinya pagi-pagi Yakub mengambil batu yang dipakainya sebagai alas kepala, lalu mendirikannya menjadi tugu dan menuangkan minyak ke atasnya. Ia menamai tempat itu Betel. Yakub pun bernazar, \"Jika Allah menyertai dan melindungi aku di jalan yang kutempuh ini... maka TUHAN akan menjadi Allahku. Dan batu yang telah kudirikan sebagai tugu ini akan menjadi rumah Allah, dan dari segala sesuatu yang Engkau berikan kepadaku akan selalu kupersembahkan sepersepuluh kepada-Mu.\""
   },
-  "Exodus 3:6": {
-    ref: "Exodus 3:6",
-    refTB2: "Keluaran 3:6",
-    version: "NKJV",
-    text: "Moreover He said, \"I am the God of your father—the God of Abraham, the God of Isaac, and the God of Jacob.\" And Moses hid his face, for he was afraid to look upon God.",
-    tb2: "Firman-Nya lagi, \"Akulah Allah ayahmu, Allah Abraham, Allah Ishak, dan Allah Yakub.\" Lalu Musa menutupi mukanya, sebab ia takut memandang Allah."
-  },
   "Exodus 9:1": {
     ref: "Exodus 9:1",
     refTB2: "Keluaran 9:1",
@@ -171,26 +129,12 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then the LORD said to Moses, \"Rise early in the morning and stand before Pharaoh, and say to him, 'Thus says the LORD God of the Hebrews: \"Let My people go, that they may serve Me.\"'\"",
     tb2: "Berfirmanlah TUHAN kepada Musa, \"Bangunlah pagi-pagi dan berdirilah di depan Firaun, dan katakan kepadanya: Beginilah firman TUHAN, Allah orang Ibrani: Biarkanlah umat-Ku pergi supaya mereka beribadah kepada-Ku.\""
   },
-  "Exodus 12:1-2": {
-    ref: "Exodus 12:1–2",
-    refTB2: "Keluaran 12:1–2",
-    version: "NKJV",
-    text: "Now the LORD spoke to Moses and Aaron in the land of Egypt, saying, \"This month shall be your beginning of months; it shall be the first month of the year to you.\"",
-    tb2: "TUHAN berfirman kepada Musa dan Harun di tanah Mesir, \"Bulan inilah yang akan menjadi permulaan segala bulan bagimu; bulan ini akan menjadi bulan pertama bagimu setiap tahun.\""
-  },
   "Exodus 15:1": {
     ref: "Exodus 15:1",
     refTB2: "Keluaran 15:1",
     version: "NKJV",
     text: "Then Moses and the children of Israel sang this song to the LORD, and spoke, saying: \"I will sing to the LORD, for He has triumphed gloriously! The horse and its rider He has thrown into the sea!\"",
     tb2: "Pada waktu itu Musa bersama-sama dengan orang Israel menyanyikan nyanyian ini bagi TUHAN yang berbunyi: \"Baiklah aku menyanyi bagi TUHAN, sebab Ia tinggi luhur; kuda dan penunggangnya dilemparkan-Nya ke dalam laut.\""
-  },
-  "Exodus 30:18": {
-    ref: "Exodus 30:18",
-    refTB2: "Keluaran 30:18",
-    version: "NKJV",
-    text: "\"You shall also make a laver of bronze, with its base also of bronze, for washing. You shall put it between the tabernacle of meeting and the altar. And you shall put water in it,\"",
-    tb2: "\"Haruslah engkau membuat bejana pembasuhan dari perunggu, dengan alasnya dari perunggu juga, untuk pembasuhan. Engkau harus menaruhnya di antara Kemah Pertemuan dan mezbah, lalu mengisinya dengan air.\""
   },
   "Joshua 24:2-3": {
     ref: "Joshua 24:2–3",
@@ -322,13 +266,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "For by Him all things were created that are in heaven and that are on earth, visible and invisible, whether thrones or dominions or principalities or powers. All things were created through Him and for Him. And He is before all things, and in Him all things consist.",
     tb2: "karena di dalam Dialah telah diciptakan segala sesuatu, yang ada di surga dan yang ada di bumi, yang kelihatan dan yang tidak kelihatan, baik singgasana, maupun kerajaan, baik pemerintah, maupun penguasa; segala sesuatu diciptakan oleh Dia dan untuk Dia. Ia ada terlebih dahulu dari segala sesuatu dan segala sesuatu menyatu di dalam Dia."
   },
-  "John 1:1": {
-    ref: "John 1:1",
-    refTB2: "Yohanes 1:1",
-    version: "NKJV",
-    text: "In the beginning was the Word, and the Word was with God, and the Word was God.",
-    tb2: "Pada mulanya ada Firman; Firman itu bersama-sama dengan Allah dan Firman itu adalah Allah."
-  },
   "John 1:14": {
     ref: "John 1:14",
     refTB2: "Yohanes 1:14",
@@ -380,13 +317,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "And of the angels He says: \"Who makes His angels spirits And His ministers a flame of fire.\"",
     tb2: "Tentang malaikat-malaikat Ia berkata, \"Yang membuat malaikat-malaikat-Nya menjadi badai dan pelayan-pelayan-Nya menjadi nyala api.\""
   },
-  "Hebrews 1:8-9": {
-    ref: "Hebrews 1:8–9",
-    refTB2: "Ibrani 1:8–9",
-    version: "NKJV",
-    text: "But to the Son He says: \"Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom. You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness more than Your companions.\"",
-    tb2: "Tetapi tentang Anak Ia berkata, \"Takhta-Mu, ya Allah, tetap untuk seterusnya dan selamanya, dan tongkat kerajaan-Mu adalah tongkat kebenaran.  Engkau mencintai keadilan dan membenci kefasikan; sebab itu Allah, Allah-Mu telah mengurapi Engkau dengan minyak sebagai tanda kesukaan, melebihi teman-teman sekutu-Mu.\""
-  },
   "Hebrews 1:9": {
     ref: "Hebrews 1:9",
     refTB2: "Ibrani 1:9",
@@ -400,13 +330,6 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And: \"You, LORD, in the beginning laid the foundation of the earth, And the heavens are the work of Your hands. They will perish, but You remain; And they will all grow old like a garment; Like a cloak You will fold them up, And they will be changed. But You are the same, And Your years will not fail.\"",
     tb2: "Dan, \"Pada mulanya, ya Tuhan, Engkau telah meletakkan dasar bumi, dan langit adalah buatan tangan-Mu.  Semuanya itu akan binasa, tetapi Engkau tetap ada, dan semuanya itu akan menjadi usang seperti pakaian;  seperti jubah Engkau akan menggulung mereka, dan seperti pakaian mereka akan diubah, tetapi Engkau tetap sama, dan tahun-tahun-Mu tidak berkesudahan.\""
-  },
-  "Hebrews 1:11-12": {
-    ref: "Hebrews 1:11–12",
-    refTB2: "Ibrani 1:11–12",
-    version: "NKJV",
-    text: "They will perish, but You remain; And they will all grow old like a garment; Like a cloak You will fold them up, And they will be changed. But You are the same, And Your years will not fail.",
-    tb2: "Semuanya itu akan binasa, tetapi Engkau tetap ada, dan semuanya itu akan menjadi usang seperti pakaian;  seperti jubah Engkau akan menggulung mereka, dan seperti pakaian mereka akan diubah, tetapi Engkau tetap sama, dan tahun-tahun-Mu tidak berkesudahan.\""
   },
   "Hebrews 1:14": {
     ref: "Hebrews 1:14",
@@ -457,13 +380,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "I will declare the decree: The LORD has said to Me, \"You are My Son, Today I have begotten You.\"",
     tb2: "Aku hendak menceritakan ketetapan TUHAN; Ia berfirman kepadaku, \"Engkaulah Anak-Ku! Pada hari ini telah Kuperanakkan Engkau.\""
   },
-  "2 Samuel 7:14": {
-    ref: "2 Samuel 7:14",
-    refTB2: "2 Samuel 7:14",
-    version: "NKJV",
-    text: "I will be his Father, and he shall be My son. If he commits iniquity, I will chasten him with the rod of men and with the blows of the sons of men.",
-    tb2: "Aku akan menjadi Bapanya dan ia akan menjadi anak-Ku. Apabila ia melakukan kesalahan, Aku akan menghajar dia dengan rotan manusia dan dengan pukulan anak-anak manusia."
-  },
   "Acts 7:53": {
     ref: "Acts 7:53",
     refTB2: "Kisah Para Rasul 7:53",
@@ -477,13 +393,6 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "What purpose then does the law serve? It was added because of transgressions, till the Seed should come to whom the promise was made; and it was appointed through angels by the hand of a mediator.",
     tb2: "Kalau demikian, apakah maksud hukum Taurat? Hukum itu ditambahkan karena pelanggaran-pelanggaran — sampai datang keturunan yang dimaksudkan oleh janji itu — dan disampaikan dengan perantaraan malaikat-malaikat ke dalam tangan seorang pengantara."
-  },
-  "Genesis 18:1-2": {
-    ref: "Genesis 18:1–2",
-    refTB2: "Kejadian 18:1–2",
-    version: "NKJV",
-    text: "Then the LORD appeared to him by the terebinth trees of Mamre, as he was sitting in the tent door in the heat of the day. So he lifted his eyes and looked, and behold, three men were standing by him; and when he saw them, he ran from the tent door to meet them, and bowed himself to the ground,",
-    tb2: "Kemudian TUHAN menampakkan diri kepada Abraham dekat pohon-pohon tarbantin di Mamre, saat ia sedang duduk di pintu kemahnya pada waktu hari panas terik. Ketika ia mengangkat matanya dan melihat, tampaklah tiga orang berdiri di dekatnya. Segera setelah ia melihat mereka, ia berlari dari pintu kemahnya menyongsong mereka, lalu sujud sampai ke tanah."
   },
   "Romans 2:17": {
     ref: "Romans 2:17",
@@ -549,13 +458,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then he dreamed, and behold, a ladder was set up on the earth, and its top reached to heaven; and there the angels of God were ascending and descending on it.",
     tb2: "Lalu bermimpilah ia: Tampak sebuah tangga didirikan di bumi, ujungnya menyentuh langit, dan tampak malaikat-malaikat Allah naik dan turun di tangga itu."
   },
-  "Genesis 28:16-17": {
-    ref: "Genesis 28:16–17",
-    refTB2: "Kejadian 28:16–17",
-    version: "NKJV",
-    text: "Then Jacob awoke from his sleep and said, \"Surely the LORD is in this place, and I did not know it.\" And he was afraid and said, \"How awesome is this place! This is none other than the house of God, and this is the gate of heaven!\"",
-    tb2: "Ketika Yakub bangun dari tidurnya, berkatalah ia, \"Sesungguhnya TUHAN ada di tempat ini, dan aku tidak mengetahuinya.\" Ia merasa takut dan berkata, \"Alangkah dahsyatnya tempat ini! Ini tidak lain dari rumah Allah, dan inilah pintu gerbang surga.\""
-  },
   "Genesis 28:17": {
     ref: "Genesis 28:17",
     refTB2: "Kejadian 28:17",
@@ -598,13 +500,6 @@ window.BIBLE_VERSES_NKJV = {
     text: "And He put all things under His feet, and gave Him to be head over all things to the church, which is His body, the fullness of Him who fills all in all.",
     tb2: "Dan segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
   },
-  "Colossians 1:12": {
-    ref: "Colossians 1:12",
-    refTB2: "Kolose 1:12",
-    version: "NKJV",
-    text: "giving thanks to the Father who has qualified us to be partakers of the inheritance of the saints in the light.",
-    tb2: "dan mengucap syukur dengan sukacita kepada Bapa, yang melayakkan kamu untuk mendapat bagian dalam warisan orang-orang kudus dalam terang."
-  },
   "Hebrews 3:3-4": {
     ref: "Hebrews 3:3–4",
     refTB2: "Ibrani 3:3–4",
@@ -618,5 +513,139 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore He is also able to save to the uttermost those who come to God through Him, since He always lives to make intercession for them.",
     tb2: "Karena itu, Ia sanggup juga menyelamatkan dengan sempurna semua orang yang melalui Dia datang kepada Allah. Sebab Ia senantiasa hidup untuk menjadi Pengantara bagi mereka."
+  },
+  // --- Message 6 Verses ---
+  "Hebrews 2:1": {
+    ref: "Hebrews 2:1",
+    refTB2: "Ibrani 2:1",
+    version: "NKJV",
+    text: "Therefore we must give the more earnest heed to the things we have heard, lest we drift away.",
+    tb2: "Karena itu kita harus lebih teliti memperhatikan apa yang telah kita dengar, supaya kita jangan hanyut terbawa arus."
+  },
+  "Hebrews 2:3": {
+    ref: "Hebrews 2:3",
+    refTB2: "Ibrani 2:3",
+    version: "NKJV",
+    text: "how shall we escape if we neglect so great a salvation, which at the first began to be spoken by the Lord, and was confirmed to us by those who heard Him,",
+    tb2: "bagaimanakah kita akan luput, jika kita menyia-nyiakan keselamatan yang sebesar itu, yang mula-mula diberitakan oleh Tuhan dan kemudian diteguhkan kepada kita oleh mereka yang telah mendengarnya,"
+  },
+  "Hebrews 2:1-3": {
+    ref: "Hebrews 2:1–3",
+    refTB2: "Ibrani 2:1–3",
+    version: "NKJV",
+    text: "Therefore we must give the more earnest heed to the things we have heard, lest we drift away. For if the word spoken through angels proved steadfast, and every transgression and disobedience received a just reward, how shall we escape if we neglect so great a salvation, which at the first began to be spoken by the Lord, and was confirmed to us by those who heard Him,",
+    tb2: "Karena itu kita harus lebih teliti memperhatikan apa yang telah kita dengar, supaya kita jangan hanyut terbawa arus. Sebab jika firman yang dikatakan dengan perantaraan malaikat-malaikat tetap berlaku, dan setiap pelanggaran dan ketidaktaatan mendapat balasan yang setimpal, bagaimanakah kita akan luput, jika kita menyia-nyiakan keselamatan yang sebesar itu, yang mula-mula diberitakan oleh Tuhan dan kemudian diteguhkan kepada kita oleh mereka yang telah mendengarnya,"
+  },
+  "Hebrews 2:5": {
+    ref: "Hebrews 2:5",
+    refTB2: "Ibrani 2:5",
+    version: "NKJV",
+    text: "For He has not put the world to come, of which we speak, in subjection to angels.",
+    tb2: "Sebab bukan kepada malaikat-malaikat telah Ia taklukkan dunia yang akan datang, yang kita bicarakan ini."
+  },
+  "Hebrews 2:6": {
+    ref: "Hebrews 2:6",
+    refTB2: "Ibrani 2:6",
+    version: "NKJV",
+    text: "But one testified in a certain place, saying: \"What is man that You are mindful of him, Or the son of man that You take care of him?\"",
+    tb2: "Tetapi ada orang yang pernah memberi kesaksian di dalam suatu nas, katanya: \"Apakah manusia, sehingga Engkau mengingatnya, atau anak manusia, sehingga Engkau mengindahkannya?\""
+  },
+  "Hebrews 2:9": {
+    ref: "Hebrews 2:9",
+    refTB2: "Ibrani 2:9",
+    version: "NKJV",
+    text: "But we see Jesus, who was made a little lower than the angels, for the suffering of death crowned with glory and honor, that He, by the grace of God, might taste death for everyone.",
+    tb2: "Tetapi Dia, yang untuk waktu yang singkat dibuat sedikit lebih rendah daripada malaikat-malaikat, yaitu Yesus, kita lihat sekarang dimahkotai dengan kemuliaan dan hormat, sebab Ia telah menderita maut, supaya oleh anugerah Allah Ia mengalami maut bagi semua orang."
+  },
+  "Hebrews 2:11": {
+    ref: "Hebrews 2:11",
+    refTB2: "Ibrani 2:11",
+    version: "NKJV",
+    text: "For both He who sanctifies and those who are being sanctified are all of one, for which reason He is not ashamed to call them brethren,",
+    tb2: "Sebab Dia yang menguduskan dan mereka yang dikuduskan, mereka semua berasal dari Satu; itulah sebabnya Ia tidak malu menyebut mereka saudara,"
+  },
+  "Hebrews 2:14-15": {
+    ref: "Hebrews 2:14–15",
+    refTB2: "Ibrani 2:14–15",
+    version: "NKJV",
+    text: "Inasmuch then as the children have partaken of flesh and blood, He Himself likewise shared in the same, that through death He might destroy him who had the power of death, that is, the devil, and release those who through fear of death were all their lifetime subject to bondage.",
+    tb2: "Karena anak-anak itu beroleh bagian dalam darah dan daging, Ia juga menjadi sama dengan mereka dan mendapat bagian dalam keadaan mereka, supaya melalui kematian-Nya Ia memusnahkan dia yang berkuasa atas maut, yaitu Iblis, dan membebaskan mereka yang seumur hidupnya berada dalam perhambaan oleh karena takut kepada maut."
+  },
+  "Hebrews 2:18": {
+    ref: "Hebrews 2:18",
+    refTB2: "Ibrani 2:18",
+    version: "NKJV",
+    text: "For in that He Himself has suffered, being tempted, He is able to aid those who are tempted.",
+    tb2: "Sebab oleh karena Ia sendiri telah menderita karena pencobaan, maka Ia dapat menolong mereka yang dicobai."
+  },
+  "Hebrews 7:27": {
+    ref: "Hebrews 7:27",
+    refTB2: "Ibrani 7:27",
+    version: "NKJV",
+    text: "who does not need daily, as those high priests, to offer up sacrifices, first for His own sins and then for the people's, for this He did once for all when He offered up Himself.",
+    tb2: "yang tidak seperti imam-imam besar lain, yang setiap hari harus mempersembahkan kurban untuk dosanya sendiri dan sesudah itu barulah untuk dosa umatnya, sebab hal itu telah dilakukan-Nya satu kali untuk selama-lamanya, ketika Ia mempersembahkan diri-Nya sendiri."
+  },
+  "Genesis 14:18-20": {
+    ref: "Genesis 14:18–20",
+    refTB2: "Kejadian 14:18–20",
+    version: "NKJV",
+    text: "Then Melchizedek king of Salem brought out bread and wine; he was the priest of God Most High. And he blessed him and said: \"Blessed be Abram of God Most High, Possessor of heaven and earth; And blessed be God Most High, Who has delivered your enemies into your hand.\" And he gave him a tithe of all.",
+    tb2: "Melkisedek, raja Salem, membawa roti dan anggur; ia seorang imam Allah Yang Mahatinggi. Lalu ia memberkati Abram, katanya: \"Diberkatilah kiranya Abram oleh Allah Yang Mahatinggi, Pencipta langit dan bumi, dan terpujilah Allah Yang Mahatinggi, yang telah menyerahkan musuhmu ke dalam tanganmu.\" Lalu Abram memberikan kepadanya sepersepuluh dari semuanya."
+  },
+  "John 14:8-9": {
+    ref: "John 14:8–9",
+    refTB2: "Yohanes 14:8–9",
+    version: "NKJV",
+    text: "Philip said to Him, \"Lord, show us the Father, and it is sufficient for us.\" Jesus said to him, \"Have I been with you so long, and yet you have not known Me, Philip? He who has seen Me has seen the Father; so how can you say, 'Show us the Father'?\"",
+    tb2: "Kata Filipus kepada-Nya: \"Tuhan, tunjukkanlah Bapa itu kepada kami, itu sudah cukup bagi kami.\" Kata Yesus kepadanya: \"Telah sekian lama Aku bersama-sama kamu, Filipus, namun engkau tidak mengenal Aku? Siapa saja yang telah melihat Aku, ia telah melihat Bapa; bagaimana engkau berkata: Tunjukkanlah Bapa itu kepada kami?\""
+  },
+  "Romans 8:19-21": {
+    ref: "Romans 8:19–21",
+    refTB2: "Roma 8:19–21",
+    version: "NKJV",
+    text: "For the earnest expectation of the creation eagerly waits for the revealing of the sons of God. For the creation was subjected to futility, not willingly, but because of Him who subjected it in hope; because the creation itself also will be delivered from the bondage of corruption into the glorious liberty of the children of God.",
+    tb2: "Sebab dengan sangat rindu seluruh ciptaan menantikan saat anak-anak Allah dinyatakan. Karena seluruh ciptaan telah ditaklukkan kepada kesia-siaan, bukan oleh kehendaknya sendiri, melainkan oleh kehendak Dia yang telah menaklukkannya dalam pengharapan, karena ciptaan itu sendiri juga akan dimerdekakan dari perhambaan kebinasaan dan masuk ke dalam kemerdekaan kemuliaan anak-anak Allah."
+  },
+  "1 Corinthians 3:15": {
+    ref: "1 Corinthians 3:15",
+    refTB2: "1 Korintus 3:15",
+    version: "NKJV",
+    text: "If anyone's work is burned, he will suffer loss; but he himself will be saved, yet so as through fire.",
+    tb2: "Jika pekerjaannya terbakar, ia akan menderita kerugian, tetapi ia sendiri akan diselamatkan, tetapi seperti dari dalam api."
+  },
+  "1 Thessalonians 5:23-24": {
+    ref: "1 Thessalonians 5:23–24",
+    refTB2: "1 Tesalonika 5:23–24",
+    version: "NKJV",
+    text: "Now may the God of peace Himself sanctify you completely; and may your whole spirit, soul, and body be preserved blameless at the coming of our Lord Jesus Christ. He who calls you is faithful, who also will do it.",
+    tb2: "Semoga Allah damai sejahtera menguduskan kamu seluruhnya dan semoga roh, jiwa, dan tubuhmu terpelihara sempurna tanpa cacat pada kedatangan Yesus Kristus, Tuhan kita. Ia yang memanggil kamu adalah setia, Ia juga yang akan menggenapinya."
+  },
+  "2 Timothy 1:10": {
+    ref: "2 Timothy 1:10",
+    refTB2: "2 Timotius 1:10",
+    version: "NKJV",
+    text: "but has now been revealed by the appearing of our Savior Jesus Christ, who has abolished death and brought life and immortality to light through the gospel,",
+    tb2: "dan yang sekarang dinyatakan oleh kedatangan Juruselamat kita Yesus Kristus, yang oleh Injil telah mematahkan kuasa maut dan mendatangkan hidup yang tidak dapat binasa."
+  },
+  "1 Timothy 2:5": {
+    ref: "1 Timothy 2:5",
+    refTB2: "1 Timotius 2:5",
+    version: "NKJV",
+    text: "For there is one God and one Mediator between God and men, the Man Christ Jesus,",
+    tb2: "Karena Allah itu esa dan esa pula Pengantara antara Allah dan manusia, yaitu manusia Kristus Yesus,"
+  },
+  "Acts 7:56": {
+    ref: "Acts 7:56",
+    refTB2: "Kisah Para Rasul 7:56",
+    version: "NKJV",
+    text: "and said, \"Look! I see the heavens opened and the Son of Man standing at the right hand of God!\"",
+    tb2: "Lalu katanya: \"Sungguh, aku melihat langit terbuka dan Anak Manusia berdiri di sebelah kanan Allah.\""
+  },
+  "Exodus 12:41": {
+    ref: "Exodus 12:41",
+    refTB2: "Keluaran 12:41",
+    version: "NKJV",
+    text: "And it came to pass at the end of the four hundred and thirty years—on that very same day—it came to pass that all the armies of the Lord went out from the land of Egypt.",
+    tb2: "Sesudah lewat empat ratus tiga puluh tahun, tepat pada hari itu juga, keluarlah seluruh pasukan TUHAN dari tanah Mesir."
   }
 };

@@ -305,6 +305,7 @@ Copy and adapt this code for any book:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#111113">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Message {{MSG_NUM}}: {{MSG_TITLE}} — Life-Study of {{BOOK_NAME}}</title>
@@ -475,6 +476,9 @@ window.BIBLE_VERSES_NKJV = {
 
 Every book folder must feature an `index.html` with:
 1. Header identifying the Life-Study book.
-2. A client-side search bar (`<input type="text" id="filter-input">`) that filters messages in real time.
+2. A client-side search bar (`<input type="search" id="filter-input">`) that filters messages in real time, powered by `<script src="../shared/index-filter.js"></script>` (no inline scripts: the CSP blocks them).
 3. A clean list of only **available** messages (`.msg-card`) linking directly to the message HTML file.
 4. No part dividers or status tags—strictly the clean cards and search bar.
+5. Every message HTML in the folder must be listed here; `build_index.py` fails the build otherwise.
+
+**Authoring rules:** write HTML, not Markdown, inside pages (italic transliterations like Greek words use `<em>metochoi</em>`, never `*metochoi*`). Only add `verses.js` entries for verses a page actually cites.

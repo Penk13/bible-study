@@ -855,20 +855,36 @@ details[open].model-review summary::after {
   inset: 0;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.72);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   display: flex;
   align-items: flex-end; /* Mobile default: bottom sheet */
   justify-content: center;
   padding: 0;
   opacity: 0;
+  visibility: hidden; /* Removes closed sheet from tab order & skips blur rendering */
   pointer-events: none;
-  transition: opacity 200ms ease;
+  transition: opacity 200ms ease, visibility 0s linear 200ms;
 }
 
 .verse-modal-overlay.is-active {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 200ms ease, visibility 0s;
+}
+
+.verse-modal-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.verse-modal-close:focus-visible,
+.verse-modal-btn:focus-visible,
+.verse-ref:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .verse-modal-card {
