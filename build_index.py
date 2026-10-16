@@ -8,7 +8,8 @@ Before building it validates the site and aborts on:
   - a message page not linked from its book's index.html
   - a book folder not linked from the root index.html
   - a relative href/src pointing at a missing file
-  - a .verse-ref data-ref missing from the book's assets/verses.js
+  - a .verse-ref data-ref missing from shared/verses.js
+  - a verse key defined twice in shared/verses.js
 
 Stdlib only, so it runs locally or as Cloudflare build command:
   python build_index.py
@@ -26,6 +27,7 @@ REPO_ONLY = shutil.ignore_patterns("*.md", ".*", "Thumbs.db", "desktop.ini", "__
 LINK_RE = re.compile(r'(?:href|src)="([^"#:?]+)[^"]*"')
 DATA_REF_RE = re.compile(r'data-ref="([^"]+)"')
 VERSE_KEY_RE = re.compile(r'^\s*"([^"]+)":\s*\{', re.M)
+VERSES_JS = ROOT / "shared" / "verses.js"
 
 
 def find_book_dirs():
@@ -56,6 +58,11 @@ def validate(book_dirs):
     if root_index.exists():
         check_links(root_index, errors)
 
+    all_keys = VERSE_KEY_RE.findall(read(VERSES_JS)) if VERSES_JS.exists() else []
+    verse_keys = set(all_keys)
+    for key in sorted({k for k in all_keys if all_keys.count(k) > 1}):
+        errors.append(f"shared/verses.js: verse defined twice -> {key}")
+
     for book in book_dirs:
         index = book / "index.html"
         if not index.exists():
@@ -65,8 +72,6 @@ def validate(book_dirs):
             errors.append(f"index.html: book not listed -> {book.name}")
 
         index_links = set(LINK_RE.findall(read(index)))
-        verses_js = book / "assets" / "verses.js"
-        verse_keys = set(VERSE_KEY_RE.findall(read(verses_js))) if verses_js.exists() else set()
 
         for page in sorted(book.glob("*.html")):
             check_links(page, errors)

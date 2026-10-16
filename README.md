@@ -17,7 +17,7 @@ All book folders and message HTML file names strictly follow the structure from:
 - **Reading first, mobile first:** one centered column, serif body text, light and dark themes that follow the device, safe-area insets and 44px touch targets.
 - **Review, not transcript:** a rapid-recall summary, 2–4 short sections, then 3–5 reflection questions that open to model answers.
 - **Small component set:** cards (with a `pair` variant for type → reality), a numbered flow, tables, callouts and questions. See `TEMPLATE.md`.
-- **Tappable Scripture:** every cited verse opens a bottom sheet with NKJV and Indonesian TB2 text from the book's `verses.js`.
+- **Tappable Scripture:** every cited verse opens a bottom sheet with NKJV and Indonesian TB2 text from `shared/verses.js`.
 - **Plain HTML & CSS:** no frameworks, no build-time templating, no runtime dependencies.
 
 ## Structure
@@ -32,18 +32,15 @@ BibleStudy/
 ├── index.html                        # Main library portal (lists all available Life-Study books)
 ├── shared/                           # Universal shared assets (no code repetition)
 │   ├── styles.css                    # Design system (all components)
+│   ├── verses.js                     # Scripture dictionary for all books (NKJV + TB2)
 │   ├── verse-modal.js                # Verse bottom sheet + reading progress
 │   └── index-filter.js               # Live search for index pages
 ├── life-study-of-hebrews/            # Matches Penk13/WebToEpub results/life-study-of-hebrews
-│   ├── assets/
-│   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
 │   ├── index.html                    # Searchable message directory for Hebrews
 │   ├── 001-A-Foreword.html           # Matches 001-A-Foreword.epub
 │   ├── 002-God-Has-Spoken.html       # Matches 002-God-Has-Spoken.epub
 │   └── ... (003 onward, added as messages are written)
 ├── life-study-of-romans/             # Matches Penk13/WebToEpub results/life-study-of-romans
-│   ├── assets/
-│   │   └── verses.js                 # Book-specific NKJV Scripture dictionary
 │   ├── index.html                    # Searchable message directory for Romans
 │   ├── 001-A-Foreword.html           # Matches 001-A-Foreword.epub
 │   └── 002-The-Gospel-of-God.html   # Matches 002-The-Gospel-of-God.epub
@@ -60,7 +57,7 @@ Static site deployed as a Cloudflare Worker with static assets. **Auto-deploys o
   python build_index.py
   ```
 
-- Before building, `build_index.py` validates the site and aborts if a message page is missing from its book index, a book is missing from the root index, a relative link is broken, or a `data-ref` verse is missing from `verses.js`.
+- Before building, `build_index.py` validates the site and aborts if a message page is missing from its book index, a book is missing from the root index, a relative link is broken, or a `data-ref` verse is missing from (or defined twice in) `shared/verses.js`.
 - `_headers` sets the Content-Security-Policy and other security headers. Scripts load only from the site itself; `connect-src` allows only `https://bible-api.com` (online fallback for verses missing from `verses.js`).
 - `wrangler.jsonc` configures the Cloudflare Worker to serve `./dist`.
 - Manual deploy (only if auto-deploy is unavailable):

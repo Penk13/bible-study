@@ -7,7 +7,7 @@ How to write a review page for any book of the *Life-Study of the Bible*. Pages 
 - **Review, not transcript.** Written for after reading the real message: the vital lines, not every point.
 - **Short.** A recap bullet is one or two sentences. A section is a heading, a short paragraph, and at most one or two components.
 - **One component per idea.** Pick the component that matches the shape of the idea (see below); plain paragraphs are fine too.
-- **Every verse is tappable.** Cite Scripture with a `.verse-ref` button; the text comes from the book's `assets/verses.js` (NKJV + Indonesian TB2).
+- **Every verse is tappable.** Cite Scripture with a `.verse-ref` button; the text comes from `shared/verses.js` (NKJV + Indonesian TB2).
 - **Mobile first.** Everything is designed for a phone; desktop just gets more room. Light and dark themes follow the device.
 
 ## Naming
@@ -97,7 +97,7 @@ pager         ← Previous      Next →
     </nav>
   </main>
 
-  <script src="assets/verses.js"></script>
+  <script src="../shared/verses.js"></script>
   <script src="../shared/verse-modal.js"></script>
 </body>
 </html>
@@ -211,9 +211,9 @@ Use when there are 3+ attributes per row. Wrap for horizontal scroll on phones; 
 
 Answers: 2–3 short paragraphs, each led by a bold label.
 
-## Scripture (`assets/verses.js`)
+## Scripture (`shared/verses.js`)
 
-Every `data-ref` must exist in the book's `verses.js` (the build fails otherwise). Use full book names in `data-ref` (`Hebrews 2:3`), abbreviations in the visible label (`Heb. 2:3`). Only add verses a page actually cites.
+One dictionary serves every book. Before adding a verse, search the file: it may already be there. Keep entries in Bible order under their book's `// --- Book ---` comment. Every `data-ref` must exist in it, and each key may appear only once (the build fails otherwise). Use full book names in `data-ref` (`Hebrews 2:3`), abbreviations in the visible label (`Heb. 2:3`). Only add verses a page actually cites. `text` is NKJV without surrounding quote marks (the sheet adds them).
 
 ```javascript
 window.BIBLE_VERSES_NKJV = {
