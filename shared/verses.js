@@ -532,7 +532,7 @@ window.BIBLE_VERSES_NKJV = {
     refTB2: "Efesus 1:22–23",
     version: "NKJV",
     text: "And He put all things under His feet, and gave Him to be head over all things to the church, which is His body, the fullness of Him who fills all in all.",
-    tb2: "Dan segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
+    tb2: "Segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
   },
   "Ephesians 2:8": {
     ref: "Ephesians 2:8",
