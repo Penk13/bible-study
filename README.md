@@ -18,7 +18,7 @@ All book folders and message HTML file names strictly follow the structure from:
 - **Review-Centric:** Designed for high-yield, rapid review right after reading the actual Life-Study message.
 - **Visual over Walls of Text:** Mobile-optimized vertical flow cards, pipelines, and high-contrast dual cards to anchor mental models quickly without endless scrolling.
 - **Active Recall:** 3–5 open-ended reflection questions with thumb-friendly tap disclosures for key insights (no form textboxes).
-- **Verbatim NKJV Scripture Bottom-Sheet:** Instant offline drawer for any Bible verse cited, with touch swipe-to-dismiss and a one-tap toggle to the Indonesian TB2 translation.
+- **Verbatim NKJV Scripture Bottom-Sheet:** Instant drawer for any Bible verse cited (text bundled in each book's `verses.js`), with touch swipe-to-dismiss and a one-tap toggle to the Indonesian TB2 translation.
 - **Strict 5-Color Unified Palette:** OLED-friendly deep dark canvas (`#111113`), crisp surfaces (`#18181b`), white headings (`#fafafa`), readable zinc body text (`#d4d4d8`), and strictly ONE luminous sky blue (`#38bdf8`) for zero visual fatigue.
 - **Simple, Standalone Architecture:** Clean, pure HTML & CSS with zero runtime dependencies or heavy frameworks.
 
@@ -54,9 +54,9 @@ BibleStudy/
 
 ## Site & Deployment
 
-Static site deployed as a Cloudflare Worker with static assets.
+Static site deployed as a Cloudflare Worker with static assets. **Auto-deploys on every push to `main`** — Cloudflare runs the build and publishes `dist/`; no manual deploy needed.
 
-- `build_index.py` builds the site into `dist/` (gitignored), packaging all book guides and shared styles while excluding markdown authoring notes (`TEMPLATE.md`, `README.md`) and internal repository files. Run locally or as the Cloudflare build command:
+- `build_index.py` builds the site into `dist/` (gitignored), packaging all book guides and shared styles while excluding markdown authoring notes (`TEMPLATE.md`, `README.md`) and internal repository files. It is the Cloudflare build command; run it locally to check the build:
 
   ```sh
   python build_index.py
@@ -65,7 +65,7 @@ Static site deployed as a Cloudflare Worker with static assets.
 - Before building, `build_index.py` validates the site and aborts if a message page is missing from its book index, a book is missing from the root index, a relative link is broken, or a `data-ref` verse is missing from `verses.js`.
 - `_headers` sets the Content-Security-Policy and other security headers. Scripts load only from the site itself; `connect-src` allows only `https://bible-api.com` (online fallback for verses missing from `verses.js`).
 - `wrangler.jsonc` configures the Cloudflare Worker to serve `./dist`.
-- Deploy from the CLI:
+- Manual deploy (only if auto-deploy is unavailable):
 
   ```sh
   python build_index.py

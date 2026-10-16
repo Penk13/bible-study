@@ -21,7 +21,7 @@ This specification defines the universal architecture, visual standards, and aut
 4. **Active Recall via Thumb-Friendly Disclosures (No Textboxes):** 
    * Deep reflection questions are open-ended for mental meditation, paired with a full-width tactile `<details>` toggle button revealing model insights.
 5. **Verbatim Clickable Scripture Bottom-Sheet with Indonesian TB2 Translation:** 
-   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (100% offline-ready) with a one-tap toggle to show the Indonesian **Terjemahan Baru Edisi 2 (TB2)** translation.
+   * Every Scripture citation is an interactive `.verse-ref` button that opens an instant mobile bottom-sheet displaying the exact **New King James Version (NKJV)** text (bundled in the book's `assets/verses.js`, no network fetch needed) with a one-tap toggle to show the Indonesian **Terjemahan Baru Edisi 2 (TB2)** translation.
 6. **Strict 5-Color Unified Palette:**
    * Avoid color clutter and avoid multiple shades of blue. OLED-friendly true dark palette:
      1. **Base Dark Canvas & Cards:** `#111113` / `#18181b` (True neutral zinc/charcoal, zero blue tint).
