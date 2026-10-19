@@ -19,6 +19,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And the LORD God caused a deep sleep to fall on Adam, and he slept; and He took one of his ribs, and closed up the flesh in its place. Then the rib which the LORD God had taken from man He made into a woman, and He brought her to the man. And Adam said: 'This is now bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of Man.' Therefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh. And they were both naked, the man and his wife, and were not ashamed.",
     tb2: "Lalu TUHAN Allah membuat manusia itu tidur nyenyak; dan ketika ia tidur, TUHAN Allah mengambil salah satu rusuknya, lalu menutup tempat itu dengan daging. Dari rusuk yang diambil TUHAN Allah dari manusia itu, dibangun-Nyalah seorang perempuan, lalu dibawa-Nya kepada manusia itu. Berkatalah manusia itu, \"Inilah dia, tulang dari tulangku dan daging dari dagingku. Ia akan dinamai perempuan, sebab ia diambil dari laki-laki.\" Sebab itu seorang laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya menjadi satu daging. Mereka keduanya telanjang, manusia dan istrinya itu, tetapi mereka tidak merasa malu."
   },
+  "Genesis 3:15": {
+    ref: "Genesis 3:15",
+    refTB2: "Kejadian 3:15",
+    version: "NKJV",
+    text: "And I will put enmity Between you and the woman, And between your seed and her Seed; He shall bruise your head, And you shall bruise His heel.",
+    tb2: "Aku akan mengadakan permusuhan antara engkau dan perempuan ini, antara keturunanmu dan keturunannya; keturunannya akan meremukkan kepalamu, dan engkau akan meremukkan tumitnya."
+  },
   "Genesis 14:13": {
     ref: "Genesis 14:13",
     refTB2: "Kejadian 14:13",
@@ -312,6 +319,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices greatly because of the bridegroom’s voice. Therefore this joy of mine is fulfilled. He must increase, but I must decrease.",
     tb2: "Yang punya mempelai perempuan, ialah mempelai laki-laki; tetapi sahabat mempelai laki-laki, yang berdiri dekat dia dan yang mendengarkannya, sangat bersukacita mendengar suara mempelai laki-laki itu. Itulah sukacitaku, dan sekarang sukacitaku itu penuh. Ia harus makin besar, tetapi aku harus makin kecil."
   },
+  "John 5:39-40": {
+    ref: "John 5:39–40",
+    refTB2: "Yohanes 5:39–40",
+    version: "NKJV",
+    text: "You search the Scriptures, for in them you think you have eternal life; and these are they which testify of Me. But you are not willing to come to Me that you may have life.",
+    tb2: "Kamu menyelidiki Kitab-kitab Suci, sebab kamu menyangka bahwa olehnya kamu mempunyai hidup yang kekal, tetapi walaupun Kitab-kitab Suci itu memberi kesaksian tentang Aku, namun kamu tidak mau datang kepada-Ku untuk memperoleh hidup itu."
+  },
   "John 10:28": {
     ref: "John 10:28",
     refTB2: "Yohanes 10:28",
@@ -319,12 +333,33 @@ window.BIBLE_VERSES_NKJV = {
     text: "And I give them eternal life, and they shall never perish; neither shall anyone snatch them out of My hand.",
     tb2: "Aku memberikan hidup yang kekal kepada mereka dan mereka pasti tidak akan binasa sampai selama-lamanya dan seorang pun tidak akan merebut mereka dari tangan-Ku."
   },
+  "John 12:24": {
+    ref: "John 12:24",
+    refTB2: "Yohanes 12:24",
+    version: "NKJV",
+    text: "Most assuredly, I say to you, unless a grain of wheat falls into the ground and dies, it remains alone; but if it dies, it produces much grain.",
+    tb2: "Aku berkata kepadamu: Sesungguhnya jikalau biji gandum tidak jatuh ke dalam tanah dan mati, ia tetap satu biji saja; tetapi jika ia mati, ia akan menghasilkan banyak buah."
+  },
   "John 14:8-9": {
     ref: "John 14:8–9",
     refTB2: "Yohanes 14:8–9",
     version: "NKJV",
     text: "Philip said to Him, \"Lord, show us the Father, and it is sufficient for us.\" Jesus said to him, \"Have I been with you so long, and yet you have not known Me, Philip? He who has seen Me has seen the Father; so how can you say, 'Show us the Father'?\"",
     tb2: "Kata Filipus kepada-Nya: \"Tuhan, tunjukkanlah Bapa itu kepada kami, itu sudah cukup bagi kami.\" Kata Yesus kepadanya: \"Telah sekian lama Aku bersama-sama kamu, Filipus, namun engkau tidak mengenal Aku? Siapa saja yang telah melihat Aku, ia telah melihat Bapa; bagaimana engkau berkata: Tunjukkanlah Bapa itu kepada kami?\""
+  },
+  "John 19:2": {
+    ref: "John 19:2",
+    refTB2: "Yohanes 19:2",
+    version: "NKJV",
+    text: "And the soldiers twisted a crown of thorns and put it on His head, and they put on Him a purple robe.",
+    tb2: "Prajurit-prajurit menganyam sebuah mahkota duri dan menaruhnya di atas kepala-Nya. Mereka memakaikan Dia jubah ungu,"
+  },
+  "John 20:17": {
+    ref: "John 20:17",
+    refTB2: "Yohanes 20:17",
+    version: "NKJV",
+    text: "Jesus said to her, \"Do not cling to Me, for I have not yet ascended to My Father; but go to My brethren and say to them, 'I am ascending to My Father and your Father, and to My God and your God.'\"",
+    tb2: "Kata Yesus kepadanya, \"Janganlah engkau memegang Aku, sebab Aku belum pergi kepada Bapa, tetapi pergilah kepada saudara-saudara-Ku dan katakanlah kepada mereka bahwa sekarang Aku akan pergi kepada Bapa-Ku dan Bapamu, kepada Allah-Ku dan Allahmu.\""
   },
   // --- Acts ---
   "Acts 2:36": {
@@ -354,6 +389,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "and said, \"Look! I see the heavens opened and the Son of Man standing at the right hand of God!\"",
     tb2: "Lalu katanya: \"Sungguh, aku melihat langit terbuka dan Anak Manusia berdiri di sebelah kanan Allah.\""
+  },
+  "Acts 11:26": {
+    ref: "Acts 11:26",
+    refTB2: "Kisah Para Rasul 11:26",
+    version: "NKJV",
+    text: "And when he had found him, he brought him to Antioch. So it was that for a whole year they assembled with the church and taught a great many people. And the disciples were first called Christians in Antioch.",
+    tb2: "Setelah bertemu dengan dia, ia membawanya ke Antiokhia. Mereka tinggal bersama-sama dengan jemaat itu satu tahun lamanya, sambil mengajar banyak orang. Di Antiokhialah murid-murid itu untuk pertama kalinya disebut Kristen."
   },
   "Acts 13:33": {
     ref: "Acts 13:33",
@@ -510,12 +552,54 @@ window.BIBLE_VERSES_NKJV = {
     text: "Indeed you are called a Jew, and rest on the law, and make your boast in God,",
     tb2: "Tetapi, jika engkau menyebut dirimu orang Yahudi dan bersandar kepada hukum Taurat, bermegah dalam Allah,"
   },
+  "Romans 2:18": {
+    ref: "Romans 2:18",
+    refTB2: "Roma 2:18",
+    version: "NKJV",
+    text: "and know His will, and approve the things that are excellent, being instructed out of the law,",
+    tb2: "dan tahu akan kehendak-Nya, dan oleh karena diajar dalam hukum Taurat, dapat tahu manakah yang baik,"
+  },
+  "Romans 2:21-22": {
+    ref: "Romans 2:21–22",
+    refTB2: "Roma 2:21–22",
+    version: "NKJV",
+    text: "You, therefore, who teach another, do you not teach yourself? You who preach that a man should not steal, do you steal? You who say, \"Do not commit adultery,\" do you commit adultery? You who abhor idols, do you rob temples?",
+    tb2: "Jadi, bagaimanakah engkau yang mengajar orang lain, tidakkah engkau mengajar dirimu sendiri? Engkau yang mengajar, \"Jangan mencuri,\" mengapa engkau sendiri mencuri? Engkau yang berkata, \"Jangan berzina,\" mengapa engkau sendiri berzina? Engkau yang jijik akan segala berhala, mengapa engkau sendiri merampok rumah berhala?"
+  },
+  "Romans 2:28": {
+    ref: "Romans 2:28",
+    refTB2: "Roma 2:28",
+    version: "NKJV",
+    text: "For he is not a Jew who is one outwardly, nor is circumcision that which is outward in the flesh;",
+    tb2: "Sebab yang disebut Yahudi bukanlah orang yang lahiriah Yahudi, dan yang disebut sunat bukanlah sunat yang dilakukan secara lahiriah."
+  },
   "Romans 2:29": {
     ref: "Romans 2:29",
     refTB2: "Roma 2:29",
     version: "NKJV",
     text: "but he is a Jew who is one inwardly; and circumcision is that of the heart, in the Spirit, not in the letter; whose praise is not from men but from God.",
     tb2: "Tetapi orang Yahudi sejati ialah orang yang tidak tampak keyahudiannya dan sunat sejati ialah sunat di dalam hati, secara rohani, bukan secara harfiah. Pujian bagi orang seperti itu datang bukan dari manusia, melainkan dari Allah."
+  },
+  "Romans 3:2": {
+    ref: "Romans 3:2",
+    refTB2: "Roma 3:2",
+    version: "NKJV",
+    text: "Much in every way! Chiefly because to them were committed the oracles of God.",
+    tb2: "Banyak sekali, dan di dalam segala hal. Pertama-tama, sebab kepada merekalah dipercayakan firman Allah."
+  },
+  "Romans 3:10-12": {
+    ref: "Romans 3:10–12",
+    refTB2: "Roma 3:10–12",
+    version: "NKJV",
+    text: "As it is written: \"There is none righteous, no, not one; There is none who understands; There is none who seeks after God. They have all turned aside; They have together become unprofitable; There is none who does good, no, not one.\"",
+    tb2: "seperti ada tertulis, \"Tidak ada yang benar, seorang pun tidak. Tidak ada seorang pun yang berakal budi, tidak ada seorang pun yang mencari Allah. Semua orang telah menyeleweng, mereka semua tidak berguna, tidak ada yang berbuat baik, seorang pun tidak.\""
+  },
+  "Romans 3:19": {
+    ref: "Romans 3:19",
+    refTB2: "Roma 3:19",
+    version: "NKJV",
+    text: "Now we know that whatever the law says, it says to those who are under the law, that every mouth may be stopped, and all the world may become guilty before God.",
+    tb2: "Tetapi kita tahu bahwa segala sesuatu yang tercantum dalam kitab Taurat ditujukan kepada mereka yang hidup di bawah hukum Taurat, supaya tersumbat setiap mulut dan seluruh dunia jatuh ke bawah hukuman Allah."
   },
   "Romans 4:17": {
     ref: "Romans 4:17",
@@ -718,6 +802,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For by Him all things were created that are in heaven and that are on earth, visible and invisible, whether thrones or dominions or principalities or powers. All things were created through Him and for Him. And He is before all things, and in Him all things consist.",
     tb2: "karena di dalam Dialah telah diciptakan segala sesuatu, yang ada di surga dan yang ada di bumi, yang kelihatan dan yang tidak kelihatan, baik singgasana, maupun kerajaan, baik pemerintah, maupun penguasa; segala sesuatu diciptakan oleh Dia dan untuk Dia. Ia ada terlebih dahulu dari segala sesuatu dan segala sesuatu menyatu di dalam Dia."
   },
+  "Colossians 1:20": {
+    ref: "Colossians 1:20",
+    refTB2: "Kolose 1:20",
+    version: "NKJV",
+    text: "and by Him to reconcile all things to Himself, by Him, whether things on earth or things in heaven, having made peace through the blood of His cross.",
+    tb2: "dan oleh Dialah Ia memperdamaikan segala sesuatu dengan diri-Nya, baik yang ada di bumi, maupun yang ada di surga, sesudah Ia mengadakan pendamaian oleh darah salib Kristus."
+  },
   // --- 1 Thessalonians ---
   "1 Thessalonians 5:23-24": {
     ref: "1 Thessalonians 5:23–24",
@@ -918,12 +1009,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "For both He who sanctifies and those who are being sanctified are all of one, for which reason He is not ashamed to call them brethren,",
     tb2: "Sebab Dia yang menguduskan dan mereka yang dikuduskan, mereka semua berasal dari Satu; itulah sebabnya Ia tidak malu menyebut mereka saudara,"
   },
+  "Hebrews 2:12": {
+    ref: "Hebrews 2:12",
+    refTB2: "Ibrani 2:12",
+    version: "NKJV",
+    text: "saying: \"I will declare Your name to My brethren; In the midst of the assembly I will sing praise to You.\"",
+    tb2: "kata-Nya, \"Aku akan memberitakan nama-Mu kepada saudara-saudara-Ku, dan memuji-muji Engkau di tengah-tengah jemaat,\""
+  },
   "Hebrews 2:14-15": {
     ref: "Hebrews 2:14–15",
     refTB2: "Ibrani 2:14–15",
     version: "NKJV",
     text: "Inasmuch then as the children have partaken of flesh and blood, He Himself likewise shared in the same, that through death He might destroy him who had the power of death, that is, the devil, and release those who through fear of death were all their lifetime subject to bondage.",
     tb2: "Karena anak-anak itu beroleh bagian dalam darah dan daging, Ia juga menjadi sama dengan mereka dan mendapat bagian dalam keadaan mereka, supaya melalui kematian-Nya Ia memusnahkan dia yang berkuasa atas maut, yaitu Iblis, dan membebaskan mereka yang seumur hidupnya berada dalam perhambaan oleh karena takut kepada maut."
+  },
+  "Hebrews 2:17": {
+    ref: "Hebrews 2:17",
+    refTB2: "Ibrani 2:17",
+    version: "NKJV",
+    text: "Therefore, in all things He had to be made like His brethren, that He might be a merciful and faithful High Priest in things pertaining to God, to make propitiation for the sins of the people.",
+    tb2: "Itulah sebabnya, dalam segala hal Ia harus disamakan dengan saudara-saudara-Nya, supaya Ia menjadi Imam Besar yang menaruh belas kasihan dan yang setia kepada Allah untuk mendamaikan dosa seluruh bangsa."
   },
   "Hebrews 2:18": {
     ref: "Hebrews 2:18",
@@ -1093,6 +1198,14 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "who formerly were disobedient, when once the Divine longsuffering waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight souls, were saved through water. There is also an antitype which now saves us—baptism (not the removal of the filth of the flesh, but the answer of a good conscience toward God), through the resurrection of Jesus Christ,",
     tb2: "yaitu kepada roh-roh mereka yang dahulu pada waktu Nuh tidak taat kepada Allah, ketika Allah tetap menanti dengan sabar waktu Nuh sedang mempersiapkan bahteranya, di mana hanya sedikit, yaitu delapan orang, yang diselamatkan melalui air bah itu. Juga kamu sekarang diselamatkan oleh kiasannya, yaitu baptisan — maksudnya bukan untuk membersihkan kenajisan jasmani, melainkan untuk memohonkan hati nurani yang baik kepada Allah — melalui kebangkitan Yesus Kristus,"
+  },
+  // --- 2 Peter ---
+  "2 Peter 1:4": {
+    ref: "2 Peter 1:4",
+    refTB2: "2 Petrus 1:4",
+    version: "NKJV",
+    text: "by which have been given to us exceedingly great and precious promises, that through these you may be partakers of the divine nature, having escaped the corruption that is in the world through lust.",
+    tb2: "Dengan jalan itu Ia telah menganugerahkan kepada kita janji-janji yang berharga dan yang sangat besar, supaya olehnya kamu boleh mengambil bagian dalam kodrat ilahi, dan luput dari hawa nafsu duniawi yang membinasakan dunia."
   },
   // --- 1 John ---
   "1 John 1:9": {
