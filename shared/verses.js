@@ -26,6 +26,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And I will put enmity Between you and the woman, And between your seed and her Seed; He shall bruise your head, And you shall bruise His heel.",
     tb2: "Aku akan mengadakan permusuhan antara engkau dan perempuan ini, antara keturunanmu dan keturunannya; keturunannya akan meremukkan kepalamu, dan engkau akan meremukkan tumitnya."
   },
+  "Genesis 12:1": {
+    ref: "Genesis 12:1",
+    refTB2: "Kejadian 12:1",
+    version: "NKJV",
+    text: "Now the LORD had said to Abram: \"Get out of your country, From your family And from your father's house, To a land that I will show you.\"",
+    tb2: "Berfirmanlah TUHAN kepada Abram, \"Pergilah dari negerimu dan dari sanak saudaramu dan dari rumah bapamu ini ke negeri yang akan Kutunjukkan kepadamu;\""
+  },
   "Genesis 14:13": {
     ref: "Genesis 14:13",
     refTB2: "Kejadian 14:13",
@@ -97,6 +104,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And it came to pass at the end of the four hundred and thirty years—on that very same day—it came to pass that all the armies of the Lord went out from the land of Egypt.",
     tb2: "Sesudah lewat empat ratus tiga puluh tahun, tepat pada hari itu juga, keluarlah seluruh pasukan TUHAN dari tanah Mesir."
   },
+  "Exodus 13:21": {
+    ref: "Exodus 13:21",
+    refTB2: "Keluaran 13:21",
+    version: "NKJV",
+    text: "And the LORD went before them by day in a pillar of cloud to lead the way, and by night in a pillar of fire to give them light, so as to go by day and night.",
+    tb2: "TUHAN berjalan di depan mereka, pada siang hari dalam tiang awan untuk menuntun mereka di jalan, dan pada waktu malam dalam tiang api untuk menerangi mereka, sehingga mereka dapat berjalan siang dan malam."
+  },
   "Exodus 15:1": {
     ref: "Exodus 15:1",
     refTB2: "Keluaran 15:1",
@@ -111,6 +125,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "You shall put the mercy seat on top of the ark, and in the ark you shall put the Testimony that I will give you. And there I will meet with you, and I will speak with you from above the mercy seat, from between the two cherubim which are on the ark of the Testimony, about everything which I will give you in commandment to the children of Israel.",
     tb2: "Haruslah kauletakkan tutup pendamaian itu di atas tabut dan dalam tabut itu harus kautaruh loh hukum yang akan Kuberikan kepadamu. Di sanalah Aku akan bertemu dengan engkau, dan dari atas tutup pendamaian itu, dari antara kedua kerub yang di atas tabut hukum itu, Aku akan berbicara dengan engkau tentang segala sesuatu yang akan Kuperintahkan kepadamu untuk disampaikan kepada orang Israel."
   },
+  "Exodus 40:30-32": {
+    ref: "Exodus 40:30–32",
+    refTB2: "Keluaran 40:30–32",
+    version: "NKJV",
+    text: "He set the laver between the tabernacle of meeting and the altar, and put water there for washing; and Moses, Aaron, and his sons would wash their hands and their feet with water from it. Whenever they went into the tabernacle of meeting, and when they came near the altar, they washed, as the LORD had commanded Moses.",
+    tb2: "Ia menaruh bejana pembasuhan itu di antara Kemah Pertemuan dan mezbah, lalu ditaruhnya air ke dalamnya untuk pembasuhan. Musa dan Harun serta anak-anaknya membasuh tangan dan kaki mereka dengan air itu. Apabila mereka masuk ke dalam Kemah Pertemuan dan apabila mereka datang ke mezbah, mereka membasuh tangan dan kaki, seperti yang diperintahkan TUHAN kepada Musa."
+  },
   // --- Leviticus ---
   "Leviticus 16:14": {
     ref: "Leviticus 16:14",
@@ -120,6 +141,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Kemudian ia harus mengambil sedikit dari darah lembu jantan itu, lalu memercikkannya dengan jarinya ke atas tutup pendamaian di sebelah depan, dan ke depan tutup pendamaian itu ia harus memercikkan sedikit dari darah itu dengan jarinya tujuh kali."
   },
   // --- Joshua ---
+  "Joshua 4:8-9": {
+    ref: "Joshua 4:8–9",
+    refTB2: "Yosua 4:8–9",
+    version: "NKJV",
+    text: "And the children of Israel did so, just as Joshua commanded, and took up twelve stones from the midst of the Jordan, as the LORD had spoken to Joshua, according to the number of the tribes of the children of Israel, and carried them over with them to the place where they lodged, and laid them down there. Then Joshua set up twelve stones in the midst of the Jordan, in the place where the feet of the priests who bore the ark of the covenant stood; and they are there to this day.",
+    tb2: "Lalu orang Israel itu berbuat seperti yang diperintahkan Yosua; mereka mengangkat dua belas batu dari tengah-tengah sungai Yordan, seperti yang difirmankan TUHAN kepada Yosua, sesuai dengan jumlah suku orang Israel, dan membawanya ke seberang, ke tempat bermalam, lalu meletakkannya di sana. Yosua juga menegakkan dua belas batu di tengah-tengah sungai Yordan, di tempat kaki para imam pengangkat tabut perjanjian itu berjejak; batu-batu itu masih ada di sana sampai hari ini."
+  },
   "Joshua 24:2-3": {
     ref: "Joshua 24:2–3",
     refTB2: "Yosua 24:2–3",
@@ -420,6 +448,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Him God has exalted to His right hand to be Prince and Savior, to give repentance to Israel and forgiveness of sins.",
     tb2: "Dialah yang telah ditinggikan oleh tangan kanan Allah menjadi Pemimpin dan Juruselamat, supaya Israel dapat bertobat dan menerima pengampunan dosa."
   },
+  "Acts 7:2": {
+    ref: "Acts 7:2",
+    refTB2: "Kisah Para Rasul 7:2",
+    version: "NKJV",
+    text: "And he said, \"Brethren and fathers, listen: The God of glory appeared to our father Abraham when he was in Mesopotamia, before he dwelt in Haran,\"",
+    tb2: "Jawab Stefanus, \"Hai saudara-saudara dan bapak-bapak, dengarlah! Allah yang Mahamulia telah menampakkan diri-Nya kepada bapa leluhur kita Abraham, ketika ia masih di Mesopotamia, sebelum ia menetap di Haran,\""
+  },
   "Acts 7:53": {
     ref: "Acts 7:53",
     refTB2: "Kisah Para Rasul 7:53",
@@ -701,12 +736,54 @@ window.BIBLE_VERSES_NKJV = {
     text: "Or is He the God of the Jews only? Is He not also the God of the Gentiles? Yes, of the Gentiles also, since there is one God who will justify the circumcised by faith and the uncircumcised through faith.",
     tb2: "Atau adakah Allah hanya Allah orang Yahudi saja? Bukankah Ia juga adalah Allah bangsa-bangsa lain? Ya, benar. Ia juga adalah Allah bangsa-bangsa lain! Artinya, kalau ada satu Allah, yang akan membenarkan baik orang-orang bersunat karena iman, maupun orang-orang tidak bersunat juga karena iman."
   },
+  "Romans 4:3": {
+    ref: "Romans 4:3",
+    refTB2: "Roma 4:3",
+    version: "NKJV",
+    text: "For what does the Scripture say? \"Abraham believed God, and it was accounted to him for righteousness.\"",
+    tb2: "Sebab apakah dikatakan nas Kitab Suci? \"Lalu percayalah Abraham kepada Tuhan, dan Tuhan memperhitungkan hal itu kepadanya sebagai kebenaran.\""
+  },
+  "Romans 4:11": {
+    ref: "Romans 4:11",
+    refTB2: "Roma 4:11",
+    version: "NKJV",
+    text: "And he received the sign of circumcision, a seal of the righteousness of the faith which he had while still uncircumcised, that he might be the father of all those who believe, though they are uncircumcised, that righteousness might be imputed to them also,",
+    tb2: "Tanda sunat itu diterimanya sebagai meterai kebenaran berdasarkan iman yang ditunjukkannya sebelum ia bersunat. Demikianlah ia dapat menjadi bapa semua orang percaya yang tidak bersunat, supaya kebenaran diperhitungkan kepada mereka,"
+  },
+  "Romans 4:13": {
+    ref: "Romans 4:13",
+    refTB2: "Roma 4:13",
+    version: "NKJV",
+    text: "For the promise that he would be the heir of the world was not to Abraham or to his seed through the law, but through the righteousness of faith.",
+    tb2: "Sebab bukan karena hukum Taurat telah diberikan janji kepada Abraham dan keturunannya, bahwa ia akan memiliki dunia, tetapi karena kebenaran berdasarkan iman."
+  },
+  "Romans 4:16": {
+    ref: "Romans 4:16",
+    refTB2: "Roma 4:16",
+    version: "NKJV",
+    text: "Therefore it is of faith that it might be according to grace, so that the promise might be sure to all the seed, not only to those who are of the law, but also to those who are of the faith of Abraham, who is the father of us all",
+    tb2: "Karena itulah kebenaran berdasarkan iman supaya merupakan kasih karunia, sehingga janji itu berlaku bagi semua keturunan Abraham, bukan hanya bagi mereka yang hidup dari hukum Taurat, tetapi juga bagi mereka yang hidup dari iman Abraham. Sebab Abraham adalah bapa kita semua,"
+  },
   "Romans 4:17": {
     ref: "Romans 4:17",
     refTB2: "Roma 4:17",
     version: "NKJV",
     text: "(as it is written, \"I have made you a father of many nations\") in the presence of Him whom he believed—God, who gives life to the dead and calls those things which do not exist as though they did;",
     tb2: "seperti ada tertulis: \"Engkau telah Kutetapkan menjadi bapak banyak bangsa\" — di hadapan Allah yang kepada-Nya ia percaya, yaitu Allah yang menghidupkan orang mati dan menjadikan dengan firman-Nya apa yang tidak ada menjadi ada."
+  },
+  "Romans 4:19": {
+    ref: "Romans 4:19",
+    refTB2: "Roma 4:19",
+    version: "NKJV",
+    text: "And not being weak in faith, he did not consider his own body, already dead (since he was about a hundred years old), and the deadness of Sarah's womb.",
+    tb2: "Imannya tidak menjadi lemah, walaupun ia mengetahui bahwa tubuhnya sudah sangat lemah, karena usianya telah kira-kira seratus tahun, dan bahwa rahim Sara telah tertutup."
+  },
+  "Romans 4:25": {
+    ref: "Romans 4:25",
+    refTB2: "Roma 4:25",
+    version: "NKJV",
+    text: "who was delivered up because of our offenses, and was raised because of our justification.",
+    tb2: "yaitu Yesus, yang telah diserahkan karena pelanggaran kita dan dibangkitkan karena pembenaran kita."
   },
   "Romans 5:10": {
     ref: "Romans 5:10",
@@ -785,6 +862,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For whom He foreknew, He also predestined to be conformed to the image of His Son, that He might be the firstborn among many brethren. Moreover whom He predestined, these He also called; whom He called, these He also justified; and whom He justified, these He also glorified.",
     tb2: "Sebab semua orang yang dipilih-Nya dari semula, mereka juga ditentukan-Nya dari semula untuk menjadi serupa dengan gambar Anak-Nya, supaya Ia, Anak-Nya itu, menjadi yang sulung di antara banyak saudara. Mereka yang ditentukan-Nya dari semula, mereka itu juga dipanggil-Nya. Mereka yang dipanggil-Nya, mereka itu juga dibenarkan-Nya. Mereka yang dibenarkan-Nya, mereka itu juga dimuliakan-Nya."
   },
+  "Romans 8:30": {
+    ref: "Romans 8:30",
+    refTB2: "Roma 8:30",
+    version: "NKJV",
+    text: "Moreover whom He predestined, these He also called; whom He called, these He also justified; and whom He justified, these He also glorified.",
+    tb2: "Mereka yang ditentukan-Nya dari semula, mereka itu juga dipanggil-Nya. Mereka yang dipanggil-Nya, mereka itu juga dibenarkan-Nya. Mereka yang dibenarkan-Nya, mereka itu juga dimuliakan-Nya."
+  },
   "Romans 12:1-2": {
     ref: "Romans 12:1–2",
     refTB2: "Roma 12:1–2",
@@ -857,6 +941,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Manusia pertama berasal dari debu tanah dan bersifat jasmani, manusia kedua berasal dari surga."
   },
   // --- 2 Corinthians ---
+  "2 Corinthians 4:16-17": {
+    ref: "2 Corinthians 4:16–17",
+    refTB2: "2 Korintus 4:16–17",
+    version: "NKJV",
+    text: "Therefore we do not lose heart. Even though our outward man is perishing, yet the inward man is being renewed day by day. For our light affliction, which is but for a moment, is working for us a far more exceeding and eternal weight of glory,",
+    tb2: "Sebab itu kami tidak tawar hati, tetapi meskipun manusia lahiriah kami semakin merosot, namun manusia batiniah kami dibarui dari sehari ke sehari. Sebab penderitaan ringan yang sekarang ini mengerjakan bagi kami kemuliaan kekal yang melebihi segala-galanya, jauh lebih besar daripada penderitaan kami."
+  },
   "2 Corinthians 5:21": {
     ref: "2 Corinthians 5:21",
     refTB2: "2 Korintus 5:21",
@@ -871,6 +962,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For I am jealous for you with godly jealousy. For I have betrothed you to one husband, that I may present you as a chaste virgin to Christ.",
     tb2: "Sebab aku cemburu kepada kamu dengan cemburu ilahi. Karena aku telah mempertunangkan kamu kepada satu laki-laki untuk membawa kamu sebagai perawan suci kepada Kristus."
   },
+  "2 Corinthians 12:9": {
+    ref: "2 Corinthians 12:9",
+    refTB2: "2 Korintus 12:9",
+    version: "NKJV",
+    text: "And He said to me, \"My grace is sufficient for you, for My strength is made perfect in weakness.\" Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me.",
+    tb2: "Tetapi jawab Tuhan kepadaku, \"Cukuplah kasih karunia-Ku bagimu, sebab justru dalam kelemahanlah kuasa-Ku menjadi sempurna.\" Sebab itu terlebih suka aku bermegah atas kelemahanku, supaya kuasa Kristus turun menaungi aku."
+  },
   // --- Galatians ---
   "Galatians 2:20": {
     ref: "Galatians 2:20",
@@ -878,6 +976,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.",
     tb2: "namun aku hidup, tetapi bukan lagi aku sendiri yang hidup, melainkan Kristus yang hidup di dalam aku. Hidup yang sekarang kuhidupi di dalam daging adalah hidup oleh iman dalam Anak Allah yang telah mengasihi aku dan menyerahkan diri-Nya untuk aku."
+  },
+  "Galatians 3:7": {
+    ref: "Galatians 3:7",
+    refTB2: "Galatia 3:7",
+    version: "NKJV",
+    text: "Therefore know that only those who are of faith are sons of Abraham.",
+    tb2: "Jadi, kamu lihat bahwa mereka yang hidup dari iman, mereka itulah anak-anak Abraham."
   },
   "Galatians 3:19": {
     ref: "Galatians 3:19",
@@ -987,6 +1092,14 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Now may the God of peace Himself sanctify you completely; and may your whole spirit, soul, and body be preserved blameless at the coming of our Lord Jesus Christ. He who calls you is faithful, who also will do it.",
     tb2: "Semoga Allah damai sejahtera menguduskan kamu seluruhnya dan semoga roh, jiwa, dan tubuhmu terpelihara sempurna tanpa cacat pada kedatangan Yesus Kristus, Tuhan kita. Ia yang memanggil kamu adalah setia, Ia juga yang akan menggenapinya."
+  },
+  // --- 2 Thessalonians ---
+  "2 Thessalonians 1:10": {
+    ref: "2 Thessalonians 1:10",
+    refTB2: "2 Tesalonika 1:10",
+    version: "NKJV",
+    text: "when He comes, in that Day, to be glorified in His saints and to be admired among all those who believe, because our testimony among you was believed.",
+    tb2: "apabila Ia datang pada hari itu untuk dimuliakan di antara orang-orang kudus-Nya dan untuk dikagumi oleh semua orang yang percaya, sebab kesaksian yang kami bawa kepadamu telah kamu percayai."
   },
   // --- 1 Timothy ---
   "1 Timothy 2:5": {
@@ -1355,6 +1468,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But now they desire a better, that is, a heavenly country. Therefore God is not ashamed to be called their God, for He has prepared a city for them.",
     tb2: "Tetapi sekarang mereka merindukan tanah air yang lebih baik, yaitu tanah air surgawi. Sebab itu, Allah tidak malu disebut Allah mereka, karena Ia telah mempersiapkan sebuah kota bagi mereka."
   },
+  "Hebrews 11:17-19": {
+    ref: "Hebrews 11:17–19",
+    refTB2: "Ibrani 11:17–19",
+    version: "NKJV",
+    text: "By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises offered up his only begotten son, of whom it was said, \"In Isaac your seed shall be called,\" concluding that God was able to raise him up, even from the dead, from which he also received him in a figurative sense.",
+    tb2: "Karena iman maka Abraham, tatkala ia dicobai, mempersembahkan Ishak. Ia, yang telah menerima janji itu, rela mempersembahkan anaknya yang tunggal, walaupun kepadanya telah dikatakan, \"Keturunan yang berasal dari Ishaklah yang akan disebut keturunanmu.\" Karena ia berpikir bahwa Allah berkuasa membangkitkan orang-orang sekalipun dari antara orang mati. Dan dari sana ia seakan-akan telah menerimanya kembali."
+  },
   "Hebrews 12:2": {
     ref: "Hebrews 12:2",
     refTB2: "Ibrani 12:2",
@@ -1376,6 +1496,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Blessed be the God and Father of our Lord Jesus Christ, who according to His abundant mercy has begotten us again to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance incorruptible and undefiled and that does not fade away, reserved in heaven for you,",
     tb2: "Terpujilah Allah dan Bapa Tuhan kita Yesus Kristus, yang karena rahmat-Nya yang besar telah melahirkan kita kembali oleh kebangkitan Yesus Kristus dari antara orang mati, kepada suatu hidup yang penuh pengharapan, untuk memperoleh suatu warisan yang tidak dapat binasa, yang tidak dapat cemar dan yang tidak dapat layu, yang tersimpan di surga bagi kamu."
+  },
+  "1 Peter 1:11": {
+    ref: "1 Peter 1:11",
+    refTB2: "1 Petrus 1:11",
+    version: "NKJV",
+    text: "searching what, or what manner of time, the Spirit of Christ who was in them was indicating when He testified beforehand the sufferings of Christ and the glories that would follow.",
+    tb2: "Mereka meneliti saat yang mana dan yang bagaimana yang dimaksudkan oleh Roh Kristus yang ada di dalam mereka, yaitu Roh yang sebelumnya memberi kesaksian tentang segala penderitaan yang akan menimpa Kristus dan tentang segala kemuliaan yang menyusul sesudah itu."
   },
   "1 Peter 2:5": {
     ref: "1 Peter 2:5",
@@ -1422,6 +1549,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Ia adalah pendamaian untuk segala dosa kita, dan bukan untuk dosa kita saja, tetapi juga untuk dosa seluruh dunia."
   },
   // --- Revelation ---
+  "Revelation 4:3": {
+    ref: "Revelation 4:3",
+    refTB2: "Wahyu 4:3",
+    version: "NKJV",
+    text: "And He who sat there was like a jasper and a sardius stone in appearance; and there was a rainbow around the throne, in appearance like an emerald.",
+    tb2: "Dia yang duduk di takhta itu tampaknya bagaikan permata yaspis dan permata sardis; dan suatu pelangi melingkungi takhta itu gilang-gemilang bagaikan zamrud rupanya."
+  },
   "Revelation 4:6": {
     ref: "Revelation 4:6",
     refTB2: "Wahyu 4:6",
@@ -1456,5 +1590,19 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Then I, John, saw the holy city, New Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband.",
     tb2: "Aku juga melihat kota yang kudus, Yerusalem yang baru, turun dari surga, dari Allah, yang berhias bagaikan pengantin perempuan yang berdandan untuk suaminya."
+  },
+  "Revelation 21:10-11": {
+    ref: "Revelation 21:10–11",
+    refTB2: "Wahyu 21:10–11",
+    version: "NKJV",
+    text: "And he carried me away in the Spirit to a great and high mountain, and showed me the great city, the holy Jerusalem, descending out of heaven from God, having the glory of God. Her light was like a most precious stone, like a jasper stone, clear as crystal.",
+    tb2: "Lalu, di dalam roh ia membawa aku ke atas sebuah gunung yang besar lagi tinggi dan ia menunjukkan kepadaku kota yang kudus itu, Yerusalem, turun dari surga, dari Allah. Kota itu penuh dengan kemuliaan Allah dan cahayanya sama seperti permata yang paling indah, bagaikan permata yaspis, jernih seperti kristal."
+  },
+  "Revelation 21:23": {
+    ref: "Revelation 21:23",
+    refTB2: "Wahyu 21:23",
+    version: "NKJV",
+    text: "The city had no need of the sun or of the moon to shine in it, for the glory of God illuminated it. The Lamb is its light.",
+    tb2: "Kota itu tidak memerlukan matahari dan bulan untuk menyinarinya, sebab kemuliaan Allah meneranginya dan Anak Domba itu adalah lampunya."
   }
 };
