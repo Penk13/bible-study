@@ -175,6 +175,14 @@ window.BIBLE_VERSES_NKJV = {
     text: "He shall take some of the blood of the bull and sprinkle it with his finger on the mercy seat on the east side; and before the mercy seat he shall sprinkle some of the blood with his finger seven times.",
     tb2: "Kemudian ia harus mengambil sedikit dari darah lembu jantan itu, lalu memercikkannya dengan jarinya ke atas tutup pendamaian di sebelah depan, dan ke depan tutup pendamaian itu ia harus memercikkan sedikit dari darah itu dengan jarinya tujuh kali."
   },
+  // --- Numbers ---
+  "Numbers 14:24": {
+    ref: "Numbers 14:24",
+    refTB2: "Bilangan 14:24",
+    version: "NKJV",
+    text: "But My servant Caleb, because he has a different spirit in him and has followed Me fully, I will bring into the land where he went, and his descendants shall inherit it.",
+    tb2: "Tetapi hamba-Ku Kaleb, karena lain jiwa yang ada padanya dan ia mengikut Aku dengan sepenuhnya, akan Kubawa masuk ke negeri yang telah dimasukinya itu, dan keturunannya akan memilikinya."
+  },
   // --- Joshua ---
   "Joshua 4:8-9": {
     ref: "Joshua 4:8–9",
@@ -240,6 +248,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "The LORD said to my Lord, \"Sit at My right hand, Till I make Your enemies Your footstool.\"",
     tb2: "Mazmur Daud. Firman TUHAN kepada tuanku: \"Duduklah di sebelah kanan-Ku, sampai Kubuat musuh-musuhmu menjadi tumpuan kakimu.\""
+  },
+  "Psalm 133:2": {
+    ref: "Psalm 133:2",
+    refTB2: "Mazmur 133:2",
+    version: "NKJV",
+    text: "It is like the precious oil upon the head, Running down on the beard, The beard of Aaron, Running down on the edge of his garments.",
+    tb2: "Seperti minyak yang baik di atas kepala meleleh ke janggut, yang meleleh ke janggut Harun dan ke leher jubahnya."
   },
   // --- Song of Songs ---
   "Song of Songs 1:2-4": {
@@ -821,6 +836,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Now we know that whatever the law says, it says to those who are under the law, that every mouth may be stopped, and all the world may become guilty before God.",
     tb2: "Tetapi kita tahu bahwa segala sesuatu yang tercantum dalam kitab Taurat ditujukan kepada mereka yang hidup di bawah hukum Taurat, supaya tersumbat setiap mulut dan seluruh dunia jatuh ke bawah hukuman Allah."
   },
+  "Romans 3:20": {
+    ref: "Romans 3:20",
+    refTB2: "Roma 3:20",
+    version: "NKJV",
+    text: "Therefore by the deeds of the law no flesh will be justified in His sight, for by the law is the knowledge of sin.",
+    tb2: "Sebab tidak seorang pun yang dapat dibenarkan di hadapan Allah karena melakukan hukum Taurat, karena justru oleh hukum Taurat orang mengenal dosa."
+  },
   "Romans 3:21-22": {
     ref: "Romans 3:21–22",
     refTB2: "Roma 3:21–22",
@@ -890,6 +912,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For the promise that he would be the heir of the world was not to Abraham or to his seed through the law, but through the righteousness of faith.",
     tb2: "Sebab bukan karena hukum Taurat telah diberikan janji kepada Abraham dan keturunannya, bahwa ia akan memiliki dunia, tetapi karena kebenaran berdasarkan iman."
+  },
+  "Romans 4:15": {
+    ref: "Romans 4:15",
+    refTB2: "Roma 4:15",
+    version: "NKJV",
+    text: "because the law brings about wrath; for where there is no law there is no transgression.",
+    tb2: "Karena hukum Taurat membangkitkan murka, tetapi di mana tidak ada hukum Taurat, di situ tidak ada juga pelanggaran."
   },
   "Romans 4:16": {
     ref: "Romans 4:16",
@@ -1094,12 +1123,47 @@ window.BIBLE_VERSES_NKJV = {
     text: "But now having been set free from sin, and having become slaves of God, you have your fruit to holiness, and the end, everlasting life.",
     tb2: "Tetapi sekarang, setelah kamu dimerdekakan dari dosa dan setelah kamu menjadi hamba Allah, kamu beroleh buah yang membawa kamu kepada pengudusan dan yang kesudahannya ialah hidup yang kekal."
   },
+  "Romans 7:1": {
+    ref: "Romans 7:1",
+    refTB2: "Roma 7:1",
+    version: "NKJV",
+    text: "Or do you not know, brethren (for I speak to those who know the law), that the law has dominion over a man as long as he lives?",
+    tb2: "Apakah kamu tidak tahu, saudara-saudara—sebab aku berbicara kepada mereka yang mengetahui hukum—bahwa hukum berkuasa atas seseorang selama orang itu hidup?"
+  },
+  "Romans 7:2-3": {
+    ref: "Romans 7:2–3",
+    refTB2: "Roma 7:2–3",
+    version: "NKJV",
+    text: "For the woman who has a husband is bound by the law to her husband as long as he lives. But if the husband dies, she is released from the law of her husband. So then if, while her husband lives, she marries another man, she will be called an adulteress; but if her husband dies, she is free from that law, so that she is no adulteress, though she has married another man.",
+    tb2: "Sebab seorang istri terikat oleh hukum kepada suaminya selama suaminya itu hidup. Akan tetapi, apabila suaminya itu mati, bebaslah ia dari hukum yang mengikatnya kepada suaminya itu. Jadi, selama suaminya hidup ia dianggap berzina kalau ia menjadi istri laki-laki lain; tetapi jika suaminya telah mati, ia bebas dari hukum, sehingga ia bukanlah berzina kalau ia menjadi istri laki-laki lain."
+  },
+  "Romans 7:4": {
+    ref: "Romans 7:4",
+    refTB2: "Roma 7:4",
+    version: "NKJV",
+    text: "Therefore, my brethren, you also have become dead to the law through the body of Christ, that you may be married to another—to Him who was raised from the dead, that we should bear fruit to God.",
+    tb2: "Sebab itu, saudara-saudaraku, kamu juga telah mati bagi hukum Taurat oleh tubuh Kristus, supaya kamu menjadi milik orang lain, yaitu milik Dia yang telah dibangkitkan dari antara orang mati, agar kita berbuah bagi Allah."
+  },
+  "Romans 7:5": {
+    ref: "Romans 7:5",
+    refTB2: "Roma 7:5",
+    version: "NKJV",
+    text: "For when we were in the flesh, the sinful passions which were aroused by the law were at work in our members to bear fruit to death.",
+    tb2: "Sebab waktu kita masih hidup di dalam daging, hawa nafsu dosa, yang dirangsang oleh hukum Taurat, bekerja dalam anggota-anggota tubuh kita, agar kita berbuah bagi maut."
+  },
   "Romans 7:6": {
     ref: "Romans 7:6",
     refTB2: "Roma 7:6",
     version: "NKJV",
     text: "But now we have been delivered from the law, having died to what we were held by, so that we should serve in the newness of the Spirit and not in the oldness of the letter.",
     tb2: "Tetapi sekarang kita telah dibebaskan dari hukum Taurat, sebab kita telah mati bagi dia, yang mengurung kita, sehingga kita sekarang melayani dalam keadaan baru menurut Roh dan bukan dalam keadaan lama menurut huruf hukum Taurat."
+  },
+  "Romans 7:7": {
+    ref: "Romans 7:7",
+    refTB2: "Roma 7:7",
+    version: "NKJV",
+    text: "What shall we say then? Is the law sin? Certainly not! On the contrary, I would not have known sin except through the law. For I would not have known covetousness unless the law had said, \"You shall not covet.\"",
+    tb2: "Jika demikian, apakah yang hendak kita katakan? Apakah hukum Taurat itu dosa? Sekali-kali tidak! Sebaliknya, justru oleh hukum Taurat aku telah mengenal dosa. Karena aku juga tidak tahu apa itu keinginan, kalau hukum Taurat tidak mengatakan, \"Jangan mengingini!\""
   },
   "Romans 7:17": {
     ref: "Romans 7:17",
@@ -1277,6 +1341,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "If anyone's work is burned, he will suffer loss; but he himself will be saved, yet so as through fire.",
     tb2: "Jika pekerjaannya terbakar, ia akan menderita kerugian, tetapi ia sendiri akan diselamatkan, tetapi seperti dari dalam api."
   },
+  "1 Corinthians 8:4": {
+    ref: "1 Corinthians 8:4",
+    refTB2: "1 Korintus 8:4",
+    version: "NKJV",
+    text: "Therefore concerning the eating of things offered to idols, we know that an idol is nothing in the world, and that there is no other God but one.",
+    tb2: "Tentang hal makan daging persembahan berhala kita tahu: \"Tidak ada berhala di dunia dan tidak ada Allah lain daripada Allah yang esa.\""
+  },
   "1 Corinthians 12:2": {
     ref: "1 Corinthians 12:2",
     refTB2: "1 Korintus 12:2",
@@ -1320,6 +1391,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Sengat maut ialah dosa dan kuasa dosa ialah hukum Taurat."
   },
   // --- 2 Corinthians ---
+  "2 Corinthians 3:17": {
+    ref: "2 Corinthians 3:17",
+    refTB2: "2 Korintus 3:17",
+    version: "NKJV",
+    text: "Now the Lord is the Spirit; and where the Spirit of the Lord is, there is liberty.",
+    tb2: "Sebab Tuhan adalah Roh; dan di mana ada Roh Allah, di situ ada kemerdekaan."
+  },
   "2 Corinthians 3:18": {
     ref: "2 Corinthians 3:18",
     refTB2: "2 Korintus 3:18",
@@ -1370,6 +1448,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Tetapi jawab Tuhan kepadaku, \"Cukuplah kasih karunia-Ku bagimu, sebab justru dalam kelemahanlah kuasa-Ku menjadi sempurna.\" Sebab itu terlebih suka aku bermegah atas kelemahanku, supaya kuasa Kristus turun menaungi aku."
   },
   // --- Galatians ---
+  "Galatians 2:19": {
+    ref: "Galatians 2:19",
+    refTB2: "Galatia 2:19",
+    version: "NKJV",
+    text: "For I through the law died to the law that I might live to God.",
+    tb2: "Sebab aku telah mati oleh hukum Taurat untuk hukum Taurat, supaya aku hidup untuk Allah. Aku telah disalibkan dengan Kristus;"
+  },
   "Galatians 2:20": {
     ref: "Galatians 2:20",
     refTB2: "Galatia 2:20",
@@ -1419,6 +1504,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "for this Hagar is Mount Sinai in Arabia, and corresponds to Jerusalem which now is, and is in bondage with her children— but the Jerusalem above is free, which is the mother of us all.",
     tb2: "Hagar ialah gunung Sinai di tanah Arab—dan ia sama dengan Yerusalem yang sekarang, karena ia hidup dalam perhambaan dengan anak-anaknya. Tetapi Yerusalem surgawi adalah perempuan yang merdeka, dan ialah ibu kita."
   },
+  "Galatians 4:31": {
+    ref: "Galatians 4:31",
+    refTB2: "Galatia 4:31",
+    version: "NKJV",
+    text: "So then, brethren, we are not children of the bondwoman but of the free.",
+    tb2: "Karena itu, saudara-saudara, kita bukanlah anak-anak hamba perempuan, melainkan anak-anak perempuan merdeka."
+  },
   // --- Ephesians ---
   "Ephesians 1:5": {
     ref: "Ephesians 1:5",
@@ -1461,6 +1553,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "but, speaking the truth in love, may grow up in all things into Him who is the head—Christ—",
     tb2: "Sebaliknya, dengan teguh berpegang kepada kebenaran di dalam kasih, kita bertumbuh di dalam segala hal ke arah Dia, Kristus, yang adalah Kepala."
+  },
+  "Ephesians 5:23": {
+    ref: "Ephesians 5:23",
+    refTB2: "Efesus 5:23",
+    version: "NKJV",
+    text: "For the husband is head of the wife, as also Christ is head of the church; and He is the Savior of the body.",
+    tb2: "karena suami adalah kepala istri sama seperti Kristus adalah kepala jemaat. Dialah yang menyelamatkan tubuh."
   },
   "Ephesians 5:25-32": {
     ref: "Ephesians 5:25–32",
@@ -1579,6 +1678,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "but has now been revealed by the appearing of our Savior Jesus Christ, who has abolished death and brought life and immortality to light through the gospel,",
     tb2: "dan yang sekarang dinyatakan oleh kedatangan Juruselamat kita Yesus Kristus, yang oleh Injil telah mematahkan kuasa maut dan mendatangkan hidup yang tidak dapat binasa."
+  },
+  "2 Timothy 4:22": {
+    ref: "2 Timothy 4:22",
+    refTB2: "2 Timotius 4:22",
+    version: "NKJV",
+    text: "The Lord Jesus Christ be with your spirit. Grace be with you. Amen.",
+    tb2: "Tuhan menyertai rohmu. Kasih karunia menyertai kamu!"
   },
   // --- Hebrews ---
   "Hebrews 1:1": {
@@ -1832,6 +1938,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For we have become partakers of Christ if we hold the beginning of our confidence steadfast to the end,",
     tb2: "Karena kita telah beroleh bagian di dalam Kristus, asal saja kita teguh berpegang sampai kepada akhirnya pada keyakinan iman kita yang semula."
+  },
+  "Hebrews 4:8-9": {
+    ref: "Hebrews 4:8–9",
+    refTB2: "Ibrani 4:8–9",
+    version: "NKJV",
+    text: "For if Joshua had given them rest, then He would not afterward have spoken of another day. There remains therefore a rest for the people of God.",
+    tb2: "Sebab, andaikata Yosua telah membawa mereka masuk ke tempat perhentian, pasti Allah tidak akan berkata-kata kemudian tentang suatu hari lain. Jadi, masih tersedia suatu hari perhentian, hari ketujuh, bagi umat Allah."
   },
   "Hebrews 4:14-15": {
     ref: "Hebrews 4:14–15",
@@ -2172,5 +2285,12 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "The city had no need of the sun or of the moon to shine in it, for the glory of God illuminated it. The Lamb is its light.",
     tb2: "Kota itu tidak memerlukan matahari dan bulan untuk menyinarinya, sebab kemuliaan Allah meneranginya dan Anak Domba itu adalah lampunya."
-  }
+  },
+  "Revelation 22:1": {
+    ref: "Revelation 22:1",
+    refTB2: "Wahyu 22:1",
+    version: "NKJV",
+    text: "And he showed me a pure river of water of life, clear as crystal, proceeding from the throne of God and of the Lamb.",
+    tb2: "Lalu ia menunjukkan kepadaku sungai air kehidupan, yang jernih bagaikan kristal, dan mengalir keluar dari takhta Allah dan takhta Anak Domba itu."
+  },
 };
