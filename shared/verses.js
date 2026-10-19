@@ -292,6 +292,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace.",
     tb2: "Sebab, seorang anak telah lahir untuk kita, seorang putra telah diberikan untuk kita; tampuk pemerintahan ada di atas bahunya, dan namanya disebut orang: Penasihat Ajaib, Allah yang Perkasa, Bapa yang Kekal, Raja Damai."
   },
+  "Isaiah 28:16": {
+    ref: "Isaiah 28:16",
+    refTB2: "Yesaya 28:16",
+    version: "NKJV",
+    text: "Therefore thus says the Lord GOD: \"Behold, I lay in Zion a stone for a foundation, A tried stone, a precious cornerstone, a sure foundation; Whoever believes will not act hastily.\"",
+    tb2: "Sebab itu beginilah firman Tuhan ALLAH, \"Sesungguhnya, Aku meletakkan sebagai dasar di Sion sebuah batu, batu yang teruji, sebuah batu penjuru yang mahal, suatu dasar yang teguh: Siapa yang percaya, tidak akan gelisah!\""
+  },
   "Isaiah 54:5": {
     ref: "Isaiah 54:5",
     refTB2: "Yesaya 54:5",
@@ -360,6 +367,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "and He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
     tb2: "Lalu Yesus berubah rupa di depan mata mereka; wajah-Nya bercahaya seperti matahari dan pakaian-Nya menjadi putih bersinar seperti terang."
+  },
+  "Matthew 21:42": {
+    ref: "Matthew 21:42",
+    refTB2: "Matius 21:42",
+    version: "NKJV",
+    text: "Jesus said to them, \"Have you never read in the Scriptures: 'The stone which the builders rejected Has become the chief cornerstone. This was the LORD's doing, And it is marvelous in our eyes'?\"",
+    tb2: "Kata Yesus kepada mereka, \"Belum pernahkah kamu baca dalam Kitab Suci: Batu yang dibuang oleh tukang-tukang bangunan telah menjadi batu penjuru; hal itu terjadi dari pihak Tuhan, suatu perbuatan ajaib di mata kita.\""
   },
   "Matthew 23:17-19": {
     ref: "Matthew 23:17–19",
@@ -483,12 +497,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "You search the Scriptures, for in them you think you have eternal life; and these are they which testify of Me. But you are not willing to come to Me that you may have life.",
     tb2: "Kamu menyelidiki Kitab-kitab Suci, sebab kamu menyangka bahwa olehnya kamu mempunyai hidup yang kekal, tetapi walaupun Kitab-kitab Suci itu memberi kesaksian tentang Aku, namun kamu tidak mau datang kepada-Ku untuk memperoleh hidup itu."
   },
+  "John 8:29": {
+    ref: "John 8:29",
+    refTB2: "Yohanes 8:29",
+    version: "NKJV",
+    text: "And He who sent Me is with Me. The Father has not left Me alone, for I always do those things that please Him.",
+    tb2: "Ia, yang telah mengutus Aku, Ia menyertai Aku. Ia tidak membiarkan Aku sendiri, sebab Aku senantiasa berbuat apa yang berkenan kepada-Nya."
+  },
   "John 10:28": {
     ref: "John 10:28",
     refTB2: "Yohanes 10:28",
     version: "NKJV",
     text: "And I give them eternal life, and they shall never perish; neither shall anyone snatch them out of My hand.",
     tb2: "Aku memberikan hidup yang kekal kepada mereka dan mereka pasti tidak akan binasa sampai selama-lamanya dan seorang pun tidak akan merebut mereka dari tangan-Ku."
+  },
+  "John 11:25": {
+    ref: "John 11:25",
+    refTB2: "Yohanes 11:25",
+    version: "NKJV",
+    text: "Jesus said to her, \"I am the resurrection and the life. He who believes in Me, though he may die, he shall live.\"",
+    tb2: "Jawab Yesus, \"Akulah kebangkitan dan hidup; barangsiapa percaya kepada-Ku, ia akan hidup walaupun ia sudah mati,\""
   },
   "John 12:24": {
     ref: "John 12:24",
@@ -947,6 +975,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Therefore, just as through one man sin entered the world, and death through sin, and thus death spread to all men, because all sinned—",
     tb2: "Sebab itu, sama seperti dosa telah masuk ke dalam dunia oleh satu orang, dan oleh dosa itu juga maut, demikianlah maut itu telah menjalar kepada semua orang, karena semua orang telah berbuat dosa."
   },
+  "Romans 5:15": {
+    ref: "Romans 5:15",
+    refTB2: "Roma 5:15",
+    version: "NKJV",
+    text: "But the free gift is not like the offense. For if by the one man's offense many died, much more the grace of God and the gift by the grace of the one Man, Jesus Christ, abounded to many.",
+    tb2: "Tetapi karunia Allah tidaklah sama dengan pelanggaran Adam. Sebab, jika karena pelanggaran satu orang semua orang telah jatuh di dalam kuasa maut, jauh lebih besar lagi kasih karunia Allah dan karunia-Nya, yang dilimpahkan-Nya atas semua orang karena satu orang, yaitu Yesus Kristus."
+  },
   "Romans 5:17": {
     ref: "Romans 5:17",
     refTB2: "Roma 5:17",
@@ -982,12 +1017,68 @@ window.BIBLE_VERSES_NKJV = {
     text: "so that as sin reigned in death, even so grace might reign through righteousness to eternal life through Jesus Christ our Lord.",
     tb2: "supaya, sama seperti dosa berkuasa dalam alam maut, demikian kasih karunia akan berkuasa oleh kebenaran untuk hidup yang kekal, oleh Yesus Kristus, Tuhan kita."
   },
+  "Romans 6:3": {
+    ref: "Romans 6:3",
+    refTB2: "Roma 6:3",
+    version: "NKJV",
+    text: "Or do you not know that as many of us as were baptized into Christ Jesus were baptized into His death?",
+    tb2: "Atau tidak tahukah kamu bahwa kita semua yang telah dibaptis dalam Kristus, telah dibaptis dalam kematian-Nya?"
+  },
   "Romans 6:4": {
     ref: "Romans 6:4",
     refTB2: "Roma 6:4",
     version: "NKJV",
     text: "Therefore we were buried with Him through baptism into death, that just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.",
     tb2: "Dengan demikian kita telah dikuburkan bersama-sama dengan Dia oleh baptisan dalam kematian, supaya, sama seperti Kristus telah dibangkitkan dari antara orang mati oleh kemuliaan Bapa, demikian juga kita akan hidup dalam hidup yang baru."
+  },
+  "Romans 6:5": {
+    ref: "Romans 6:5",
+    refTB2: "Roma 6:5",
+    version: "NKJV",
+    text: "For if we have been united together in the likeness of His death, certainly we also shall be in the likeness of His resurrection,",
+    tb2: "Sebab jika kita telah menjadi satu dengan apa yang sama dengan kematian-Nya, kita juga akan menjadi satu dengan apa yang sama dengan kebangkitan-Nya."
+  },
+  "Romans 6:6": {
+    ref: "Romans 6:6",
+    refTB2: "Roma 6:6",
+    version: "NKJV",
+    text: "knowing this, that our old man was crucified with Him, that the body of sin might be done away with, that we should no longer be slaves of sin.",
+    tb2: "Karena kita tahu bahwa manusia lama kita telah turut disalibkan, supaya tubuh dosa kita hilang kuasanya, agar jangan kita menghambakan diri lagi kepada dosa."
+  },
+  "Romans 6:11": {
+    ref: "Romans 6:11",
+    refTB2: "Roma 6:11",
+    version: "NKJV",
+    text: "Likewise you also, reckon yourselves to be dead indeed to sin, but alive to God in Christ Jesus our Lord.",
+    tb2: "Demikianlah hendaknya kamu memandangnya: bahwa kamu telah mati bagi dosa, tetapi kamu hidup bagi Allah dalam Kristus Yesus."
+  },
+  "Romans 6:12": {
+    ref: "Romans 6:12",
+    refTB2: "Roma 6:12",
+    version: "NKJV",
+    text: "Therefore do not let sin reign in your mortal body, that you should obey it in its lusts.",
+    tb2: "Sebab itu, hendaklah dosa jangan berkuasa lagi di dalam tubuhmu yang fana, supaya kamu jangan lagi menuruti keinginannya."
+  },
+  "Romans 6:13": {
+    ref: "Romans 6:13",
+    refTB2: "Roma 6:13",
+    version: "NKJV",
+    text: "And do not present your members as instruments of unrighteousness to sin, but present yourselves to God as being alive from the dead, and your members as instruments of righteousness to God.",
+    tb2: "Janganlah kamu menyerahkan anggota-anggota tubuhmu kepada dosa untuk dipakai sebagai senjata kelaliman, tetapi serahkanlah dirimu kepada Allah sebagai orang-orang yang dahulu mati, tetapi yang sekarang hidup. Serahkanlah anggota-anggota tubuhmu kepada Allah untuk menjadi senjata-senjata kebenaran."
+  },
+  "Romans 6:14": {
+    ref: "Romans 6:14",
+    refTB2: "Roma 6:14",
+    version: "NKJV",
+    text: "For sin shall not have dominion over you, for you are not under law but under grace.",
+    tb2: "Sebab kamu tidak akan dikuasai lagi oleh dosa, karena kamu tidak berada di bawah hukum Taurat, tetapi di bawah kasih karunia."
+  },
+  "Romans 6:16": {
+    ref: "Romans 6:16",
+    refTB2: "Roma 6:16",
+    version: "NKJV",
+    text: "Do you not know that to whom you present yourselves slaves to obey, you are that one's slaves whom you obey, whether of sin leading to death, or of obedience leading to righteousness?",
+    tb2: "Apakah kamu tidak tahu bahwa apabila kamu menyerahkan dirimu kepada seseorang sebagai hamba untuk menaatinya, kamu adalah hamba orang itu, yang harus kamu taati, baik dalam dosa yang memimpin kamu kepada kematian, maupun dalam ketaatan yang memimpin kamu kepada kebenaran?"
   },
   "Romans 6:19": {
     ref: "Romans 6:19",
@@ -1023,6 +1114,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For I know that in me (that is, in my flesh) nothing good dwells; for to will is present with me, but how to perform what is good I do not find.",
     tb2: "Sebab aku tahu bahwa di dalam aku, yaitu di dalam aku sebagai manusia, tidak ada sesuatu yang baik. Sebab kehendak memang ada di dalam aku, tetapi bukan hal berbuat apa yang baik."
+  },
+  "Romans 7:23": {
+    ref: "Romans 7:23",
+    refTB2: "Roma 7:23",
+    version: "NKJV",
+    text: "But I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.",
+    tb2: "Tetapi di dalam anggota-anggota tubuhku aku melihat hukum lain yang berjuang melawan hukum akal budiku dan membuat aku menjadi tawanan hukum dosa yang ada di dalam anggota-anggota tubuhku."
   },
   "Romans 8:2": {
     ref: "Romans 8:2",
@@ -1136,6 +1234,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "not lagging in diligence, fervent in spirit, serving the Lord;",
     tb2: "Janganlah hendaknya kerajinanmu kendor, biarlah rohmu menyala-nyala dan layanilah Tuhan."
   },
+  "Romans 13:12": {
+    ref: "Romans 13:12",
+    refTB2: "Roma 13:12",
+    version: "NKJV",
+    text: "The night is far spent, the day is at hand. Therefore let us cast off the works of darkness, and let us put on the armor of light.",
+    tb2: "Hari sudah jauh malam, telah hampir siang. Sebab itu, marilah kita menanggalkan perbuatan-perbuatan kegelapan dan mengenakan perlengkapan senjata terang!"
+  },
   "Romans 14:17": {
     ref: "Romans 14:17",
     refTB2: "Roma 14:17",
@@ -1243,6 +1348,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For He made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him.",
     tb2: "Dia yang tidak mengenal dosa telah dibuat-Nya menjadi dosa karena kita, supaya dalam Dia kita dibenarkan oleh Allah."
   },
+  "2 Corinthians 6:7": {
+    ref: "2 Corinthians 6:7",
+    refTB2: "2 Korintus 6:7",
+    version: "NKJV",
+    text: "by the word of truth, by the power of God, by the armor of righteousness on the right hand and on the left,",
+    tb2: "dalam pemberitaan kebenaran dan kekuasaan Allah; dengan menggunakan senjata-senjata keadilan untuk menyerang ataupun untuk membela,"
+  },
   "2 Corinthians 11:2": {
     ref: "2 Corinthians 11:2",
     refTB2: "2 Korintus 11:2",
@@ -1321,6 +1433,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And He put all things under His feet, and gave Him to be head over all things to the church, which is His body, the fullness of Him who fills all in all.",
     tb2: "Segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
+  },
+  "Ephesians 2:6": {
+    ref: "Ephesians 2:6",
+    refTB2: "Efesus 2:6",
+    version: "NKJV",
+    text: "and raised us up together, and made us sit together in the heavenly places in Christ Jesus,",
+    tb2: "dan di dalam Kristus Yesus Ia telah membangkitkan kita juga dan memberikan tempat bersama-sama dengan Dia di surga,"
   },
   "Ephesians 2:8": {
     ref: "Ephesians 2:8",
@@ -1693,6 +1812,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For this One has been counted worthy of more glory than Moses, inasmuch as He who built the house has more honor than the house. For every house is built by someone, but He who built all things is God.",
     tb2: "Sebab Ia dipandang layak mendapat kemuliaan lebih besar daripada Musa, sama seperti pembangun rumah mendapat kehormatan lebih besar daripada rumah itu. Sebab setiap rumah dibangun oleh seseorang, tetapi pembangun segala sesuatu adalah Allah."
   },
+  "Hebrews 3:5": {
+    ref: "Hebrews 3:5",
+    refTB2: "Ibrani 3:5",
+    version: "NKJV",
+    text: "And Moses indeed was faithful in all His house as a servant, for a testimony of those things which would be spoken afterward,",
+    tb2: "Musa memang setia dalam segenap rumah-Nya sebagai pelayan untuk memberi kesaksian tentang apa yang akan diberitakan kemudian,"
+  },
   "Hebrews 3:6": {
     ref: "Hebrews 3:6",
     refTB2: "Ibrani 3:6",
@@ -1938,6 +2064,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "searching what, or what manner of time, the Spirit of Christ who was in them was indicating when He testified beforehand the sufferings of Christ and the glories that would follow.",
     tb2: "Mereka meneliti saat yang mana dan yang bagaimana yang dimaksudkan oleh Roh Kristus yang ada di dalam mereka, yaitu Roh yang sebelumnya memberi kesaksian tentang segala penderitaan yang akan menimpa Kristus dan tentang segala kemuliaan yang menyusul sesudah itu."
+  },
+  "1 Peter 2:4": {
+    ref: "1 Peter 2:4",
+    refTB2: "1 Petrus 2:4",
+    version: "NKJV",
+    text: "Coming to Him as to a living stone, rejected indeed by men, but chosen by God and precious,",
+    tb2: "Datanglah kepada-Nya, batu yang hidup itu, yang memang dibuang oleh manusia, tetapi yang dipilih dan dihormat di hadirat Allah."
   },
   "1 Peter 2:5": {
     ref: "1 Peter 2:5",
