@@ -420,6 +420,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth.",
     tb2: "Firman itu telah menjadi manusia, dan tinggal di antara kita, dan kita telah melihat kemuliaan-Nya, yaitu kemuliaan yang diberikan kepada-Nya sebagai Anak Tunggal Bapa, penuh anugerah dan kebenaran."
   },
+  "John 1:16": {
+    ref: "John 1:16",
+    refTB2: "Yohanes 1:16",
+    version: "NKJV",
+    text: "And of His fullness we have all received, and grace for grace.",
+    tb2: "Karena dari kepenuhan-Nya kita semua telah menerima kasih karunia demi kasih karunia;"
+  },
+  "John 1:17": {
+    ref: "John 1:17",
+    refTB2: "Yohanes 1:17",
+    version: "NKJV",
+    text: "For the law was given through Moses, but grace and truth came through Jesus Christ.",
+    tb2: "sebab hukum Taurat diberikan oleh Musa, tetapi kasih karunia dan kebenaran datang oleh Yesus Kristus."
+  },
   "John 1:18": {
     ref: "John 1:18",
     refTB2: "Yohanes 1:18",
@@ -489,6 +503,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Philip said to Him, \"Lord, show us the Father, and it is sufficient for us.\" Jesus said to him, \"Have I been with you so long, and yet you have not known Me, Philip? He who has seen Me has seen the Father; so how can you say, 'Show us the Father'?\"",
     tb2: "Kata Filipus kepada-Nya: \"Tuhan, tunjukkanlah Bapa itu kepada kami, itu sudah cukup bagi kami.\" Kata Yesus kepadanya: \"Telah sekian lama Aku bersama-sama kamu, Filipus, namun engkau tidak mengenal Aku? Siapa saja yang telah melihat Aku, ia telah melihat Bapa; bagaimana engkau berkata: Tunjukkanlah Bapa itu kepada kami?\""
+  },
+  "John 15:4": {
+    ref: "John 15:4",
+    refTB2: "Yohanes 15:4",
+    version: "NKJV",
+    text: "Abide in Me, and I in you. As the branch cannot bear fruit of itself, unless it abides in the vine, neither can you, unless you abide in Me.",
+    tb2: "Tinggallah di dalam Aku dan Aku di dalam kamu. Sama seperti ranting tidak dapat berbuah dari dirinya sendiri, kalau ia tidak tinggal pada pokok anggur, demikian juga kamu tidak berbuah, jikalau kamu tidak tinggal di dalam Aku."
   },
   "John 17:22": {
     ref: "John 17:22",
@@ -919,6 +940,55 @@ window.BIBLE_VERSES_NKJV = {
     text: "And not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received the reconciliation.",
     tb2: "Bukan hanya itu saja! Kita malah bermegah dalam Allah melalui Yesus Kristus, Tuhan kita, sebab melalui Dia kita sekarang telah menerima pendamaian itu."
   },
+  "Romans 5:12": {
+    ref: "Romans 5:12",
+    refTB2: "Roma 5:12",
+    version: "NKJV",
+    text: "Therefore, just as through one man sin entered the world, and death through sin, and thus death spread to all men, because all sinned—",
+    tb2: "Sebab itu, sama seperti dosa telah masuk ke dalam dunia oleh satu orang, dan oleh dosa itu juga maut, demikianlah maut itu telah menjalar kepada semua orang, karena semua orang telah berbuat dosa."
+  },
+  "Romans 5:17": {
+    ref: "Romans 5:17",
+    refTB2: "Roma 5:17",
+    version: "NKJV",
+    text: "For if by the one man's offense death reigned through the one, much more those who receive abundance of grace and of the gift of righteousness will reign in life through the One, Jesus Christ.",
+    tb2: "Sebab, jika oleh dosa satu orang maut telah berkuasa oleh satu orang itu, maka lebih benar lagi mereka, yang telah menerima kelimpahan kasih karunia dan anugerah kebenaran, akan hidup dan berkuasa oleh karena satu orang itu, yaitu Yesus Kristus."
+  },
+  "Romans 5:18": {
+    ref: "Romans 5:18",
+    refTB2: "Roma 5:18",
+    version: "NKJV",
+    text: "Therefore, as through one man's offense judgment came to all men, resulting in condemnation, even so through one Man's righteous act the free gift came to all men, resulting in justification of life.",
+    tb2: "Sebab itu, sama seperti oleh satu pelanggaran semua orang beroleh penghukuman, demikian pula oleh satu perbuatan kebenaran semua orang beroleh pembenaran untuk hidup."
+  },
+  "Romans 5:19": {
+    ref: "Romans 5:19",
+    refTB2: "Roma 5:19",
+    version: "NKJV",
+    text: "For as by one man's disobedience many were made sinners, so also by one Man's obedience many will be made righteous.",
+    tb2: "Jadi, sama seperti oleh ketidaktaatan satu orang semua orang telah menjadi orang berdosa, demikian pula oleh ketaatan satu orang semua orang menjadi orang benar."
+  },
+  "Romans 5:20": {
+    ref: "Romans 5:20",
+    refTB2: "Roma 5:20",
+    version: "NKJV",
+    text: "Moreover the law entered that the offense might abound. But where sin abounded, grace abounded much more,",
+    tb2: "Tetapi hukum Taurat ditambahkan supaya pelanggaran menjadi semakin banyak; dan di mana dosa bertambah banyak, di sana kasih karunia menjadi berlimpah-limpah,"
+  },
+  "Romans 5:21": {
+    ref: "Romans 5:21",
+    refTB2: "Roma 5:21",
+    version: "NKJV",
+    text: "so that as sin reigned in death, even so grace might reign through righteousness to eternal life through Jesus Christ our Lord.",
+    tb2: "supaya, sama seperti dosa berkuasa dalam alam maut, demikian kasih karunia akan berkuasa oleh kebenaran untuk hidup yang kekal, oleh Yesus Kristus, Tuhan kita."
+  },
+  "Romans 6:4": {
+    ref: "Romans 6:4",
+    refTB2: "Roma 6:4",
+    version: "NKJV",
+    text: "Therefore we were buried with Him through baptism into death, that just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.",
+    tb2: "Dengan demikian kita telah dikuburkan bersama-sama dengan Dia oleh baptisan dalam kematian, supaya, sama seperti Kristus telah dibangkitkan dari antara orang mati oleh kemuliaan Bapa, demikian juga kita akan hidup dalam hidup yang baru."
+  },
   "Romans 6:19": {
     ref: "Romans 6:19",
     refTB2: "Roma 6:19",
@@ -939,6 +1009,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But now we have been delivered from the law, having died to what we were held by, so that we should serve in the newness of the Spirit and not in the oldness of the letter.",
     tb2: "Tetapi sekarang kita telah dibebaskan dari hukum Taurat, sebab kita telah mati bagi dia, yang mengurung kita, sehingga kita sekarang melayani dalam keadaan baru menurut Roh dan bukan dalam keadaan lama menurut huruf hukum Taurat."
+  },
+  "Romans 7:17": {
+    ref: "Romans 7:17",
+    refTB2: "Roma 7:17",
+    version: "NKJV",
+    text: "But now, it is no longer I who do it, but sin that dwells in me.",
+    tb2: "Kalau demikian, bukan aku lagi yang memperbuatnya, tetapi dosa yang ada di dalam aku."
   },
   "Romans 7:18": {
     ref: "Romans 7:18",
@@ -1102,12 +1179,40 @@ window.BIBLE_VERSES_NKJV = {
     text: "You know that you were Gentiles, carried away to these dumb idols, however you were led.",
     tb2: "Kamu tahu bahwa pada waktu kamu masih belum mengenal Allah, kamu dipikat dan ditarik kepada berhala-berhala yang bisu."
   },
+  "1 Corinthians 15:10": {
+    ref: "1 Corinthians 15:10",
+    refTB2: "1 Korintus 15:10",
+    version: "NKJV",
+    text: "But by the grace of God I am what I am, and His grace toward me was not in vain; but I labored more abundantly than they all, yet not I, but the grace of God which was with me.",
+    tb2: "Tetapi karena kasih karunia Allah aku adalah sebagaimana aku ada sekarang, dan kasih karunia yang dianugerahkan-Nya kepadaku tidak sia-sia. Sebaliknya, aku telah bekerja lebih keras daripada mereka semua; tetapi bukannya aku, melainkan kasih karunia Allah yang menyertai aku."
+  },
+  "1 Corinthians 15:22": {
+    ref: "1 Corinthians 15:22",
+    refTB2: "1 Korintus 15:22",
+    version: "NKJV",
+    text: "For as in Adam all die, even so in Christ all shall be made alive.",
+    tb2: "Karena sama seperti semua orang mati dalam persekutuan dengan Adam, demikian pula semua orang akan dihidupkan kembali dalam persekutuan dengan Kristus."
+  },
+  "1 Corinthians 15:45": {
+    ref: "1 Corinthians 15:45",
+    refTB2: "1 Korintus 15:45",
+    version: "NKJV",
+    text: "And so it is written, \"The first man Adam became a living being.\" The last Adam became a life-giving spirit.",
+    tb2: "Seperti ada tertulis, \"Manusia pertama, Adam, menjadi makhluk yang hidup,\" tetapi Adam yang akhir menjadi roh yang menghidupkan."
+  },
   "1 Corinthians 15:47": {
     ref: "1 Corinthians 15:47",
     refTB2: "1 Korintus 15:47",
     version: "NKJV",
     text: "The first man was of the earth, made of dust; the second Man is the Lord from heaven.",
     tb2: "Manusia pertama berasal dari debu tanah dan bersifat jasmani, manusia kedua berasal dari surga."
+  },
+  "1 Corinthians 15:56": {
+    ref: "1 Corinthians 15:56",
+    refTB2: "1 Korintus 15:56",
+    version: "NKJV",
+    text: "The sting of death is sin, and the strength of sin is the law.",
+    tb2: "Sengat maut ialah dosa dan kuasa dosa ialah hukum Taurat."
   },
   // --- 2 Corinthians ---
   "2 Corinthians 3:18": {
@@ -1167,6 +1272,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Therefore know that only those who are of faith are sons of Abraham.",
     tb2: "Jadi, kamu lihat bahwa mereka yang hidup dari iman, mereka itulah anak-anak Abraham."
   },
+  "Galatians 3:14": {
+    ref: "Galatians 3:14",
+    refTB2: "Galatia 3:14",
+    version: "NKJV",
+    text: "that the blessing of Abraham might come upon the Gentiles in Christ Jesus, that we might receive the promise of the Spirit through faith.",
+    tb2: "Yesus Kristus telah membuat ini, supaya di dalam Dia berkat Abraham sampai kepada bangsa-bangsa lain, sehingga oleh iman kita menerima Roh yang telah dijanjikan itu."
+  },
   "Galatians 3:19": {
     ref: "Galatians 3:19",
     refTB2: "Galatia 3:19",
@@ -1187,6 +1299,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "which things are symbolic. For these are the two covenants: the one from Mount Sinai which gives birth to bondage, which is Hagar—",
     tb2: "Ini adalah suatu kiasan. Sebab kedua perempuan itu adalah dua ketentuan Allah: yang satu berasal dari gunung Sinai dan melahirkan anak-anak perhambaan, itulah Hagar."
+  },
+  "Galatians 4:25-26": {
+    ref: "Galatians 4:25–26",
+    refTB2: "Galatia 4:25–26",
+    version: "NKJV",
+    text: "for this Hagar is Mount Sinai in Arabia, and corresponds to Jerusalem which now is, and is in bondage with her children— but the Jerusalem above is free, which is the mother of us all.",
+    tb2: "Hagar ialah gunung Sinai di tanah Arab—dan ia sama dengan Yerusalem yang sekarang, karena ia hidup dalam perhambaan dengan anak-anaknya. Tetapi Yerusalem surgawi adalah perempuan yang merdeka, dan ialah ibu kita."
   },
   // --- Ephesians ---
   "Ephesians 1:5": {
@@ -1246,6 +1365,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "For to me, to live is Christ, and to die is gain.",
     tb2: "Karena bagiku hidup adalah Kristus dan mati adalah keuntungan."
   },
+  "Philippians 2:8": {
+    ref: "Philippians 2:8",
+    refTB2: "Filipi 2:8",
+    version: "NKJV",
+    text: "And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross.",
+    tb2: "Dalam keadaan sebagai manusia, Ia telah merendahkan diri-Nya dan taat sampai mati, bahkan sampai mati di kayu salib."
+  },
+  "Philippians 3:20": {
+    ref: "Philippians 3:20",
+    refTB2: "Filipi 3:20",
+    version: "NKJV",
+    text: "For our citizenship is in heaven, from which we also eagerly wait for the Savior, the Lord Jesus Christ,",
+    tb2: "Karena kewargaan kita adalah di dalam surga, dan dari situ juga kita menantikan Tuhan Yesus Kristus sebagai Juruselamat,"
+  },
   // --- Colossians ---
   "Colossians 1:16-17": {
     ref: "Colossians 1:16–17",
@@ -1274,6 +1407,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "When Christ who is our life appears, then you also will appear with Him in glory.",
     tb2: "Apabila Kristus, yang adalah hidup kita, menyatakan diri kelak, kamu pun akan menyatakan diri bersama dengan Dia dalam kemuliaan."
+  },
+  "Colossians 4:6": {
+    ref: "Colossians 4:6",
+    refTB2: "Kolose 4:6",
+    version: "NKJV",
+    text: "Let your speech always be with grace, seasoned with salt, that you may know how you ought to answer each one.",
+    tb2: "Hendaklah kata-katamu senantiasa penuh kasih, jangan hambar, sehingga kamu tahu bagaimana kamu harus memberi jawab kepada setiap orang."
   },
   // --- 1 Thessalonians ---
   "1 Thessalonians 2:12": {
@@ -1581,6 +1721,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For every high priest taken from among men is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins.",
     tb2: "Sebab setiap imam besar yang dipilih dari antara manusia, ditetapkan bagi manusia dalam hubungan mereka dengan Allah, supaya ia mempersembahkan persembahan dan kurban karena dosa."
   },
+  "Hebrews 6:4": {
+    ref: "Hebrews 6:4",
+    refTB2: "Ibrani 6:4",
+    version: "NKJV",
+    text: "For it is impossible for those who were once enlightened, and have tasted the heavenly gift, and have become partakers of the Holy Spirit,",
+    tb2: "Sebab mereka yang pernah diterangi hatinya, yang pernah mengecap karunia surgawi, dan yang pernah mendapat bagian dalam Roh Kudus,"
+  },
   "Hebrews 6:18": {
     ref: "Hebrews 6:18",
     refTB2: "Ibrani 6:18",
@@ -1623,6 +1770,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Now this is the main point of the things we are saying: We have such a High Priest, who is seated at the right hand of the throne of the Majesty in the heavens, a Minister of the sanctuary and of the true tabernacle which the Lord erected, and not man.",
     tb2: "Inti semua yang kita bicarakan itu ialah: Kita mempunyai Imam Besar yang demikian, yang duduk di sebelah kanan takhta Yang Mahabesar di surga, dan melayani ibadah di tempat kudus, yaitu di dalam kemah sejati yang didirikan oleh Tuhan dan bukan oleh manusia."
   },
+  "Hebrews 8:5": {
+    ref: "Hebrews 8:5",
+    refTB2: "Ibrani 8:5",
+    version: "NKJV",
+    text: "who serve the copy and shadow of the heavenly things, as Moses was divinely instructed when he was about to make the tabernacle. For He said, \"See that you make all things according to the pattern shown you on the mountain.\"",
+    tb2: "Pelayanan mereka adalah gambaran dan bayangan dari apa yang ada di surga, sama seperti yang diberitahukan kepada Musa ketika ia hendak mendirikan kemah: \"Ingatlah,\" demikian firman-Nya, \"bahwa engkau membuat semuanya itu menurut contoh yang telah ditunjukkan kepadamu di atas gunung itu.\""
+  },
   "Hebrews 9:5": {
     ref: "Hebrews 9:5",
     refTB2: "Ibrani 9:5",
@@ -1636,6 +1790,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And according to the law almost all things are purified with blood, and without shedding of blood there is no remission.",
     tb2: "Dan hampir segala sesuatu disucikan menurut hukum Taurat dengan darah, dan tanpa penumpahan darah tidak ada pengampunan."
+  },
+  "Hebrews 9:24": {
+    ref: "Hebrews 9:24",
+    refTB2: "Ibrani 9:24",
+    version: "NKJV",
+    text: "For Christ has not entered the holy places made with hands, which are copies of the true, but into heaven itself, now to appear in the presence of God for us;",
+    tb2: "Sebab Kristus bukan masuk ke dalam tempat kudus buatan tangan manusia yang hanya merupakan gambaran saja dari yang sebenarnya, tetapi ke dalam surga sendiri untuk menghadap hadirat Allah guna kepentingan kita."
   },
   "Hebrews 10:11-12": {
     ref: "Hebrews 10:11–12",
@@ -1664,6 +1825,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Let us hold fast the confession of our hope without wavering, for He who promised is faithful.",
     tb2: "Marilah kita teguh berpegang pada pengakuan tentang pengharapan kita, sebab Ia, yang menjanjikannya, setia."
+  },
+  "Hebrews 10:29": {
+    ref: "Hebrews 10:29",
+    refTB2: "Ibrani 10:29",
+    version: "NKJV",
+    text: "Of how much worse punishment, do you suppose, will he be thought worthy who has trampled the Son of God underfoot, counted the blood of the covenant by which he was sanctified a common thing, and insulted the Spirit of grace?",
+    tb2: "Betapa lebih beratnya hukuman yang harus dijatuhkan atas dia, yang menginjak-injak Anak Allah, yang menganggap najis darah perjanjian yang menguduskannya, dan yang menghina Roh kasih karunia?"
   },
   "Hebrews 10:32": {
     ref: "Hebrews 10:32",
@@ -1714,12 +1882,33 @@ window.BIBLE_VERSES_NKJV = {
     text: "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
     tb2: "Marilah kita melakukannya dengan mata yang tertuju kepada Yesus, yang memimpin kita dalam iman, dan yang membawa iman kita itu kepada kesempurnaan, yang dengan mengabaikan kehinaan tekun memikul salib ganti sukacita yang disediakan bagi Dia, yang sekarang duduk di sebelah kanan takhta Allah."
   },
+  "Hebrews 12:8": {
+    ref: "Hebrews 12:8",
+    refTB2: "Ibrani 12:8",
+    version: "NKJV",
+    text: "But if you are without chastening, of which all have become partakers, then you are illegitimate and not sons.",
+    tb2: "Tetapi, jikalau kamu bebas dari ganjaran, yang harus diderita setiap orang, maka kamu bukanlah anak, tetapi anak-anak gampang."
+  },
+  "Hebrews 12:10": {
+    ref: "Hebrews 12:10",
+    refTB2: "Ibrani 12:10",
+    version: "NKJV",
+    text: "For they indeed for a few days chastened us as seemed best to them, but He for our profit, that we may be partakers of His holiness.",
+    tb2: "Sebab mereka mendidik kita dalam waktu yang pendek sesuai dengan apa yang mereka anggap baik, tetapi Dia menghajar kita untuk kebaikan kita, supaya kita beroleh bagian dalam kekudusan-Nya."
+  },
   "Hebrews 12:14": {
     ref: "Hebrews 12:14",
     refTB2: "Ibrani 12:14",
     version: "NKJV",
     text: "Pursue peace with all people, and holiness, without which no one will see the Lord:",
     tb2: "Berusahalah hidup damai dengan semua orang dan kejarlah kekudusan, sebab tanpa kekudusan tidak seorang pun akan melihat Tuhan."
+  },
+  "Hebrews 12:22": {
+    ref: "Hebrews 12:22",
+    refTB2: "Ibrani 12:22",
+    version: "NKJV",
+    text: "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, to an innumerable company of angels,",
+    tb2: "Tetapi kamu sudah datang ke Bukit Sion, ke kota Allah yang hidup, Yerusalem surgawi, dan kepada beribu-ribu malaikat, suatu kumpulan yang meriah,"
   },
   "Hebrews 12:23": {
     ref: "Hebrews 12:23",
