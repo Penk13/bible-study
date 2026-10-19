@@ -26,6 +26,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And I will put enmity Between you and the woman, And between your seed and her Seed; He shall bruise your head, And you shall bruise His heel.",
     tb2: "Aku akan mengadakan permusuhan antara engkau dan perempuan ini, antara keturunanmu dan keturunannya; keturunannya akan meremukkan kepalamu, dan engkau akan meremukkan tumitnya."
   },
+  "Genesis 5:2": {
+    ref: "Genesis 5:2",
+    refTB2: "Kejadian 5:2",
+    version: "NKJV",
+    text: "He created them male and female, and blessed them and called them Mankind in the day they were created.",
+    tb2: "laki-laki dan perempuan diciptakan-Nya mereka. Ia memberkati mereka dan memberikan nama \"Manusia\" kepada mereka pada waktu mereka diciptakan."
+  },
   "Genesis 12:1": {
     ref: "Genesis 12:1",
     refTB2: "Kejadian 12:1",
@@ -46,6 +53,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Then Melchizedek king of Salem brought out bread and wine; he was the priest of God Most High. And he blessed him and said: \"Blessed be Abram of God Most High, Possessor of heaven and earth; And blessed be God Most High, Who has delivered your enemies into your hand.\" And he gave him a tithe of all.",
     tb2: "Melkisedek, raja Salem, membawa roti dan anggur; ia seorang imam Allah Yang Mahatinggi. Lalu ia memberkati Abram, katanya: \"Diberkatilah kiranya Abram oleh Allah Yang Mahatinggi, Pencipta langit dan bumi, dan terpujilah Allah Yang Mahatinggi, yang telah menyerahkan musuhmu ke dalam tanganmu.\" Lalu Abram memberikan kepadanya sepersepuluh dari semuanya."
+  },
+  "Genesis 15:5-6": {
+    ref: "Genesis 15:5–6",
+    refTB2: "Kejadian 15:5–6",
+    version: "NKJV",
+    text: "Then He brought him outside and said, \"Look now toward heaven, and count the stars if you are able to number them.\" And He said to him, \"So shall your descendants be.\" And he believed in the LORD, and He accounted it to him for righteousness.",
+    tb2: "Lalu TUHAN membawa Abram ke luar serta berfirman, \"Coba lihat ke langit, hitunglah bintang-bintang, jika engkau dapat menghitungnya.\" Maka firman-Nya kepadanya, \"Demikianlah banyaknya nanti keturunanmu.\" Lalu percayalah Abram kepada TUHAN, maka TUHAN memperhitungkan hal itu kepadanya sebagai kebenaran."
   },
   "Genesis 28:10-22": {
     ref: "Genesis 28:12",
@@ -318,6 +332,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "and He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
     tb2: "Lalu Yesus berubah rupa di depan mata mereka; wajah-Nya bercahaya seperti matahari dan pakaian-Nya menjadi putih bersinar seperti terang."
+  },
+  "Matthew 23:17-19": {
+    ref: "Matthew 23:17–19",
+    refTB2: "Matius 23:17–19",
+    version: "NKJV",
+    text: "Fools and blind! For which is greater, the gold or the temple that sanctifies the gold? And, 'Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it, he is obliged to perform it.' Fools and blind! For which is greater, the gift or the altar that sanctifies the gift?",
+    tb2: "Hai kamu orang-orang bodoh dan orang-orang buta, apakah yang lebih penting, emas atau Bait Suci yang menguduskan emas itu? Bersumpah demi mezbah, itu tidak sah; tetapi bersumpah demi persembahan yang ada di atasnya, itu mengikat. Hai kamu orang-orang buta, apakah yang lebih penting, persembahan atau mezbah yang menguduskan persembahan itu?"
   },
   // --- Luke ---
   "Luke 12:32": {
@@ -799,6 +820,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "And not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received the reconciliation.",
     tb2: "Bukan hanya itu saja! Kita malah bermegah dalam Allah melalui Yesus Kristus, Tuhan kita, sebab melalui Dia kita sekarang telah menerima pendamaian itu."
   },
+  "Romans 6:19": {
+    ref: "Romans 6:19",
+    refTB2: "Roma 6:19",
+    version: "NKJV",
+    text: "I speak in human terms because of the weakness of your flesh. For just as you presented your members as slaves of uncleanness, and of lawlessness leading to more lawlessness, so now present your members as slaves of righteousness for holiness.",
+    tb2: "Aku mengatakan hal ini secara manusia karena kelemahan kamu. Sebab sama seperti kamu telah menyerahkan anggota-anggota tubuhmu menjadi hamba kecemaran dan kedurhakaan yang membawa kamu kepada kedurhakaan, demikian halnya kamu sekarang harus menyerahkan anggota-anggota tubuhmu menjadi hamba kebenaran yang membawa kamu kepada pengudusan."
+  },
+  "Romans 6:22": {
+    ref: "Romans 6:22",
+    refTB2: "Roma 6:22",
+    version: "NKJV",
+    text: "But now having been set free from sin, and having become slaves of God, you have your fruit to holiness, and the end, everlasting life.",
+    tb2: "Tetapi sekarang, setelah kamu dimerdekakan dari dosa dan setelah kamu menjadi hamba Allah, kamu beroleh buah yang membawa kamu kepada pengudusan dan yang kesudahannya ialah hidup yang kekal."
+  },
   "Romans 7:6": {
     ref: "Romans 7:6",
     refTB2: "Roma 7:6",
@@ -941,6 +976,20 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Manusia pertama berasal dari debu tanah dan bersifat jasmani, manusia kedua berasal dari surga."
   },
   // --- 2 Corinthians ---
+  "2 Corinthians 3:18": {
+    ref: "2 Corinthians 3:18",
+    refTB2: "2 Korintus 3:18",
+    version: "NKJV",
+    text: "But we all, with unveiled face, beholding as in a mirror the glory of the Lord, are being transformed into the same image from glory to glory, just as by the Spirit of the Lord.",
+    tb2: "Kita semua mencerminkan kemuliaan Tuhan dengan muka yang tidak berselubung. Karena kemuliaan itu datangnya dari Tuhan yang adalah Roh, maka kita diubah menjadi serupa dengan gambar-Nya, dalam kemuliaan yang semakin besar."
+  },
+  "2 Corinthians 4:4": {
+    ref: "2 Corinthians 4:4",
+    refTB2: "2 Korintus 4:4",
+    version: "NKJV",
+    text: "whose minds the god of this age has blinded, who do not believe, lest the light of the gospel of the glory of Christ, who is the image of God, should shine on them.",
+    tb2: "yaitu orang-orang yang tidak percaya, yang pikirannya telah dibutakan oleh ilah zaman ini, sehingga mereka tidak melihat cahaya Injil tentang kemuliaan Kristus, yang adalah gambaran Allah."
+  },
   "2 Corinthians 4:16-17": {
     ref: "2 Corinthians 4:16–17",
     refTB2: "2 Korintus 4:16–17",
@@ -997,6 +1046,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And because you are sons, God has sent forth the Spirit of His Son into your hearts, crying out, \"Abba, Father!\"",
     tb2: "Karena kamu adalah anak, maka Allah telah menyuruh Roh Anak-Nya ke dalam hati kita, yang berseru, \"Ya Abba, ya Bapa!\""
+  },
+  "Galatians 4:24": {
+    ref: "Galatians 4:24",
+    refTB2: "Galatia 4:24",
+    version: "NKJV",
+    text: "which things are symbolic. For these are the two covenants: the one from Mount Sinai which gives birth to bondage, which is Hagar—",
+    tb2: "Ini adalah suatu kiasan. Sebab kedua perempuan itu adalah dua ketentuan Allah: yang satu berasal dari gunung Sinai dan melahirkan anak-anak perhambaan, itulah Hagar."
   },
   // --- Ephesians ---
   "Ephesians 1:22-23": {
@@ -1108,6 +1164,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For there is one God and one Mediator between God and men, the Man Christ Jesus,",
     tb2: "Karena Allah itu esa dan esa pula Pengantara antara Allah dan manusia, yaitu manusia Kristus Yesus,"
+  },
+  "1 Timothy 4:4-5": {
+    ref: "1 Timothy 4:4–5",
+    refTB2: "1 Timotius 4:4–5",
+    version: "NKJV",
+    text: "For every creature of God is good, and nothing is to be refused if it is received with thanksgiving; for it is sanctified by the word of God and prayer.",
+    tb2: "Karena semua yang diciptakan Allah itu baik dan suatu pun tidak ada yang haram, jika diterima dengan ucapan syukur, sebab semuanya itu dikuduskan oleh firman Allah dan oleh doa."
   },
   // --- 2 Timothy ---
   "2 Timothy 1:10": {
@@ -1481,6 +1544,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
     tb2: "Marilah kita melakukannya dengan mata yang tertuju kepada Yesus, yang memimpin kita dalam iman, dan yang membawa iman kita itu kepada kesempurnaan, yang dengan mengabaikan kehinaan tekun memikul salib ganti sukacita yang disediakan bagi Dia, yang sekarang duduk di sebelah kanan takhta Allah."
+  },
+  "Hebrews 12:14": {
+    ref: "Hebrews 12:14",
+    refTB2: "Ibrani 12:14",
+    version: "NKJV",
+    text: "Pursue peace with all people, and holiness, without which no one will see the Lord:",
+    tb2: "Berusahalah hidup damai dengan semua orang dan kejarlah kekudusan, sebab tanpa kekudusan tidak seorang pun akan melihat Tuhan."
   },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
