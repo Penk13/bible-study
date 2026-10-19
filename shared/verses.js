@@ -104,6 +104,21 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Moses and the children of Israel sang this song to the LORD, and spoke, saying: \"I will sing to the LORD, for He has triumphed gloriously! The horse and its rider He has thrown into the sea!\"",
     tb2: "Pada waktu itu Musa bersama-sama dengan orang Israel menyanyikan nyanyian ini bagi TUHAN yang berbunyi: \"Baiklah aku menyanyi bagi TUHAN, sebab Ia tinggi luhur; kuda dan penunggangnya dilemparkan-Nya ke dalam laut.\""
   },
+  "Exodus 25:21-22": {
+    ref: "Exodus 25:21–22",
+    refTB2: "Keluaran 25:21–22",
+    version: "NKJV",
+    text: "You shall put the mercy seat on top of the ark, and in the ark you shall put the Testimony that I will give you. And there I will meet with you, and I will speak with you from above the mercy seat, from between the two cherubim which are on the ark of the Testimony, about everything which I will give you in commandment to the children of Israel.",
+    tb2: "Haruslah kauletakkan tutup pendamaian itu di atas tabut dan dalam tabut itu harus kautaruh loh hukum yang akan Kuberikan kepadamu. Di sanalah Aku akan bertemu dengan engkau, dan dari atas tutup pendamaian itu, dari antara kedua kerub yang di atas tabut hukum itu, Aku akan berbicara dengan engkau tentang segala sesuatu yang akan Kuperintahkan kepadamu untuk disampaikan kepada orang Israel."
+  },
+  // --- Leviticus ---
+  "Leviticus 16:14": {
+    ref: "Leviticus 16:14",
+    refTB2: "Imamat 16:14",
+    version: "NKJV",
+    text: "He shall take some of the blood of the bull and sprinkle it with his finger on the mercy seat on the east side; and before the mercy seat he shall sprinkle some of the blood with his finger seven times.",
+    tb2: "Kemudian ia harus mengambil sedikit dari darah lembu jantan itu, lalu memercikkannya dengan jarinya ke atas tutup pendamaian di sebelah depan, dan ke depan tutup pendamaian itu ia harus memercikkan sedikit dari darah itu dengan jarinya tujuh kali."
+  },
   // --- Joshua ---
   "Joshua 24:2-3": {
     ref: "Joshua 24:2–3",
@@ -111,6 +126,14 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And Joshua said to all the people, \"Thus says the LORD God of Israel: 'Your fathers, including Terah, the father of Abraham and the father of Nahor, dwelt on the other side of the River in old times; and they served other gods. Then I took your father Abraham from the other side of the River, led him throughout all the land of Canaan, and multiplied his descendants and gave him Isaac.'\"",
     tb2: "Berkatalah Yosua kepada seluruh bangsa itu, \"Beginilah firman TUHAN, Allah Israel: Dahulu kala di seberang Sungai Efrat, di situlah nenek moyangmu diam, termasuk Terah, ayah Abraham dan ayah Nahor, dan mereka beribadah kepada allah lain. Namun, Aku mengambil Abraham, nenek moyangmu itu, dari seberang Sungai Efrat dan menyuruh dia menjelajahi seluruh tanah Kanaan. Aku melipatgandakan keturunannya dan memberikan Ishak kepadanya.\""
+  },
+  // --- 1 Kings ---
+  "1 Kings 8:10-11": {
+    ref: "1 Kings 8:10–11",
+    refTB2: "1 Raja-raja 8:10–11",
+    version: "NKJV",
+    text: "And it came to pass, when the priests came out of the holy place, that the cloud filled the house of the LORD, so that the priests could not continue ministering because of the cloud; for the glory of the LORD filled the house of the LORD.",
+    tb2: "Ketika imam-imam keluar dari tempat kudus, datanglah awan memenuhi rumah TUHAN, sehingga imam-imam tidak tahan berdiri untuk menyelenggarakan kebaktian oleh karena awan itu, sebab kemuliaan TUHAN memenuhi rumah TUHAN."
   },
   // --- Psalm ---
   "Psalm 2:7": {
@@ -261,6 +284,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Jerusalem, all Judea, and all the region around the Jordan went out to him and were baptized by him in the Jordan, confessing their sins.",
     tb2: "Lalu datanglah kepadanya penduduk dari Yerusalem, dari seluruh Yudea dan seluruh daerah sekitar Yordan. Sambil mengaku dosanya mereka dibaptis oleh Yohanes di Sungai Yordan."
   },
+  "Matthew 17:2": {
+    ref: "Matthew 17:2",
+    refTB2: "Matius 17:2",
+    version: "NKJV",
+    text: "and He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+    tb2: "Lalu Yesus berubah rupa di depan mata mereka; wajah-Nya bercahaya seperti matahari dan pakaian-Nya menjadi putih bersinar seperti terang."
+  },
   // --- Luke ---
   "Luke 12:32": {
     ref: "Luke 12:32",
@@ -268,6 +298,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "\"Do not fear, little flock, for it is your Father's good pleasure to give you the kingdom.\"",
     tb2: "\"Janganlah takut, hai kawanan kecil! Karena Bapamu telah berkenan memberikan Kerajaan itu kepadamu.\""
+  },
+  "Luke 18:13": {
+    ref: "Luke 18:13",
+    refTB2: "Lukas 18:13",
+    version: "NKJV",
+    text: "And the tax collector, standing afar off, would not so much as raise his eyes to heaven, but beat his breast, saying, 'God, be merciful to me a sinner!'",
+    tb2: "Tetapi pemungut cukai itu berdiri jauh-jauh, bahkan ia tidak berani menengadah ke langit, melainkan ia memukul diri dan berkata: Ya Allah, kasihanilah aku orang berdosa ini."
   },
   "Luke 24:26": {
     ref: "Luke 24:26",
@@ -346,6 +383,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Philip said to Him, \"Lord, show us the Father, and it is sufficient for us.\" Jesus said to him, \"Have I been with you so long, and yet you have not known Me, Philip? He who has seen Me has seen the Father; so how can you say, 'Show us the Father'?\"",
     tb2: "Kata Filipus kepada-Nya: \"Tuhan, tunjukkanlah Bapa itu kepada kami, itu sudah cukup bagi kami.\" Kata Yesus kepadanya: \"Telah sekian lama Aku bersama-sama kamu, Filipus, namun engkau tidak mengenal Aku? Siapa saja yang telah melihat Aku, ia telah melihat Bapa; bagaimana engkau berkata: Tunjukkanlah Bapa itu kepada kami?\""
+  },
+  "John 17:22": {
+    ref: "John 17:22",
+    refTB2: "Yohanes 17:22",
+    version: "NKJV",
+    text: "And the glory which You gave Me I have given them, that they may be one just as We are one:",
+    tb2: "Aku telah memberikan kepada mereka kemuliaan yang Engkau berikan kepada-Ku, supaya mereka menjadi satu, sama seperti Kita adalah satu:"
   },
   "John 19:2": {
     ref: "John 19:2",
@@ -587,6 +631,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Much in every way! Chiefly because to them were committed the oracles of God.",
     tb2: "Banyak sekali, dan di dalam segala hal. Pertama-tama, sebab kepada merekalah dipercayakan firman Allah."
   },
+  "Romans 3:4": {
+    ref: "Romans 3:4",
+    refTB2: "Roma 3:4",
+    version: "NKJV",
+    text: "Certainly not! Indeed, let God be true but every man a liar. As it is written: \"That You may be justified in Your words, And may overcome when You are judged.\"",
+    tb2: "Sekali-kali tidak! Sebaliknya, Allah adalah benar, dan semua manusia pembohong, seperti ada tertulis, \"Supaya Engkau ternyata benar dalam segala firman-Mu, dan menang jika Engkau dihakimi.\""
+  },
   "Romans 3:10-12": {
     ref: "Romans 3:10–12",
     refTB2: "Roma 3:10–12",
@@ -601,12 +652,68 @@ window.BIBLE_VERSES_NKJV = {
     text: "Now we know that whatever the law says, it says to those who are under the law, that every mouth may be stopped, and all the world may become guilty before God.",
     tb2: "Tetapi kita tahu bahwa segala sesuatu yang tercantum dalam kitab Taurat ditujukan kepada mereka yang hidup di bawah hukum Taurat, supaya tersumbat setiap mulut dan seluruh dunia jatuh ke bawah hukuman Allah."
   },
+  "Romans 3:21-22": {
+    ref: "Romans 3:21–22",
+    refTB2: "Roma 3:21–22",
+    version: "NKJV",
+    text: "But now the righteousness of God apart from the law is revealed, being witnessed by the Law and the Prophets, even the righteousness of God, through faith in Jesus Christ, to all and on all who believe. For there is no difference;",
+    tb2: "Tetapi sekarang, tanpa hukum Taurat kebenaran Allah telah dinyatakan, seperti yang disaksikan dalam Kitab Taurat dan Kitab-kitab para nabi, yaitu kebenaran Allah karena iman dalam Yesus Kristus bagi semua orang yang percaya. Sebab tidak ada perbedaan."
+  },
+  "Romans 3:23": {
+    ref: "Romans 3:23",
+    refTB2: "Roma 3:23",
+    version: "NKJV",
+    text: "for all have sinned and fall short of the glory of God,",
+    tb2: "Karena semua orang telah berbuat dosa dan telah kehilangan kemuliaan Allah,"
+  },
+  "Romans 3:24": {
+    ref: "Romans 3:24",
+    refTB2: "Roma 3:24",
+    version: "NKJV",
+    text: "being justified freely by His grace through the redemption that is in Christ Jesus,",
+    tb2: "dan oleh kasih karunia telah dibenarkan dengan cuma-cuma karena penebusan dalam Kristus Yesus."
+  },
+  "Romans 3:25": {
+    ref: "Romans 3:25",
+    refTB2: "Roma 3:25",
+    version: "NKJV",
+    text: "whom God set forth as a propitiation by His blood, through faith, to demonstrate His righteousness, because in His forbearance God had passed over the sins that were previously committed,",
+    tb2: "Kristus Yesus telah ditentukan Allah menjadi jalan pendamaian karena iman, dalam darah-Nya. Hal ini dibuat-Nya untuk menunjukkan keadilan-Nya, karena Ia telah membiarkan dosa-dosa yang telah terjadi dahulu pada masa kesabaran-Nya."
+  },
+  "Romans 3:26": {
+    ref: "Romans 3:26",
+    refTB2: "Roma 3:26",
+    version: "NKJV",
+    text: "to demonstrate at the present time His righteousness, that He might be just and the justifier of the one who has faith in Jesus.",
+    tb2: "Maksud-Nya ialah untuk menunjukkan keadilan-Nya pada masa ini, supaya nyata bahwa Ia benar dan juga membenarkan orang yang percaya kepada Yesus."
+  },
+  "Romans 3:27": {
+    ref: "Romans 3:27",
+    refTB2: "Roma 3:27",
+    version: "NKJV",
+    text: "Where is boasting then? It is excluded. By what law? Of works? No, but by the law of faith.",
+    tb2: "Jika demikian, apakah dasarnya untuk bermegah? Tidak ada! Berdasarkan apa? Berdasarkan perbuatan? Tidak, melainkan berdasarkan iman!"
+  },
+  "Romans 3:29-30": {
+    ref: "Romans 3:29–30",
+    refTB2: "Roma 3:29–30",
+    version: "NKJV",
+    text: "Or is He the God of the Jews only? Is He not also the God of the Gentiles? Yes, of the Gentiles also, since there is one God who will justify the circumcised by faith and the uncircumcised through faith.",
+    tb2: "Atau adakah Allah hanya Allah orang Yahudi saja? Bukankah Ia juga adalah Allah bangsa-bangsa lain? Ya, benar. Ia juga adalah Allah bangsa-bangsa lain! Artinya, kalau ada satu Allah, yang akan membenarkan baik orang-orang bersunat karena iman, maupun orang-orang tidak bersunat juga karena iman."
+  },
   "Romans 4:17": {
     ref: "Romans 4:17",
     refTB2: "Roma 4:17",
     version: "NKJV",
     text: "(as it is written, \"I have made you a father of many nations\") in the presence of Him whom he believed—God, who gives life to the dead and calls those things which do not exist as though they did;",
     tb2: "seperti ada tertulis: \"Engkau telah Kutetapkan menjadi bapak banyak bangsa\" — di hadapan Allah yang kepada-Nya ia percaya, yaitu Allah yang menghidupkan orang mati dan menjadikan dengan firman-Nya apa yang tidak ada menjadi ada."
+  },
+  "Romans 5:10": {
+    ref: "Romans 5:10",
+    refTB2: "Roma 5:10",
+    version: "NKJV",
+    text: "For if when we were enemies we were reconciled to God through the death of His Son, much more, having been reconciled, we shall be saved by His life.",
+    tb2: "Sebab jikalau kita, ketika masih seteru, diperdamaikan dengan Allah oleh kematian Anak-Nya, lebih-lebih kita, yang sekarang telah diperdamaikan, pasti akan diselamatkan oleh hidup-Nya!"
   },
   "Romans 5:11": {
     ref: "Romans 5:11",
@@ -649,6 +756,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "and if children, then heirs—heirs of God and joint heirs with Christ, if indeed we suffer with Him, that we may also be glorified together.",
     tb2: "Dan jika kita adalah anak, maka kita juga adalah ahli waris, yaitu ahli waris Allah dan ahli waris bersama-sama dengan Kristus, jika kita menderita bersama-sama dengan Dia, supaya kita juga dipermuliakan bersama-sama dengan Dia."
+  },
+  "Romans 8:18": {
+    ref: "Romans 8:18",
+    refTB2: "Roma 8:18",
+    version: "NKJV",
+    text: "For I consider that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+    tb2: "Sebab aku yakin bahwa penderitaan zaman sekarang ini tidak dapat dibandingkan dengan kemuliaan yang akan dinyatakan kepada kita."
   },
   "Romans 8:19-21": {
     ref: "Romans 8:19–21",
@@ -707,6 +821,20 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Aku meminta perhatianmu terhadap Febe, saudari seiman kita yang adalah pelayan jemaat di Kengkrea, supaya kamu menyambut dia dalam Tuhan, sebagaimana seharusnya bagi orang-orang kudus, dan berikanlah kepadanya bantuan bila diperlukannya. Sebab ia sendiri telah memberikan bantuan kepada banyak orang, juga kepadaku sendiri.  Sampaikan salam kepada Priskila dan Akwila, teman-teman sekerjaku dalam Kristus Yesus. Mereka telah mempertaruhkan nyawanya untuk hidupku. Kepada mereka bukan aku saja yang berterima kasih, tetapi juga semua jemaat bukan Yahudi. Salam juga kepada jemaat di rumah mereka. Salam kepada Epenetus, saudara seiman yang kukasihi, yang adalah buah pertama dari daerah Asia untuk Kristus."
   },
   // --- 1 Corinthians ---
+  "1 Corinthians 1:30": {
+    ref: "1 Corinthians 1:30",
+    refTB2: "1 Korintus 1:30",
+    version: "NKJV",
+    text: "But of Him you are in Christ Jesus, who became for us wisdom from God—and righteousness and sanctification and redemption—",
+    tb2: "Tetapi oleh Dia kamu berada dalam Kristus Yesus, yang oleh Allah telah menjadi hikmat bagi kita. Ia membenarkan dan menguduskan dan menebus kita."
+  },
+  "1 Corinthians 2:7": {
+    ref: "1 Corinthians 2:7",
+    refTB2: "1 Korintus 2:7",
+    version: "NKJV",
+    text: "But we speak the wisdom of God in a mystery, the hidden wisdom which God ordained before the ages for our glory,",
+    tb2: "Tetapi yang kami beritakan ialah hikmat Allah yang tersembunyi dan rahasia, yang sebelum dunia dijadikan telah disediakan Allah bagi kemuliaan kita."
+  },
   "1 Corinthians 3:15": {
     ref: "1 Corinthians 3:15",
     refTB2: "1 Korintus 3:15",
@@ -729,6 +857,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Manusia pertama berasal dari debu tanah dan bersifat jasmani, manusia kedua berasal dari surga."
   },
   // --- 2 Corinthians ---
+  "2 Corinthians 5:21": {
+    ref: "2 Corinthians 5:21",
+    refTB2: "2 Korintus 5:21",
+    version: "NKJV",
+    text: "For He made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him.",
+    tb2: "Dia yang tidak mengenal dosa telah dibuat-Nya menjadi dosa karena kita, supaya dalam Dia kita dibenarkan oleh Allah."
+  },
   "2 Corinthians 11:2": {
     ref: "2 Corinthians 11:2",
     refTB2: "2 Korintus 11:2",
@@ -737,6 +872,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Sebab aku cemburu kepada kamu dengan cemburu ilahi. Karena aku telah mempertunangkan kamu kepada satu laki-laki untuk membawa kamu sebagai perawan suci kepada Kristus."
   },
   // --- Galatians ---
+  "Galatians 2:20": {
+    ref: "Galatians 2:20",
+    refTB2: "Galatia 2:20",
+    version: "NKJV",
+    text: "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.",
+    tb2: "namun aku hidup, tetapi bukan lagi aku sendiri yang hidup, melainkan Kristus yang hidup di dalam aku. Hidup yang sekarang kuhidupi di dalam daging adalah hidup oleh iman dalam Anak Allah yang telah mengasihi aku dan menyerahkan diri-Nya untuk aku."
+  },
   "Galatians 3:19": {
     ref: "Galatians 3:19",
     refTB2: "Galatia 3:19",
@@ -794,6 +936,14 @@ window.BIBLE_VERSES_NKJV = {
     text: "'For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh.' This is a great mystery, but I speak concerning Christ and the church.",
     tb2: "Sebab itu, laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya itu menjadi satu daging. Rahasia ini besar, tetapi yang aku maksudkan ialah hubungan Kristus dan jemaat."
   },
+  // --- Philippians ---
+  "Philippians 1:21": {
+    ref: "Philippians 1:21",
+    refTB2: "Filipi 1:21",
+    version: "NKJV",
+    text: "For to me, to live is Christ, and to die is gain.",
+    tb2: "Karena bagiku hidup adalah Kristus dan mati adalah keuntungan."
+  },
   // --- Colossians ---
   "Colossians 1:16-17": {
     ref: "Colossians 1:16–17",
@@ -809,7 +959,28 @@ window.BIBLE_VERSES_NKJV = {
     text: "and by Him to reconcile all things to Himself, by Him, whether things on earth or things in heaven, having made peace through the blood of His cross.",
     tb2: "dan oleh Dialah Ia memperdamaikan segala sesuatu dengan diri-Nya, baik yang ada di bumi, maupun yang ada di surga, sesudah Ia mengadakan pendamaian oleh darah salib Kristus."
   },
+  "Colossians 1:27": {
+    ref: "Colossians 1:27",
+    refTB2: "Kolose 1:27",
+    version: "NKJV",
+    text: "To them God willed to make known what are the riches of the glory of this mystery among the Gentiles: which is Christ in you, the hope of glory.",
+    tb2: "Kepada mereka Allah mau memberitahukan betapa kaya dan mulianya rahasia itu di antara bangsa-bangsa lain, yaitu Kristus ada di tengah-tengah kamu, Kristus yang adalah pengharapan akan kemuliaan!"
+  },
+  "Colossians 3:4": {
+    ref: "Colossians 3:4",
+    refTB2: "Kolose 3:4",
+    version: "NKJV",
+    text: "When Christ who is our life appears, then you also will appear with Him in glory.",
+    tb2: "Apabila Kristus, yang adalah hidup kita, menyatakan diri kelak, kamu pun akan menyatakan diri bersama dengan Dia dalam kemuliaan."
+  },
   // --- 1 Thessalonians ---
+  "1 Thessalonians 2:12": {
+    ref: "1 Thessalonians 2:12",
+    refTB2: "1 Tesalonika 2:12",
+    version: "NKJV",
+    text: "that you would walk worthy of God who calls you into His own kingdom and glory.",
+    tb2: "dan meminta dengan sangat, supaya kamu hidup sesuai dengan kehendak Allah, yang memanggil kamu ke dalam Kerajaan dan kemuliaan-Nya."
+  },
   "1 Thessalonians 5:23-24": {
     ref: "1 Thessalonians 5:23–24",
     refTB2: "1 Tesalonika 5:23–24",
@@ -1114,6 +1285,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Now this is the main point of the things we are saying: We have such a High Priest, who is seated at the right hand of the throne of the Majesty in the heavens, a Minister of the sanctuary and of the true tabernacle which the Lord erected, and not man.",
     tb2: "Inti semua yang kita bicarakan itu ialah: Kita mempunyai Imam Besar yang demikian, yang duduk di sebelah kanan takhta Yang Mahabesar di surga, dan melayani ibadah di tempat kudus, yaitu di dalam kemah sejati yang didirikan oleh Tuhan dan bukan oleh manusia."
   },
+  "Hebrews 9:5": {
+    ref: "Hebrews 9:5",
+    refTB2: "Ibrani 9:5",
+    version: "NKJV",
+    text: "and above it were the cherubim of glory overshadowing the mercy seat. Of these things we cannot now speak in detail.",
+    tb2: "Di atasnya ada kedua kerub kemuliaan yang menaungi tutup pendamaian. Tetapi hal ini tidak dapat kita bicarakan sekarang secara terperinci."
+  },
   "Hebrews 9:22": {
     ref: "Hebrews 9:22",
     refTB2: "Ibrani 9:22",
@@ -1142,6 +1320,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Therefore, brethren, having boldness to enter the Holiest by the blood of Jesus,",
     tb2: "Jadi, Saudara-saudara, kita sekarang dengan penuh keberanian dapat masuk ke dalam tempat kudus, oleh darah Yesus,"
   },
+  "Hebrews 10:32": {
+    ref: "Hebrews 10:32",
+    refTB2: "Ibrani 10:32",
+    version: "NKJV",
+    text: "But recall the former days in which, after you were illuminated, you endured a great struggle with sufferings:",
+    tb2: "Tetapi ingatlah akan masa yang lalu. Sesudah kamu menerima terang, kamu banyak menderita oleh karena kamu bertahan dalam perjuangan yang berat,"
+  },
   "Hebrews 10:34": {
     ref: "Hebrews 10:34",
     refTB2: "Ibrani 10:34",
@@ -1169,6 +1354,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But now they desire a better, that is, a heavenly country. Therefore God is not ashamed to be called their God, for He has prepared a city for them.",
     tb2: "Tetapi sekarang mereka merindukan tanah air yang lebih baik, yaitu tanah air surgawi. Sebab itu, Allah tidak malu disebut Allah mereka, karena Ia telah mempersiapkan sebuah kota bagi mereka."
+  },
+  "Hebrews 12:2": {
+    ref: "Hebrews 12:2",
+    refTB2: "Ibrani 12:2",
+    version: "NKJV",
+    text: "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
+    tb2: "Marilah kita melakukannya dengan mata yang tertuju kepada Yesus, yang memimpin kita dalam iman, dan yang membawa iman kita itu kepada kesempurnaan, yang dengan mengabaikan kehinaan tekun memikul salib ganti sukacita yang disediakan bagi Dia, yang sekarang duduk di sebelah kanan takhta Allah."
   },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
@@ -1199,6 +1391,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "who formerly were disobedient, when once the Divine longsuffering waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight souls, were saved through water. There is also an antitype which now saves us—baptism (not the removal of the filth of the flesh, but the answer of a good conscience toward God), through the resurrection of Jesus Christ,",
     tb2: "yaitu kepada roh-roh mereka yang dahulu pada waktu Nuh tidak taat kepada Allah, ketika Allah tetap menanti dengan sabar waktu Nuh sedang mempersiapkan bahteranya, di mana hanya sedikit, yaitu delapan orang, yang diselamatkan melalui air bah itu. Juga kamu sekarang diselamatkan oleh kiasannya, yaitu baptisan — maksudnya bukan untuk membersihkan kenajisan jasmani, melainkan untuk memohonkan hati nurani yang baik kepada Allah — melalui kebangkitan Yesus Kristus,"
   },
+  "1 Peter 5:10": {
+    ref: "1 Peter 5:10",
+    refTB2: "1 Petrus 5:10",
+    version: "NKJV",
+    text: "But may the God of all grace, who called us to His eternal glory by Christ Jesus, after you have suffered a while, perfect, establish, strengthen, and settle you.",
+    tb2: "Allah, sumber segala kasih karunia, yang telah memanggil kamu dalam Kristus kepada kemuliaan-Nya yang kekal, akan melengkapi, meneguhkan, menguatkan, dan mengokohkan kamu, sesudah kamu menderita seketika lamanya."
+  },
   // --- 2 Peter ---
   "2 Peter 1:4": {
     ref: "2 Peter 1:4",
@@ -1214,6 +1413,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
     tb2: "Jika kita mengaku dosa kita, maka Ia setia dan adil, sehingga Ia akan mengampuni segala dosa kita dan menyucikan kita dari segala kejahatan."
+  },
+  "1 John 2:2": {
+    ref: "1 John 2:2",
+    refTB2: "1 Yohanes 2:2",
+    version: "NKJV",
+    text: "And He Himself is the propitiation for our sins, and not for ours only but also for the whole world.",
+    tb2: "Ia adalah pendamaian untuk segala dosa kita, dan bukan untuk dosa kita saja, tetapi juga untuk dosa seluruh dunia."
   },
   // --- Revelation ---
   "Revelation 4:6": {
