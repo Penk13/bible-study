@@ -12,6 +12,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then God said, \"Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth.\" So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, \"Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth.\"",
     tb2: "Berfirmanlah Allah, \"Baiklah Kita menjadikan manusia menurut gambar dan rupa Kita, supaya mereka berkuasa atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas segala binatang melata yang merayap di bumi.\" Maka Allah menciptakan manusia itu menurut gambar-Nya, menurut gambar Allah diciptakan-Nya dia; laki-laki dan perempuan diciptakan-Nya mereka. Allah memberkati mereka, lalu Allah berfirman kepada mereka, \"Beranakcuculah dan bertambah banyak; penuhilah bumi dan taklukkanlah itu, berkuasalah atas ikan-ikan di laut dan burung-burung di udara dan atas segala binatang yang merayap di bumi.\""
   },
+  "Genesis 2:9": {
+    ref: "Genesis 2:9",
+    refTB2: "Kejadian 2:9",
+    version: "NKJV",
+    text: "And out of the ground the LORD God made every tree grow that is pleasant to the sight and good for food. The tree of life was also in the midst of the garden, and the tree of the knowledge of good and evil.",
+    tb2: "Lalu TUHAN Allah menumbuhkan berbagai-bagai pohon dari bumi, yang menarik dan yang baik untuk dimakan buahnya; dan pohon kehidupan di tengah-tengah taman itu, serta pohon pengetahuan tentang yang baik dan yang jahat."
+  },
   "Genesis 2:21-25": {
     ref: "Genesis 2:21–25",
     refTB2: "Kejadian 2:21–25",
@@ -60,6 +67,20 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Then He brought him outside and said, \"Look now toward heaven, and count the stars if you are able to number them.\" And He said to him, \"So shall your descendants be.\" And he believed in the LORD, and He accounted it to him for righteousness.",
     tb2: "Lalu TUHAN membawa Abram ke luar serta berfirman, \"Coba lihat ke langit, hitunglah bintang-bintang, jika engkau dapat menghitungnya.\" Maka firman-Nya kepadanya, \"Demikianlah banyaknya nanti keturunanmu.\" Lalu percayalah Abram kepada TUHAN, maka TUHAN memperhitungkan hal itu kepadanya sebagai kebenaran."
+  },
+  "Genesis 17:21": {
+    ref: "Genesis 17:21",
+    refTB2: "Kejadian 17:21",
+    version: "NKJV",
+    text: "But My covenant I will establish with Isaac, whom Sarah shall bear to you at this set time next year.",
+    tb2: "Tetapi perjanjian-Ku akan Kuadakan dengan Ishak, yang akan dilahirkan Sara bagimu tahun yang akan datang pada waktu seperti ini juga."
+  },
+  "Genesis 18:10": {
+    ref: "Genesis 18:10",
+    refTB2: "Kejadian 18:10",
+    version: "NKJV",
+    text: "And He said, \"I will certainly return to you according to the time of life, and behold, Sarah your wife shall have a son.\"",
+    tb2: "Firman-Nya, \"Sesungguhnya Aku akan kembali tahun depan mendapatkan engkau, pada waktu itulah Sara, istrimu, akan mempunyai seorang anak laki-laki.\""
   },
   "Genesis 28:10-22": {
     ref: "Genesis 28:12",
@@ -198,6 +219,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "What is man that You are mindful of him, And the son of man that You visit him? For You have made him a little lower than the angels, And You have crowned him with glory and honor. You have made him to have dominion over the works of Your hands; You have put all things under his feet,",
     tb2: "Apakah manusia, sehingga Engkau mengingatnya? Apakah anak manusia, sehingga Engkau mengindahkannya? Namun, Engkau telah membuatnya hampir sama seperti Allah, dan telah memahkotainya dengan kemuliaan dan hormat. Engkau membuat dia berkuasa atas buatan tangan-Mu; segala-galanya telah Kauletakkan di bawah kakinya:"
+  },
+  "Psalm 22:22": {
+    ref: "Psalm 22:22",
+    refTB2: "Mazmur 22:23",
+    version: "NKJV",
+    text: "I will declare Your name to My brethren; In the midst of the assembly I will praise You.",
+    tb2: "Aku akan memasyhurkan nama-Mu kepada saudara-saudaraku dan memuji-muji Engkau di tengah-tengah jemaah:"
   },
   "Psalm 33:9": {
     ref: "Psalm 33:9",
@@ -363,6 +391,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Bukankah Mesias harus menderita semuanya itu untuk masuk ke dalam kemuliaan-Nya?"
   },
   // --- John ---
+  "John 1:12-13": {
+    ref: "John 1:12–13",
+    refTB2: "Yohanes 1:12–13",
+    version: "NKJV",
+    text: "But as many as received Him, to them He gave the right to become children of God, to those who believe in His name: who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.",
+    tb2: "Tetapi semua orang yang menerima-Nya diberi-Nya kuasa supaya menjadi anak-anak Allah, yaitu mereka yang percaya dalam nama-Nya; orang-orang yang diperanakkan bukan dari darah atau dari daging, bukan pula secara jasmani oleh keinginan seorang laki-laki, melainkan dari Allah."
+  },
   "John 1:14": {
     ref: "John 1:14",
     refTB2: "Yohanes 1:14",
@@ -390,6 +425,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And He said to him, \"Most assuredly, I say to you, hereafter you shall see heaven open, and the angels of God ascending and descending upon the Son of Man.\"",
     tb2: "Lalu kata Yesus kepadanya, \"Sesungguhnya Aku berkata kepadamu, engkau akan melihat langit terbuka dan malaikat-malaikat Allah naik dan turun kepada Anak Manusia.\""
+  },
+  "John 3:6": {
+    ref: "John 3:6",
+    refTB2: "Yohanes 3:6",
+    version: "NKJV",
+    text: "That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.",
+    tb2: "Apa yang dilahirkan dari daging adalah daging, dan apa yang dilahirkan dari Roh adalah roh."
   },
   "John 3:16": {
     ref: "John 3:16",
@@ -841,6 +883,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But now we have been delivered from the law, having died to what we were held by, so that we should serve in the newness of the Spirit and not in the oldness of the letter.",
     tb2: "Tetapi sekarang kita telah dibebaskan dari hukum Taurat, sebab kita telah mati bagi dia, yang mengurung kita, sehingga kita sekarang melayani dalam keadaan baru menurut Roh dan bukan dalam keadaan lama menurut huruf hukum Taurat."
   },
+  "Romans 7:18": {
+    ref: "Romans 7:18",
+    refTB2: "Roma 7:18",
+    version: "NKJV",
+    text: "For I know that in me (that is, in my flesh) nothing good dwells; for to will is present with me, but how to perform what is good I do not find.",
+    tb2: "Sebab aku tahu bahwa di dalam aku, yaitu di dalam aku sebagai manusia, tidak ada sesuatu yang baik. Sebab kehendak memang ada di dalam aku, tetapi bukan hal berbuat apa yang baik."
+  },
   "Romans 8:2": {
     ref: "Romans 8:2",
     refTB2: "Roma 8:2",
@@ -862,6 +911,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "And if Christ is in you, the body is dead because of sin, but the Spirit is life because of righteousness.",
     tb2: "Tetapi jika Kristus di dalam kamu, maka tubuh memang mati karena dosa, tetapi roh adalah kehidupan oleh karena pembenaran."
   },
+  "Romans 8:15": {
+    ref: "Romans 8:15",
+    refTB2: "Roma 8:15",
+    version: "NKJV",
+    text: "For you did not receive the spirit of bondage again to fear, but you received the Spirit of adoption by whom we cry out, \"Abba, Father.\"",
+    tb2: "Sebab kamu tidak menerima roh perbudakan yang membuat kamu menjadi takut lagi, tetapi kamu telah menerima Roh yang menjadikan kamu anak Allah. Oleh Roh itu kita berseru, \"Ya Abba, ya Bapa!\""
+  },
+  "Romans 8:16": {
+    ref: "Romans 8:16",
+    refTB2: "Roma 8:16",
+    version: "NKJV",
+    text: "The Spirit Himself bears witness with our spirit that we are children of God,",
+    tb2: "Roh itu bersaksi bersama-sama dengan roh kita bahwa kita adalah anak-anak Allah."
+  },
   "Romans 8:17": {
     ref: "Romans 8:17",
     refTB2: "Roma 8:17",
@@ -882,6 +945,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For the earnest expectation of the creation eagerly waits for the revealing of the sons of God. For the creation was subjected to futility, not willingly, but because of Him who subjected it in hope; because the creation itself also will be delivered from the bondage of corruption into the glorious liberty of the children of God.",
     tb2: "Sebab dengan sangat rindu seluruh ciptaan menantikan saat anak-anak Allah dinyatakan. Karena seluruh ciptaan telah ditaklukkan kepada kesia-siaan, bukan oleh kehendaknya sendiri, melainkan oleh kehendak Dia yang telah menaklukkannya dalam pengharapan, karena ciptaan itu sendiri juga akan dimerdekakan dari perhambaan kebinasaan dan masuk ke dalam kemerdekaan kemuliaan anak-anak Allah."
+  },
+  "Romans 8:23": {
+    ref: "Romans 8:23",
+    refTB2: "Roma 8:23",
+    version: "NKJV",
+    text: "Not only that, but we also who have the firstfruits of the Spirit, even we ourselves groan within ourselves, eagerly waiting for the adoption, the redemption of our body.",
+    tb2: "Bukan hanya mereka saja, tetapi kita yang telah menerima karunia sulung Roh, kita juga mengeluh dalam hati kita sambil menantikan pengangkatan sebagai anak, yaitu pembebasan tubuh kita."
   },
   "Romans 8:29": {
     ref: "Romans 8:29",
@@ -1055,6 +1125,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Ini adalah suatu kiasan. Sebab kedua perempuan itu adalah dua ketentuan Allah: yang satu berasal dari gunung Sinai dan melahirkan anak-anak perhambaan, itulah Hagar."
   },
   // --- Ephesians ---
+  "Ephesians 1:5": {
+    ref: "Ephesians 1:5",
+    refTB2: "Efesus 1:5",
+    version: "NKJV",
+    text: "having predestined us to adoption as sons by Jesus Christ to Himself, according to the good pleasure of His will,",
+    tb2: "Dalam kasih Ia telah menentukan kita dari semula oleh Yesus Kristus untuk menjadi anak-anak-Nya, sesuai dengan kerelaan kehendak-Nya,"
+  },
   "Ephesians 1:22-23": {
     ref: "Ephesians 1:22–23",
     refTB2: "Efesus 1:22–23",
@@ -1412,6 +1489,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "but Christ as a Son over His own house, whose house we are if we hold fast the confidence and the rejoicing of the hope firm to the end.",
     tb2: "tetapi Kristus setia sebagai Anak yang mengepalai rumah-Nya; dan rumah-Nya ialah kita, jika kita sampai pada akhirnya teguh berpegang pada kepercayaan dan kemegahan pengharapan kita."
   },
+  "Hebrews 3:14": {
+    ref: "Hebrews 3:14",
+    refTB2: "Ibrani 3:14",
+    version: "NKJV",
+    text: "For we have become partakers of Christ if we hold the beginning of our confidence steadfast to the end,",
+    tb2: "Karena kita telah beroleh bagian di dalam Kristus, asal saja kita teguh berpegang sampai kepada akhirnya pada keyakinan iman kita yang semula."
+  },
   "Hebrews 4:14-15": {
     ref: "Hebrews 4:14–15",
     refTB2: "Ibrani 4:14–15",
@@ -1551,6 +1635,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Pursue peace with all people, and holiness, without which no one will see the Lord:",
     tb2: "Berusahalah hidup damai dengan semua orang dan kejarlah kekudusan, sebab tanpa kekudusan tidak seorang pun akan melihat Tuhan."
+  },
+  "Hebrews 12:23": {
+    ref: "Hebrews 12:23",
+    refTB2: "Ibrani 12:23",
+    version: "NKJV",
+    text: "to the general assembly and church of the firstborn who are registered in heaven, to God the Judge of all, to the spirits of just men made perfect,",
+    tb2: "dan kepada jemaat anak-anak sulung, yang namanya terdaftar di surga, dan kepada Allah, yang menghakimi semua orang, dan kepada roh-roh orang-orang benar yang telah menjadi sempurna,"
   },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
