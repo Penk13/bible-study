@@ -5,6 +5,13 @@
  */
 window.BIBLE_VERSES_NKJV = {
   // --- Genesis ---
+  "Genesis 1:26-28": {
+    ref: "Genesis 1:26–28",
+    refTB2: "Kejadian 1:26–28",
+    version: "NKJV",
+    text: "Then God said, \"Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth.\" So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, \"Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth.\"",
+    tb2: "Berfirmanlah Allah, \"Baiklah Kita menjadikan manusia menurut gambar dan rupa Kita, supaya mereka berkuasa atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas segala binatang melata yang merayap di bumi.\" Maka Allah menciptakan manusia itu menurut gambar-Nya, menurut gambar Allah diciptakan-Nya dia; laki-laki dan perempuan diciptakan-Nya mereka. Allah memberkati mereka, lalu Allah berfirman kepada mereka, \"Beranakcuculah dan bertambah banyak; penuhilah bumi dan taklukkanlah itu, berkuasalah atas ikan-ikan di laut dan burung-burung di udara dan atas segala binatang yang merayap di bumi.\""
+  },
   "Genesis 2:21-25": {
     ref: "Genesis 2:21–25",
     refTB2: "Kejadian 2:21–25",
@@ -106,6 +113,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "I will declare the decree: The LORD has said to Me, \"You are My Son, Today I have begotten You.\"",
     tb2: "Aku hendak menceritakan ketetapan TUHAN; Ia berfirman kepadaku, \"Engkaulah Anak-Ku! Pada hari ini telah Kuperanakkan Engkau.\""
   },
+  "Psalm 2:8": {
+    ref: "Psalm 2:8",
+    refTB2: "Mazmur 2:8",
+    version: "NKJV",
+    text: "Ask of Me, and I will give You The nations for Your inheritance, And the ends of the earth for Your possession.",
+    tb2: "Mintalah kepada-Ku, maka bangsa-bangsa akan Kuberikan kepada-Mu menjadi milik pusaka-Mu, dan ujung bumi menjadi kepunyaan-Mu."
+  },
+  "Psalm 8:4-6": {
+    ref: "Psalm 8:4–6",
+    refTB2: "Mazmur 8:5–7",
+    version: "NKJV",
+    text: "What is man that You are mindful of him, And the son of man that You visit him? For You have made him a little lower than the angels, And You have crowned him with glory and honor. You have made him to have dominion over the works of Your hands; You have put all things under his feet,",
+    tb2: "Apakah manusia, sehingga Engkau mengingatnya? Apakah anak manusia, sehingga Engkau mengindahkannya? Namun, Engkau telah membuatnya hampir sama seperti Allah, dan telah memahkotainya dengan kemuliaan dan hormat. Engkau membuat dia berkuasa atas buatan tangan-Mu; segala-galanya telah Kauletakkan di bawah kakinya:"
+  },
   "Psalm 33:9": {
     ref: "Psalm 33:9",
     refTB2: "Mazmur 33:9",
@@ -201,6 +222,14 @@ window.BIBLE_VERSES_NKJV = {
     text: "\"When I passed by you again and looked upon you, indeed your time was the time of love; so I spread My wing over you and covered your nakedness. Yes, I swore an oath to you and entered into a covenant with you, and you became Mine,\" says the Lord GOD.",
     tb2: "\"Ketika Aku lewat dekatmu lagi dan memandangmu, sungguh, engkau sudah sampai pada masa bercinta. Maka, Aku membentangkan sayap-Ku ke atasmu dan menutupi ketelanjanganmu. Aku bersumpah setia kepadamu dan mengadakan perjanjian denganmu, demikianlah firman Tuhan ALLAH, sehingga engkau menjadi kepunyaan-Ku.\""
   },
+  // --- Daniel ---
+  "Daniel 2:34-35": {
+    ref: "Daniel 2:34–35",
+    refTB2: "Daniel 2:34–35",
+    version: "NKJV",
+    text: "You watched while a stone was cut out without hands, which struck the image on its feet of iron and clay, and broke them in pieces. Then the iron, the clay, the bronze, the silver, and the gold were crushed together, and became like chaff from the summer threshing floors; the wind carried them away so that no trace of them was found. And the stone that struck the image became a great mountain and filled the whole earth.",
+    tb2: "Sementara Tuanku melihatnya, terungkit lepas sebuah batu tanpa perbuatan tangan manusia, lalu menimpa patung itu, tepat pada kakinya yang dari besi dan tanah liat itu, sehingga remuk. Maka sekaligus diremukkannyalah juga besi, tanah liat, tembaga, perak dan emas itu, dan semuanya menjadi seperti sekam di tempat pengirikan pada musim panas, lalu angin menghembuskannya, sehingga tidak ada bekas-bekasnya yang ditemukan. Tetapi batu yang menimpa patung itu menjadi gunung besar yang memenuhi seluruh bumi."
+  },
   // --- Hosea ---
   "Hosea 2:19-20": {
     ref: "Hosea 2:19–20",
@@ -232,6 +261,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "\"Do not fear, little flock, for it is your Father's good pleasure to give you the kingdom.\"",
     tb2: "\"Janganlah takut, hai kawanan kecil! Karena Bapamu telah berkenan memberikan Kerajaan itu kepadamu.\""
+  },
+  "Luke 24:26": {
+    ref: "Luke 24:26",
+    refTB2: "Lukas 24:26",
+    version: "NKJV",
+    text: "Ought not the Christ to have suffered these things and to enter into His glory?",
+    tb2: "Bukankah Mesias harus menderita semuanya itu untuk masuk ke dalam kemuliaan-Nya?"
   },
   // --- John ---
   "John 1:14": {
@@ -276,6 +312,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices greatly because of the bridegroom’s voice. Therefore this joy of mine is fulfilled. He must increase, but I must decrease.",
     tb2: "Yang punya mempelai perempuan, ialah mempelai laki-laki; tetapi sahabat mempelai laki-laki, yang berdiri dekat dia dan yang mendengarkannya, sangat bersukacita mendengar suara mempelai laki-laki itu. Itulah sukacitaku, dan sekarang sukacitaku itu penuh. Ia harus makin besar, tetapi aku harus makin kecil."
   },
+  "John 10:28": {
+    ref: "John 10:28",
+    refTB2: "Yohanes 10:28",
+    version: "NKJV",
+    text: "And I give them eternal life, and they shall never perish; neither shall anyone snatch them out of My hand.",
+    tb2: "Aku memberikan hidup yang kekal kepada mereka dan mereka pasti tidak akan binasa sampai selama-lamanya dan seorang pun tidak akan merebut mereka dari tangan-Ku."
+  },
   "John 14:8-9": {
     ref: "John 14:8–9",
     refTB2: "Yohanes 14:8–9",
@@ -284,6 +327,20 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Kata Filipus kepada-Nya: \"Tuhan, tunjukkanlah Bapa itu kepada kami, itu sudah cukup bagi kami.\" Kata Yesus kepadanya: \"Telah sekian lama Aku bersama-sama kamu, Filipus, namun engkau tidak mengenal Aku? Siapa saja yang telah melihat Aku, ia telah melihat Bapa; bagaimana engkau berkata: Tunjukkanlah Bapa itu kepada kami?\""
   },
   // --- Acts ---
+  "Acts 2:36": {
+    ref: "Acts 2:36",
+    refTB2: "Kisah Para Rasul 2:36",
+    version: "NKJV",
+    text: "Therefore let all the house of Israel know assuredly that God has made this Jesus, whom you crucified, both Lord and Christ.",
+    tb2: "Jadi, seluruh kaum Israel harus tahu dengan pasti bahwa Allah telah membuat Yesus, yang kamu salibkan itu, menjadi Tuhan dan Kristus."
+  },
+  "Acts 5:31": {
+    ref: "Acts 5:31",
+    refTB2: "Kisah Para Rasul 5:31",
+    version: "NKJV",
+    text: "Him God has exalted to His right hand to be Prince and Savior, to give repentance to Israel and forgiveness of sins.",
+    tb2: "Dialah yang telah ditinggikan oleh tangan kanan Allah menjadi Pemimpin dan Juruselamat, supaya Israel dapat bertobat dan menerima pengampunan dosa."
+  },
   "Acts 7:53": {
     ref: "Acts 7:53",
     refTB2: "Kisah Para Rasul 7:53",
@@ -375,6 +432,76 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For in it the righteousness of God is revealed from faith to faith; as it is written, \"The just shall live by faith.\"",
     tb2: "Sebab di dalamnya dinyatakan pembenaran oleh Allah, yang bertolak dari iman dan memimpin kepada iman, seperti ada tertulis: \"Orang yang dibenarkan karena imannya, akan hidup.\""
+  },
+  "Romans 1:18": {
+    ref: "Romans 1:18",
+    refTB2: "Roma 1:18",
+    version: "NKJV",
+    text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness,",
+    tb2: "Sebab murka Allah nyata dari surga atas segala kefasikan dan kelaliman manusia, yang menindas kebenaran dengan kelaliman."
+  },
+  "Romans 1:19-20": {
+    ref: "Romans 1:19–20",
+    refTB2: "Roma 1:19–20",
+    version: "NKJV",
+    text: "because what may be known of God is manifest in them, for God has shown it to them. For since the creation of the world His invisible attributes are clearly seen, being understood by the things that are made, even His eternal power and Godhead, so that they are without excuse,",
+    tb2: "Karena apa yang dapat mereka ketahui tentang Allah nyata bagi mereka, sebab Allah telah menyatakannya kepada mereka. Sebab apa yang tidak tampak dari-Nya, yaitu kekuatan-Nya yang kekal dan keilahian-Nya, dapat tampak kepada pikiran dari karya-Nya sejak dunia diciptakan, sehingga mereka tidak dapat berdalih."
+  },
+  "Romans 1:21": {
+    ref: "Romans 1:21",
+    refTB2: "Roma 1:21",
+    version: "NKJV",
+    text: "because, although they knew God, they did not glorify Him as God, nor were thankful, but became futile in their thoughts, and their foolish hearts were darkened.",
+    tb2: "Sebab sekalipun mereka mengenal Allah, mereka tidak memuliakan Dia sebagai Allah atau mengucap syukur kepada-Nya. Sebaliknya, pikiran mereka menjadi sia-sia dan hati mereka yang bodoh menjadi gelap."
+  },
+  "Romans 1:23": {
+    ref: "Romans 1:23",
+    refTB2: "Roma 1:23",
+    version: "NKJV",
+    text: "and changed the glory of the incorruptible God into an image made like corruptible man—and birds and four-footed animals and creeping things.",
+    tb2: "Mereka menggantikan kemuliaan Allah yang tidak fana dengan gambaran yang mirip dengan manusia yang fana, burung-burung, binatang-binatang yang berkaki empat atau binatang-binatang yang menjalar."
+  },
+  "Romans 1:24": {
+    ref: "Romans 1:24",
+    refTB2: "Roma 1:24",
+    version: "NKJV",
+    text: "Therefore God also gave them up to uncleanness, in the lusts of their hearts, to dishonor their bodies among themselves,",
+    tb2: "Karena itu Allah menyerahkan mereka kepada keinginan hati mereka akan kecemaran, sehingga mereka saling mencemarkan tubuh mereka."
+  },
+  "Romans 1:25": {
+    ref: "Romans 1:25",
+    refTB2: "Roma 1:25",
+    version: "NKJV",
+    text: "who exchanged the truth of God for the lie, and worshiped and served the creature rather than the Creator, who is blessed forever. Amen.",
+    tb2: "Sebab mereka menggantikan kebenaran Allah dengan dusta dan memuja dan menyembah makhluk dengan melupakan Penciptanya yang harus dipuji selama-lamanya, amin."
+  },
+  "Romans 1:26": {
+    ref: "Romans 1:26",
+    refTB2: "Roma 1:26",
+    version: "NKJV",
+    text: "For this reason God gave them up to vile passions. For even their women exchanged the natural use for what is against nature.",
+    tb2: "Karena itu Allah menyerahkan mereka kepada hawa nafsu yang memalukan, sebab istri-istri mereka menggantikan persetubuhan yang wajar dengan yang tidak wajar."
+  },
+  "Romans 1:28": {
+    ref: "Romans 1:28",
+    refTB2: "Roma 1:28",
+    version: "NKJV",
+    text: "And even as they did not like to retain God in their knowledge, God gave them over to a debased mind, to do those things which are not fitting;",
+    tb2: "Karena mereka tidak merasa perlu untuk mengakui Allah, maka Allah menyerahkan mereka kepada pikiran-pikiran yang terkutuk, sehingga mereka melakukan apa yang tidak pantas:"
+  },
+  "Romans 2:1": {
+    ref: "Romans 2:1",
+    refTB2: "Roma 2:1",
+    version: "NKJV",
+    text: "Therefore you are inexcusable, O man, whoever you are who judge, for in whatever you judge another you condemn yourself; for you who judge practice the same things.",
+    tb2: "Karena itu, hai manusia, siapa pun juga engkau, yang menghakimi orang lain, engkau sendiri tidak bebas dari salah. Sebab, dalam menghakimi orang lain, engkau menghakimi dirimu sendiri, karena engkau yang menghakimi orang lain melakukan hal-hal yang sama."
+  },
+  "Romans 2:14-15": {
+    ref: "Romans 2:14–15",
+    refTB2: "Roma 2:14–15",
+    version: "NKJV",
+    text: "for when Gentiles, who do not have the law, by nature do the things in the law, these, although not having the law, are a law to themselves, who show the work of the law written in their hearts, their conscience also bearing witness, and between themselves their thoughts accusing or else excusing them",
+    tb2: "Apabila bangsa-bangsa lain yang tidak memiliki hukum Taurat oleh dorongan diri sendiri melakukan apa yang dituntut hukum Taurat, maka, walaupun mereka tidak memiliki hukum Taurat, mereka menjadi hukum Taurat bagi diri mereka sendiri. Sebab dengan itu mereka menunjukkan bahwa isi hukum Taurat ada tertulis di dalam hati mereka, dan suara hati mereka turut bersaksi dan pikiran mereka saling menuduh atau saling membela."
   },
   "Romans 2:17": {
     ref: "Romans 2:17",
@@ -481,6 +608,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "not lagging in diligence, fervent in spirit, serving the Lord;",
     tb2: "Janganlah hendaknya kerajinanmu kendor, biarlah rohmu menyala-nyala dan layanilah Tuhan."
   },
+  "Romans 14:17": {
+    ref: "Romans 14:17",
+    refTB2: "Roma 14:17",
+    version: "NKJV",
+    text: "for the kingdom of God is not eating and drinking, but righteousness and peace and joy in the Holy Spirit.",
+    tb2: "Sebab Kerajaan Allah bukanlah soal makanan dan minuman, tetapi soal kebenaran, damai sejahtera, dan sukacita oleh Roh Kudus."
+  },
   "Romans 16:1-5": {
     ref: "Romans 16:1, 4–5",
     refTB2: "Roma 16:1, 4–5",
@@ -502,6 +636,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "You know that you were Gentiles, carried away to these dumb idols, however you were led.",
     tb2: "Kamu tahu bahwa pada waktu kamu masih belum mengenal Allah, kamu dipikat dan ditarik kepada berhala-berhala yang bisu."
+  },
+  "1 Corinthians 15:47": {
+    ref: "1 Corinthians 15:47",
+    refTB2: "1 Korintus 15:47",
+    version: "NKJV",
+    text: "The first man was of the earth, made of dust; the second Man is the Lord from heaven.",
+    tb2: "Manusia pertama berasal dari debu tanah dan bersifat jasmani, manusia kedua berasal dari surga."
   },
   // --- 2 Corinthians ---
   "2 Corinthians 11:2": {
@@ -749,6 +890,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But one testified in a certain place, saying: \"What is man that You are mindful of him, Or the son of man that You take care of him?\"",
     tb2: "Tetapi ada orang yang pernah memberi kesaksian di dalam suatu nas, katanya: \"Apakah manusia, sehingga Engkau mengingatnya, atau anak manusia, sehingga Engkau mengindahkannya?\""
   },
+  "Hebrews 2:7-8": {
+    ref: "Hebrews 2:7–8",
+    refTB2: "Ibrani 2:7–8",
+    version: "NKJV",
+    text: "You have made him a little lower than the angels; You have crowned him with glory and honor, And set him over the works of Your hands. You have put all things in subjection under his feet.\" For in that He put all in subjection under him, He left nothing that is not put under him. But now we do not yet see all things put under him.",
+    tb2: "Namun, Engkau telah membuatnya untuk waktu yang singkat sedikit lebih rendah daripada malaikat-malaikat, dan telah memahkotainya dengan kemuliaan dan hormat. Segala sesuatu telah Engkau taklukkan di bawah kakinya.\" Sebab dalam menaklukkan segala sesuatu kepada-Nya, tidak ada suatu pun yang Ia kecualikan, yang tidak takluk kepada-Nya. Tetapi sekarang ini belum kita lihat bahwa segala sesuatu telah ditaklukkan kepada-Nya."
+  },
   "Hebrews 2:9": {
     ref: "Hebrews 2:9",
     refTB2: "Ibrani 2:9",
@@ -961,6 +1109,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Before the throne there was a sea of glass, like crystal. And in the midst of the throne, and around the throne, were four living creatures full of eyes in front and in back.",
     tb2: "Di hadapan takhta itu ada lautan kaca bagaikan kristal; di tengah-tengah takhta itu dan di sekelilingnya ada empat makhluk penuh dengan mata, di sebelah muka dan di sebelah belakang."
+  },
+  "Revelation 11:15": {
+    ref: "Revelation 11:15",
+    refTB2: "Wahyu 11:15",
+    version: "NKJV",
+    text: "Then the seventh angel sounded: And there were loud voices in heaven, saying, \"The kingdoms of this world have become the kingdoms of our Lord and of His Christ, and He shall reign forever and ever!\"",
+    tb2: "Lalu malaikat yang ketujuh meniup sangkakalanya, dan terdengarlah suara-suara nyaring di dalam surga, katanya, \"Pemerintahan atas dunia dipegang oleh Tuhan kita dan Dia yang diurapi-Nya, dan Ia akan memerintah sebagai raja sampai selama-lamanya.\""
   },
   "Revelation 15:2-3": {
     ref: "Revelation 15:2–3",
