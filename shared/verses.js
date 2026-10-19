@@ -5,12 +5,33 @@
  */
 window.BIBLE_VERSES_NKJV = {
   // --- Genesis ---
+  "Genesis 1:2": {
+    ref: "Genesis 1:2",
+    refTB2: "Kejadian 1:2",
+    version: "NKJV",
+    text: "The earth was without form, and void; and darkness was on the face of the deep. And the Spirit of God was hovering over the face of the waters.",
+    tb2: "Bumi belum berbentuk dan kosong; gelap gulita menutupi samudra raya, dan Roh Allah melayang-layang di atas permukaan air."
+  },
+  "Genesis 1:9": {
+    ref: "Genesis 1:9",
+    refTB2: "Kejadian 1:9",
+    version: "NKJV",
+    text: "Then God said, \"Let the waters under the heavens be gathered together into one place, and let the dry land appear\"; and it was so.",
+    tb2: "Berfirmanlah Allah, \"Hendaklah segala air yang di bawah langit berkumpul pada satu tempat, sehingga kelihatan yang kering.\" Dan jadilah demikian."
+  },
   "Genesis 1:26-28": {
     ref: "Genesis 1:26–28",
     refTB2: "Kejadian 1:26–28",
     version: "NKJV",
     text: "Then God said, \"Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth.\" So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, \"Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth.\"",
     tb2: "Berfirmanlah Allah, \"Baiklah Kita menjadikan manusia menurut gambar dan rupa Kita, supaya mereka berkuasa atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas segala binatang melata yang merayap di bumi.\" Maka Allah menciptakan manusia itu menurut gambar-Nya, menurut gambar Allah diciptakan-Nya dia; laki-laki dan perempuan diciptakan-Nya mereka. Allah memberkati mereka, lalu Allah berfirman kepada mereka, \"Beranakcuculah dan bertambah banyak; penuhilah bumi dan taklukkanlah itu, berkuasalah atas ikan-ikan di laut dan burung-burung di udara dan atas segala binatang yang merayap di bumi.\""
+  },
+  "Genesis 2:7": {
+    ref: "Genesis 2:7",
+    refTB2: "Kejadian 2:7",
+    version: "NKJV",
+    text: "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living being.",
+    tb2: "Ketika itulah TUHAN Allah membentuk manusia itu dari debu tanah dan mengembuskan napas hidup ke dalam hidungnya; demikianlah manusia itu menjadi makhluk yang hidup."
   },
   "Genesis 2:9": {
     ref: "Genesis 2:9",
@@ -39,6 +60,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "He created them male and female, and blessed them and called them Mankind in the day they were created.",
     tb2: "laki-laki dan perempuan diciptakan-Nya mereka. Ia memberkati mereka dan memberikan nama \"Manusia\" kepada mereka pada waktu mereka diciptakan."
+  },
+  "Genesis 8:4": {
+    ref: "Genesis 8:4",
+    refTB2: "Kejadian 8:4",
+    version: "NKJV",
+    text: "Then the ark rested in the seventh month, the seventeenth day of the month, on the mountains of Ararat.",
+    tb2: "Dalam bulan yang ketujuh, pada hari yang ketujuh belas bulan itu, terkandaslah bahtera itu pada pegunungan Ararat."
   },
   "Genesis 12:1": {
     ref: "Genesis 12:1",
@@ -117,6 +145,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And the Angel of the LORD appeared to him in a flame of fire from the midst of a bush. So he looked, and behold, the bush was burning with fire, but the bush was not consumed. Then Moses said, \"I will now turn aside and see this great sight, why the bush does not burn.\"",
     tb2: "Musa sedang menggembalakan kawanan domba Yitro, mertuanya, imam di Midian. Ia menggiring kawanan domba itu ke seberang padang gurun, lalu sampai ke gunung Allah, yaitu gunung Horeb. Di situ Malaikat TUHAN menampakkan diri kepadanya dalam nyala api yang keluar dari tengah-tengah semak duri. Musa melihat, dan tampaklah semak duri itu menyala oleh api, tetapi tidak terbakar. Kata Musa, \"Baiklah aku menyimpang ke sana untuk memeriksa penglihatan yang luar biasa ini, mengapakah semak duri itu tidak terbakar.\" Ketika dilihat TUHAN bahwa Musa menyimpang untuk memeriksanya, Allah berseru kepadanya dari tengah-tengah semak duri itu, \"Musa, Musa!\" Jawabnya, \"Ya, aku di sini.\" Firman-Nya, \"Janganlah datang lebih dekat. Lepaskanlah alas kakimu, sebab tempat engkau berdiri itu adalah tanah yang kudus.\" Firman-Nya lagi, \"Akulah Allah ayahmu, Allah Abraham, Allah Ishak, dan Allah Yakub.\" Lalu Musa menutupi mukanya, sebab ia takut memandang Allah."
+  },
+  "Exodus 3:8": {
+    ref: "Exodus 3:8",
+    refTB2: "Keluaran 3:8",
+    version: "NKJV",
+    text: "So I have come down to deliver them out of the hand of the Egyptians, and to bring them up from that land to a good and large land, to a land flowing with milk and honey, to the place of the Canaanites and the Hittites and the Amorites and the Perizzites and the Hivites and the Jebusites.",
+    tb2: "Sebab itu Aku telah turun untuk melepaskan mereka dari tangan orang Mesir dan menuntun mereka keluar dari negeri itu ke suatu negeri yang baik dan luas, suatu negeri yang berlimpah-limpah susu dan madunya, ke tempat orang Kanaan, orang Het, orang Amori, orang Feris, orang Hewi, dan orang Yebus."
   },
   "Exodus 9:1": {
     ref: "Exodus 9:1",
@@ -375,6 +410,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Then Jerusalem, all Judea, and all the region around the Jordan went out to him and were baptized by him in the Jordan, confessing their sins.",
     tb2: "Lalu datanglah kepadanya penduduk dari Yerusalem, dari seluruh Yudea dan seluruh daerah sekitar Yordan. Sambil mengaku dosanya mereka dibaptis oleh Yohanes di Sungai Yordan."
+  },
+  "Matthew 13:23": {
+    ref: "Matthew 13:23",
+    refTB2: "Matius 13:23",
+    version: "NKJV",
+    text: "But he who received seed on the good ground is he who hears the word and understands it, who indeed bears fruit and produces: some a hundredfold, some sixty, some thirty.",
+    tb2: "Yang ditaburkan di tanah yang baik ialah orang yang mendengar firman itu dan mengerti, dan karena itu ia berbuah, ada yang seratus kali lipat, ada yang enam puluh kali lipat, ada yang tiga puluh kali lipat."
   },
   "Matthew 17:2": {
     ref: "Matthew 17:2",
@@ -1165,6 +1207,34 @@ window.BIBLE_VERSES_NKJV = {
     text: "What shall we say then? Is the law sin? Certainly not! On the contrary, I would not have known sin except through the law. For I would not have known covetousness unless the law had said, \"You shall not covet.\"",
     tb2: "Jika demikian, apakah yang hendak kita katakan? Apakah hukum Taurat itu dosa? Sekali-kali tidak! Sebaliknya, justru oleh hukum Taurat aku telah mengenal dosa. Karena aku juga tidak tahu apa itu keinginan, kalau hukum Taurat tidak mengatakan, \"Jangan mengingini!\""
   },
+  "Romans 7:8-9": {
+    ref: "Romans 7:8–9",
+    refTB2: "Roma 7:8–9",
+    version: "NKJV",
+    text: "But sin, taking opportunity by the commandment, produced in me all manner of evil desire. For apart from the law sin was dead. I was alive once without the law, but when the commandment came, sin revived and I died.",
+    tb2: "Tetapi dalam perintah itu dosa mendapat kesempatan untuk membangkitkan di dalam diriku rupa-rupa keinginan; sebab tanpa hukum Taurat dosa mati. Dahulu aku hidup tanpa hukum Taurat. Akan tetapi, sesudah datang perintah itu, dosa mulai hidup, sebaliknya aku mati."
+  },
+  "Romans 7:10-11": {
+    ref: "Romans 7:10–11",
+    refTB2: "Roma 7:10–11",
+    version: "NKJV",
+    text: "And the commandment, which was to bring life, I found to bring death. For sin, taking occasion by the commandment, deceived me, and by it killed me.",
+    tb2: "Perintah yang seharusnya membawa kepada hidup, ternyata bagiku justru membawa kepada kematian. Sebab dalam perintah itu dosa mendapat kesempatan untuk menipu aku dan oleh perintah itu ia membunuh aku."
+  },
+  "Romans 7:12": {
+    ref: "Romans 7:12",
+    refTB2: "Roma 7:12",
+    version: "NKJV",
+    text: "Therefore the law is holy, and the commandment holy and just and good.",
+    tb2: "Jadi, hukum Taurat adalah kudus, dan perintah itu juga adalah kudus, benar, dan baik."
+  },
+  "Romans 7:14": {
+    ref: "Romans 7:14",
+    refTB2: "Roma 7:14",
+    version: "NKJV",
+    text: "For we know that the law is spiritual, but I am carnal, sold under sin.",
+    tb2: "Sebab kita tahu bahwa hukum Taurat adalah rohani, tetapi aku bersifat daging, terjual di bawah kuasa dosa."
+  },
   "Romans 7:17": {
     ref: "Romans 7:17",
     refTB2: "Roma 7:17",
@@ -1179,12 +1249,54 @@ window.BIBLE_VERSES_NKJV = {
     text: "For I know that in me (that is, in my flesh) nothing good dwells; for to will is present with me, but how to perform what is good I do not find.",
     tb2: "Sebab aku tahu bahwa di dalam aku, yaitu di dalam aku sebagai manusia, tidak ada sesuatu yang baik. Sebab kehendak memang ada di dalam aku, tetapi bukan hal berbuat apa yang baik."
   },
+  "Romans 7:19": {
+    ref: "Romans 7:19",
+    refTB2: "Roma 7:19",
+    version: "NKJV",
+    text: "For the good that I will to do, I do not do; but the evil I will not to do, that I practice.",
+    tb2: "Sebab bukan apa yang aku kehendaki, yaitu yang baik, yang aku perbuat, melainkan apa yang tidak aku kehendaki, yaitu yang jahat, yang aku perbuat."
+  },
+  "Romans 7:21": {
+    ref: "Romans 7:21",
+    refTB2: "Roma 7:21",
+    version: "NKJV",
+    text: "I find then a law, that evil is present with me, the one who wills to do good.",
+    tb2: "Demikianlah aku dapati hukum ini: jika aku menghendaki berbuat apa yang baik, yang jahat itu ada padaku."
+  },
+  "Romans 7:22": {
+    ref: "Romans 7:22",
+    refTB2: "Roma 7:22",
+    version: "NKJV",
+    text: "For I delight in the law of God according to the inward man.",
+    tb2: "Sebab di dalam batinku aku suka akan hukum Allah,"
+  },
   "Romans 7:23": {
     ref: "Romans 7:23",
     refTB2: "Roma 7:23",
     version: "NKJV",
     text: "But I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.",
     tb2: "Tetapi di dalam anggota-anggota tubuhku aku melihat hukum lain yang berjuang melawan hukum akal budiku dan membuat aku menjadi tawanan hukum dosa yang ada di dalam anggota-anggota tubuhku."
+  },
+  "Romans 7:24": {
+    ref: "Romans 7:24",
+    refTB2: "Roma 7:24",
+    version: "NKJV",
+    text: "O wretched man that I am! Who will deliver me from this body of death?",
+    tb2: "Aku, manusia celaka! Siapakah yang akan melepaskan aku dari tubuh maut ini?"
+  },
+  "Romans 7:25": {
+    ref: "Romans 7:25",
+    refTB2: "Roma 7:25",
+    version: "NKJV",
+    text: "I thank God—through Jesus Christ our Lord! So then, with the mind I myself serve the law of God, but with the flesh the law of sin.",
+    tb2: "Syukur kepada Allah oleh Yesus Kristus, Tuhan kita! Jadi, dengan akal budiku aku melayani hukum Allah, tetapi dengan tubuh insaniku aku melayani hukum dosa."
+  },
+  "Romans 8:1": {
+    ref: "Romans 8:1",
+    refTB2: "Roma 8:1",
+    version: "NKJV",
+    text: "There is therefore now no condemnation to those who are in Christ Jesus, who do not walk according to the flesh, but according to the Spirit.",
+    tb2: "Demikianlah sekarang tidak ada penghukuman bagi mereka yang ada di dalam Kristus Yesus."
   },
   "Romans 8:2": {
     ref: "Romans 8:2",
@@ -1206,6 +1318,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And if Christ is in you, the body is dead because of sin, but the Spirit is life because of righteousness.",
     tb2: "Tetapi jika Kristus di dalam kamu, maka tubuh memang mati karena dosa, tetapi roh adalah kehidupan oleh karena pembenaran."
+  },
+  "Romans 8:13": {
+    ref: "Romans 8:13",
+    refTB2: "Roma 8:13",
+    version: "NKJV",
+    text: "For if you live according to the flesh you will die; but if by the Spirit you put to death the deeds of the body, you will live.",
+    tb2: "Sebab, jika kamu hidup menurut daging, kamu akan mati; tetapi jika oleh Roh kamu mematikan perbuatan-perbuatan tubuhmu, kamu akan hidup."
   },
   "Romans 8:15": {
     ref: "Romans 8:15",
@@ -1333,6 +1452,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But we speak the wisdom of God in a mystery, the hidden wisdom which God ordained before the ages for our glory,",
     tb2: "Tetapi yang kami beritakan ialah hikmat Allah yang tersembunyi dan rahasia, yang sebelum dunia dijadikan telah disediakan Allah bagi kemuliaan kita."
+  },
+  "1 Corinthians 3:9": {
+    ref: "1 Corinthians 3:9",
+    refTB2: "1 Korintus 3:9",
+    version: "NKJV",
+    text: "For we are God's fellow workers; you are God's field, you are God's building.",
+    tb2: "Karena kami adalah kawan sekerja Allah; kamu adalah ladang Allah, bangunan Allah."
   },
   "1 Corinthians 3:15": {
     ref: "1 Corinthians 3:15",
@@ -1511,6 +1637,34 @@ window.BIBLE_VERSES_NKJV = {
     text: "So then, brethren, we are not children of the bondwoman but of the free.",
     tb2: "Karena itu, saudara-saudara, kita bukanlah anak-anak hamba perempuan, melainkan anak-anak perempuan merdeka."
   },
+  "Galatians 5:16": {
+    ref: "Galatians 5:16",
+    refTB2: "Galatia 5:16",
+    version: "NKJV",
+    text: "I say then: Walk in the Spirit, and you shall not fulfill the lust of the flesh.",
+    tb2: "Maksudku ialah: hiduplah oleh Roh, maka kamu tidak akan menuruti keinginan daging."
+  },
+  "Galatians 5:17": {
+    ref: "Galatians 5:17",
+    refTB2: "Galatia 5:17",
+    version: "NKJV",
+    text: "For the flesh lusts against the Spirit, and the Spirit against the flesh; and these are contrary to one another, so that you do not do the things that you wish.",
+    tb2: "Sebab keinginan daging berlawanan dengan keinginan Roh dan keinginan Roh berlawanan dengan keinginan daging—karena keduanya bertentangan—sehingga kamu setiap kali tidak melakukan apa yang kamu kehendaki."
+  },
+  "Galatians 5:24": {
+    ref: "Galatians 5:24",
+    refTB2: "Galatia 5:24",
+    version: "NKJV",
+    text: "And those who are Christ's have crucified the flesh with its passions and desires.",
+    tb2: "Barangsiapa menjadi milik Kristus Yesus, ia telah menyalibkan daging dengan segala hawa nafsu dan keinginannya."
+  },
+  "Galatians 5:25": {
+    ref: "Galatians 5:25",
+    refTB2: "Galatia 5:25",
+    version: "NKJV",
+    text: "If we live in the Spirit, let us also walk in the Spirit.",
+    tb2: "Jikalau kita hidup oleh Roh, baiklah hidup kita juga dipimpin oleh Roh,"
+  },
   // --- Ephesians ---
   "Ephesians 1:5": {
     ref: "Ephesians 1:5",
@@ -1598,6 +1752,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Karena kewargaan kita adalah di dalam surga, dan dari situ juga kita menantikan Tuhan Yesus Kristus sebagai Juruselamat,"
   },
   // --- Colossians ---
+  "Colossians 1:15": {
+    ref: "Colossians 1:15",
+    refTB2: "Kolose 1:15",
+    version: "NKJV",
+    text: "He is the image of the invisible God, the firstborn over all creation.",
+    tb2: "Ia adalah gambar Allah yang tidak kelihatan, yang sulung, lebih utama dari segala yang diciptakan,"
+  },
   "Colossians 1:16-17": {
     ref: "Colossians 1:16–17",
     refTB2: "Kolose 1:16–17",
@@ -2264,6 +2425,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Let us be glad and rejoice and give Him glory, for the marriage of the Lamb has come, and His wife has made herself ready.",
     tb2: "Marilah kita bersukacita dan bersorak-sorai, dan memuliakan Dia! Karena hari perkawinan Anak Domba telah tiba, dan pengantin-Nya telah siap sedia."
+  },
+  "Revelation 21:1": {
+    ref: "Revelation 21:1",
+    refTB2: "Wahyu 21:1",
+    version: "NKJV",
+    text: "Now I saw a new heaven and a new earth, for the first heaven and the first earth had passed away. Also there was no more sea.",
+    tb2: "Lalu aku melihat langit yang baru dan bumi yang baru, sebab langit yang pertama dan bumi yang pertama telah berlalu, dan laut pun tidak ada lagi."
   },
   "Revelation 21:2": {
     ref: "Revelation 21:2",
