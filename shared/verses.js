@@ -239,6 +239,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "But My servant Caleb, because he has a different spirit in him and has followed Me fully, I will bring into the land where he went, and his descendants shall inherit it.",
     tb2: "Tetapi hamba-Ku Kaleb, karena lain jiwa yang ada padanya dan ia mengikut Aku dengan sepenuhnya, akan Kubawa masuk ke negeri yang telah dimasukinya itu, dan keturunannya akan memilikinya."
   },
+  "Numbers 21:9": {
+    ref: "Numbers 21:9",
+    refTB2: "Bilangan 21:9",
+    version: "NKJV",
+    text: "So Moses made a bronze serpent, and put it on a pole; and so it was, if a serpent had bitten anyone, when he looked at the bronze serpent, he lived.",
+    tb2: "Lalu Musa membuat ular tembaga dan menaruhnya pada sebuah tiang; maka jika seseorang dipagut ular, dan ia memandang kepada ular tembaga itu, tetaplah ia hidup."
+  },
+  "Numbers 24:5": {
+    ref: "Numbers 24:5",
+    refTB2: "Bilangan 24:5",
+    version: "NKJV",
+    text: "How lovely are your tents, O Jacob! Your dwellings, O Israel!",
+    tb2: "Alangkah indahnya kemah-kemahmu, hai Yakub, dan tempat-tempat kediamanmu, hai Israel!"
+  },
   // --- Deuteronomy ---
   "Deuteronomy 12:9": {
     ref: "Deuteronomy 12:9",
@@ -371,6 +385,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "—Cantik engkau, manisku, seperti Tirza, elok seperti Yerusalem, dahsyat seperti bala tentara dengan panji-panjinya."
   },
   // --- Isaiah ---
+  "Isaiah 8:8": {
+    ref: "Isaiah 8:8",
+    refTB2: "Yesaya 8:8",
+    version: "NKJV",
+    text: "He will pass through Judah, He will overflow and pass over, He will reach up to the neck; And the stretching out of his wings Will fill the breadth of Your land, O Immanuel.",
+    tb2: "dan akan melanda Yehuda, menghanyutkannya dan terus mengalir sampai setinggi leher; sayapnya akan terbentang meliputi seluruh negerimu, ya Imanuel."
+  },
   "Isaiah 9:6": {
     ref: "Isaiah 9:6",
     refTB2: "Yesaya 9:6",
@@ -447,6 +468,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Jerusalem, all Judea, and all the region around the Jordan went out to him and were baptized by him in the Jordan, confessing their sins.",
     tb2: "Lalu datanglah kepadanya penduduk dari Yerusalem, dari seluruh Yudea dan seluruh daerah sekitar Yordan. Sambil mengaku dosanya mereka dibaptis oleh Yohanes di Sungai Yordan."
   },
+  "Matthew 3:17": {
+    ref: "Matthew 3:17",
+    refTB2: "Matius 3:17",
+    version: "NKJV",
+    text: "And suddenly a voice came from heaven, saying, \"This is My beloved Son, in whom I am well pleased.\"",
+    tb2: "Lalu terdengarlah suara dari surga yang mengatakan, \"Inilah Anak-Ku yang Kukasihi, kepada-Nyalah Aku berkenan.\""
+  },
   "Matthew 11:28-29": {
     ref: "Matthew 11:28–29",
     refTB2: "Matius 11:28–29",
@@ -454,12 +482,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "Come to Me, all you who labor and are heavy laden, and I will give you rest. Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
     tb2: "Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu. Pikullah kuk yang Kupasang dan belajarlah pada-Ku, karena Aku lemah lembut dan rendah hati dan jiwamu akan mendapat ketenangan."
   },
+  "Matthew 12:8": {
+    ref: "Matthew 12:8",
+    refTB2: "Matius 12:8",
+    version: "NKJV",
+    text: "For the Son of Man is Lord even of the Sabbath.",
+    tb2: "Karena Anak Manusia adalah Tuhan atas hari Sabat."
+  },
   "Matthew 13:23": {
     ref: "Matthew 13:23",
     refTB2: "Matius 13:23",
     version: "NKJV",
     text: "But he who received seed on the good ground is he who hears the word and understands it, who indeed bears fruit and produces: some a hundredfold, some sixty, some thirty.",
     tb2: "Yang ditaburkan di tanah yang baik ialah orang yang mendengar firman itu dan mengerti, dan karena itu ia berbuah, ada yang seratus kali lipat, ada yang enam puluh kali lipat, ada yang tiga puluh kali lipat."
+  },
+  "Matthew 16:18-19": {
+    ref: "Matthew 16:18–19",
+    refTB2: "Matius 16:18–19",
+    version: "NKJV",
+    text: "And I also say to you that you are Peter, and on this rock I will build My church, and the gates of Hades shall not prevail against it. And I will give you the keys of the kingdom of heaven, and whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.",
+    tb2: "Aku pun berkata kepadamu: Engkau adalah Petrus dan di atas batu karang ini Aku akan mendirikan jemaat-Ku dan alam maut tidak akan menguasainya. Kepadamu akan Kuberikan kunci Kerajaan Surga. Apa yang kauikat di dunia ini akan terikat di surga dan apa yang kaulepaskan di dunia ini akan terlepas di surga."
   },
   "Matthew 17:2": {
     ref: "Matthew 17:2",
@@ -583,12 +625,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "And He said to him, \"Most assuredly, I say to you, hereafter you shall see heaven open, and the angels of God ascending and descending upon the Son of Man.\"",
     tb2: "Lalu kata Yesus kepadanya, \"Sesungguhnya Aku berkata kepadamu, engkau akan melihat langit terbuka dan malaikat-malaikat Allah naik dan turun kepada Anak Manusia.\""
   },
+  "John 3:5": {
+    ref: "John 3:5",
+    refTB2: "Yohanes 3:5",
+    version: "NKJV",
+    text: "Jesus answered, \"Most assuredly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God.\"",
+    tb2: "Jawab Yesus, \"Aku berkata kepadamu, sesungguhnya jika seorang tidak dilahirkan dari air dan Roh, ia tidak dapat masuk ke dalam Kerajaan Allah.\""
+  },
   "John 3:6": {
     ref: "John 3:6",
     refTB2: "Yohanes 3:6",
     version: "NKJV",
     text: "That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.",
     tb2: "Apa yang dilahirkan dari daging adalah daging, dan apa yang dilahirkan dari Roh adalah roh."
+  },
+  "John 3:14": {
+    ref: "John 3:14",
+    refTB2: "Yohanes 3:14",
+    version: "NKJV",
+    text: "And as Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up,",
+    tb2: "Sama seperti Musa meninggikan ular di padang gurun, demikian juga Anak Manusia harus ditinggikan,"
   },
   "John 3:16": {
     ref: "John 3:16",
@@ -652,6 +708,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Most assuredly, I say to you, unless a grain of wheat falls into the ground and dies, it remains alone; but if it dies, it produces much grain.",
     tb2: "Aku berkata kepadamu: Sesungguhnya jikalau biji gandum tidak jatuh ke dalam tanah dan mati, ia tetap satu biji saja; tetapi jika ia mati, ia akan menghasilkan banyak buah."
+  },
+  "John 12:31": {
+    ref: "John 12:31",
+    refTB2: "Yohanes 12:31",
+    version: "NKJV",
+    text: "Now is the judgment of this world; now the ruler of this world will be cast out.",
+    tb2: "Sekarang berlangsung penghakiman atas dunia ini: sekarang juga penguasa dunia ini akan dilemparkan ke luar;"
   },
   "John 14:8-9": {
     ref: "John 14:8–9",
@@ -1544,6 +1607,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "I commend to you Phoebe our sister, who is a servant of the church in Cenchrea... who risked their own necks for my life, to whom not only I give thanks, but also all the churches of the Gentiles. Likewise greet the church that is in their house.",
     tb2: "Aku meminta perhatianmu terhadap Febe, saudari seiman kita yang adalah pelayan jemaat di Kengkrea, supaya kamu menyambut dia dalam Tuhan, sebagaimana seharusnya bagi orang-orang kudus, dan berikanlah kepadanya bantuan bila diperlukannya. Sebab ia sendiri telah memberikan bantuan kepada banyak orang, juga kepadaku sendiri.  Sampaikan salam kepada Priskila dan Akwila, teman-teman sekerjaku dalam Kristus Yesus. Mereka telah mempertaruhkan nyawanya untuk hidupku. Kepada mereka bukan aku saja yang berterima kasih, tetapi juga semua jemaat bukan Yahudi. Salam juga kepada jemaat di rumah mereka. Salam kepada Epenetus, saudara seiman yang kukasihi, yang adalah buah pertama dari daerah Asia untuk Kristus."
   },
+  "Romans 16:17": {
+    ref: "Romans 16:17",
+    refTB2: "Roma 16:17",
+    version: "NKJV",
+    text: "Now I urge you, brethren, note those who cause divisions and offenses, contrary to the doctrine which you learned, and avoid them.",
+    tb2: "Tetapi aku menasihati kamu, saudara-saudara, supaya kamu waspada terhadap mereka yang bertentangan dengan pengajaran yang telah kamu terima, menimbulkan perpecahan dan godaan. Sebab itu, hindarilah mereka!"
+  },
+  "Romans 16:20": {
+    ref: "Romans 16:20",
+    refTB2: "Roma 16:20",
+    version: "NKJV",
+    text: "And the God of peace will crush Satan under your feet shortly. The grace of our Lord Jesus Christ be with you. Amen.",
+    tb2: "Semoga Allah, sumber damai sejahtera, segera menghancurkan Iblis di bawah kakimu. Kasih karunia Yesus, Tuhan kita, menyertai kamu!"
+  },
   // --- 1 Corinthians ---
   "1 Corinthians 1:30": {
     ref: "1 Corinthians 1:30",
@@ -1814,6 +1891,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
     tb2: "Sebab karena anugerah kamu diselamatkan oleh iman; itu bukan hasil usahamu, tetapi pemberian Allah,"
   },
+  "Ephesians 2:15": {
+    ref: "Ephesians 2:15",
+    refTB2: "Efesus 2:15",
+    version: "NKJV",
+    text: "having abolished in His flesh the enmity, that is, the law of commandments contained in ordinances, so as to create in Himself one new man from the two, thus making peace,",
+    tb2: "sebab dengan mati-Nya sebagai manusia Ia telah membatalkan hukum Taurat dengan segala perintah dan ketentuannya, untuk menciptakan keduanya menjadi satu manusia baru di dalam diri-Nya, dan dengan itu mengadakan damai sejahtera,"
+  },
   "Ephesians 2:22": {
     ref: "Ephesians 2:22",
     refTB2: "Efesus 2:22",
@@ -1944,6 +2028,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For there is one God and one Mediator between God and men, the Man Christ Jesus,",
     tb2: "Karena Allah itu esa dan esa pula Pengantara antara Allah dan manusia, yaitu manusia Kristus Yesus,"
+  },
+  "1 Timothy 3:15": {
+    ref: "1 Timothy 3:15",
+    refTB2: "1 Timotius 3:15",
+    version: "NKJV",
+    text: "but if I am delayed, I write so that you may know how you ought to conduct yourself in the house of God, which is the church of the living God, the pillar and ground of the truth.",
+    tb2: "Jadi, jika aku terlambat, sudahlah engkau tahu bagaimana orang harus hidup sebagai keluarga Allah, yakni jemaat dari Allah yang hidup, tiang penopang dan dasar kebenaran."
   },
   "1 Timothy 4:4-5": {
     ref: "1 Timothy 4:4–5",
@@ -2213,6 +2304,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "but Christ as a Son over His own house, whose house we are if we hold fast the confidence and the rejoicing of the hope firm to the end.",
     tb2: "tetapi Kristus setia sebagai Anak yang mengepalai rumah-Nya; dan rumah-Nya ialah kita, jika kita sampai pada akhirnya teguh berpegang pada kepercayaan dan kemegahan pengharapan kita."
   },
+  "Hebrews 3:7": {
+    ref: "Hebrews 3:7",
+    refTB2: "Ibrani 3:7",
+    version: "NKJV",
+    text: "Therefore, as the Holy Spirit says: \"Today, if you will hear His voice,",
+    tb2: "Sebab itu, seperti yang dikatakan Roh Kudus, \"Pada hari ini, jika kamu mendengar suara-Nya,"
+  },
   "Hebrews 3:13": {
     ref: "Hebrews 3:13",
     refTB2: "Ibrani 3:13",
@@ -2240,6 +2338,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For if Joshua had given them rest, then He would not afterward have spoken of another day. There remains therefore a rest for the people of God.",
     tb2: "Sebab, andaikata Yosua telah membawa mereka masuk ke tempat perhentian, pasti Allah tidak akan berkata-kata kemudian tentang suatu hari lain. Jadi, masih tersedia suatu hari perhentian, hari ketujuh, bagi umat Allah."
+  },
+  "Hebrews 4:11": {
+    ref: "Hebrews 4:11",
+    refTB2: "Ibrani 4:11",
+    version: "NKJV",
+    text: "Let us therefore be diligent to enter that rest, lest anyone fall according to the same example of disobedience.",
+    tb2: "Karena itu, baiklah kita berusaha untuk masuk ke dalam perhentian itu, supaya jangan seorang pun jatuh karena mengikuti contoh ketidaktaatan itu juga."
   },
   "Hebrews 4:14-15": {
     ref: "Hebrews 4:14–15",
@@ -2451,6 +2556,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "to the general assembly and church of the firstborn who are registered in heaven, to God the Judge of all, to the spirits of just men made perfect,",
     tb2: "dan kepada jemaat anak-anak sulung, yang namanya terdaftar di surga, dan kepada Allah, yang menghakimi semua orang, dan kepada roh-roh orang-orang benar yang telah menjadi sempurna,"
   },
+  "Hebrews 12:28": {
+    ref: "Hebrews 12:28",
+    refTB2: "Ibrani 12:28",
+    version: "NKJV",
+    text: "Therefore, since we are receiving a kingdom which cannot be shaken, let us have grace, by which we may serve God acceptably with reverence and godly fear.",
+    tb2: "Jadi, karena kita menerima kerajaan yang tidak tergoncangkan, marilah kita mengucap syukur dan beribadah kepada Allah menurut cara yang berkenan kepada-Nya, dengan hormat dan takut."
+  },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
     refTB2: "Ibrani 13:13",
@@ -2525,6 +2637,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Ia adalah pendamaian untuk segala dosa kita, dan bukan untuk dosa kita saja, tetapi juga untuk dosa seluruh dunia."
   },
   // --- Revelation ---
+  "Revelation 1:9": {
+    ref: "Revelation 1:9",
+    refTB2: "Wahyu 1:9",
+    version: "NKJV",
+    text: "I, John, both your brother and companion in the tribulation and kingdom and patience of Jesus Christ, was on the island that is called Patmos for the word of God and for the testimony of Jesus Christ.",
+    tb2: "Aku, Yohanes, saudara dan sekutumu dalam kesusahan, dalam Kerajaan dan dalam ketekunan menantikan Yesus, berada di pulau yang bernama Patmos oleh karena firman Allah dan kesaksian yang diberikan oleh Yesus."
+  },
   "Revelation 4:3": {
     ref: "Revelation 4:3",
     refTB2: "Wahyu 4:3",
