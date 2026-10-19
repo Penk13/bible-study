@@ -368,7 +368,22 @@ window.BIBLE_VERSES_NKJV = {
     text: "Fools and blind! For which is greater, the gold or the temple that sanctifies the gold? And, 'Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it, he is obliged to perform it.' Fools and blind! For which is greater, the gift or the altar that sanctifies the gift?",
     tb2: "Hai kamu orang-orang bodoh dan orang-orang buta, apakah yang lebih penting, emas atau Bait Suci yang menguduskan emas itu? Bersumpah demi mezbah, itu tidak sah; tetapi bersumpah demi persembahan yang ada di atasnya, itu mengikat. Hai kamu orang-orang buta, apakah yang lebih penting, persembahan atau mezbah yang menguduskan persembahan itu?"
   },
+  // --- Mark ---
+  "Mark 10:38": {
+    ref: "Mark 10:38",
+    refTB2: "Markus 10:38",
+    version: "NKJV",
+    text: "But Jesus said to them, \"You do not know what you ask. Are you able to drink the cup that I drink, and be baptized with the baptism that I am baptized with?\"",
+    tb2: "Tetapi kata Yesus kepada mereka, \"Kamu tidak tahu apa yang kamu minta. Dapatkah kamu meminum cawan yang harus Kuminum dan dibaptis dengan baptisan yang harus Kuterima?\""
+  },
   // --- Luke ---
+  "Luke 7:50": {
+    ref: "Luke 7:50",
+    refTB2: "Lukas 7:50",
+    version: "NKJV",
+    text: "Then He said to the woman, \"Your faith has saved you. Go in peace.\"",
+    tb2: "Tetapi Yesus berkata kepada perempuan itu, \"Imanmu telah menyelamatkan engkau, pergilah dengan selamat!\""
+  },
   "Luke 12:32": {
     ref: "Luke 12:32",
     refTB2: "Lukas 12:32",
@@ -743,6 +758,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "As it is written: \"There is none righteous, no, not one; There is none who understands; There is none who seeks after God. They have all turned aside; They have together become unprofitable; There is none who does good, no, not one.\"",
     tb2: "seperti ada tertulis, \"Tidak ada yang benar, seorang pun tidak. Tidak ada seorang pun yang berakal budi, tidak ada seorang pun yang mencari Allah. Semua orang telah menyeleweng, mereka semua tidak berguna, tidak ada yang berbuat baik, seorang pun tidak.\""
   },
+  "Romans 3:17": {
+    ref: "Romans 3:17",
+    refTB2: "Roma 3:17",
+    version: "NKJV",
+    text: "And the way of peace they have not known.",
+    tb2: "dan jalan damai tidak mereka kenal;"
+  },
   "Romans 3:19": {
     ref: "Romans 3:19",
     refTB2: "Roma 3:19",
@@ -848,6 +870,41 @@ window.BIBLE_VERSES_NKJV = {
     text: "who was delivered up because of our offenses, and was raised because of our justification.",
     tb2: "yaitu Yesus, yang telah diserahkan karena pelanggaran kita dan dibangkitkan karena pembenaran kita."
   },
+  "Romans 5:1": {
+    ref: "Romans 5:1",
+    refTB2: "Roma 5:1",
+    version: "NKJV",
+    text: "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,",
+    tb2: "Sebab itu, kita yang dibenarkan karena iman, kita hidup dalam damai sejahtera dengan Allah oleh karena Tuhan kita, Yesus Kristus."
+  },
+  "Romans 5:2": {
+    ref: "Romans 5:2",
+    refTB2: "Roma 5:2",
+    version: "NKJV",
+    text: "through whom also we have access by faith into this grace in which we stand, and rejoice in hope of the glory of God.",
+    tb2: "Oleh Dia kita juga beroleh jalan masuk oleh iman kepada kasih karunia ini. Di dalam kasih karunia ini kita berdiri dan kita bermegah dalam pengharapan akan menerima kemuliaan Allah."
+  },
+  "Romans 5:3-4": {
+    ref: "Romans 5:3–4",
+    refTB2: "Roma 5:3–4",
+    version: "NKJV",
+    text: "And not only that, but we also glory in tribulations, knowing that tribulation produces perseverance; and perseverance, character; and character, hope.",
+    tb2: "Bukan hanya itu saja. Kita malah bermegah juga dalam kesengsaraan kita, karena kita tahu bahwa kesengsaraan itu menimbulkan ketekunan, dan ketekunan menimbulkan tahan uji, dan tahan uji menimbulkan pengharapan."
+  },
+  "Romans 5:5": {
+    ref: "Romans 5:5",
+    refTB2: "Roma 5:5",
+    version: "NKJV",
+    text: "Now hope does not disappoint, because the love of God has been poured out in our hearts by the Holy Spirit who was given to us.",
+    tb2: "Pengharapan tidak mengecewakan, karena kasih Allah telah dicurahkan di dalam hati kita oleh Roh Kudus yang telah dikaruniakan kepada kita."
+  },
+  "Romans 5:6": {
+    ref: "Romans 5:6",
+    refTB2: "Roma 5:6",
+    version: "NKJV",
+    text: "For when we were still without strength, in due time Christ died for the ungodly.",
+    tb2: "Karena waktu kita masih lemah, Kristus telah mati untuk kita orang-orang durhaka pada waktu yang ditentukan oleh Allah."
+  },
   "Romans 5:10": {
     ref: "Romans 5:10",
     refTB2: "Roma 5:10",
@@ -952,6 +1009,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Not only that, but we also who have the firstfruits of the Spirit, even we ourselves groan within ourselves, eagerly waiting for the adoption, the redemption of our body.",
     tb2: "Bukan hanya mereka saja, tetapi kita yang telah menerima karunia sulung Roh, kita juga mengeluh dalam hati kita sambil menantikan pengangkatan sebagai anak, yaitu pembebasan tubuh kita."
+  },
+  "Romans 8:28": {
+    ref: "Romans 8:28",
+    refTB2: "Roma 8:28",
+    version: "NKJV",
+    text: "And we know that all things work together for good to those who love God, to those who are the called according to His purpose.",
+    tb2: "Kita tahu sekarang bahwa Allah turut bekerja dalam segala sesuatu untuk mendatangkan kebaikan bagi mereka yang mengasihi Dia, yaitu bagi mereka yang terpanggil sesuai dengan rencana Allah."
   },
   "Romans 8:29": {
     ref: "Romans 8:29",
@@ -1447,6 +1511,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Inasmuch then as the children have partaken of flesh and blood, He Himself likewise shared in the same, that through death He might destroy him who had the power of death, that is, the devil, and release those who through fear of death were all their lifetime subject to bondage.",
     tb2: "Karena anak-anak itu beroleh bagian dalam darah dan daging, Ia juga menjadi sama dengan mereka dan mendapat bagian dalam keadaan mereka, supaya melalui kematian-Nya Ia memusnahkan dia yang berkuasa atas maut, yaitu Iblis, dan membebaskan mereka yang seumur hidupnya berada dalam perhambaan oleh karena takut kepada maut."
   },
+  "Hebrews 2:16": {
+    ref: "Hebrews 2:16",
+    refTB2: "Ibrani 2:16",
+    version: "NKJV",
+    text: "For indeed He does not give aid to angels, but He does give aid to the seed of Abraham.",
+    tb2: "Sebab sesungguhnya, bukan malaikat-malaikat yang Ia kasihani, tetapi keturunan Abraham yang Ia kasihani."
+  },
   "Hebrews 2:17": {
     ref: "Hebrews 2:17",
     refTB2: "Ibrani 2:17",
@@ -1509,6 +1580,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For every high priest taken from among men is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins.",
     tb2: "Sebab setiap imam besar yang dipilih dari antara manusia, ditetapkan bagi manusia dalam hubungan mereka dengan Allah, supaya ia mempersembahkan persembahan dan kurban karena dosa."
+  },
+  "Hebrews 6:18": {
+    ref: "Hebrews 6:18",
+    refTB2: "Ibrani 6:18",
+    version: "NKJV",
+    text: "that by two immutable things, in which it is impossible for God to lie, we might have strong consolation, who have fled for refuge to lay hold of the hope set before us.",
+    tb2: "supaya oleh dua kenyataan yang tidak berubah-ubah, tentang mana Allah tidak mungkin berdusta, kita yang mencari perlindungan beroleh dorongan yang kuat untuk menjangkau pengharapan yang terletak di depan kita."
   },
   "Hebrews 6:19-20": {
     ref: "Hebrews 6:19–20",
@@ -1579,6 +1657,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore, brethren, having boldness to enter the Holiest by the blood of Jesus,",
     tb2: "Jadi, Saudara-saudara, kita sekarang dengan penuh keberanian dapat masuk ke dalam tempat kudus, oleh darah Yesus,"
+  },
+  "Hebrews 10:23": {
+    ref: "Hebrews 10:23",
+    refTB2: "Ibrani 10:23",
+    version: "NKJV",
+    text: "Let us hold fast the confession of our hope without wavering, for He who promised is faithful.",
+    tb2: "Marilah kita teguh berpegang pada pengakuan tentang pengharapan kita, sebab Ia, yang menjanjikannya, setia."
   },
   "Hebrews 10:32": {
     ref: "Hebrews 10:32",
