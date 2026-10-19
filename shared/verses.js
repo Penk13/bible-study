@@ -26,6 +26,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then God said, \"Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth.\" So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, \"Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth.\"",
     tb2: "Berfirmanlah Allah, \"Baiklah Kita menjadikan manusia menurut gambar dan rupa Kita, supaya mereka berkuasa atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas segala binatang melata yang merayap di bumi.\" Maka Allah menciptakan manusia itu menurut gambar-Nya, menurut gambar Allah diciptakan-Nya dia; laki-laki dan perempuan diciptakan-Nya mereka. Allah memberkati mereka, lalu Allah berfirman kepada mereka, \"Beranakcuculah dan bertambah banyak; penuhilah bumi dan taklukkanlah itu, berkuasalah atas ikan-ikan di laut dan burung-burung di udara dan atas segala binatang yang merayap di bumi.\""
   },
+  "Genesis 1:31": {
+    ref: "Genesis 1:31",
+    refTB2: "Kejadian 1:31",
+    version: "NKJV",
+    text: "Then God saw everything that He had made, and indeed it was very good. So the evening and the morning were the sixth day.",
+    tb2: "Maka Allah melihat segala yang dijadikan-Nya itu, sungguh amat baik. Jadilah petang dan jadilah pagi, itulah hari keenam."
+  },
+  "Genesis 2:2-3": {
+    ref: "Genesis 2:2–3",
+    refTB2: "Kejadian 2:2–3",
+    version: "NKJV",
+    text: "And on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done. Then God blessed the seventh day and sanctified it, because in it He rested from all His work which God had created and made.",
+    tb2: "Ketika Allah pada hari ketujuh telah menyelesaikan pekerjaan yang dibuat-Nya itu, berhentilah Ia pada hari ketujuh dari segala pekerjaan yang telah dibuat-Nya itu. Lalu Allah memberkati hari ketujuh itu dan menguduskannya, karena pada hari itulah Ia berhenti dari segala pekerjaan penciptaan yang telah dibuat-Nya itu."
+  },
   "Genesis 2:7": {
     ref: "Genesis 2:7",
     refTB2: "Kejadian 2:7",
@@ -188,6 +202,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Moses and the children of Israel sang this song to the LORD, and spoke, saying: \"I will sing to the LORD, for He has triumphed gloriously! The horse and its rider He has thrown into the sea!\"",
     tb2: "Pada waktu itu Musa bersama-sama dengan orang Israel menyanyikan nyanyian ini bagi TUHAN yang berbunyi: \"Baiklah aku menyanyi bagi TUHAN, sebab Ia tinggi luhur; kuda dan penunggangnya dilemparkan-Nya ke dalam laut.\""
   },
+  "Exodus 19:5-6": {
+    ref: "Exodus 19:5–6",
+    refTB2: "Keluaran 19:5–6",
+    version: "NKJV",
+    text: "Now therefore, if you will indeed obey My voice and keep My covenant, then you shall be a special treasure to Me above all people; for all the earth is Mine. And you shall be to Me a kingdom of priests and a holy nation.",
+    tb2: "Jadi, sekarang, jika kamu sungguh-sungguh mendengarkan firman-Ku dan berpegang pada perjanjian-Ku, maka kamu akan menjadi harta kesayangan-Ku sendiri dari antara segala bangsa, sebab Akulah yang empunya seluruh bumi. Kamu akan menjadi bagi-Ku kerajaan imam dan bangsa yang kudus."
+  },
   "Exodus 25:21-22": {
     ref: "Exodus 25:21–22",
     refTB2: "Keluaran 25:21–22",
@@ -217,6 +238,14 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But My servant Caleb, because he has a different spirit in him and has followed Me fully, I will bring into the land where he went, and his descendants shall inherit it.",
     tb2: "Tetapi hamba-Ku Kaleb, karena lain jiwa yang ada padanya dan ia mengikut Aku dengan sepenuhnya, akan Kubawa masuk ke negeri yang telah dimasukinya itu, dan keturunannya akan memilikinya."
+  },
+  // --- Deuteronomy ---
+  "Deuteronomy 12:9": {
+    ref: "Deuteronomy 12:9",
+    refTB2: "Ulangan 12:9",
+    version: "NKJV",
+    text: "for as yet you have not come to the rest and the inheritance which the LORD your God is giving you.",
+    tb2: "sebab sampai sekarang kamu belum sampai ke tempat perhentian, ke milik pusaka yang akan diberikan kepadamu oleh TUHAN, Allahmu."
   },
   // --- Joshua ---
   "Joshua 4:8-9": {
@@ -276,6 +305,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For He spoke, and it was done; He commanded, and it stood fast.",
     tb2: "Sebab Dia berfirman, maka semuanya jadi; Dia memberi perintah, maka semuanya ada."
+  },
+  "Psalm 95:11": {
+    ref: "Psalm 95:11",
+    refTB2: "Mazmur 95:11",
+    version: "NKJV",
+    text: "So I swore in My wrath, 'They shall not enter My rest.'",
+    tb2: "sehingga Aku bersumpah dalam murka-Ku, \"Mereka takkan masuk ke tempat perhentian-Ku.\""
   },
   "Psalm 110:1": {
     ref: "Psalm 110:1",
@@ -411,6 +447,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Jerusalem, all Judea, and all the region around the Jordan went out to him and were baptized by him in the Jordan, confessing their sins.",
     tb2: "Lalu datanglah kepadanya penduduk dari Yerusalem, dari seluruh Yudea dan seluruh daerah sekitar Yordan. Sambil mengaku dosanya mereka dibaptis oleh Yohanes di Sungai Yordan."
   },
+  "Matthew 11:28-29": {
+    ref: "Matthew 11:28–29",
+    refTB2: "Matius 11:28–29",
+    version: "NKJV",
+    text: "Come to Me, all you who labor and are heavy laden, and I will give you rest. Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
+    tb2: "Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu. Pikullah kuk yang Kupasang dan belajarlah pada-Ku, karena Aku lemah lembut dan rendah hati dan jiwamu akan mendapat ketenangan."
+  },
   "Matthew 13:23": {
     ref: "Matthew 13:23",
     refTB2: "Matius 13:23",
@@ -439,6 +482,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Fools and blind! For which is greater, the gold or the temple that sanctifies the gold? And, 'Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it, he is obliged to perform it.' Fools and blind! For which is greater, the gift or the altar that sanctifies the gift?",
     tb2: "Hai kamu orang-orang bodoh dan orang-orang buta, apakah yang lebih penting, emas atau Bait Suci yang menguduskan emas itu? Bersumpah demi mezbah, itu tidak sah; tetapi bersumpah demi persembahan yang ada di atasnya, itu mengikat. Hai kamu orang-orang buta, apakah yang lebih penting, persembahan atau mezbah yang menguduskan persembahan itu?"
   },
+  "Matthew 25:21": {
+    ref: "Matthew 25:21",
+    refTB2: "Matius 25:21",
+    version: "NKJV",
+    text: "His lord said to him, 'Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.'",
+    tb2: "Maka kata tuannya itu kepadanya, \"Baik sekali perbuatanmu itu, hai hambaku yang baik dan setia; engkau telah setia dalam perkara kecil, aku akan memberikan kepadamu tanggung jawab dalam perkara yang besar. Masuklah dan turutlah dalam kebahagiaan tuanmu.\""
+  },
   // --- Mark ---
   "Mark 10:38": {
     ref: "Mark 10:38",
@@ -461,6 +511,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "\"Do not fear, little flock, for it is your Father's good pleasure to give you the kingdom.\"",
     tb2: "\"Janganlah takut, hai kawanan kecil! Karena Bapamu telah berkenan memberikan Kerajaan itu kepadamu.\""
+  },
+  "Luke 15:22-23": {
+    ref: "Luke 15:22–23",
+    refTB2: "Lukas 15:22–23",
+    version: "NKJV",
+    text: "But the father said to his servants, 'Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet. And bring the fatted calf here and kill it, and let us eat and be merry;'",
+    tb2: "Tetapi ayah itu berkata kepada hamba-hambanya, \"Lekaslah bawa ke mari jubah yang terbaik, pakaikanlah itu kepadanya dan kenakanlah cincin pada jarinya dan sepatu pada kakinya. Ambillah anak lembu tambun itu, sembelihlah dia dan mari kita makan dan bersukacita.\""
   },
   "Luke 18:13": {
     ref: "Luke 18:13",
@@ -547,12 +604,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices greatly because of the bridegroom’s voice. Therefore this joy of mine is fulfilled. He must increase, but I must decrease.",
     tb2: "Yang punya mempelai perempuan, ialah mempelai laki-laki; tetapi sahabat mempelai laki-laki, yang berdiri dekat dia dan yang mendengarkannya, sangat bersukacita mendengar suara mempelai laki-laki itu. Itulah sukacitaku, dan sekarang sukacitaku itu penuh. Ia harus makin besar, tetapi aku harus makin kecil."
   },
+  "John 5:17": {
+    ref: "John 5:17",
+    refTB2: "Yohanes 5:17",
+    version: "NKJV",
+    text: "But Jesus answered them, \"My Father has been working until now, and I have been working.\"",
+    tb2: "Tetapi Ia berkata kepada mereka, \"Bapa-Ku bekerja sampai sekarang, maka Aku pun bekerja juga.\""
+  },
   "John 5:39-40": {
     ref: "John 5:39–40",
     refTB2: "Yohanes 5:39–40",
     version: "NKJV",
     text: "You search the Scriptures, for in them you think you have eternal life; and these are they which testify of Me. But you are not willing to come to Me that you may have life.",
     tb2: "Kamu menyelidiki Kitab-kitab Suci, sebab kamu menyangka bahwa olehnya kamu mempunyai hidup yang kekal, tetapi walaupun Kitab-kitab Suci itu memberi kesaksian tentang Aku, namun kamu tidak mau datang kepada-Ku untuk memperoleh hidup itu."
+  },
+  "John 6:63": {
+    ref: "John 6:63",
+    refTB2: "Yohanes 6:63",
+    version: "NKJV",
+    text: "It is the Spirit who gives life; the flesh profits nothing. The words that I speak to you are spirit, and they are life.",
+    tb2: "Rohlah yang memberi hidup, daging sama sekali tidak berguna. Perkataan-perkataan yang Kukatakan kepadamu adalah roh dan hidup."
   },
   "John 8:29": {
     ref: "John 8:29",
@@ -1305,6 +1376,34 @@ window.BIBLE_VERSES_NKJV = {
     text: "For the law of the Spirit of life in Christ Jesus has made me free from the law of sin and death.",
     tb2: "Sebab hukum Roh yang memberi hidup telah memerdekakan engkau dalam Kristus Yesus dari hukum dosa dan hukum maut."
   },
+  "Romans 8:3": {
+    ref: "Romans 8:3",
+    refTB2: "Roma 8:3",
+    version: "NKJV",
+    text: "For what the law could not do in that it was weak through the flesh, God did by sending His own Son in the likeness of sinful flesh, on account of sin: He condemned sin in the flesh,",
+    tb2: "Sebab apa yang tidak mungkin dilakukan hukum Taurat karena tak berdaya oleh daging, telah dilakukan oleh Allah. Dengan jalan mengutus Anak-Nya sendiri dalam daging, yang serupa dengan daging yang dikuasai dosa karena dosa, Ia telah menjatuhkan hukuman atas dosa di dalam daging,"
+  },
+  "Romans 8:4": {
+    ref: "Romans 8:4",
+    refTB2: "Roma 8:4",
+    version: "NKJV",
+    text: "that the righteous requirement of the law might be fulfilled in us who do not walk according to the flesh but according to the Spirit.",
+    tb2: "supaya tuntutan hukum Taurat digenapi di dalam kita, yang tidak hidup menurut daging, tetapi menurut Roh."
+  },
+  "Romans 8:5": {
+    ref: "Romans 8:5",
+    refTB2: "Roma 8:5",
+    version: "NKJV",
+    text: "For those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit, the things of the Spirit.",
+    tb2: "Sebab mereka yang hidup menurut daging memikirkan hal-hal yang dari daging; mereka yang hidup menurut Roh memikirkan hal-hal yang dari Roh."
+  },
+  "Romans 8:6": {
+    ref: "Romans 8:6",
+    refTB2: "Roma 8:6",
+    version: "NKJV",
+    text: "For to be carnally minded is death, but to be spiritually minded is life and peace.",
+    tb2: "Karena keinginan daging adalah maut, tetapi keinginan Roh adalah hidup dan damai sejahtera."
+  },
   "Romans 8:9-10": {
     ref: "Romans 8:9–10",
     refTB2: "Roma 8:9–10",
@@ -1318,6 +1417,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And if Christ is in you, the body is dead because of sin, but the Spirit is life because of righteousness.",
     tb2: "Tetapi jika Kristus di dalam kamu, maka tubuh memang mati karena dosa, tetapi roh adalah kehidupan oleh karena pembenaran."
+  },
+  "Romans 8:11": {
+    ref: "Romans 8:11",
+    refTB2: "Roma 8:11",
+    version: "NKJV",
+    text: "But if the Spirit of Him who raised Jesus from the dead dwells in you, He who raised Christ from the dead will also give life to your mortal bodies through His Spirit who dwells in you.",
+    tb2: "Jika Roh Dia, yang telah membangkitkan Yesus dari antara orang mati, diam di dalam kamu, maka Ia, yang telah membangkitkan Kristus Yesus dari antara orang mati, akan menghidupkan juga tubuhmu yang fana itu oleh Roh-Nya, yang diam di dalam kamu."
   },
   "Romans 8:13": {
     ref: "Romans 8:13",
@@ -1517,6 +1623,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Sengat maut ialah dosa dan kuasa dosa ialah hukum Taurat."
   },
   // --- 2 Corinthians ---
+  "2 Corinthians 3:6": {
+    ref: "2 Corinthians 3:6",
+    refTB2: "2 Korintus 3:6",
+    version: "NKJV",
+    text: "who also made us sufficient as ministers of the new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.",
+    tb2: "Ialah yang membuat kami juga sanggup menjadi pelayan-pelayan dari suatu perjanjian baru, yang tidak terdiri dari hukum yang tertulis, tetapi dari Roh, sebab hukum yang tertulis mematikan, tetapi Roh menghidupkan."
+  },
   "2 Corinthians 3:17": {
     ref: "2 Corinthians 3:17",
     refTB2: "2 Korintus 3:17",
@@ -1608,6 +1721,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "What purpose then does the law serve? It was added because of transgressions, till the Seed should come to whom the promise was made; and it was appointed through angels by the hand of a mediator.",
     tb2: "Kalau demikian, apakah maksud hukum Taurat? Hukum itu ditambahkan karena pelanggaran-pelanggaran — sampai datang keturunan yang dimaksudkan oleh janji itu — dan disampaikan dengan perantaraan malaikat-malaikat ke dalam tangan seorang pengantara."
+  },
+  "Galatians 3:21": {
+    ref: "Galatians 3:21",
+    refTB2: "Galatia 3:21",
+    version: "NKJV",
+    text: "Is the law then against the promises of God? Certainly not! For if there had been a law given which could have given life, truly righteousness would have been by the law.",
+    tb2: "Kalau demikian, bertentangankah hukum Taurat dengan janji-janji Allah? Sekali-kali tidak. Sebab andaikata hukum Taurat diberikan sebagai sesuatu yang dapat menghidupkan, maka memang kebenaran berasal dari hukum Taurat."
   },
   "Galatians 4:6": {
     ref: "Galatians 4:6",
@@ -2093,12 +2213,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "but Christ as a Son over His own house, whose house we are if we hold fast the confidence and the rejoicing of the hope firm to the end.",
     tb2: "tetapi Kristus setia sebagai Anak yang mengepalai rumah-Nya; dan rumah-Nya ialah kita, jika kita sampai pada akhirnya teguh berpegang pada kepercayaan dan kemegahan pengharapan kita."
   },
+  "Hebrews 3:13": {
+    ref: "Hebrews 3:13",
+    refTB2: "Ibrani 3:13",
+    version: "NKJV",
+    text: "but exhort one another daily, while it is called \"Today,\" lest any of you be hardened through the deceitfulness of sin.",
+    tb2: "Tetapi nasihatilah seorang akan yang lain setiap hari, selama masih dapat dikatakan \"hari ini,\" supaya jangan ada di antara kamu yang menjadi tegar hatinya karena tipu daya dosa."
+  },
   "Hebrews 3:14": {
     ref: "Hebrews 3:14",
     refTB2: "Ibrani 3:14",
     version: "NKJV",
     text: "For we have become partakers of Christ if we hold the beginning of our confidence steadfast to the end,",
     tb2: "Karena kita telah beroleh bagian di dalam Kristus, asal saja kita teguh berpegang sampai kepada akhirnya pada keyakinan iman kita yang semula."
+  },
+  "Hebrews 4:7": {
+    ref: "Hebrews 4:7",
+    refTB2: "Ibrani 4:7",
+    version: "NKJV",
+    text: "again He designates a certain day, saying in David, \"Today,\" after such a long time, as it has been said: \"Today, if you will hear His voice, Do not harden your hearts.\"",
+    tb2: "Sebab itu Ia menetapkan pula suatu hari, yaitu \"hari ini,\" ketika Ia setelah sekian lama berfirman dengan perantaraan Daud seperti dikatakan di atas: \"Pada hari ini, jika kamu mendengar suara-Nya, janganlah keraskan hatimu!\""
   },
   "Hebrews 4:8-9": {
     ref: "Hebrews 4:8–9",
@@ -2425,6 +2559,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Let us be glad and rejoice and give Him glory, for the marriage of the Lamb has come, and His wife has made herself ready.",
     tb2: "Marilah kita bersukacita dan bersorak-sorai, dan memuliakan Dia! Karena hari perkawinan Anak Domba telah tiba, dan pengantin-Nya telah siap sedia."
+  },
+  "Revelation 20:4": {
+    ref: "Revelation 20:4",
+    refTB2: "Wahyu 20:4",
+    version: "NKJV",
+    text: "And I saw thrones, and they sat on them, and judgment was committed to them. Then I saw the souls of those who had been beheaded for their witness to Jesus and for the word of God, who had not worshiped the beast or his image, and had not received his mark on their foreheads or on their hands. And they lived and reigned with Christ for a thousand years.",
+    tb2: "Lalu aku melihat takhta-takhta dan orang-orang yang duduk di atasnya; kepada mereka diserahkan kuasa untuk menghakimi. Aku juga melihat jiwa-jiwa mereka yang telah dipenggal kepalanya karena kesaksian tentang Yesus dan karena firman Allah; yang tidak menyembah binatang itu dan patungnya dan yang juga tidak menerima tandanya pada dahi dan tangan mereka; dan mereka hidup kembali dan memerintah sebagai raja bersama-sama dengan Kristus untuk masa seribu tahun."
   },
   "Revelation 21:1": {
     ref: "Revelation 21:1",
