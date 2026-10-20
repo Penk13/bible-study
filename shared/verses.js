@@ -40,6 +40,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done. Then God blessed the seventh day and sanctified it, because in it He rested from all His work which God had created and made.",
     tb2: "Ketika Allah pada hari ketujuh telah menyelesaikan pekerjaan yang dibuat-Nya itu, berhentilah Ia pada hari ketujuh dari segala pekerjaan yang telah dibuat-Nya itu. Lalu Allah memberkati hari ketujuh itu dan menguduskannya, karena pada hari itulah Ia berhenti dari segala pekerjaan penciptaan yang telah dibuat-Nya itu."
   },
+  "Genesis 2:2": {
+    ref: "Genesis 2:2",
+    refTB2: "Kejadian 2:2",
+    version: "NKJV",
+    text: "And on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done.",
+    tb2: "Ketika Allah pada hari ketujuh telah menyelesaikan pekerjaan yang dibuat-Nya itu, berhentilah Ia pada hari ketujuh dari segala pekerjaan yang telah dibuat-Nya itu."
+  },
   "Genesis 2:7": {
     ref: "Genesis 2:7",
     refTB2: "Kejadian 2:7",
@@ -74,6 +81,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "He created them male and female, and blessed them and called them Mankind in the day they were created.",
     tb2: "laki-laki dan perempuan diciptakan-Nya mereka. Ia memberkati mereka dan memberikan nama \"Manusia\" kepada mereka pada waktu mereka diciptakan."
+  },
+  "Genesis 6:3": {
+    ref: "Genesis 6:3",
+    refTB2: "Kejadian 6:3",
+    version: "NKJV",
+    text: "And the LORD said, \"My Spirit shall not strive with man forever, for he is indeed flesh; yet his days shall be one hundred and twenty years.\"",
+    tb2: "Berfirmanlah TUHAN, \"Roh-Ku tidak akan selama-lamanya tinggal di dalam manusia, karena manusia itu adalah daging, tetapi umurnya akan seratus dua puluh tahun saja.\""
   },
   "Genesis 8:4": {
     ref: "Genesis 8:4",
@@ -475,6 +489,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And suddenly a voice came from heaven, saying, \"This is My beloved Son, in whom I am well pleased.\"",
     tb2: "Lalu terdengarlah suara dari surga yang mengatakan, \"Inilah Anak-Ku yang Kukasihi, kepada-Nyalah Aku berkenan.\""
   },
+  "Matthew 6:10": {
+    ref: "Matthew 6:10",
+    refTB2: "Matius 6:10",
+    version: "NKJV",
+    text: "Your kingdom come. Your will be done on earth as it is in heaven.",
+    tb2: "datanglah Kerajaan-Mu, jadilah kehendak-Mu di bumi seperti di surga."
+  },
   "Matthew 11:28-29": {
     ref: "Matthew 11:28–29",
     refTB2: "Matius 11:28–29",
@@ -560,6 +581,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But the father said to his servants, 'Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet. And bring the fatted calf here and kill it, and let us eat and be merry;'",
     tb2: "Tetapi ayah itu berkata kepada hamba-hambanya, \"Lekaslah bawa ke mari jubah yang terbaik, pakaikanlah itu kepadanya dan kenakanlah cincin pada jarinya dan sepatu pada kakinya. Ambillah anak lembu tambun itu, sembelihlah dia dan mari kita makan dan bersukacita.\""
+  },
+  "Luke 15:22": {
+    ref: "Luke 15:22",
+    refTB2: "Lukas 15:22",
+    version: "NKJV",
+    text: "But the father said to his servants, 'Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet.'",
+    tb2: "Tetapi ayah itu berkata kepada hamba-hambanya, \"Lekaslah bawa ke mari jubah yang terbaik, pakaikanlah kepadanya, kenakanlah cincin pada jarinya dan sepatu pada kakinya."
   },
   "Luke 18:13": {
     ref: "Luke 18:13",
@@ -1390,6 +1418,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For the good that I will to do, I do not do; but the evil I will not to do, that I practice.",
     tb2: "Sebab bukan apa yang aku kehendaki, yaitu yang baik, yang aku perbuat, melainkan apa yang tidak aku kehendaki, yaitu yang jahat, yang aku perbuat."
   },
+  "Romans 7:20": {
+    ref: "Romans 7:20",
+    refTB2: "Roma 7:20",
+    version: "NKJV",
+    text: "Now if I do what I will not to do, it is no longer I who do it, but sin that dwells in me.",
+    tb2: "Jadi, jika aku berbuat apa yang tidak aku kehendaki, maka bukan lagi aku yang memperbuatnya, tetapi dosa yang diam di dalam aku."
+  },
   "Romans 7:21": {
     ref: "Romans 7:21",
     refTB2: "Roma 7:21",
@@ -1467,12 +1502,33 @@ window.BIBLE_VERSES_NKJV = {
     text: "For to be carnally minded is death, but to be spiritually minded is life and peace.",
     tb2: "Karena keinginan daging adalah maut, tetapi keinginan Roh adalah hidup dan damai sejahtera."
   },
+  "Romans 8:7": {
+    ref: "Romans 8:7",
+    refTB2: "Roma 8:7",
+    version: "NKJV",
+    text: "Because the carnal mind is enmity against God; for it is not subject to the law of God, nor indeed can be.",
+    tb2: "Sebab keinginan daging adalah perseteruan terhadap Allah, karena ia tidak takluk kepada hukum Allah; hal ini memang tidak mungkin baginya."
+  },
+  "Romans 8:8": {
+    ref: "Romans 8:8",
+    refTB2: "Roma 8:8",
+    version: "NKJV",
+    text: "So then, those who are in the flesh cannot please God.",
+    tb2: "Mereka yang hidup dalam daging tidak mungkin berkenan kepada Allah."
+  },
   "Romans 8:9-10": {
     ref: "Romans 8:9–10",
     refTB2: "Roma 8:9–10",
     version: "NKJV",
     text: "But you are not in the flesh but in the Spirit, if indeed the Spirit of God dwells in you. Now if anyone does not have the Spirit of Christ, he is not His. And if Christ is in you, the body is dead because of sin, but the Spirit is life because of righteousness.",
     tb2: "Tetapi kamu tidak hidup dalam daging, melainkan dalam Roh, jika memang Roh Allah tinggal di dalam kamu. Tetapi jika orang tidak memiliki Roh Kristus, ia bukan milik Kristus. Tetapi jika Kristus di dalam kamu, maka tubuh memang mati karena dosa, tetapi roh adalah kehidupan oleh karena pembenaran."
+  },
+  "Romans 8:9": {
+    ref: "Romans 8:9",
+    refTB2: "Roma 8:9",
+    version: "NKJV",
+    text: "But you are not in the flesh but in the Spirit, if indeed the Spirit of God dwells in you. Now if anyone does not have the Spirit of Christ, he is not His.",
+    tb2: "Tetapi kamu tidak hidup dalam daging, melainkan dalam Roh, jika memang Roh Allah diam di dalam kamu. Tetapi jika orang tidak memiliki Roh Kristus, ia bukan milik Kristus."
   },
   "Romans 8:10": {
     ref: "Romans 8:10",
@@ -1487,6 +1543,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But if the Spirit of Him who raised Jesus from the dead dwells in you, He who raised Christ from the dead will also give life to your mortal bodies through His Spirit who dwells in you.",
     tb2: "Jika Roh Dia, yang telah membangkitkan Yesus dari antara orang mati, diam di dalam kamu, maka Ia, yang telah membangkitkan Kristus Yesus dari antara orang mati, akan menghidupkan juga tubuhmu yang fana itu oleh Roh-Nya, yang diam di dalam kamu."
+  },
+  "Romans 8:12": {
+    ref: "Romans 8:12",
+    refTB2: "Roma 8:12",
+    version: "NKJV",
+    text: "Therefore, brethren, we are debtors—not to the flesh, to live according to the flesh.",
+    tb2: "Jadi, saudara-saudara, kita adalah orang berutang, tetapi bukan kepada daging, supaya hidup menurut daging."
   },
   "Romans 8:13": {
     ref: "Romans 8:13",
@@ -1656,6 +1719,34 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore concerning the eating of things offered to idols, we know that an idol is nothing in the world, and that there is no other God but one.",
     tb2: "Tentang hal makan daging persembahan berhala kita tahu: \"Tidak ada berhala di dunia dan tidak ada Allah lain daripada Allah yang esa.\""
+  },
+  "1 Corinthians 9:24": {
+    ref: "1 Corinthians 9:24",
+    refTB2: "1 Korintus 9:24",
+    version: "NKJV",
+    text: "Do you not know that those who run in a race all run, but one receives the prize? Run in such a way that you may obtain it.",
+    tb2: "Tidak tahukah kamu bahwa dalam gelanggang pertandingan semua peserta turut berlari, tetapi hanya satu orang saja yang mendapat hadiah? Karena itu, larilah begitu rupa, sehingga kamu memperolehnya!"
+  },
+  "1 Corinthians 9:25": {
+    ref: "1 Corinthians 9:25",
+    refTB2: "1 Korintus 9:25",
+    version: "NKJV",
+    text: "And everyone who competes for the prize is temperate in all things. Now they do it to obtain a perishable crown, but we for an imperishable crown.",
+    tb2: "Setiap orang yang turut mengambil bagian dalam pertandingan menguasai dirinya dalam segala hal. Mereka berbuat demikian untuk memperoleh suatu mahkota yang fana, tetapi kita untuk memperoleh suatu mahkota yang abadi."
+  },
+  "1 Corinthians 9:27": {
+    ref: "1 Corinthians 9:27",
+    refTB2: "1 Korintus 9:27",
+    version: "NKJV",
+    text: "But I discipline my body and bring it into subjection, lest, when I have preached to others, I myself should become disqualified.",
+    tb2: "Tetapi aku melatih tubuhku dan menguasainya seluruhnya, supaya sesudah memberitakan Injil kepada orang lain, jangan aku sendiri ditolak."
+  },
+  "1 Corinthians 10:5": {
+    ref: "1 Corinthians 10:5",
+    refTB2: "1 Korintus 10:5",
+    version: "NKJV",
+    text: "But with most of them God was not well pleased, for their bodies were scattered in the wilderness.",
+    tb2: "Tetapi sungguhpun demikian, Allah tidak berkenan kepada sebagian besar dari mereka, karena mereka ditewaskan di padang gurun."
   },
   "1 Corinthians 12:2": {
     ref: "1 Corinthians 12:2",
@@ -1948,6 +2039,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross.",
     tb2: "Dalam keadaan sebagai manusia, Ia telah merendahkan diri-Nya dan taat sampai mati, bahkan sampai mati di kayu salib."
   },
+  "Philippians 3:12": {
+    ref: "Philippians 3:12",
+    refTB2: "Filipi 3:12",
+    version: "NKJV",
+    text: "Not that I have already attained, or am already perfected; but I press on, that I may lay hold of that for which Christ Jesus has also laid hold of me.",
+    tb2: "Bukan seolah-olah aku telah memperoleh hal ini atau telah sempurna, melainkan aku mengejarnya, kalau-kalau aku dapat juga menangkapnya, karena aku pun telah ditangkap oleh Kristus Yesus."
+  },
+  "Philippians 3:13-14": {
+    ref: "Philippians 3:13–14",
+    refTB2: "Filipi 3:13–14",
+    version: "NKJV",
+    text: "Brethren, I do not count myself to have apprehended; but one thing I do, forgetting those things which are behind and reaching forward to those things which are ahead, I press toward the goal for the prize of the upward call of God in Christ Jesus.",
+    tb2: "Saudara-saudara, aku sendiri tidak menganggap bahwa aku telah menangkapnya, tetapi ini yang kulakukan: aku melupakan apa yang telah di belakangku dan mengarahkan diri kepada apa yang di hadapanku, dan berlari-lari kepada tujuan untuk memperoleh hadiah, yaitu panggilan surgawi dari Allah dalam Kristus Yesus."
+  },
   "Philippians 3:20": {
     ref: "Philippians 3:20",
     refTB2: "Filipi 3:20",
@@ -2050,6 +2155,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "but has now been revealed by the appearing of our Savior Jesus Christ, who has abolished death and brought life and immortality to light through the gospel,",
     tb2: "dan yang sekarang dinyatakan oleh kedatangan Juruselamat kita Yesus Kristus, yang oleh Injil telah mematahkan kuasa maut dan mendatangkan hidup yang tidak dapat binasa."
+  },
+  "2 Timothy 4:7-8": {
+    ref: "2 Timothy 4:7–8",
+    refTB2: "2 Timotius 4:7–8",
+    version: "NKJV",
+    text: "I have fought the good fight, I have finished the race, I have kept the faith. Finally, there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will give to me on that Day, and not to me only but also to all who have loved His appearing.",
+    tb2: "Aku telah mengakhiri pertandingan yang baik, aku telah mencapai garis akhir dan aku telah memelihara iman. Sekarang telah tersedia bagiku mahkota kebenaran yang akan dikaruniakan kepadaku oleh Tuhan, Hakim yang adil, pada hari-Nya; tetapi bukan hanya kepadaku, melainkan juga kepada semua orang yang merindukan kedatangan-Nya."
   },
   "2 Timothy 4:22": {
     ref: "2 Timothy 4:22",
@@ -2665,6 +2777,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then the seventh angel sounded: And there were loud voices in heaven, saying, \"The kingdoms of this world have become the kingdoms of our Lord and of His Christ, and He shall reign forever and ever!\"",
     tb2: "Lalu malaikat yang ketujuh meniup sangkakalanya, dan terdengarlah suara-suara nyaring di dalam surga, katanya, \"Pemerintahan atas dunia dipegang oleh Tuhan kita dan Dia yang diurapi-Nya, dan Ia akan memerintah sebagai raja sampai selama-lamanya.\""
   },
+  "Revelation 14:15": {
+    ref: "Revelation 14:15",
+    refTB2: "Wahyu 14:15",
+    version: "NKJV",
+    text: "And another angel came out of the temple, crying with a loud voice to Him who sat on the cloud, \"Thrust in Your sickle and reap, for the time has come for You to reap, for the harvest of the earth is ripe.\"",
+    tb2: "Lalu keluarlah seorang malaikat lain dari Bait Suci dan ia berseru dengan suara nyaring kepada Dia yang duduk di atas awan itu, \"Ayunkanlah sabit-Mu itu dan tuailah, karena sudah tiba saatnya untuk menuai; sebab tuaian di bumi sudah masak.\""
+  },
   "Revelation 15:2-3": {
     ref: "Revelation 15:2–3",
     refTB2: "Wahyu 15:2–3",
@@ -2685,6 +2804,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And I saw thrones, and they sat on them, and judgment was committed to them. Then I saw the souls of those who had been beheaded for their witness to Jesus and for the word of God, who had not worshiped the beast or his image, and had not received his mark on their foreheads or on their hands. And they lived and reigned with Christ for a thousand years.",
     tb2: "Lalu aku melihat takhta-takhta dan orang-orang yang duduk di atasnya; kepada mereka diserahkan kuasa untuk menghakimi. Aku juga melihat jiwa-jiwa mereka yang telah dipenggal kepalanya karena kesaksian tentang Yesus dan karena firman Allah; yang tidak menyembah binatang itu dan patungnya dan yang juga tidak menerima tandanya pada dahi dan tangan mereka; dan mereka hidup kembali dan memerintah sebagai raja bersama-sama dengan Kristus untuk masa seribu tahun."
+  },
+  "Revelation 20:6": {
+    ref: "Revelation 20:6",
+    refTB2: "Wahyu 20:6",
+    version: "NKJV",
+    text: "Blessed and holy is he who has part in the first resurrection. Over such the second death has no power, but they shall be priests of God and of Christ, and shall reign with Him a thousand years.",
+    tb2: "Berbahagia dan kuduslah ia yang mendapat bagian dalam kebangkitan pertama itu. Kematian yang kedua tidak berkuasa atas mereka, tetapi mereka akan menjadi imam-imam Allah dan Kristus, dan mereka akan memerintah sebagai raja bersama-sama dengan Dia seribu tahun lamanya."
   },
   "Revelation 21:1": {
     ref: "Revelation 21:1",
