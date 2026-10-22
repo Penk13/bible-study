@@ -166,7 +166,21 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then Jacob rose early in the morning, and took the stone that he had put at his head, set it up as a pillar, and poured oil on top of it. And he called the name of that place Bethel; but the name of that city had been Luz previously.",
     tb2: "Keesokan harinya pagi-pagi Yakub mengambil batu yang dipakainya sebagai alas kepala, lalu mendirikannya menjadi tugu dan menuangkan minyak ke atasnya. Ia menamai tempat itu Betel; dahulu nama kota itu Lus."
   },
+  "Genesis 35:10": {
+    ref: "Genesis 35:10",
+    refTB2: "Kejadian 35:10",
+    version: "NKJV",
+    text: "And God said to him, \"Your name is Jacob; your name shall not be called Jacob anymore, but Israel shall be your name.\" So He called his name Israel.",
+    tb2: "Lalu Allah berfirman kepadanya: \"Namamu Yakub; dari sekarang namamu bukan lagi Yakub, melainkan Israel, itulah yang akan menjadi namamu.\" Maka Allah menamai dia Israel."
+  },
   // --- Exodus ---
+  "Exodus 1:8-14": {
+    ref: "Exodus 1:8–14",
+    refTB2: "Keluaran 1:8–14",
+    version: "NKJV",
+    text: "Now there arose up a new king over Egypt, who did not know Joseph. And he said to his people, \"Look, the people of the children of Israel are more and mightier than we; come, let us deal shrewdly with them, lest they multiply, and it happen, in the event of war, that they also join our enemies and fight against us, and so go up out of the land.\" Therefore they set taskmasters over them to afflict them with their burdens. And they built for Pharaoh supply cities, Pithom and Raamses. But the more they afflicted them, the more they multiplied and grew. And they were in dread of the children of Israel. So the Egyptians made the children of Israel serve with rigor. And they made their lives bitter with hard bondage—in mortar, in brick, and in all manner of service in the field. All their service in which they made them serve was with rigor.",
+    tb2: "Kemudian bangkitlah seorang raja baru memerintah tanah Mesir, yang tidak mengenal Yusuf. Berkatalah raja itu kepada rakyatnya: \"Bangsa Israel itu sangat banyak dan lebih besar jumlahnya daripada kita. Marilah kita bertindak dengan bijaksana terhadap mereka, supaya mereka jangan bertambah banyak lagi dan—jika terjadi peperangan—jangan bersekutu nanti dengan musuh kita dan memerangi kita, lalu pergi dari negeri ini.\" Sebab itu pengawas-pengawas rodi ditempatkan atas mereka untuk menindas mereka dengan kerja paksa: mereka harus mendirikan bagi Firaun kota-kota perbekalan, yakni Pitom dan Raamses. Tetapi makin ditindas, makin bertambah banyak dan makin berkembang mereka, sehingga orang merasa takut kepada orang Israel itu. Lalu dengan kejam orang Mesir memaksa orang Israel bekerja, dan memahitkan hidup mereka dengan pekerjaan yang berat, yaitu mengerjakan tanah liat dan batu bata, dan berbagai-bagai pekerjaan di padang, ya segala pekerjaan yang dengan kejam dipaksakan orang Mesir kepada mereka itu."
+  },
   "Exodus 3:1-6": {
     ref: "Exodus 3:2–3",
     refTB2: "Keluaran 3:2–3",
@@ -195,6 +209,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then the LORD said to Moses, \"Rise early in the morning and stand before Pharaoh, and say to him, 'Thus says the LORD God of the Hebrews: \"Let My people go, that they may serve Me.\"'\"",
     tb2: "Berfirmanlah TUHAN kepada Musa, \"Bangunlah pagi-pagi dan berdirilah di depan Firaun, dan katakan kepadanya: Beginilah firman TUHAN, Allah orang Ibrani: Biarkanlah umat-Ku pergi supaya mereka beribadah kepada-Ku.\""
   },
+  "Exodus 12:13": {
+    ref: "Exodus 12:13",
+    refTB2: "Keluaran 12:13",
+    version: "NKJV",
+    text: "Now the blood shall be a sign for you on the houses where you are. And when I see the blood, I will pass over you; and the plague shall not be on you to destroy you when I strike the land of Egypt.",
+    tb2: "Darah itu akan menjadi tanda bagimu di rumah-rumah di mana kamu berada; bila Aku melihat darah, Aku akan meloloskan kamu, sehingga tidak ada tulah yang menimpa kamu untuk membinasakan kamu, waktu Aku menimpakan azab ke tanah Mesir."
+  },
   "Exodus 12:41": {
     ref: "Exodus 12:41",
     refTB2: "Keluaran 12:41",
@@ -208,6 +229,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And the LORD went before them by day in a pillar of cloud to lead the way, and by night in a pillar of fire to give them light, so as to go by day and night.",
     tb2: "TUHAN berjalan di depan mereka, pada siang hari dalam tiang awan untuk menuntun mereka di jalan, dan pada waktu malam dalam tiang api untuk menerangi mereka, sehingga mereka dapat berjalan siang dan malam."
+  },
+  "Exodus 14:30": {
+    ref: "Exodus 14:30",
+    refTB2: "Keluaran 14:30",
+    version: "NKJV",
+    text: "So the LORD saved Israel that day out of the hand of the Egyptians, and Israel saw the Egyptians dead on the seashore.",
+    tb2: "Maka pada hari itu TUHAN menyelamatkan Israel dari tangan orang Mesir, dan Israel melihat orang Mesir mati terdampar di pantai laut."
   },
   "Exodus 15:1": {
     ref: "Exodus 15:1",
@@ -223,6 +251,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Now therefore, if you will indeed obey My voice and keep My covenant, then you shall be a special treasure to Me above all people; for all the earth is Mine. And you shall be to Me a kingdom of priests and a holy nation.",
     tb2: "Jadi, sekarang, jika kamu sungguh-sungguh mendengarkan firman-Ku dan berpegang pada perjanjian-Ku, maka kamu akan menjadi harta kesayangan-Ku sendiri dari antara segala bangsa, sebab Akulah yang empunya seluruh bumi. Kamu akan menjadi bagi-Ku kerajaan imam dan bangsa yang kudus."
   },
+  "Exodus 25:8-9": {
+    ref: "Exodus 25:8–9",
+    refTB2: "Keluaran 25:8–9",
+    version: "NKJV",
+    text: "And let them make Me a sanctuary, that I may dwell among them. According to all that I show you, that is, the pattern of the tabernacle and the pattern of all its furnishings, just so you shall make it.",
+    tb2: "Mereka harus membuat tempat kediaman bagi-Ku, supaya Aku dapat diam di tengah-tengah mereka. Sesuai dengan segala hal yang Kuperlihatkan kepadamu, yaitu pola kemah pertemuan dan pola segala perabotnya, sedemikianlah harus kamu buatkannya."
+  },
   "Exodus 25:21-22": {
     ref: "Exodus 25:21–22",
     refTB2: "Keluaran 25:21–22",
@@ -236,6 +271,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "He set the laver between the tabernacle of meeting and the altar, and put water there for washing; and Moses, Aaron, and his sons would wash their hands and their feet with water from it. Whenever they went into the tabernacle of meeting, and when they came near the altar, they washed, as the LORD had commanded Moses.",
     tb2: "Ia menaruh bejana pembasuhan itu di antara Kemah Pertemuan dan mezbah, lalu ditaruhnya air ke dalamnya untuk pembasuhan. Musa dan Harun serta anak-anaknya membasuh tangan dan kaki mereka dengan air itu. Apabila mereka masuk ke dalam Kemah Pertemuan dan apabila mereka datang ke mezbah, mereka membasuh tangan dan kaki, seperti yang diperintahkan TUHAN kepada Musa."
+  },
+  "Exodus 40:34-35": {
+    ref: "Exodus 40:34–35",
+    refTB2: "Keluaran 40:34–35",
+    version: "NKJV",
+    text: "Then the cloud covered the tabernacle of meeting, and the glory of the LORD filled the tabernacle. And Moses was not able to enter the tabernacle of meeting, because the glory of the LORD settled upon it, and the glory of the LORD filled the tabernacle.",
+    tb2: "Lalu awan menutupi Kemah Pertemuan, dan kemuliaan TUHAN memenuhi kemah itu. Dan tidak dapat Musa memasuki Kemah Pertemuan, karena awan itu menetap di atasnya dan kemuliaan TUHAN memenuhi kemah itu."
   },
   // --- Leviticus ---
   "Leviticus 16:14": {
@@ -1741,6 +1783,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But I discipline my body and bring it into subjection, lest, when I have preached to others, I myself should become disqualified.",
     tb2: "Tetapi aku melatih tubuhku dan menguasainya seluruhnya, supaya sesudah memberitakan Injil kepada orang lain, jangan aku sendiri ditolak."
   },
+  "1 Corinthians 10:2": {
+    ref: "1 Corinthians 10:2",
+    refTB2: "1 Korintus 10:2",
+    version: "NKJV",
+    text: "all were baptized into Moses in the cloud and in the sea,",
+    tb2: "Untuk menjadi pengikut Musa mereka semua telah dibaptis dalam awan dan dalam laut."
+  },
   "1 Corinthians 10:5": {
     ref: "1 Corinthians 10:5",
     refTB2: "1 Korintus 10:5",
@@ -2846,5 +2895,12 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And he showed me a pure river of water of life, clear as crystal, proceeding from the throne of God and of the Lamb.",
     tb2: "Lalu ia menunjukkan kepadaku sungai air kehidupan, yang jernih bagaikan kristal, dan mengalir keluar dari takhta Allah dan takhta Anak Domba itu."
+  },
+  "Revelation 22:18-19": {
+    ref: "Revelation 22:18–19",
+    refTB2: "Wahyu 22:18–19",
+    version: "NKJV",
+    text: "For I testify to everyone who hears the words of the prophecy of this book: If anyone adds to these things, God will add to him the plagues that are written in this book; and if anyone takes away from the words of the book of this prophecy, God shall take away his part from the Book of Life, from the holy city, and from the things which are written in this book.",
+    tb2: "Aku bersaksi kepada setiap orang yang mendengar perkataan-perkataan nubuat dari kitab ini: Jika seorang menambahkan sesuatu kepada perkataan-perkataan ini, maka Allah akan menambahkan kepadanya malapetaka-malapetaka yang tertulis di dalam kitab ini. Dan jikalau seorang mengurangkan sesuatu dari perkataan-perkataan dari kitab nubuat ini, maka Allah akan mengambil bagiannya dari pohon kehidupan dan dari kota kudus, seperti yang tertulis di dalam kitab ini."
   },
 };
