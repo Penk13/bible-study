@@ -96,6 +96,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Then the ark rested in the seventh month, the seventeenth day of the month, on the mountains of Ararat.",
     tb2: "Dalam bulan yang ketujuh, pada hari yang ketujuh belas bulan itu, terkandaslah bahtera itu pada pegunungan Ararat."
   },
+  "Genesis 11:3-4": {
+    ref: "Genesis 11:3–4",
+    refTB2: "Kejadian 11:3–4",
+    version: "NKJV",
+    text: "Then they said to one another, \"Come, let us make bricks and bake them thoroughly.\" They had brick for stone, and they had asphalt for mortar. And they said, \"Come, let us build ourselves a city, and a tower whose top is in the heavens; let us make a name for ourselves, lest we be scattered abroad over the face of the whole earth.\"",
+    tb2: "Mereka berkata seorang kepada yang lain, \"Marilah kita membuat batu bata dan membakarnya baik-baik.\" Lalu batu bata itulah dipakai mereka sebagai batu dan ter gala-gala sebagai tanah liat. Juga kata mereka, \"Marilah kita dirikan bagi kita sebuah kota dengan sebuah menara yang puncaknya sampai ke langit, dan marilah kita cari nama, supaya kita jangan terserak ke seluruh bumi.\""
+  },
   "Genesis 12:1": {
     ref: "Genesis 12:1",
     refTB2: "Kejadian 12:1",
@@ -173,13 +180,48 @@ window.BIBLE_VERSES_NKJV = {
     text: "And God said to him, \"Your name is Jacob; your name shall not be called Jacob anymore, but Israel shall be your name.\" So He called his name Israel.",
     tb2: "Lalu Allah berfirman kepadanya: \"Namamu Yakub; dari sekarang namamu bukan lagi Yakub, melainkan Israel, itulah yang akan menjadi namamu.\" Maka Allah menamai dia Israel."
   },
+  "Genesis 50:26": {
+    ref: "Genesis 50:26",
+    refTB2: "Kejadian 50:26",
+    version: "NKJV",
+    text: "So Joseph died, being one hundred and ten years old; and they embalmed him, and he was put in a coffin in Egypt.",
+    tb2: "Kemudian matilah Yusuf, berumur seratus sepuluh tahun. Mayatnya dirempah-rempahi, dan ditaruh dalam peti mati di Mesir."
+  },
   // --- Exodus ---
+  "Exodus 1:7": {
+    ref: "Exodus 1:7",
+    refTB2: "Keluaran 1:7",
+    version: "NKJV",
+    text: "But the children of Israel were fruitful and increased abundantly, multiplied and grew exceedingly mighty; and the land was filled with them.",
+    tb2: "Orang-orang Israel beranak cucu dan tak terbilang jumlahnya; mereka bertambah banyak dan dengan dahsyat berlipat ganda, sehingga negeri itu dipenuhi mereka."
+  },
   "Exodus 1:8-14": {
     ref: "Exodus 1:8–14",
     refTB2: "Keluaran 1:8–14",
     version: "NKJV",
     text: "Now there arose up a new king over Egypt, who did not know Joseph. And he said to his people, \"Look, the people of the children of Israel are more and mightier than we; come, let us deal shrewdly with them, lest they multiply, and it happen, in the event of war, that they also join our enemies and fight against us, and so go up out of the land.\" Therefore they set taskmasters over them to afflict them with their burdens. And they built for Pharaoh supply cities, Pithom and Raamses. But the more they afflicted them, the more they multiplied and grew. And they were in dread of the children of Israel. So the Egyptians made the children of Israel serve with rigor. And they made their lives bitter with hard bondage—in mortar, in brick, and in all manner of service in the field. All their service in which they made them serve was with rigor.",
     tb2: "Kemudian bangkitlah seorang raja baru memerintah tanah Mesir, yang tidak mengenal Yusuf. Berkatalah raja itu kepada rakyatnya: \"Bangsa Israel itu sangat banyak dan lebih besar jumlahnya daripada kita. Marilah kita bertindak dengan bijaksana terhadap mereka, supaya mereka jangan bertambah banyak lagi dan—jika terjadi peperangan—jangan bersekutu nanti dengan musuh kita dan memerangi kita, lalu pergi dari negeri ini.\" Sebab itu pengawas-pengawas rodi ditempatkan atas mereka untuk menindas mereka dengan kerja paksa: mereka harus mendirikan bagi Firaun kota-kota perbekalan, yakni Pitom dan Raamses. Tetapi makin ditindas, makin bertambah banyak dan makin berkembang mereka, sehingga orang merasa takut kepada orang Israel itu. Lalu dengan kejam orang Mesir memaksa orang Israel bekerja, dan memahitkan hidup mereka dengan pekerjaan yang berat, yaitu mengerjakan tanah liat dan batu bata, dan berbagai-bagai pekerjaan di padang, ya segala pekerjaan yang dengan kejam dipaksakan orang Mesir kepada mereka itu."
+  },
+  "Exodus 1:19": {
+    ref: "Exodus 1:19",
+    refTB2: "Keluaran 1:19",
+    version: "NKJV",
+    text: "And the midwives said to Pharaoh, \"Because the Hebrew women are not like the Egyptian women; for they are lively and give birth before the midwives come to them.\"",
+    tb2: "Jawab bidan-bidan itu kepada Firaun, \"Sebab perempuan Ibrani tidak sama dengan perempuan Mesir; mereka kuat dan telah bersalin sebelum bidan datang.\""
+  },
+  "Exodus 1:20-21": {
+    ref: "Exodus 1:20–21",
+    refTB2: "Keluaran 1:20–21",
+    version: "NKJV",
+    text: "Therefore God dealt well with the midwives, and the people multiplied and grew very mighty. And so it was, because the midwives feared God, that He provided households for them.",
+    tb2: "Maka Allah berbuat baik kepada bidan-bidan itu; bertambah banyaklah bangsa itu dan sangat berlipat ganda. Dan karena bidan-bidan itu takut akan Allah, maka Ia membuat mereka berumah tangga."
+  },
+  "Exodus 1:22": {
+    ref: "Exodus 1:22",
+    refTB2: "Keluaran 1:22",
+    version: "NKJV",
+    text: "So Pharaoh commanded all his people, saying, \"Every son who is born you shall cast into the river, and every daughter you shall save alive.\"",
+    tb2: "Lalu Firaun memberi perintah kepada seluruh rakyatnya, \"Lemparkanlah segala anak laki-laki yang lahir bagi orang Ibrani ke dalam sungai Nil; tetapi segala anak perempuan biarkanlah hidup.\""
   },
   "Exodus 3:1-6": {
     ref: "Exodus 3:2–3",
@@ -288,6 +330,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Kemudian ia harus mengambil sedikit dari darah lembu jantan itu, lalu memercikkannya dengan jarinya ke atas tutup pendamaian di sebelah depan, dan ke depan tutup pendamaian itu ia harus memercikkan sedikit dari darah itu dengan jarinya tujuh kali."
   },
   // --- Numbers ---
+  "Numbers 11:5": {
+    ref: "Numbers 11:5",
+    refTB2: "Bilangan 11:5",
+    version: "NKJV",
+    text: "We remember the fish which we ate freely in Egypt, the cucumbers, the melons, the leeks, the onions, and the garlic;",
+    tb2: "Kita teringat kepada ikan yang kita makan di Mesir dengan tidak bayar apa-apa, kepada mentimun dan semangka, bawang prei, bawang merah dan bawang putih."
+  },
   "Numbers 14:24": {
     ref: "Numbers 14:24",
     refTB2: "Bilangan 14:24",
@@ -552,6 +601,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For the Son of Man is Lord even of the Sabbath.",
     tb2: "Karena Anak Manusia adalah Tuhan atas hari Sabat."
   },
+  "Matthew 12:19": {
+    ref: "Matthew 12:19",
+    refTB2: "Matius 12:19",
+    version: "NKJV",
+    text: "He will not quarrel nor cry out, nor will anyone hear His voice in the streets.",
+    tb2: "Ia tidak akan berbantah dan tidak akan berteriak, dan orang tidak akan mendengar suara-Nya di jalan-jalan."
+  },
   "Matthew 13:23": {
     ref: "Matthew 13:23",
     refTB2: "Matius 13:23",
@@ -603,6 +659,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Tetapi kata Yesus kepada mereka, \"Kamu tidak tahu apa yang kamu minta. Dapatkah kamu meminum cawan yang harus Kuminum dan dibaptis dengan baptisan yang harus Kuterima?\""
   },
   // --- Luke ---
+  "Luke 4:22": {
+    ref: "Luke 4:22",
+    refTB2: "Lukas 4:22",
+    version: "NKJV",
+    text: "So all bore witness to Him, and marveled at the gracious words which proceeded out of His mouth. And they said, \"Is this not Joseph's son?\"",
+    tb2: "Semua orang membenarkan Dia dan mereka heran akan kata-kata yang indah yang diucapkan-Nya, lalu kata mereka, \"Bukankah Ia ini anak Yusuf?\""
+  },
   "Luke 7:50": {
     ref: "Luke 7:50",
     refTB2: "Lukas 7:50",
@@ -820,6 +883,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Jesus said to her, \"Do not cling to Me, for I have not yet ascended to My Father; but go to My brethren and say to them, 'I am ascending to My Father and your Father, and to My God and your God.'\"",
     tb2: "Kata Yesus kepadanya, \"Janganlah engkau memegang Aku, sebab Aku belum pergi kepada Bapa, tetapi pergilah kepada saudara-saudara-Ku dan katakanlah kepada mereka bahwa sekarang Aku akan pergi kepada Bapa-Ku dan Bapamu, kepada Allah-Ku dan Allahmu.\""
+  },
+  "John 20:22": {
+    ref: "John 20:22",
+    refTB2: "Yohanes 20:22",
+    version: "NKJV",
+    text: "And when He had said this, He breathed on them, and said to them, \"Receive the Holy Spirit.\"",
+    tb2: "Dan sesudah berkata demikian, Ia mengembusi mereka dan berkata, \"Terimalah Roh Kudus.\""
   },
   // --- Acts ---
   "Acts 2:36": {
@@ -1369,6 +1439,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But now having been set free from sin, and having become slaves of God, you have your fruit to holiness, and the end, everlasting life.",
     tb2: "Tetapi sekarang, setelah kamu dimerdekakan dari dosa dan setelah kamu menjadi hamba Allah, kamu beroleh buah yang membawa kamu kepada pengudusan dan yang kesudahannya ialah hidup yang kekal."
   },
+  "Romans 6:23": {
+    ref: "Romans 6:23",
+    refTB2: "Roma 6:23",
+    version: "NKJV",
+    text: "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+    tb2: "Sebab upah dosa ialah maut; tetapi karunia Allah ialah hidup yang kekal dalam Kristus Yesus, Tuhan kita."
+  },
   "Romans 7:1": {
     ref: "Romans 7:1",
     refTB2: "Roma 7:1",
@@ -1705,6 +1782,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "for the kingdom of God is not eating and drinking, but righteousness and peace and joy in the Holy Spirit.",
     tb2: "Sebab Kerajaan Allah bukanlah soal makanan dan minuman, tetapi soal kebenaran, damai sejahtera, dan sukacita oleh Roh Kudus."
   },
+  "Romans 15:16": {
+    ref: "Romans 15:16",
+    refTB2: "Roma 15:16",
+    version: "NKJV",
+    text: "that I might be a minister of Jesus Christ to the Gentiles, ministering the gospel of God, that the offering of the Gentiles might be acceptable, sanctified by the Holy Spirit.",
+    tb2: "yaitu bahwa aku boleh menjadi pelayan Kristus Yesus bagi bangsa-bangsa lain dalam pelayanan pemberitaan Injil Allah, supaya bangsa-bangsa lain dapat diterima oleh Allah sebagai persembahan yang berkenan kepada-Nya, yang dikuduskan oleh Roh Kudus."
+  },
   "Romans 16:1-5": {
     ref: "Romans 16:1, 4–5",
     refTB2: "Roma 16:1, 4–5",
@@ -1747,6 +1831,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For we are God's fellow workers; you are God's field, you are God's building.",
     tb2: "Karena kami adalah kawan sekerja Allah; kamu adalah ladang Allah, bangunan Allah."
+  },
+  "1 Corinthians 3:12-14": {
+    ref: "1 Corinthians 3:12–14",
+    refTB2: "1 Korintus 3:12–14",
+    version: "NKJV",
+    text: "Now if anyone builds on this foundation with gold, silver, precious stones, wood, hay, straw, each one's work will become clear; for the Day will declare it, because it will be revealed by fire; and the fire will test each one's work, of what sort it is. If anyone's work which he has built on it endures, he will receive a reward.",
+    tb2: "Entahkah orang membangun di atas dasar ini dengan emas, perak, batu permata, kayu, rumput kering atau jerami, sekali kelak pekerjaan masing-masing orang akan tampak. Karena hari Tuhan akan menyatakannya, sebab ia akan tampak dengan api dan bagaimana pekerjaan masing-masing orang akan diuji oleh api itu. Jika pekerjaan yang dibangun seseorang tahan uji, ia akan mendapat upah."
   },
   "1 Corinthians 3:15": {
     ref: "1 Corinthians 3:15",
@@ -1946,6 +2037,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Is the law then against the promises of God? Certainly not! For if there had been a law given which could have given life, truly righteousness would have been by the law.",
     tb2: "Kalau demikian, bertentangankah hukum Taurat dengan janji-janji Allah? Sekali-kali tidak. Sebab andaikata hukum Taurat diberikan sebagai sesuatu yang dapat menghidupkan, maka memang kebenaran berasal dari hukum Taurat."
   },
+  "Galatians 4:4-5": {
+    ref: "Galatians 4:4–5",
+    refTB2: "Galatia 4:4–5",
+    version: "NKJV",
+    text: "But when the fullness of the time had come, God sent forth His Son, born of a woman, born under the law, to redeem those who were under the law, that we might receive the adoption as sons.",
+    tb2: "Tetapi setelah genap waktunya, Allah mengutus Anak-Nya, yang lahir dari seorang perempuan dan takluk kepada hukum Taurat. Ia diutus untuk menebus mereka, yang takluk kepada hukum Taurat, supaya kita diterima menjadi anak."
+  },
   "Galatians 4:6": {
     ref: "Galatians 4:6",
     refTB2: "Galatia 4:6",
@@ -2016,6 +2114,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And He put all things under His feet, and gave Him to be head over all things to the church, which is His body, the fullness of Him who fills all in all.",
     tb2: "Segala sesuatu telah diletakkan-Nya di bawah kaki Kristus dan Dia telah diberikan-Nya kepada jemaat sebagai Kepala dari segala yang ada. Jemaat yang adalah tubuh-Nya, yaitu kepenuhan Dia yang memenuhi semua dan segala sesuatu."
+  },
+  "Ephesians 2:2": {
+    ref: "Ephesians 2:2",
+    refTB2: "Efesus 2:2",
+    version: "NKJV",
+    text: "in which you once walked according to the course of this world, according to the prince of the power of the air, the spirit who now works in the sons of disobedience,",
+    tb2: "Kamu hidup di dalamnya, karena kamu mengikuti jalan dunia ini, karena kamu menaati penguasa kerajaan angkasa, yaitu roh yang sekarang sedang bekerja di antara orang-orang durhaka."
   },
   "Ephesians 2:6": {
     ref: "Ephesians 2:6",
@@ -2108,6 +2213,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For our citizenship is in heaven, from which we also eagerly wait for the Savior, the Lord Jesus Christ,",
     tb2: "Karena kewargaan kita adalah di dalam surga, dan dari situ juga kita menantikan Tuhan Yesus Kristus sebagai Juruselamat,"
+  },
+  "Philippians 3:21": {
+    ref: "Philippians 3:21",
+    refTB2: "Filipi 3:21",
+    version: "NKJV",
+    text: "who will transform our lowly body that it may be conformed to His glorious body, according to the working by which He is able even to subdue all things to Himself.",
+    tb2: "yang akan mengubah tubuh kita yang hina ini, sehingga serupa dengan tubuh-Nya yang mulia, menurut kuasa-Nya yang dapat menaklukkan segala sesuatu kepada diri-Nya."
   },
   // --- Colossians ---
   "Colossians 1:15": {
@@ -2528,6 +2640,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For it is impossible for those who were once enlightened, and have tasted the heavenly gift, and have become partakers of the Holy Spirit,",
     tb2: "Sebab mereka yang pernah diterangi hatinya, yang pernah mengecap karunia surgawi, dan yang pernah mendapat bagian dalam Roh Kudus,"
   },
+  "Hebrews 6:7-8": {
+    ref: "Hebrews 6:7–8",
+    refTB2: "Ibrani 6:7–8",
+    version: "NKJV",
+    text: "For the earth which drinks in the rain that often comes upon it, and bears herbs useful for those by whom it is cultivated, receives blessing from God; but if it bears thorns and briers, it is rejected and near to being cursed, whose end is to be burned.",
+    tb2: "Sebab tanah yang menyerap air hujan yang sering turun ke atasnya, dan yang menghasilkan tumbuh-tumbuhan yang berguna bagi mereka yang mengerjakannya, menerima berkat dari Allah; tetapi jikalau tanah itu menghasilkan semak duri dan rumput duri, tidaklah ia berguna dan sudah dekat pada kutuk, yang berakhir dengan pembakaran."
+  },
   "Hebrews 6:18": {
     ref: "Hebrews 6:18",
     refTB2: "Ibrani 6:18",
@@ -2723,6 +2842,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore, since we are receiving a kingdom which cannot be shaken, let us have grace, by which we may serve God acceptably with reverence and godly fear.",
     tb2: "Jadi, karena kita menerima kerajaan yang tidak tergoncangkan, marilah kita mengucap syukur dan beribadah kepada Allah menurut cara yang berkenan kepada-Nya, dengan hormat dan takut."
+  },
+  "Hebrews 13:12": {
+    ref: "Hebrews 13:12",
+    refTB2: "Ibrani 13:12",
+    version: "NKJV",
+    text: "Therefore Jesus also, that He might sanctify the people with His own blood, suffered outside the gate.",
+    tb2: "Itu jugalah sebabnya Yesus telah menderita di luar pintu gerbang untuk menguduskan umat-Nya dengan darah-Nya sendiri."
   },
   "Hebrews 13:13": {
     ref: "Hebrews 13:13",
