@@ -223,6 +223,48 @@ window.BIBLE_VERSES_NKJV = {
     text: "So Pharaoh commanded all his people, saying, \"Every son who is born you shall cast into the river, and every daughter you shall save alive.\"",
     tb2: "Lalu Firaun memberi perintah kepada seluruh rakyatnya, \"Lemparkanlah segala anak laki-laki yang lahir bagi orang Ibrani ke dalam sungai Nil; tetapi segala anak perempuan biarkanlah hidup.\""
   },
+  "Exodus 2:2": {
+    ref: "Exodus 2:2",
+    refTB2: "Keluaran 2:2",
+    version: "NKJV",
+    text: "So the woman conceived and bore a son. And when she saw that he was a beautiful child, she hid him three months.",
+    tb2: "Lalu mengandunglah ia dan melahirkan seorang anak laki-laki. Ketika dilihatnya bahwa anak itu cantik, disembunyikannya tiga bulan lamanya."
+  },
+  "Exodus 2:10": {
+    ref: "Exodus 2:10",
+    refTB2: "Keluaran 2:10",
+    version: "NKJV",
+    text: "And the child grew, and she brought him to Pharaoh's daughter, and he became her son. So she called his name Moses, saying, \"Because I drew him out of the water.\"",
+    tb2: "Ketika anak itu telah besar, dibawanyalah kepada putri Firaun, yang mengangkatnya menjadi anaknya, dan menamainya Musa, sebab katanya, \"Karena aku telah menariknya dari air.\""
+  },
+  "Exodus 2:14": {
+    ref: "Exodus 2:14",
+    refTB2: "Keluaran 2:14",
+    version: "NKJV",
+    text: "Then he said, \"Who made you a prince and a judge over us? Do you intend to kill me as you killed the Egyptian?\" So Moses feared and said, \"Surely this thing is known!\"",
+    tb2: "Tetapi jawabnya, \"Siapakah yang mengangkat engkau menjadi pemimpin dan hakim atas kami? Apakah engkau bermaksud membunuh aku, sama seperti engkau telah membunuh orang Mesir itu?\" Musa menjadi takut, sebab pikirnya, \"Tentulah perkara itu telah ketahuan.\""
+  },
+  "Exodus 2:17": {
+    ref: "Exodus 2:17",
+    refTB2: "Keluaran 2:17",
+    version: "NKJV",
+    text: "Then the shepherds came and drove them away; but Moses stood up and helped them, and watered their flock.",
+    tb2: "Maka datanglah gembala-gembala yang mengusir mereka, lalu Musa bangkit menolong mereka dan memberi minum kambing domba mereka."
+  },
+  "Exodus 2:23": {
+    ref: "Exodus 2:23",
+    refTB2: "Keluaran 2:23",
+    version: "NKJV",
+    text: "Now it happened in the process of time that the king of Egypt died. Then the children of Israel groaned because of the bondage, and they cried out; and their cry came up to God because of the bondage.",
+    tb2: "Lama sesudah itu matilah raja Mesir. Tetapi orang Israel masih mengeluh karena perbudakan, dan mereka berseru-seru, sehingga teriak mereka minta tolong karena perbudakan itu sampai kepada Allah."
+  },
+  "Exodus 2:24-25": {
+    ref: "Exodus 2:24–25",
+    refTB2: "Keluaran 2:24–25",
+    version: "NKJV",
+    text: "So God heard their groaning, and God remembered His covenant with Abraham, with Isaac, and with Jacob. And God looked upon the children of Israel, and God acknowledged them.",
+    tb2: "Allah mendengar mereka mengerang, lalu Ia mengingat perjanjian-Nya dengan Abraham, Ishak, dan Yakub. Maka Allah melihat orang Israel itu, dan Allah memperhatikan mereka."
+  },
   "Exodus 3:1-6": {
     ref: "Exodus 3:2–3",
     refTB2: "Keluaran 3:2–3",
@@ -236,6 +278,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "So I have come down to deliver them out of the hand of the Egyptians, and to bring them up from that land to a good and large land, to a land flowing with milk and honey, to the place of the Canaanites and the Hittites and the Amorites and the Perizzites and the Hivites and the Jebusites.",
     tb2: "Sebab itu Aku telah turun untuk melepaskan mereka dari tangan orang Mesir dan menuntun mereka keluar dari negeri itu ke suatu negeri yang baik dan luas, suatu negeri yang berlimpah-limpah susu dan madunya, ke tempat orang Kanaan, orang Het, orang Amori, orang Feris, orang Hewi, dan orang Yebus."
+  },
+  "Exodus 4:10": {
+    ref: "Exodus 4:10",
+    refTB2: "Keluaran 4:10",
+    version: "NKJV",
+    text: "Then Moses said to the LORD, \"O my Lord, I am not eloquent, neither before nor since You have spoken to Your servant; but I am slow of speech and slow of tongue.\"",
+    tb2: "Lalu kata Musa kepada TUHAN, \"Ah, Tuhan, aku ini tidak pandai bicara, dahulu pun tidak dan sejak Engkau berfirman kepada hamba-Mu pun tidak, sebab aku berat mulut dan berat lidah.\""
   },
   "Exodus 9:1": {
     ref: "Exodus 9:1",
@@ -446,6 +495,14 @@ window.BIBLE_VERSES_NKJV = {
     text: "It is like the precious oil upon the head, Running down on the beard, The beard of Aaron, Running down on the edge of his garments.",
     tb2: "Seperti minyak yang baik di atas kepala meleleh ke janggut, yang meleleh ke janggut Harun dan ke leher jubahnya."
   },
+  // --- Proverbs ---
+  "Proverbs 20:27": {
+    ref: "Proverbs 20:27",
+    refTB2: "Amsal 20:27",
+    version: "NKJV",
+    text: "The spirit of a man is the lamp of the LORD, searching all the inner depths of his heart.",
+    tb2: "Roh manusia adalah pelita TUHAN, yang menyelidiki seluruh lubuk hatinya."
+  },
   // --- Song of Songs ---
   "Song of Songs 1:2-4": {
     ref: "Song of Songs 1:2–4",
@@ -622,6 +679,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "And I also say to you that you are Peter, and on this rock I will build My church, and the gates of Hades shall not prevail against it. And I will give you the keys of the kingdom of heaven, and whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.",
     tb2: "Aku pun berkata kepadamu: Engkau adalah Petrus dan di atas batu karang ini Aku akan mendirikan jemaat-Ku dan alam maut tidak akan menguasainya. Kepadamu akan Kuberikan kunci Kerajaan Surga. Apa yang kauikat di dunia ini akan terikat di surga dan apa yang kaulepaskan di dunia ini akan terlepas di surga."
   },
+  "Matthew 16:27": {
+    ref: "Matthew 16:27",
+    refTB2: "Matius 16:27",
+    version: "NKJV",
+    text: "For the Son of Man will come in the glory of His Father with His angels, and then He will reward each according to his works.",
+    tb2: "Sebab Anak Manusia akan datang dalam kemuliaan Bapa-Nya diiringi malaikat-malaikat-Nya; pada waktu itu Ia akan membalas setiap orang menurut perbuatannya."
+  },
   "Matthew 17:2": {
     ref: "Matthew 17:2",
     refTB2: "Matius 17:2",
@@ -636,12 +700,40 @@ window.BIBLE_VERSES_NKJV = {
     text: "Jesus said to them, \"Have you never read in the Scriptures: 'The stone which the builders rejected Has become the chief cornerstone. This was the LORD's doing, And it is marvelous in our eyes'?\"",
     tb2: "Kata Yesus kepada mereka, \"Belum pernahkah kamu baca dalam Kitab Suci: Batu yang dibuang oleh tukang-tukang bangunan telah menjadi batu penjuru; hal itu terjadi dari pihak Tuhan, suatu perbuatan ajaib di mata kita.\""
   },
+  "Matthew 22:30": {
+    ref: "Matthew 22:30",
+    refTB2: "Matius 22:30",
+    version: "NKJV",
+    text: "For in the resurrection they neither marry nor are given in marriage, but are like angels of God in heaven.",
+    tb2: "Karena pada waktu kebangkitan orang tidak kawin dan tidak dikawinkan, melainkan hidup seperti malaikat di surga."
+  },
   "Matthew 23:17-19": {
     ref: "Matthew 23:17–19",
     refTB2: "Matius 23:17–19",
     version: "NKJV",
     text: "Fools and blind! For which is greater, the gold or the temple that sanctifies the gold? And, 'Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it, he is obliged to perform it.' Fools and blind! For which is greater, the gift or the altar that sanctifies the gift?",
     tb2: "Hai kamu orang-orang bodoh dan orang-orang buta, apakah yang lebih penting, emas atau Bait Suci yang menguduskan emas itu? Bersumpah demi mezbah, itu tidak sah; tetapi bersumpah demi persembahan yang ada di atasnya, itu mengikat. Hai kamu orang-orang buta, apakah yang lebih penting, persembahan atau mezbah yang menguduskan persembahan itu?"
+  },
+  "Matthew 24:40-41": {
+    ref: "Matthew 24:40–41",
+    refTB2: "Matius 24:40–41",
+    version: "NKJV",
+    text: "Then two men will be in the field: one will be taken and the other left. Two women will be grinding at the mill: one will be taken and the other left.",
+    tb2: "Pada waktu itu kalau ada dua orang di ladang, yang seorang akan dibawa dan yang lain akan ditinggalkan; kalau ada dua orang perempuan sedang memutar batu kilangan, yang seorang akan dibawa dan yang lain akan ditinggalkan."
+  },
+  "Matthew 24:44": {
+    ref: "Matthew 24:44",
+    refTB2: "Matius 24:44",
+    version: "NKJV",
+    text: "Therefore you also be ready, for the Son of Man is coming at an hour you do not expect.",
+    tb2: "Sebab itu, hendaklah kamu juga siap sedia, karena Anak Manusia datang pada saat yang tidak kamu duga."
+  },
+  "Matthew 25:9": {
+    ref: "Matthew 25:9",
+    refTB2: "Matius 25:9",
+    version: "NKJV",
+    text: "But the wise answered, saying, 'No, lest there should not be enough for us and you; but go rather to those who sell, and buy for yourselves.'",
+    tb2: "Tetapi jawab gadis-gadis yang bijaksana itu: Tidak, nanti tidak cukup untuk kami dan untuk kamu. Lebih baik kamu pergi kepada penjual minyak dan beli di situ."
   },
   "Matthew 25:21": {
     ref: "Matthew 25:21",
@@ -899,6 +991,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Therefore let all the house of Israel know assuredly that God has made this Jesus, whom you crucified, both Lord and Christ.",
     tb2: "Jadi, seluruh kaum Israel harus tahu dengan pasti bahwa Allah telah membuat Yesus, yang kamu salibkan itu, menjadi Tuhan dan Kristus."
   },
+  "Acts 3:21": {
+    ref: "Acts 3:21",
+    refTB2: "Kisah Para Rasul 3:21",
+    version: "NKJV",
+    text: "whom heaven must receive until the times of restoration of all things, which God has spoken by the mouth of all His holy prophets since the world began.",
+    tb2: "Kristus itu harus tinggal di surga sampai waktu pemulihan segala sesuatu, seperti yang difirmankan Allah dengan perantaraan nabi-nabi-Nya yang kudus di zaman dahulu."
+  },
   "Acts 5:31": {
     ref: "Acts 5:31",
     refTB2: "Kisah Para Rasul 5:31",
@@ -912,6 +1011,34 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And he said, \"Brethren and fathers, listen: The God of glory appeared to our father Abraham when he was in Mesopotamia, before he dwelt in Haran,\"",
     tb2: "Jawab Stefanus, \"Hai saudara-saudara dan bapak-bapak, dengarlah! Allah yang Mahamulia telah menampakkan diri-Nya kepada bapa leluhur kita Abraham, ketika ia masih di Mesopotamia, sebelum ia menetap di Haran,\""
+  },
+  "Acts 7:20": {
+    ref: "Acts 7:20",
+    refTB2: "Kisah Para Rasul 7:20",
+    version: "NKJV",
+    text: "At this time Moses was born, and was well pleasing to God; and he was brought up in his father's house for three months.",
+    tb2: "Pada waktu itulah Musa lahir dan ia elok parasnya di mata Allah. Tiga bulan lamanya ia diasuh di rumah ayahnya."
+  },
+  "Acts 7:22": {
+    ref: "Acts 7:22",
+    refTB2: "Kisah Para Rasul 7:22",
+    version: "NKJV",
+    text: "And Moses was learned in all the wisdom of the Egyptians, and was mighty in words and deeds.",
+    tb2: "Musa dididik dalam segala hikmat orang Mesir, dan ia berkuasa dalam perkataan dan perbuatannya."
+  },
+  "Acts 7:25": {
+    ref: "Acts 7:25",
+    refTB2: "Kisah Para Rasul 7:25",
+    version: "NKJV",
+    text: "For he supposed that his brethren would have understood that God would deliver them by his hand, but they did not understand.",
+    tb2: "Pada sangkanya saudara-saudaranya akan mengerti bahwa Allah memakai dia untuk menyelamatkan mereka, tetapi mereka tidak mengerti."
+  },
+  "Acts 7:30": {
+    ref: "Acts 7:30",
+    refTB2: "Kisah Para Rasul 7:30",
+    version: "NKJV",
+    text: "And when forty years had passed, an Angel of the Lord appeared to him in a flame of fire in a bush, in the wilderness of Mount Sinai.",
+    tb2: "Sesudah lewat empat puluh tahun, tampaklah kepadanya seorang malaikat di padang gurun Gunung Sinai di dalam nyala api yang keluar dari semak duri."
   },
   "Acts 7:53": {
     ref: "Acts 7:53",
@@ -1677,6 +1804,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For if you live according to the flesh you will die; but if by the Spirit you put to death the deeds of the body, you will live.",
     tb2: "Sebab, jika kamu hidup menurut daging, kamu akan mati; tetapi jika oleh Roh kamu mematikan perbuatan-perbuatan tubuhmu, kamu akan hidup."
   },
+  "Romans 8:14": {
+    ref: "Romans 8:14",
+    refTB2: "Roma 8:14",
+    version: "NKJV",
+    text: "For as many as are led by the Spirit of God, these are sons of God.",
+    tb2: "Semua orang yang dipimpin Roh Allah adalah anak Allah."
+  },
   "Romans 8:15": {
     ref: "Romans 8:15",
     refTB2: "Roma 8:15",
@@ -1774,6 +1908,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "The night is far spent, the day is at hand. Therefore let us cast off the works of darkness, and let us put on the armor of light.",
     tb2: "Hari sudah jauh malam, telah hampir siang. Sebab itu, marilah kita menanggalkan perbuatan-perbuatan kegelapan dan mengenakan perlengkapan senjata terang!"
+  },
+  "Romans 14:12": {
+    ref: "Romans 14:12",
+    refTB2: "Roma 14:12",
+    version: "NKJV",
+    text: "So then each of us shall give account of himself to God.",
+    tb2: "Demikianlah setiap orang di antara kita akan memberi pertanggungjawaban tentang dirinya sendiri kepada Allah."
   },
   "Romans 14:17": {
     ref: "Romans 14:17",
@@ -1888,6 +2029,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "But with most of them God was not well pleased, for their bodies were scattered in the wilderness.",
     tb2: "Tetapi sungguhpun demikian, Allah tidak berkenan kepada sebagian besar dari mereka, karena mereka ditewaskan di padang gurun."
   },
+  "1 Corinthians 10:17": {
+    ref: "1 Corinthians 10:17",
+    refTB2: "1 Korintus 10:17",
+    version: "NKJV",
+    text: "For we, though many, are one bread and one body; for we all partake of that one bread.",
+    tb2: "Karena roti adalah satu, maka kita, sekalipun banyak, adalah satu tubuh, karena kita semua mendapat bagian dalam roti yang satu itu."
+  },
+  "1 Corinthians 11:32": {
+    ref: "1 Corinthians 11:32",
+    refTB2: "1 Korintus 11:32",
+    version: "NKJV",
+    text: "But when we are judged, we are chastened by the Lord, that we may not be condemned with the world.",
+    tb2: "Tetapi kalau kita menerima hukuman dari Tuhan, kita dididik, supaya kita tidak akan dihukum bersama-sama dengan dunia."
+  },
   "1 Corinthians 12:2": {
     ref: "1 Corinthians 12:2",
     refTB2: "1 Korintus 12:2",
@@ -1908,6 +2063,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "For as in Adam all die, even so in Christ all shall be made alive.",
     tb2: "Karena sama seperti semua orang mati dalam persekutuan dengan Adam, demikian pula semua orang akan dihidupkan kembali dalam persekutuan dengan Kristus."
+  },
+  "1 Corinthians 15:26": {
+    ref: "1 Corinthians 15:26",
+    refTB2: "1 Korintus 15:26",
+    version: "NKJV",
+    text: "The last enemy that will be destroyed is death.",
+    tb2: "Musuh yang terakhir, yang dibinasakan ialah maut."
   },
   "1 Corinthians 15:45": {
     ref: "1 Corinthians 15:45",
@@ -1965,6 +2127,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore we do not lose heart. Even though our outward man is perishing, yet the inward man is being renewed day by day. For our light affliction, which is but for a moment, is working for us a far more exceeding and eternal weight of glory,",
     tb2: "Sebab itu kami tidak tawar hati, tetapi meskipun manusia lahiriah kami semakin merosot, namun manusia batiniah kami dibarui dari sehari ke sehari. Sebab penderitaan ringan yang sekarang ini mengerjakan bagi kami kemuliaan kekal yang melebihi segala-galanya, jauh lebih besar daripada penderitaan kami."
+  },
+  "2 Corinthians 5:10": {
+    ref: "2 Corinthians 5:10",
+    refTB2: "2 Korintus 5:10",
+    version: "NKJV",
+    text: "For we must all appear before the judgment seat of Christ, that each one may receive the things done in the body, according to what he has done, whether good or bad.",
+    tb2: "Sebab kita semua harus menghadap takhta pengadilan Kristus, supaya setiap orang memperoleh apa yang patut diterimanya, sesuai dengan yang dilakukannya dalam hidupnya ini, baik ataupun jahat."
   },
   "2 Corinthians 5:21": {
     ref: "2 Corinthians 5:21",
@@ -2271,6 +2440,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "that you would walk worthy of God who calls you into His own kingdom and glory.",
     tb2: "dan meminta dengan sangat, supaya kamu hidup sesuai dengan kehendak Allah, yang memanggil kamu ke dalam Kerajaan dan kemuliaan-Nya."
+  },
+  "1 Thessalonians 4:17": {
+    ref: "1 Thessalonians 4:17",
+    refTB2: "1 Tesalonika 4:17",
+    version: "NKJV",
+    text: "Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air. And thus we shall always be with the Lord.",
+    tb2: "Sesudah itu, kita yang hidup, yang masih tinggal, akan diangkat bersama-sama dengan mereka dalam awan menyongsong Tuhan di angkasa. Demikianlah kita akan selama-lamanya bersama-sama dengan Tuhan."
   },
   "1 Thessalonians 5:23-24": {
     ref: "1 Thessalonians 5:23–24",
@@ -2794,6 +2970,27 @@ window.BIBLE_VERSES_NKJV = {
     text: "By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises offered up his only begotten son, of whom it was said, \"In Isaac your seed shall be called,\" concluding that God was able to raise him up, even from the dead, from which he also received him in a figurative sense.",
     tb2: "Karena iman maka Abraham, tatkala ia dicobai, mempersembahkan Ishak. Ia, yang telah menerima janji itu, rela mempersembahkan anaknya yang tunggal, walaupun kepadanya telah dikatakan, \"Keturunan yang berasal dari Ishaklah yang akan disebut keturunanmu.\" Karena ia berpikir bahwa Allah berkuasa membangkitkan orang-orang sekalipun dari antara orang mati. Dan dari sana ia seakan-akan telah menerimanya kembali."
   },
+  "Hebrews 11:23": {
+    ref: "Hebrews 11:23",
+    refTB2: "Ibrani 11:23",
+    version: "NKJV",
+    text: "By faith Moses, when he was born, was hidden three months by his parents, because they saw he was a beautiful child; and they were not afraid of the king's command.",
+    tb2: "Karena iman maka Musa, setelah ia lahir, disembunyikan selama tiga bulan oleh orang tuanya, karena mereka melihat bahwa anak itu elok rupanya, dan mereka tidak takut akan perintah raja."
+  },
+  "Hebrews 11:24-26": {
+    ref: "Hebrews 11:24–26",
+    refTB2: "Ibrani 11:24–26",
+    version: "NKJV",
+    text: "By faith Moses, when he became of age, refused to be called the son of Pharaoh's daughter, choosing rather to suffer affliction with the people of God than to enjoy the passing pleasures of sin, esteeming the reproach of Christ greater riches than the treasures in Egypt; for he looked to the reward.",
+    tb2: "Karena iman maka Musa, setelah dewasa, menolak disebut anak putri Firaun, karena ia lebih suka menderita sengsara dengan umat Allah daripada untuk sementara menikmati kesenangan dari dosa. Ia menganggap penghinaan karena Kristus sebagai kekayaan yang lebih besar daripada semua harta Mesir, sebab pandangannya ia arahkan kepada upah."
+  },
+  "Hebrews 11:27": {
+    ref: "Hebrews 11:27",
+    refTB2: "Ibrani 11:27",
+    version: "NKJV",
+    text: "By faith he forsook Egypt, not fearing the wrath of the king; for he endured as seeing Him who is invisible.",
+    tb2: "Karena iman maka ia telah meninggalkan Mesir dengan tidak takut akan murka raja. Ia bertahan sama seperti ia melihat apa yang tidak kelihatan."
+  },
   "Hebrews 12:2": {
     ref: "Hebrews 12:2",
     refTB2: "Ibrani 12:2",
@@ -2908,6 +3105,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "by which have been given to us exceedingly great and precious promises, that through these you may be partakers of the divine nature, having escaped the corruption that is in the world through lust.",
     tb2: "Dengan jalan itu Ia telah menganugerahkan kepada kita janji-janji yang berharga dan yang sangat besar, supaya olehnya kamu boleh mengambil bagian dalam kodrat ilahi, dan luput dari hawa nafsu duniawi yang membinasakan dunia."
   },
+  "2 Peter 3:8": {
+    ref: "2 Peter 3:8",
+    refTB2: "2 Petrus 3:8",
+    version: "NKJV",
+    text: "But, beloved, do not forget this one thing, that with the Lord one day is as a thousand years, and a thousand years as one day.",
+    tb2: "Akan tetapi, Saudara-saudaraku yang kekasih, yang satu ini tidak boleh kamu lupakan, yaitu bahwa di hadapan Tuhan satu hari sama seperti seribu tahun dan seribu tahun sama seperti satu hari."
+  },
   // --- 1 John ---
   "1 John 1:9": {
     ref: "1 John 1:9",
@@ -2986,6 +3190,20 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Blessed and holy is he who has part in the first resurrection. Over such the second death has no power, but they shall be priests of God and of Christ, and shall reign with Him a thousand years.",
     tb2: "Berbahagia dan kuduslah ia yang mendapat bagian dalam kebangkitan pertama itu. Kematian yang kedua tidak berkuasa atas mereka, tetapi mereka akan menjadi imam-imam Allah dan Kristus, dan mereka akan memerintah sebagai raja bersama-sama dengan Dia seribu tahun lamanya."
+  },
+  "Revelation 20:7-8": {
+    ref: "Revelation 20:7–8",
+    refTB2: "Wahyu 20:7–8",
+    version: "NKJV",
+    text: "Now when the thousand years have expired, Satan will be released from his prison and will go out to deceive the nations which are in the four corners of the earth, Gog and Magog, to gather them together to battle, whose number is as the sand of the sea.",
+    tb2: "Setelah masa seribu tahun itu berakhir, Iblis akan dilepaskan dari penjaranya, dan ia akan pergi menyesatkan bangsa-bangsa pada keempat penjuru bumi, yaitu Gog dan Magog, dan mengumpulkan mereka untuk berperang, dan jumlah mereka sama dengan banyaknya pasir di laut."
+  },
+  "Revelation 20:14": {
+    ref: "Revelation 20:14",
+    refTB2: "Wahyu 20:14",
+    version: "NKJV",
+    text: "Then Death and Hades were cast into the lake of fire. This is the second death.",
+    tb2: "Lalu maut dan kerajaan maut itu dilemparkanlah ke dalam lautan api; itulah kematian yang kedua: lautan api."
   },
   "Revelation 21:1": {
     ref: "Revelation 21:1",
