@@ -356,6 +356,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "You shall put the mercy seat on top of the ark, and in the ark you shall put the Testimony that I will give you. And there I will meet with you, and I will speak with you from above the mercy seat, from between the two cherubim which are on the ark of the Testimony, about everything which I will give you in commandment to the children of Israel.",
     tb2: "Haruslah kauletakkan tutup pendamaian itu di atas tabut dan dalam tabut itu harus kautaruh loh hukum yang akan Kuberikan kepadamu. Di sanalah Aku akan bertemu dengan engkau, dan dari atas tutup pendamaian itu, dari antara kedua kerub yang di atas tabut hukum itu, Aku akan berbicara dengan engkau tentang segala sesuatu yang akan Kuperintahkan kepadamu untuk disampaikan kepada orang Israel."
   },
+  "Exodus 25:40": {
+    ref: "Exodus 25:40",
+    refTB2: "Keluaran 25:40",
+    version: "NKJV",
+    text: "And see to it that you make them according to the pattern which was shown you on the mountain.",
+    tb2: "Dan ingatlah bahwa engkau membuat semuanya itu menurut contoh yang telah ditunjukkan kepadamu di atas gunung itu."
+  },
   "Exodus 40:30-32": {
     ref: "Exodus 40:30–32",
     refTB2: "Keluaran 40:30–32",
@@ -392,6 +399,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "But My servant Caleb, because he has a different spirit in him and has followed Me fully, I will bring into the land where he went, and his descendants shall inherit it.",
     tb2: "Tetapi hamba-Ku Kaleb, karena lain jiwa yang ada padanya dan ia mengikut Aku dengan sepenuhnya, akan Kubawa masuk ke negeri yang telah dimasukinya itu, dan keturunannya akan memilikinya."
+  },
+  "Numbers 20:12": {
+    ref: "Numbers 20:12",
+    refTB2: "Bilangan 20:12",
+    version: "NKJV",
+    text: "Then the LORD spoke to Moses and Aaron, \"Because you did not believe Me, to hallow Me in the eyes of the children of Israel, therefore you shall not bring this assembly into the land which I have given them.\"",
+    tb2: "Tetapi TUHAN berfirman kepada Musa dan Harun, \"Karena kamu tidak percaya kepada-Ku dan tidak menghormati kekudusan-Ku di depan orang Israel, itulah sebabnya kamu tidak akan membawa jemaah ini masuk ke negeri yang akan Kuberikan kepada mereka.\""
   },
   "Numbers 21:9": {
     ref: "Numbers 21:9",
@@ -502,6 +516,14 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "The spirit of a man is the lamp of the LORD, searching all the inner depths of his heart.",
     tb2: "Roh manusia adalah pelita TUHAN, yang menyelidiki seluruh lubuk hatinya."
+  },
+  // --- Ecclesiastes ---
+  "Ecclesiastes 1:2": {
+    ref: "Ecclesiastes 1:2",
+    refTB2: "Pengkhotbah 1:2",
+    version: "NKJV",
+    text: "\"Vanity of vanities,\" says the Preacher; \"Vanity of vanities, all is vanity.\"",
+    tb2: "Kesia-siaan atas kesia-siaan, kata Pengkhotbah, kesia-siaan atas kesia-siaan, segala sesuatu adalah sia-sia."
   },
   // --- Song of Songs ---
   "Song of Songs 1:2-4": {
@@ -728,6 +750,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Therefore you also be ready, for the Son of Man is coming at an hour you do not expect.",
     tb2: "Sebab itu, hendaklah kamu juga siap sedia, karena Anak Manusia datang pada saat yang tidak kamu duga."
   },
+  "Matthew 25:1": {
+    ref: "Matthew 25:1",
+    refTB2: "Matius 25:1",
+    version: "NKJV",
+    text: "Then the kingdom of heaven shall be likened to ten virgins who took their lamps and went out to meet the bridegroom.",
+    tb2: "Pada waktu itu hal Kerajaan Surga seumpama sepuluh gadis, yang mengambil pelitanya dan pergi menyongsong mempelai laki-laki."
+  },
   "Matthew 25:9": {
     ref: "Matthew 25:9",
     refTB2: "Matius 25:9",
@@ -735,12 +764,26 @@ window.BIBLE_VERSES_NKJV = {
     text: "But the wise answered, saying, 'No, lest there should not be enough for us and you; but go rather to those who sell, and buy for yourselves.'",
     tb2: "Tetapi jawab gadis-gadis yang bijaksana itu: Tidak, nanti tidak cukup untuk kami dan untuk kamu. Lebih baik kamu pergi kepada penjual minyak dan beli di situ."
   },
+  "Matthew 25:15": {
+    ref: "Matthew 25:15",
+    refTB2: "Matius 25:15",
+    version: "NKJV",
+    text: "And to one he gave five talents, to another two, and to another one, to each according to his own ability; and immediately he went on a journey.",
+    tb2: "Yang seorang diberikannya lima talenta, yang seorang lagi dua, dan yang seorang lain lagi satu, masing-masing menurut kesanggupannya, lalu ia berangkat."
+  },
   "Matthew 25:21": {
     ref: "Matthew 25:21",
     refTB2: "Matius 25:21",
     version: "NKJV",
     text: "His lord said to him, 'Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.'",
     tb2: "Maka kata tuannya itu kepadanya, \"Baik sekali perbuatanmu itu, hai hambaku yang baik dan setia; engkau telah setia dalam perkara kecil, aku akan memberikan kepadamu tanggung jawab dalam perkara yang besar. Masuklah dan turutlah dalam kebahagiaan tuanmu.\""
+  },
+  "Matthew 25:30": {
+    ref: "Matthew 25:30",
+    refTB2: "Matius 25:30",
+    version: "NKJV",
+    text: "And cast the unprofitable servant into the outer darkness. There will be weeping and gnashing of teeth.",
+    tb2: "Campakkanlah hamba yang tidak berguna itu ke dalam kegelapan yang paling gelap. Di sanalah akan terdapat ratap dan kertak gigi."
   },
   // --- Mark ---
   "Mark 10:38": {
@@ -792,6 +835,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "And the tax collector, standing afar off, would not so much as raise his eyes to heaven, but beat his breast, saying, 'God, be merciful to me a sinner!'",
     tb2: "Tetapi pemungut cukai itu berdiri jauh-jauh, bahkan ia tidak berani menengadah ke langit, melainkan ia memukul diri dan berkata: Ya Allah, kasihanilah aku orang berdosa ini."
+  },
+  "Luke 19:17": {
+    ref: "Luke 19:17",
+    refTB2: "Lukas 19:17",
+    version: "NKJV",
+    text: "And he said to him, 'Well done, good servant; because you were faithful in a very little, have authority over ten cities.'",
+    tb2: "Katanya kepada orang itu: Baik sekali perbuatanmu itu, hai hamba yang baik; engkau telah setia dalam perkara kecil, karena itu terimalah kekuasaan atas sepuluh kota."
   },
   "Luke 24:26": {
     ref: "Luke 24:26",
@@ -892,6 +942,20 @@ window.BIBLE_VERSES_NKJV = {
     text: "But Jesus answered them, \"My Father has been working until now, and I have been working.\"",
     tb2: "Tetapi Ia berkata kepada mereka, \"Bapa-Ku bekerja sampai sekarang, maka Aku pun bekerja juga.\""
   },
+  "John 5:19": {
+    ref: "John 5:19",
+    refTB2: "Yohanes 5:19",
+    version: "NKJV",
+    text: "Then Jesus answered and said to them, \"Most assuredly, I say to you, the Son can do nothing of Himself, but what He sees the Father do; for whatever He does, the Son also does in like manner.\"",
+    tb2: "Maka Yesus menjawab mereka, kata-Nya, \"Aku berkata kepadamu, sesungguhnya Anak tidak dapat mengerjakan sesuatu dari diri-Nya sendiri, jikalau tidak Ia melihat Bapa mengerjakannya; sebab apa yang dikerjakan Bapa, itu juga yang dikerjakan Anak.\""
+  },
+  "John 5:30": {
+    ref: "John 5:30",
+    refTB2: "Yohanes 5:30",
+    version: "NKJV",
+    text: "I can of Myself do nothing. As I hear, I judge; and My judgment is righteous, because I do not seek My own will but the will of the Father who sent Me.",
+    tb2: "Aku tidak dapat berbuat apa-apa dari diri-Ku sendiri; Aku menghakimi sesuai dengan apa yang Aku dengar, dan penghakiman-Ku adil, sebab Aku tidak menuruti kehendak-Ku sendiri, melainkan kehendak Dia yang mengutus Aku."
+  },
   "John 5:39-40": {
     ref: "John 5:39–40",
     refTB2: "Yohanes 5:39–40",
@@ -955,6 +1019,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "Abide in Me, and I in you. As the branch cannot bear fruit of itself, unless it abides in the vine, neither can you, unless you abide in Me.",
     tb2: "Tinggallah di dalam Aku dan Aku di dalam kamu. Sama seperti ranting tidak dapat berbuah dari dirinya sendiri, kalau ia tidak tinggal pada pokok anggur, demikian juga kamu tidak berbuah, jikalau kamu tidak tinggal di dalam Aku."
   },
+  "John 15:5": {
+    ref: "John 15:5",
+    refTB2: "Yohanes 15:5",
+    version: "NKJV",
+    text: "I am the vine, you are the branches. He who abides in Me, and I in him, bears much fruit; for without Me you can do nothing.",
+    tb2: "Akulah pokok anggur dan kamulah ranting-rantingnya. Barangsiapa tinggal di dalam Aku dan Aku di dalam dia, ia berbuah banyak, sebab di luar Aku kamu tidak dapat berbuat apa-apa."
+  },
   "John 17:22": {
     ref: "John 17:22",
     refTB2: "Yohanes 17:22",
@@ -990,6 +1061,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "Therefore let all the house of Israel know assuredly that God has made this Jesus, whom you crucified, both Lord and Christ.",
     tb2: "Jadi, seluruh kaum Israel harus tahu dengan pasti bahwa Allah telah membuat Yesus, yang kamu salibkan itu, menjadi Tuhan dan Kristus."
+  },
+  "Acts 2:40": {
+    ref: "Acts 2:40",
+    refTB2: "Kisah Para Rasul 2:40",
+    version: "NKJV",
+    text: "And with many other words he testified and exhorted them, saying, \"Be saved from this perverse generation.\"",
+    tb2: "Dengan banyak perkataan lain lagi ia memberi suatu kesaksian yang sungguh-sungguh, dan ia mengecam dan menasihati mereka, katanya, \"Berilah dirimu diselamatkan dari angkatan yang jahat ini.\""
   },
   "Acts 3:21": {
     ref: "Acts 3:21",
@@ -1846,12 +1924,40 @@ window.BIBLE_VERSES_NKJV = {
     text: "For the earnest expectation of the creation eagerly waits for the revealing of the sons of God. For the creation was subjected to futility, not willingly, but because of Him who subjected it in hope; because the creation itself also will be delivered from the bondage of corruption into the glorious liberty of the children of God.",
     tb2: "Sebab dengan sangat rindu seluruh ciptaan menantikan saat anak-anak Allah dinyatakan. Karena seluruh ciptaan telah ditaklukkan kepada kesia-siaan, bukan oleh kehendaknya sendiri, melainkan oleh kehendak Dia yang telah menaklukkannya dalam pengharapan, karena ciptaan itu sendiri juga akan dimerdekakan dari perhambaan kebinasaan dan masuk ke dalam kemerdekaan kemuliaan anak-anak Allah."
   },
+  "Romans 8:22": {
+    ref: "Romans 8:22",
+    refTB2: "Roma 8:22",
+    version: "NKJV",
+    text: "For we know that the whole creation groans and labors with birth pangs together until now.",
+    tb2: "Sebab kita tahu bahwa sampai sekarang segala makhluk sama-sama mengeluh dan sama-sama merasa sakit bersalin."
+  },
   "Romans 8:23": {
     ref: "Romans 8:23",
     refTB2: "Roma 8:23",
     version: "NKJV",
     text: "Not only that, but we also who have the firstfruits of the Spirit, even we ourselves groan within ourselves, eagerly waiting for the adoption, the redemption of our body.",
     tb2: "Bukan hanya mereka saja, tetapi kita yang telah menerima karunia sulung Roh, kita juga mengeluh dalam hati kita sambil menantikan pengangkatan sebagai anak, yaitu pembebasan tubuh kita."
+  },
+  "Romans 8:24-25": {
+    ref: "Romans 8:24–25",
+    refTB2: "Roma 8:24–25",
+    version: "NKJV",
+    text: "For we were saved in this hope, but hope that is seen is not hope; for why does one still hope for what he sees? But if we hope for what we do not see, we eagerly wait for it with perseverance.",
+    tb2: "Sebab kita diselamatkan dalam pengharapan. Tetapi pengharapan yang dilihat bukan pengharapan lagi; sebab bagaimana orang masih mengharapkan apa yang dilihatnya? Tetapi jika kita mengharapkan apa yang tidak kita lihat, kita menantikannya dengan tekun."
+  },
+  "Romans 8:26": {
+    ref: "Romans 8:26",
+    refTB2: "Roma 8:26",
+    version: "NKJV",
+    text: "Likewise the Spirit also helps in our weaknesses. For we do not know what we should pray for as we ought, but the Spirit Himself makes intercession for us with groanings which cannot be uttered.",
+    tb2: "Demikian juga Roh membantu kita dalam kelemahan kita; sebab kita tidak tahu bagaimana sebenarnya harus berdoa, tetapi Roh sendiri berdoa untuk kita kepada Allah dengan keluhan-keluhan yang tidak terucapkan."
+  },
+  "Romans 8:27": {
+    ref: "Romans 8:27",
+    refTB2: "Roma 8:27",
+    version: "NKJV",
+    text: "Now He who searches the hearts knows what the mind of the Spirit is, because He makes intercession for the saints according to the will of God.",
+    tb2: "Dan Allah yang menyelidiki hati nurani mengetahui maksud Roh itu, yaitu bahwa Ia, sesuai dengan kehendak Allah, berdoa untuk orang-orang kudus."
   },
   "Romans 8:28": {
     ref: "Romans 8:28",
@@ -1959,6 +2065,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "But of Him you are in Christ Jesus, who became for us wisdom from God—and righteousness and sanctification and redemption—",
     tb2: "Tetapi oleh Dia kamu berada dalam Kristus Yesus, yang oleh Allah telah menjadi hikmat bagi kita. Ia membenarkan dan menguduskan dan menebus kita."
   },
+  "1 Corinthians 2:3": {
+    ref: "1 Corinthians 2:3",
+    refTB2: "1 Korintus 2:3",
+    version: "NKJV",
+    text: "I was with you in weakness, in fear, and in much trembling.",
+    tb2: "Aku juga telah datang kepadamu dalam kelemahan dan dengan sangat takut dan gentar."
+  },
   "1 Corinthians 2:7": {
     ref: "1 Corinthians 2:7",
     refTB2: "1 Korintus 2:7",
@@ -2036,6 +2149,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "For we, though many, are one bread and one body; for we all partake of that one bread.",
     tb2: "Karena roti adalah satu, maka kita, sekalipun banyak, adalah satu tubuh, karena kita semua mendapat bagian dalam roti yang satu itu."
   },
+  "1 Corinthians 11:3": {
+    ref: "1 Corinthians 11:3",
+    refTB2: "1 Korintus 11:3",
+    version: "NKJV",
+    text: "But I want you to know that the head of every man is Christ, the head of woman is man, and the head of Christ is God.",
+    tb2: "Tetapi aku mau supaya kamu mengetahui hal ini, yaitu kepala dari tiap-tiap laki-laki ialah Kristus, kepala dari perempuan ialah laki-laki, dan kepala dari Kristus ialah Allah."
+  },
   "1 Corinthians 11:32": {
     ref: "1 Corinthians 11:32",
     refTB2: "1 Korintus 11:32",
@@ -2070,6 +2190,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "The last enemy that will be destroyed is death.",
     tb2: "Musuh yang terakhir, yang dibinasakan ialah maut."
+  },
+  "1 Corinthians 15:41": {
+    ref: "1 Corinthians 15:41",
+    refTB2: "1 Korintus 15:41",
+    version: "NKJV",
+    text: "There is one glory of the sun, another glory of the moon, and another glory of the stars; for one star differs from another star in glory.",
+    tb2: "Kemuliaan matahari lain daripada kemuliaan bulan, dan kemuliaan bulan lain daripada kemuliaan bintang-bintang, dan kemuliaan bintang yang satu berbeda dengan kemuliaan bintang yang lain."
   },
   "1 Corinthians 15:45": {
     ref: "1 Corinthians 15:45",
@@ -2486,6 +2613,13 @@ window.BIBLE_VERSES_NKJV = {
     tb2: "Karena semua yang diciptakan Allah itu baik dan suatu pun tidak ada yang haram, jika diterima dengan ucapan syukur, sebab semuanya itu dikuduskan oleh firman Allah dan oleh doa."
   },
   // --- 2 Timothy ---
+  "2 Timothy 1:6": {
+    ref: "2 Timothy 1:6",
+    refTB2: "2 Timotius 1:6",
+    version: "NKJV",
+    text: "Therefore I remind you to stir up the gift of God which is in you through the laying on of my hands.",
+    tb2: "Karena itulah kuperingatkan engkau untuk mengobarkan karunia Allah yang ada padamu oleh penumpangan tanganku atasmu."
+  },
   "2 Timothy 1:10": {
     ref: "2 Timothy 1:10",
     refTB2: "2 Timotius 1:10",
@@ -3090,6 +3224,13 @@ window.BIBLE_VERSES_NKJV = {
     text: "who formerly were disobedient, when once the Divine longsuffering waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight souls, were saved through water. There is also an antitype which now saves us—baptism (not the removal of the filth of the flesh, but the answer of a good conscience toward God), through the resurrection of Jesus Christ,",
     tb2: "yaitu kepada roh-roh mereka yang dahulu pada waktu Nuh tidak taat kepada Allah, ketika Allah tetap menanti dengan sabar waktu Nuh sedang mempersiapkan bahteranya, di mana hanya sedikit, yaitu delapan orang, yang diselamatkan melalui air bah itu. Juga kamu sekarang diselamatkan oleh kiasannya, yaitu baptisan — maksudnya bukan untuk membersihkan kenajisan jasmani, melainkan untuk memohonkan hati nurani yang baik kepada Allah — melalui kebangkitan Yesus Kristus,"
   },
+  "1 Peter 4:17": {
+    ref: "1 Peter 4:17",
+    refTB2: "1 Petrus 4:17",
+    version: "NKJV",
+    text: "For the time has come for judgment to begin at the house of God; and if it begins with us first, what will be the end of those who do not obey the gospel of God?",
+    tb2: "Karena sekarang telah tiba saatnya penghakiman dimulai, dan pada rumah Allah sendiri yang harus pertama-tama dihakimi. Dan jika penghakiman itu dimulai pada kita, bagaimanakah kesudahannya dengan mereka yang tidak percaya pada Injil Allah?"
+  },
   "1 Peter 5:10": {
     ref: "1 Peter 5:10",
     refTB2: "1 Petrus 5:10",
@@ -3134,6 +3275,13 @@ window.BIBLE_VERSES_NKJV = {
     version: "NKJV",
     text: "I, John, both your brother and companion in the tribulation and kingdom and patience of Jesus Christ, was on the island that is called Patmos for the word of God and for the testimony of Jesus Christ.",
     tb2: "Aku, Yohanes, saudara dan sekutumu dalam kesusahan, dalam Kerajaan dan dalam ketekunan menantikan Yesus, berada di pulau yang bernama Patmos oleh karena firman Allah dan kesaksian yang diberikan oleh Yesus."
+  },
+  "Revelation 2:26-27": {
+    ref: "Revelation 2:26–27",
+    refTB2: "Wahyu 2:26–27",
+    version: "NKJV",
+    text: "And he who overcomes, and keeps My works until the end, to him I will give power over the nations— 'He shall rule them with a rod of iron; they shall be dashed to pieces like the potter's vessels'— as I also have received from My Father.",
+    tb2: "Barangsiapa menang dan melakukan pekerjaan-Ku sampai kesudahannya, kepadanya akan Kuberikan kuasa atas bangsa-bangsa; dan ia akan memerintah mereka dengan tongkat besi; mereka akan diremukkan seperti tembikar tukang periuk, sama seperti yang Kuterima dari Bapa-Ku."
   },
   "Revelation 4:3": {
     ref: "Revelation 4:3",
